@@ -1,12 +1,19 @@
 {
   "name": "ocean-library",
   "version": "1.0.0",
-  "description": "",
+  "description": "A repository of religious and philosophical literature.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "David Hunt <git@dnotes.net> (https://dnotes.net/)",
-  "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnotes/ocean-library.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dnotes/ocean-library/issues"
+  },
+  "homepage": "https://github.com/dnotes/ocean-library#readme"
 }
