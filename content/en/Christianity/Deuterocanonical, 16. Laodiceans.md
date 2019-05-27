@@ -1,7 +1,8 @@
 ---
 id: apo__lao__4124800199__en
 title: Laodiceans
-author: 
+author: null
+access: encumbered
 language: en
 priority: 10
 wordsCount: 389

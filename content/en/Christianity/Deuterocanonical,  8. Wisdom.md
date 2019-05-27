@@ -1,7 +1,8 @@
 ---
 id: apo__wis__1055108595__en
 title: Wisdom
-author: 
+author: null
+access: encumbered
 language: en
 priority: 10
 wordsCount: 11192

@@ -1,7 +1,8 @@
 ---
 id: apo__ma1__3296987086__en
 title: 1 Macabees
-author: 
+author: null
+access: encumbered
 language: en
 priority: 10
 wordsCount: 24185

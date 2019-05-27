@@ -1,7 +1,8 @@
 ---
 id: apo__aes__2013261250__en
 title: Additions to Esther
-author: 
+author: null
+access: encumbered
 language: en
 priority: 10
 wordsCount: 2882

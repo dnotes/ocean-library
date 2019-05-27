@@ -1,7 +1,8 @@
 ---
 id: apo__bar__3388736169__en
 title: Baruch
-author: 
+author: null
+access: encumbered
 language: en
 priority: 10
 wordsCount: 3545

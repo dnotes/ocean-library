@@ -1,7 +1,8 @@
 ---
 id: apo__bel__244349040__en
 title: Bel and the Dragon
-author: 
+author: null
+access: encumbered
 language: en
 priority: 10
 wordsCount: 1122

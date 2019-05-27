@@ -1,7 +1,8 @@
 ---
 id: apo__man__499201030__en
 title: Prayer of Manasseh
-author: 
+author: null
+access: encumbered
 language: en
 priority: 10
 wordsCount: 418

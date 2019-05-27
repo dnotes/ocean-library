@@ -1,7 +1,7 @@
 ---
 id: apo__sir__1087892849__en
 title: Sirach
-author: 
+author: null
 access: research
 language: en
 priority: 10

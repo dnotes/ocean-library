@@ -1,7 +1,8 @@
 ---
 id: apo__epj__621006622__en
 title: Epistle of Jeremiah
-author: 
+author: null
+access: encumbered
 language: en
 priority: 10
 wordsCount: 1771

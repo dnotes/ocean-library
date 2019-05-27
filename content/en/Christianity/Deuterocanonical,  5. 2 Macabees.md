@@ -1,7 +1,8 @@
 ---
 id: apo__ma2__262994119__en
 title: 2 Macabees
-author: 
+author: null
+access: encumbered
 language: en
 priority: 10
 wordsCount: 17017

@@ -1,7 +1,8 @@
 ---
 id: apo__jdt__2614514412__en
 title: Judith
-author: 
+author: null
+access: encumbered
 language: en
 priority: 10
 wordsCount: 11528
