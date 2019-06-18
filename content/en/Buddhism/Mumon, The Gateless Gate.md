@@ -12,7 +12,7 @@ _conversionOpts:
   encoding: ISO-8859-1
   correctBahaiWords: false
   fixTransliteration: false
-  commentaryLinks: '/^[^\d]/i',
+  commentaryLinks: '/^[^\d]/i'
 ocnmd_version: 2
 translator:
   - Nyogen Senzaki

@@ -4,6 +4,8 @@
   "description": "A repository of religious and philosophical literature.",
   "main": "index.js",
   "scripts": {
+    "dev": "vuepress dev content",
+    "build": "vuepress build content",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/dnotes/ocean-library/issues"
   },
-  "homepage": "https://github.com/dnotes/ocean-library#readme"
+  "homepage": "https://github.com/dnotes/ocean-library#readme",
+  "devDependencies": {
+    "vuepress": "^1.0.0-alpha.48"
+  }
 }

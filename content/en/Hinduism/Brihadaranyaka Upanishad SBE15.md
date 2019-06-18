@@ -7,7 +7,6 @@ language: en
 priority: 10
 wordsCount: 31580
 _conversionOpts:
-  reconvert: false
   converter: sacredTextsCom
   encoding: ISO-8859-1
   subLinkUrlPattern: '/150(5[3-9]|6|7|8|9[0-7]|99)/'

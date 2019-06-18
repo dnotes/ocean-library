@@ -20,7 +20,6 @@ _conversionOpts:
     /\n\n/: ' {.verse}$&'
     '/^(#.+) {.verse}/': $1
     'Gate, Gate, Paragate, Parasamgate, Bodhi Svaha!': '*$&*'
-subtitle: Prajñā Pāramitā Hṛdaya Sūtra
 titleEn: 'Heart Sutra, "The Heart of the Perfection of Wisdom" (short)'
 ocnmd_version: 2
 translator: Thich Nhat Hanh
