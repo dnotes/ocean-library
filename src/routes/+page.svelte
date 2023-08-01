@@ -1,2 +1,15 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+  import type { PageServerData } from "./$types";
+
+  export let data:PageServerData
+
+</script>
+
+<div class="prose prose-stone dark:prose-invert prose-lg max-w-5xl flex flex-col mx-auto">
+
+  <h1>Search</h1>
+
+
+
+
+</div>

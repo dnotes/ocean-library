@@ -1,0 +1,28 @@
+/* Write your global styles here, in PostCSS syntax */
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office:ital,wght@0,100;0,300;0,700;1,100;1,300&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-stone-50 text-stone-900 dark:bg-stone-900 dark:text-stone-50;
+}
+
+.li { @apply block my-1; }
+.li2, .indent-1 { @apply pl-4; }
+.li3, .indent-2 { @apply pl-8; }
+.li4, .indent-3 { @apply pl-12; }
+.li5, .indent-4 { @apply pl-16; }
+.li6, .indent-5 { @apply pl-20; }
+.li7, .indent-6 { @apply pl-24; }
+.li8, .indent-7 { @apply pl-28; }
+.li9, .indent-8 { @apply pl-32; }
+.indent-9 { @apply pl-36; }
+
+.cite {
+  font-size: 80%;
+  position:relative;
+  top: -1em;
+  @apply pl-20 leading-none;
+}
