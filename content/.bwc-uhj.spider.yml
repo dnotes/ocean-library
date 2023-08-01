@@ -1,0 +1,22 @@
+url: https://www.bahai.org/library/authoritative-texts/the-universal-house-of-justice/messages/
+dir: en/bahai/bahai-org-library/uhj-messages
+selector: tbody a
+urlFilter: justice/messages
+followUrlFilter: ''
+docExtFilter: xhtml
+fileNameElement:
+  - meta[name=date]
+  - title
+linkReplacements:
+  '/\/([\d_]+)\/\d+$/': '/$1/$1.xhtml'
+author: The Universal House of J
+_conversionOpts:
+  ignoreElements: div.of
+  fnRefEl: sup.ve
+  fnTextEl: a.sd
+  postPatterns:
+    '/^(?:\*\s*)*(\[\^[\w\d]+\]:)\s*\n*/': '$1 '
+    '/\n\n(.+\\\[\d+\\\])$/': '\n\n$1 {¶=none .cite}'
+  postPatternExplanations:
+    - fix footnote text in lists
+    - fix citation paragraphs

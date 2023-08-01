@@ -1,0 +1,13 @@
+url:
+  - https://d9263461.github.io/cl/Baha'i/Others/ROB/V3/Contents.html
+dir: en/bahai/covenant-library
+selector: none
+minLinkDepth: 0
+_conversionOpts:
+  subLinkUrlPattern: /^[^#]+(?:#p[mdclxvi]+)?$/i
+  getSubLinks: true
+  footnotesPerPage: true
+  postPatterns:
+    '/^(?:\*\s*)*(\[\^[\w\d]+\]:)\s*\n*/': '$1 '
+    '/^\s*(?:\*\s+){2,}([^\s\*\n])/': '* $1'
+    '/\n\n(.+\\\[\d+\\\])$/': ' \\n$1 {.cite}'

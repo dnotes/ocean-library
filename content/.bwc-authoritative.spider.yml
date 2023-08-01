@@ -1,0 +1,16 @@
+url: https://www.bahai.org/library/authoritative-texts/downloads
+dir: en/bahai/bahai-org-library
+selector: tbody a
+extFilter: xhtml
+docExtFilter: xhtml
+docUrlFilter: '/authoritative-texts\/[^c]/'
+_conversionOpts:
+  ignoreElements: div.of
+  fnRefEl: sup.ve
+  fnTextEl: a.sd
+  postPatterns:
+    '/^(?:\*\s*)*(\[\^[\w\d]+\]:)\s*\n*/': '$1 '
+    '/\n\n(.+\\\[\d+\\\])$/': '\n\n$1 {¶=none .cite}'
+  postPatternExplanations:
+    - fix footnote text in lists
+    - fix citation paragraphs

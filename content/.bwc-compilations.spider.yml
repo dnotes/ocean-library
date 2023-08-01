@@ -1,0 +1,19 @@
+url: https://www.bahai.org/library/authoritative-texts/downloads
+dir: en/bahai/bahai-org-library/compilations
+selector: tbody a
+extFilter: xhtml
+docExtFilter: xhtml
+docUrlFilter: 'authoritative-texts/compilation'
+_conversionOpts:
+  ignoreElements: div.of
+  fnRefEl: sup.ve
+  fnTextEl: a.sd
+  metaElements:
+    author: various
+    collection: Compilations
+  postPatterns:
+    '/^(?:\*\s*)*(\[\^[\w\d]+\]:)\s*\n*/': '$1 '
+    '/\n\n(.+\\\[\d+\\\])$/': '\n\n$1 {¶=none .cite}'
+  postPatternExplanations:
+    - fix footnote text in lists
+    - fix citation paragraphs
