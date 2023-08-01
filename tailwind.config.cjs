@@ -8,10 +8,11 @@ const config = {
     fontFamily: {
       'sans': ['"Ysabeau Office"', 'sans-serif'],
     },
-    fontWeight: {
-      'normal': 300,
+    extend: {
+      fontWeight: {
+        'normal': 300,
+      },
     },
-    extend: {},
   },
 
   plugins: [typography],
