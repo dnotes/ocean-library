@@ -1,6 +1,6 @@
 ---
 id: sbe15__index__19982346__en
-title: index
+title: The Bṛhadâraṇyaka-Upanishad
 author: sbe15
 access: research
 language: en
@@ -1809,7 +1809,7 @@ The seed departed, and having been absent for a year, it came back and said: 'Ho
 
 The (vital) breath, when on the point of departing, tore up these senses, as a great, excellent horse of the Sindhu country might tare up the pegs to which he is tethered. They said to him: 'Sir, do not depart. We shall not be able to live without thee.' He said: 'Then make me an offering.' They said: 'Let it be so.' {#6:5.13}
 
-Then the tongue said: 'If I am the richest, then thou art the richest by it.' The eye said: 'If I am the firm rest, then thou art possessed of firm rest by it.' The ear said: 'If I am success, then thou art possessed of success by it.' The mind said: 'If I am the home, thou art the home by it.' The seed said: 'If I am generation, thou art possessed of generation by it.' He said: 'What shall be food, what shall be dress for me?' {#6:5.14} [pg 204] 
+Then the tongue said: 'If I am the richest, then thou art the richest by it.' The eye said: 'If I am the firm rest, then thou art possessed of firm rest by it.' The ear said: 'If I am success, then thou art possessed of success by it.' The mind said: 'If I am the home, thou art the home by it.' The seed said: 'If I am generation, thou art possessed of generation by it.' He said: 'What shall be food, what shall be dress for me?' {#6:5.14} [pg 204]
 
 They replied: 'Whatever there is, even unto dogs, worms, insects, and birds, that is thy food, and water thy dress. He who thus knows the food of Ana (the breath), by him nothing is eaten that is not (proper) food, nothing is received that is not (proper) food. Śrotriyas (Vedic theologians) who know this, rinse the mouth with water when they are going to eat, and rinse the mouth with water after they have eaten, thinking that thereby they make the breath dressed (with water).'
 
@@ -2058,7 +2058,7 @@ Now follows the stem: {#6:5.1}
 9\. Kauśikīputra from Ālambīputra and Vaiyāghrapadīputra,
 10\. Ālambīputra and Vaiyāghrapadīputra from Kāṇvīputra,
 11\. Kāṇvīputra from Kāpīputra,
-12\. Kāpīputra 
+12\. Kāpīputra
 {.list}
 
 2\. from Ātreyīputra,

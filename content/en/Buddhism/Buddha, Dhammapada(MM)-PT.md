@@ -1,7 +1,7 @@
 ---
 id: >-
   gautama-buddha__sacred-books-east-vol-10-dhammapada-sutta-nipata-index__2370037302__en
-title: 'Sacred Books of the East, Vol. 10: The Dhammapada and Sutta Nipata Index'
+title: 'Sacred Books of the East, Vol. 10: The Dhammapada and Sutta Nipata'
 author: Gautama Buddha
 access: research
 language: en
@@ -37,39 +37,39 @@ Translated by F. Max Muller and V. Fausboll[^1]
 
 **The Dhammapada**
 
-[Title Page](http://www.sacred-texts.com/bud/sbe10/sbe1000.htm)  
-[Contents](http://www.sacred-texts.com/bud/sbe10/sbe1001.htm)  
-[Introduction](http://www.sacred-texts.com/bud/sbe10/sbe1002.htm)  
-[Chapter I. The Twin-Verses.](http://www.sacred-texts.com/bud/sbe10/sbe1003.htm)  
-[Chapter II. On Earnestness.](http://www.sacred-texts.com/bud/sbe10/sbe1004.htm)  
-[Chapter III. Thought.](http://www.sacred-texts.com/bud/sbe10/sbe1005.htm)  
-[Chapter IV. Flowers.](http://www.sacred-texts.com/bud/sbe10/sbe1006.htm)  
-[Chapter V. The Fool.](http://www.sacred-texts.com/bud/sbe10/sbe1007.htm)  
-[Chapter VI. The Wise Man (Pandita).](http://www.sacred-texts.com/bud/sbe10/sbe1008.htm)  
-[Chapter VII. The Venerable (Arhat).](http://www.sacred-texts.com/bud/sbe10/sbe1009.htm)  
-[Chapter VIII. The Thousands.](http://www.sacred-texts.com/bud/sbe10/sbe1010.htm)  
-[Chapter IX. Evil.](http://www.sacred-texts.com/bud/sbe10/sbe1011.htm)  
-[Chapter X. Punishment.](http://www.sacred-texts.com/bud/sbe10/sbe1012.htm)  
-[Chapter XI. Old Age.](http://www.sacred-texts.com/bud/sbe10/sbe1013.htm)  
-[Chapter XII. Self.](http://www.sacred-texts.com/bud/sbe10/sbe1014.htm)  
-[Chapter XIII. The World.](http://www.sacred-texts.com/bud/sbe10/sbe1015.htm)  
-[Chapter XIV. The Buddha (The Awakened).](http://www.sacred-texts.com/bud/sbe10/sbe1016.htm)  
-[Chapter XV. Happiness.](http://www.sacred-texts.com/bud/sbe10/sbe1017.htm)  
-[Chapter XVI. Pleasure.](http://www.sacred-texts.com/bud/sbe10/sbe1018.htm)  
-[Chapter XVII. Anger.](http://www.sacred-texts.com/bud/sbe10/sbe1019.htm)  
-[Chapter XVIII. Impurity.](http://www.sacred-texts.com/bud/sbe10/sbe1020.htm)  
-[Chapter XIX. The Just.](http://www.sacred-texts.com/bud/sbe10/sbe1021.htm)  
-[Chapter XX. The Way.](http://www.sacred-texts.com/bud/sbe10/sbe1022.htm)  
-[Chapter XXI. Miscellaneous.](http://www.sacred-texts.com/bud/sbe10/sbe1023.htm)  
-[Chapter XXII. The Downward Course.](http://www.sacred-texts.com/bud/sbe10/sbe1024.htm)  
-[Chapter XXIII. The Elephant.](http://www.sacred-texts.com/bud/sbe10/sbe1025.htm)  
-[Chapter XXIV. Thirst.](http://www.sacred-texts.com/bud/sbe10/sbe1026.htm)  
-[Chapter XXV. The Bhikshu (Mendicant).](http://www.sacred-texts.com/bud/sbe10/sbe1027.htm)  
-[Chapter XXVI. The Brâhmana (Arhat).](http://www.sacred-texts.com/bud/sbe10/sbe1028.htm)  
+[Title Page](http://www.sacred-texts.com/bud/sbe10/sbe1000.htm)
+[Contents](http://www.sacred-texts.com/bud/sbe10/sbe1001.htm)
+[Introduction](http://www.sacred-texts.com/bud/sbe10/sbe1002.htm)
+[Chapter I. The Twin-Verses.](http://www.sacred-texts.com/bud/sbe10/sbe1003.htm)
+[Chapter II. On Earnestness.](http://www.sacred-texts.com/bud/sbe10/sbe1004.htm)
+[Chapter III. Thought.](http://www.sacred-texts.com/bud/sbe10/sbe1005.htm)
+[Chapter IV. Flowers.](http://www.sacred-texts.com/bud/sbe10/sbe1006.htm)
+[Chapter V. The Fool.](http://www.sacred-texts.com/bud/sbe10/sbe1007.htm)
+[Chapter VI. The Wise Man (Pandita).](http://www.sacred-texts.com/bud/sbe10/sbe1008.htm)
+[Chapter VII. The Venerable (Arhat).](http://www.sacred-texts.com/bud/sbe10/sbe1009.htm)
+[Chapter VIII. The Thousands.](http://www.sacred-texts.com/bud/sbe10/sbe1010.htm)
+[Chapter IX. Evil.](http://www.sacred-texts.com/bud/sbe10/sbe1011.htm)
+[Chapter X. Punishment.](http://www.sacred-texts.com/bud/sbe10/sbe1012.htm)
+[Chapter XI. Old Age.](http://www.sacred-texts.com/bud/sbe10/sbe1013.htm)
+[Chapter XII. Self.](http://www.sacred-texts.com/bud/sbe10/sbe1014.htm)
+[Chapter XIII. The World.](http://www.sacred-texts.com/bud/sbe10/sbe1015.htm)
+[Chapter XIV. The Buddha (The Awakened).](http://www.sacred-texts.com/bud/sbe10/sbe1016.htm)
+[Chapter XV. Happiness.](http://www.sacred-texts.com/bud/sbe10/sbe1017.htm)
+[Chapter XVI. Pleasure.](http://www.sacred-texts.com/bud/sbe10/sbe1018.htm)
+[Chapter XVII. Anger.](http://www.sacred-texts.com/bud/sbe10/sbe1019.htm)
+[Chapter XVIII. Impurity.](http://www.sacred-texts.com/bud/sbe10/sbe1020.htm)
+[Chapter XIX. The Just.](http://www.sacred-texts.com/bud/sbe10/sbe1021.htm)
+[Chapter XX. The Way.](http://www.sacred-texts.com/bud/sbe10/sbe1022.htm)
+[Chapter XXI. Miscellaneous.](http://www.sacred-texts.com/bud/sbe10/sbe1023.htm)
+[Chapter XXII. The Downward Course.](http://www.sacred-texts.com/bud/sbe10/sbe1024.htm)
+[Chapter XXIII. The Elephant.](http://www.sacred-texts.com/bud/sbe10/sbe1025.htm)
+[Chapter XXIV. Thirst.](http://www.sacred-texts.com/bud/sbe10/sbe1026.htm)
+[Chapter XXV. The Bhikshu (Mendicant).](http://www.sacred-texts.com/bud/sbe10/sbe1027.htm)
+[Chapter XXVI. The Brâhmana (Arhat).](http://www.sacred-texts.com/bud/sbe10/sbe1028.htm)
 
 ---
 
-### INTRODUCTION TO THE DHAMMAPADA 
+### INTRODUCTION TO THE DHAMMAPADA
 
 [pg ix]
 
@@ -177,7 +177,7 @@ Translated by F. Max Muller and V. Fausboll[^1]
 
    Mr. Rhys Davids translates this:
 
-   'The commentary on this Padyapadânuva*ms*a, which (latter work) was made (in the same order and arrangement, and retaining the sense, but rejecting the dialect, of the Sinhalese commentary formerly expressed in the Sinhalese tongue) by the elder who bore the name of Mahânâma, which he had [pg xx] received from the venerable, who resided at the Mahâparive*n*a built by the minister Dîghasanda, and who was well able to conform to the sense of the Mahâva*m*sa--(this commentary) which was undertaken by me out of devotion to that (history), and which (though thus undertaken) at a time full of danger of various kinds--such as the danger from disease, and the danger from drought, and the danger from the government of the province--has been safely brought to a conclusion--this (commentary), since it makes known the meaning of the history of old, the mission of the ancients, of the Buddhas, of their disciples, and of the Pa*kk*eka Buddhas, should bear the name Va*m*satthappakâsinî. 
+   'The commentary on this Padyapadânuva*ms*a, which (latter work) was made (in the same order and arrangement, and retaining the sense, but rejecting the dialect, of the Sinhalese commentary formerly expressed in the Sinhalese tongue) by the elder who bore the name of Mahânâma, which he had [pg xx] received from the venerable, who resided at the Mahâparive*n*a built by the minister Dîghasanda, and who was well able to conform to the sense of the Mahâva*m*sa--(this commentary) which was undertaken by me out of devotion to that (history), and which (though thus undertaken) at a time full of danger of various kinds--such as the danger from disease, and the danger from drought, and the danger from the government of the province--has been safely brought to a conclusion--this (commentary), since it makes known the meaning of the history of old, the mission of the ancients, of the Buddhas, of their disciples, and of the Pa*kk*eka Buddhas, should bear the name Va*m*satthappakâsinî.
 
 'End of the Va*m*satthappakâsinî, the commentary on the Padyapadânuva*m*sa.'
 
@@ -239,17 +239,17 @@ Translated by F. Max Muller and V. Fausboll[^1]
 
 I. Vinaya-pi*t*aka.
 
-*   Vibhanga[^fn_xxvii_4].  
+*   Vibhanga[^fn_xxvii_4].
 
 [^fn_xxvii_4]: Oldenberg, Vinaya-pi*t*aka I, p. xvi, treats it as an extended reading of Pâtimokkha.
 
-   Vol. I, beginning with Pârâ*g*ika, or sins involving expulsion.  
+   Vol. I, beginning with Pârâ*g*ika, or sins involving expulsion.
 
    Vol. II, beginning with Pâ*k*ittiya, or sins involving penance.
 
-*   Khandhaka.  
+*   Khandhaka.
 
-   Vol. I, Mahâvagga, the large section.  
+   Vol. I, Mahâvagga, the large section.
 
    Vol. II, *K*ullavagga, the small section.
 
@@ -504,9 +504,9 @@ A*s*oka died (259 - 37 = 222). B.C. 222.    
 
 Mahendra died (D. V. XVII, 93). B.C. 193. 
 
-Du*tth*agâmani. B.C. 161.  
+Du*tth*agâmani. B.C. 161. 
 
-Vattagâmani, canon reduced to writing. B.C. 88-76. 
+Vattagâmani, canon reduced to writing. B.C. 88-76.
 
 Dîpava*m*sa. A.D. 400  
 
@@ -688,7 +688,7 @@ THE TWIN-VERSES.
 
 > 3. 'He abused me, he beat me, he defeated me, he robbed me,'--in those who harbour such thoughts hatred will never cease.
 
-[^fn_4_3]: On akko*kkh*i, see Ka*kk*âyana VI, 4, 17. D'Alwis, Pâli Grammar, p. 38 note, 'When akko*kkh*i means "he abused," it is derived from kru*s*, not from krudh.' See Senart, Ka*kk*âyana, I. c. 
+[^fn_4_3]: On akko*kkh*i, see Ka*kk*âyana VI, 4, 17. D'Alwis, Pâli Grammar, p. 38 note, 'When akko*kkh*i means "he abused," it is derived from kru*s*, not from krudh.' See Senart, Ka*kk*âyana, I. c.
 
 > 4. 'He abused me, he beat me, he defeated me, he robbed me,'--in those who do not harbour such thoughts hatred will cease. [pg 5]
 
@@ -706,10 +706,10 @@ THE TWIN-VERSES.
 
 > 9. He who wishes to put on the yellow dress without having cleansed himself from sin, who disregards temperance and truth, is unworthy of the yellow dress.
 
-[^fn_5_9]: The dark yellow dress, the Kâsâva or Kâshâya, is the distinctive garment of the Buddhist priests. See Vish*n*u-sûtra LXIII, 36. The play on the words anikkasâvo kâsâvam, or in Sanskrit anishkashâya*h* kâshâyam, cannot be rendered in English. Kashâya means 'impurity,' nish-kashâya, 'free from impurity,' anish-kashâya, 'not free from impurity,' while kâshâya is the name of the yellowish Buddhist garment. The pun is evidently a favourite one, for, as Fausböll shows, it occurs also in the Mahâbhârata, XII, 568:  
+[^fn_5_9]: The dark yellow dress, the Kâsâva or Kâshâya, is the distinctive garment of the Buddhist priests. See Vish*n*u-sûtra LXIII, 36. The play on the words anikkasâvo kâsâvam, or in Sanskrit anishkashâya*h* kâshâyam, cannot be rendered in English. Kashâya means 'impurity,' nish-kashâya, 'free from impurity,' anish-kashâya, 'not free from impurity,' while kâshâya is the name of the yellowish Buddhist garment. The pun is evidently a favourite one, for, as Fausböll shows, it occurs also in the Mahâbhârata, XII, 568:
           
-> Anishkashâye kâshâyam îhârtham iti viddhi tam,  
-> Dharmadhva*g*ânâ*m* mu*nd*ânâ*m* v*ri*ttyartham iti me mati*h*.  
+> Anishkashâye kâshâyam îhârtham iti viddhi tam,
+> Dharmadhva*g*ânâ*m* mu*nd*ânâ*m* v*ri*ttyartham iti me mati*h*.
 
 'Know that this yellow-coloured garment on a man who is not free from impurity, serves only for the purpose or cupidity; my opinion is, that it is meant to supply the means of living to those shavelings, who carry their virtue or the dharma like a flag.'
 
@@ -831,11 +831,11 @@ THOUGHT.
 
 > 39. If a man's thoughts are not dissipated, if [pg 13] his mind is not perplexed, if he has ceased to think of good or evil, then there is no fear for him while he is watchful. [pg 14]
 
-[^fn_12_39]: Fausböll traces anavassuta, 'dissipated,' back to the Sanskrit root *s*yai, 'to become rigid;' but the participle of that root would be *s*îta, not *s*yuta. Professor Weber suggests that anavassuta stands for the Sanskrit anavasruta, which he translates unbefleckt, 'unspotted.' If avasruta were the right word; it might be taken in the sense of 'not fallen off, not fallen away,' but it could not mean 'unspotted;' cf. dhairya*m* no 'susruvat, 'our firmness ran away.' I have little doubt, however, that avassuta represents the Sanskrit ava*s*ruta, and is derived from the root *s*ru, here used in its technical sense, peculiar to the Buddhist literature, and so well explained by Burnouf in his Appendix XIV (Lotus, p. 820). He shows that, according to Hema*k*andra and the *G*ina-alankâra, â*s*ravakshaya, Pâli âsavasa*m*khaya is counted as the sixth abhi*gñ*â, wherever six of these intellectual powers are mentioned, instead of five. The Chinese translate the term in their Own Chinese fashion by 'stillationis finis,' but Burnouf claims for it the definite sense of destruction of faults or vices. He quotes from the Lalita-vistara (Adhyâya XXII, ed. Râjendra Lal Mittra, p. 448) the words uttered by Buddha when he arrived at his complete Buddhahood:--  
+[^fn_12_39]: Fausböll traces anavassuta, 'dissipated,' back to the Sanskrit root *s*yai, 'to become rigid;' but the participle of that root would be *s*îta, not *s*yuta. Professor Weber suggests that anavassuta stands for the Sanskrit anavasruta, which he translates unbefleckt, 'unspotted.' If avasruta were the right word; it might be taken in the sense of 'not fallen off, not fallen away,' but it could not mean 'unspotted;' cf. dhairya*m* no 'susruvat, 'our firmness ran away.' I have little doubt, however, that avassuta represents the Sanskrit ava*s*ruta, and is derived from the root *s*ru, here used in its technical sense, peculiar to the Buddhist literature, and so well explained by Burnouf in his Appendix XIV (Lotus, p. 820). He shows that, according to Hema*k*andra and the *G*ina-alankâra, â*s*ravakshaya, Pâli âsavasa*m*khaya is counted as the sixth abhi*gñ*â, wherever six of these intellectual powers are mentioned, instead of five. The Chinese translate the term in their Own Chinese fashion by 'stillationis finis,' but Burnouf claims for it the definite sense of destruction of faults or vices. He quotes from the Lalita-vistara (Adhyâya XXII, ed. Râjendra Lal Mittra, p. 448) the words uttered by Buddha when he arrived at his complete Buddhahood:--
           
-> *S*ushkâ â*s*ravâ na puna*h* *s*ravanti,  
-> 'The vices are dried up, they will not flow again;'  
-    
+> *S*ushkâ â*s*ravâ na puna*h* *s*ravanti,
+> 'The vices are dried up, they will not flow again;'
+
 and he shows that the Pâli Dictionary, the Abhidhânappadîpikâ, explains âsava simply by kâma, 'love, pleasure of the senses.' In the Mahâparinibbâna-sutta, three classes of âsava are distinguished, the kâmâsavâ, the bhavâsavâ, and the avi*gg*âsavâ. See also Burnouf, Lotus, p. 665; Childers, s.v. âsavo.
 
 That *s*ru means 'to run,' and is in fact a merely dialectic variety of sru, has been proved by Burnouf, while Boehtlingk thinks the substitution of *s* for s is a mistake. Â*s*rava therefore, or âsrava, meant originally 'the running out towards objects of the senses' (cf. sanga, âlara, &c.), and had nothing to do with âsrâva, 'a running, a sore,' Atharva-veda I, 2, 4. This conception of the original purport of â + *s*ru or ava-*s*ru is confirmed by a statement of Colebrooke's, who, when treating of the *G*ainas, writes (Miscellaneous Essays, I, 382); 'Âsrava is that which directs the embodied spirit (âsravayati purusham) towards external objects. It is the occupation and employment (v*ri*tti or pra*vr*itti) of the senses or organs on sensible objects. Through the means of the senses it, affects the embodied spirit with the sentiment of taction, colour, smell, and taste. Or it is the association or connection of body with right and wrong deeds. It comprises all the karmas, for they (âsravayanti) pervade, influence, and attend the doer, following him or attaching to him. It is a misdirection (mithyâ-prav*ri*tti) of the organs, for it is vain, a cause of disappointment, rendering the organs of sense and sensible objects subservient to fruition. Sa*m*vara is that which stops (sa*m*v*rin*oti) the course of the foregoing, or closes up the door or passage to it, and consists in self-command or restraint of organs internal and external, embracing all means of self-control and subjection of the senses, calming and subduing them.'
@@ -866,15 +866,15 @@ FLOWERS[^fn_16_1].
 
 > 45. The disciple will overcome the earth, and the world of Yama, and the world of the gods. The disciple will find out the plainly shown path of virtue, as a clever man finds out the (right) flower. [pg 17]
 
-44, 45. If I differ from the translation of Fausböll and Weber, it is because the commentary takes the two verbs, vi*g*essati and pa*k*essati, to mean in the end the same thing, i.e. sa*kkh*i-karissati, 'he will perceive.' I have not ventured to take vi*g*essate for vi*g*anissati, though it should be remembered that the overcoming of the earth and of the worlds below and above, as here alluded to, is meant to be achieved by means of knowledge. Pa*k*essati, 'he will gather' (cf. vi-*k*i, Indische Sprüche, 4560), means also, like 'to gather' in English, 'he will perceive or understand,' and the dhammapada, or 'path of virtue,' is distinctly explained by Buddhaghosa as consisting of the thirty-seven states or stations which lead to Bodhi. (See Burnouf, Lotus, p. 430; Hardy, Manual, p. 497.) Dhammapada might, no doubt, mean also 'a law-verse,' and sudesita, 'well taught,' and this double meaning may be intentional here as elsewhere. Buddha himself is called Mârga-dar*s*aka and Mârga-de*s*ika (cf. Lal. Vist. p. 551). There is a curions similarity between these verses and verses 6540-41, and 9939 of the *S*ânti-parva:  
+44, 45. If I differ from the translation of Fausböll and Weber, it is because the commentary takes the two verbs, vi*g*essati and pa*k*essati, to mean in the end the same thing, i.e. sa*kkh*i-karissati, 'he will perceive.' I have not ventured to take vi*g*essate for vi*g*anissati, though it should be remembered that the overcoming of the earth and of the worlds below and above, as here alluded to, is meant to be achieved by means of knowledge. Pa*k*essati, 'he will gather' (cf. vi-*k*i, Indische Sprüche, 4560), means also, like 'to gather' in English, 'he will perceive or understand,' and the dhammapada, or 'path of virtue,' is distinctly explained by Buddhaghosa as consisting of the thirty-seven states or stations which lead to Bodhi. (See Burnouf, Lotus, p. 430; Hardy, Manual, p. 497.) Dhammapada might, no doubt, mean also 'a law-verse,' and sudesita, 'well taught,' and this double meaning may be intentional here as elsewhere. Buddha himself is called Mârga-dar*s*aka and Mârga-de*s*ika (cf. Lal. Vist. p. 551). There is a curions similarity between these verses and verses 6540-41, and 9939 of the *S*ânti-parva:
           
-> Pushpâ*n*îva vi*k*invantam anyatragatamanasam,  
-> Anavâpteshu kâmeshu m*ri*tyur abhyeti mânavam.  
-    
-'Death approaches man like one who is gathering flowers, and whose mind is turned elsewhere, before his desires have been fulfilled.'  
+> Pushpâ*n*îva vi*k*invantam anyatragatamanasam,
+> Anavâpteshu kâmeshu m*ri*tyur abhyeti mânavam.
+
+'Death approaches man like one who is gathering flowers, and whose mind is turned elsewhere, before his desires have been fulfilled.'
           
-> Supta*m* vyâghra*m* mahaugho vâ m*ri*tyur âdâya ga*kkh*ati,  
-> Sa*ñk*invânakam evaina*m* kâmânâm avit*ri*ptikam.  
+> Supta*m* vyâghra*m* mahaugho vâ m*ri*tyur âdâya ga*kkh*ati,
+> Sa*ñk*invânakam evaina*m* kâmânâm avit*ri*ptikam.
 
 'As a stream (carries off) a sleeping tiger, death carries off this man who is gathering flowers, and who is not satiated in his pleasures.'
 
@@ -1100,10 +1100,10 @@ The Devas (gods), Gandharvas (fairies), and other fanciful beings of the Brahman
 
 > 109. He who always greets and constantly reveres the aged, four things will increase to him, viz. life, beauty, happiness, power.
 
-[^fn_33_109]: Dr. Fausböll, in a most important note, called attention to the fact that the same verse, with slight variations, occurs in Manu. We there read, II, 121:  
+[^fn_33_109]: Dr. Fausböll, in a most important note, called attention to the fact that the same verse, with slight variations, occurs in Manu. We there read, II, 121:
           
-> Abhivâdana*s*îlasya nitya*m* v*ri*ddhopasevina*h*,  
-> *K*atvâri sampravardhante âyur vidyâ ya*s*o balam.  
+> Abhivâdana*s*îlasya nitya*m* v*ri*ddhopasevina*h*,
+> *K*atvâri sampravardhante âyur vidyâ ya*s*o balam.
 
 Here the four things are, life, knowledge, glory, power.
 
@@ -1165,11 +1165,11 @@ PUNISHMENT.
 
 > 129. All men tremble at punishment, all men fear death; remember that you are like unto them, and do not kill, nor cause slaughter.
 
-[^fn_36_129]: One feels tempted, no doubt, to take upama in the sense of 'the nearest (der Nächste), the neighbour,' and to translate, 'having made oneself one's neighbour,' i.e. loving one's neighbour as oneself. But as upamäm, with a short a, is the correct accusative of upamâ, we must translate, 'having made oneself the likeness, the image of others, having placed oneself in the place of others.' This is an expression which occurs frequently in Sanskrit; cf. Hitopade*s*a I, 11:  
+[^fn_36_129]: One feels tempted, no doubt, to take upama in the sense of 'the nearest (der Nächste), the neighbour,' and to translate, 'having made oneself one's neighbour,' i.e. loving one's neighbour as oneself. But as upamäm, with a short a, is the correct accusative of upamâ, we must translate, 'having made oneself the likeness, the image of others, having placed oneself in the place of others.' This is an expression which occurs frequently in Sanskrit; cf. Hitopade*s*a I, 11:
           
-> Prâ*n*â yathâtmano 'bhîsh*t*â bhûtânâm api te tathâ,  
-> Âtmaupamyena bhûteshu dayâ*m* kurvanti sâdhava*h*.  
-    
+> Prâ*n*â yathâtmano 'bhîsh*t*â bhûtânâm api te tathâ,
+> Âtmaupamyena bhûteshu dayâ*m* kurvanti sâdhava*h*.
+
 'As life is dear to oneself, it is dear also to other living beings: by comparing oneself with others, good people bestow pity on all beings.'
 
 See also Hit. I, 12; Râm. V, 23, 5, âtmânam upamâ*m* k*ri*tvâ sveshu dâreshu ramyatâm, 'making oneself a likeness, i.e. putting oneself in the position of other people, it is right to love none but one's own wife.' Dr. Fausböll has called attention to similar passages in the Mahâbhârata, XIII, 5569 seq.
@@ -1180,18 +1180,18 @@ See also Hit. I, 12; Râm. V, 23, 5, âtmânam upamâ*m* k*ri*tvâ sveshu dâres
 
 > 131. He who seeking his own happiness punishes or kills beings who also long for happiness, will not find happiness after death. [pg 37]
 
-[^fn_36_131]: Dr. Fausböll points out the striking similarity between this verse and two verses occurring in Manu and the Mahâbhârata:--  
+[^fn_36_131]: Dr. Fausböll points out the striking similarity between this verse and two verses occurring in Manu and the Mahâbhârata:--
 
-Manu V, 45:  
+Manu V, 45:
           
-> Yo 'hi*m*sakâni bhûtâni hinasty âtmasukhe*kkh*ayâ,  
-> Sa *g*iva*ms* *k*a m*ri*tas *k*aiva na kva*k*it sukham edhate.  
-    
-Mahâbhârata XIII, 5568:  
+> Yo 'hi*m*sakâni bhûtâni hinasty âtmasukhe*kkh*ayâ,
+> Sa *g*iva*ms* *k*a m*ri*tas *k*aiva na kva*k*it sukham edhate.
 
-> Ahi*m*sakâni bhûtâni da*nd*ena vinihanti ya*h*,  
-> Âtmana*h* sukham i*kkh*an sa pretya naiva sukhî bhavet.  
-    
+Mahâbhârata XIII, 5568:
+
+> Ahi*m*sakâni bhûtâni da*nd*ena vinihanti ya*h*,
+> Âtmana*h* sukham i*kkh*an sa pretya naiva sukhî bhavet.
+
 If it were not for ahi*m*sakâni, in which Manu and the Mahâbhârata agree, I should say that the verses in both were Sanskrit modifications of the Pâli original. The verse in the Mahâbhârata presupposes the verse of the Dhammapada.
 
 > 132. He who seeking his own happiness does not punish or kill beings who also long for happiness, will find happiness after death.
@@ -1264,10 +1264,10 @@ Dr. Fausböll adds:--
 
 > 149. Those white bones, like gourds thrown away in the autumn, what pleasure is there in looking at them?
 
-[^fn_42_149]: In the Rudrâya*n*âvadâna of the Divyâvadâna this verse appears as,  
+[^fn_42_149]: In the Rudrâya*n*âvadâna of the Divyâvadâna this verse appears as,
 
-> Yânîmâny apariddhâni vikshiptâni di*s*o di*s*a*h*,  
-> Kapotavar*n*âny asthîni tâni d*ri*sh*t*vaiha kâ rati*h*. 
+> Yânîmâny apariddhâni vikshiptâni di*s*o di*s*a*h*,
+> Kapotavar*n*âny asthîni tâni d*ri*sh*t*vaiha kâ rati*h*.
 
 See Schiefner, Mél. Asiat. VIII, p. 589; *G*âtaka, vol. i. p. 322.
 
@@ -1407,9 +1407,9 @@ THE BUDDHA (THE AWAKENED).
 
 [^fn_50_185]: Cf. Suttanipâta, [v. 337] (http://www.sacred-texts.com/bud/sbe10/sbe1034.htm#pp_337). Pâtimokkhe, 'under the law,' i.e. according to the law, the law which leads to Moksha, or 'freedom.' Prâtimoksha is the title of the oldest collection of the moral laws of the Buddhists (Burnouf, Introduction, p. 300; Bigandet, The Life of Gaudama, p. 439; Rhys Davids, Buddhism, p. 162), and as it was common both to the Southem and the Northem Buddhists, pâtimokkhe in our passage may possibly be meant, as Professor Weber suggests, as the title of that very collection. The commentator explains it by ge*tth*akasîla and pâtimokkhasîla. Sayanâsam might stand for *s*ayanâ*s*anam, see Mahâbh. XII, 6684;but in Buddhist literature it is intended for *s*ayanâsanam; see also Mahâbh. XII, 9978, *s*ayyâsane. Fausböll now reads pânta instead of pattha*ñ*.
 
-[^fn_50_187]: There is a curious similarity between this verse and verse 6503 (9919) of the *S*ântiparva:  
+[^fn_50_187]: There is a curious similarity between this verse and verse 6503 (9919) of the *S*ântiparva:
           
-> Ya*k* *k*a kâmasukha*m* loke, ya*k* *k*a divyam mahat sukham,  
+> Ya*k* *k*a kâmasukha*m* loke, ya*k* *k*a divyam mahat sukham,
 > T*ri*sh*n*âkshayasukhasyaite nârhata*h* sho*d*a*s*i*m* kalâm.
 
 'And whatever delight of love there is on earth, and whatever is the great delight in heaven, they are not worth the sixteenth part of the pleasure which springs from the destruction of all desires.' The two verses 186, 187 are ascribed to king Mandhât*ri* shortly before his death (Mél. Asiat. VIII, p. 471; see also *G*âtaka, vol. ii. p. 113).
@@ -1454,20 +1454,20 @@ HAPPINESS.
 
 > 200. Let us live happily then, though we call nothing our own! We shall be like the bright gods, feeding on happiness!
 
-[^fn_53_200]: The words placed in the mouth of the king of Videha, while his residence Mithilâ was in flames, are curiously like our verse; cf. Mahâbh. XII, 9917,  
+[^fn_53_200]: The words placed in the mouth of the king of Videha, while his residence Mithilâ was in flames, are curiously like our verse; cf. Mahâbh. XII, 9917,
           
-> Susukha*m* vata *g*îvâmi yasya me nâsti ki*ñk*ana,  
-> Mithilâyâm pradîptâyâ*m* na me dahyati ki*ñk*ana.  
-    
+> Susukha*m* vata *g*îvâmi yasya me nâsti ki*ñk*ana,
+> Mithilâyâm pradîptâyâ*m* na me dahyati ki*ñk*ana.
+
 'I live happily, indeed, for I have nothing; while Mithilâ is in flames, nothing of mine is burning.' Cf. Muir, Religious sentiments, p. 106.
 
 The âbhassara, i.e. âbhâsvara, 'the bright gods,' are frequently mentioned. Cf. Burnouf, Introd. p. 611.
 
 > 201. Victory breeds hatred, for the conquered is unhappy. He who has given up both victory and defeat, he, the contented, is happy. [pg 54]
 
-[^fn_53_201]: This verse is ascribed to Buddha, when he heard of the defeat of A*g*âta*s*atru by Prasena*g*it. It exists in the Northern or Sanskrit and in the Southern or Pâli texts, i.e. in the Avadâna-*s*ataka, in the Sa*m*yutta-nikâya. See Feer, Comptes Rendus, 1871, p. 44. and Journal As. 1880, p. 509. In the Avadâna-*s*ataka, the Sanskrit version is--  
+[^fn_53_201]: This verse is ascribed to Buddha, when he heard of the defeat of A*g*âta*s*atru by Prasena*g*it. It exists in the Northern or Sanskrit and in the Southern or Pâli texts, i.e. in the Avadâna-*s*ataka, in the Sa*m*yutta-nikâya. See Feer, Comptes Rendus, 1871, p. 44. and Journal As. 1880, p. 509. In the Avadâna-*s*ataka, the Sanskrit version is--
           
-> *G*ayo vairam prasavati, du*h*kha*m* sete parâ*g*ita*h*  
+> *G*ayo vairam prasavati, du*h*kha*m* sete parâ*g*ita*h*
 > Upa*s*ânta*h* sukha*m* *s*ete hitvâ *g*ayaparâ*g*ayam.
 
 > 202. There is no fire like passion; there is no losing throw like hatred; there is no pain like this body; there is no happiness higher than rest.
@@ -1679,7 +1679,7 @@ THE JUST.
 266-270. The etymologies here given of the ordinary titles of the followers of Buddha are entirely fanciful, and are curious only as showing how the people who spoke Pâli had lost the etymological consciousness of their language. A Bhikshu is a beggar, i.e. a Buddhist friar who bas left his family and lives entirely on alms. Muni is a sage, hence *S*âkya-muni, a name of Gautama. Muni comes from man, 'to think,' and from muni comes mauna, 'silence.' Ariya, again, is the general name of those who embrace a religious life. It meant originally 'respectable, noble.' In verse 270 it seems as if the writer wished to guard against deriving ariya from ari, 'enemy.' See note to [verse 22] (http://www.sacred-texts.com/bud/sbe10/sbe1004.htm#pp_22).
 
 > 267. He who is above good and evil, who is chaste, who with knowledge passes through the world, he indeed is called a Bhikshu.
- 
+
 > 268., 269. A man is not a Muni because he observes silence (mona, i.e. mauna), if he is foolish [pg 66] and ignorant; but the wise who, taking the balance, chooses the good and avoids evil, he is a Muni, and is a Muni thereby; he who in this world weighs both sides is called a Muni.
 
 > 270. A man is not an elect (Ariya) because he injures living creatures; because he has pity on all living creatures, therefore is a man called Ariya.
@@ -1768,17 +1768,17 @@ MISCELLANEOUS.
 
 > 294. A true Brâhma*n*a goes scatheless, though he have killed father and mother, and two valiant kings, though he has destroyed a kingdom with all its subjects.
 
-[^fn_70_294_295]: These two verses are either meant to show that a truly holy man who, by accident, commits all these crimes is guiltless, or they refer to some particular event in Buddha's history. The commentator is so startled that he explains them allegorically. Mr. D'Alwis is very indignant that I should have supposed Buddha capable of pardoning patricide. 'Can it be believed,' he writes, 'that a Teacher, who held life, even the life of the minutest insect, nay, even a living tree, in such high estimation as to prevent its wanton destruction, has declared that the murder of a Brâhma*n*a, to whom he accorded reverence, along with his own Sangha, was blameless?' D'Alwis, Nirvâ*n*a, p. 88. Though something might be said in reply, considering the antecedents of king A*g*âta*s*atru, the patron of Buddha, and stories such as that quoted by the commentator on the Dhammapada (Beal, l.c. p. 150), or in Der Weise und der Thor, p. 306, still these two verses are startling, and I am not aware that Buddha has himself drawn the conclusion, which has been drawn by others, viz. that those who have reached the highest Sambodhi, and are in fact no longer themselves, are outside the domain of good and bad, and beyond the reach of guilt. Verses like [39](http://www.sacred-texts.com/bud/sbe10/sbe1005.htm#pp_39) and [412](http://www.sacred-texts.com/bud/sbe10/sbe1028.htm#pp_412) admit of a different explanation. Still our verses being miscellaneous extracts, might possibly have been taken from a work in which such an opinion was advanced, and I find that Mr. Childers, no mean admirer of Buddha, was not shocked by my explanation. 'In my judgment,' he says, 'this verse is intended to express in a forcible manner the Buddhist doctrine that the Arhat cannot commit a serious sin.' However, we have met before wilh far-fetched puns in these verses, and it is not impossible that the native commentators were right after all in seeing some puns or riddles in this verse. D'Alwis, following the commentary, explains mother as lust, father as pride, the two valiant klngs as heretical systems, and the realm as sensual pleasure, while veyyaggha is taken by him for a place infested wilh the tigers of obstruction against final beatitude. Some confirmation of this interpretation is supplied by a passage in the third book of the Lankâvatâra-sûtra, as quoted by Mr. Beal in his translation of the Dhammapada, Introduction, p. 5. Here a stanza is quoted as having been recited by Buddha, in explanation of a similar startling utterance which he had made to Mahâmati:  
+[^fn_70_294_295]: These two verses are either meant to show that a truly holy man who, by accident, commits all these crimes is guiltless, or they refer to some particular event in Buddha's history. The commentator is so startled that he explains them allegorically. Mr. D'Alwis is very indignant that I should have supposed Buddha capable of pardoning patricide. 'Can it be believed,' he writes, 'that a Teacher, who held life, even the life of the minutest insect, nay, even a living tree, in such high estimation as to prevent its wanton destruction, has declared that the murder of a Brâhma*n*a, to whom he accorded reverence, along with his own Sangha, was blameless?' D'Alwis, Nirvâ*n*a, p. 88. Though something might be said in reply, considering the antecedents of king A*g*âta*s*atru, the patron of Buddha, and stories such as that quoted by the commentator on the Dhammapada (Beal, l.c. p. 150), or in Der Weise und der Thor, p. 306, still these two verses are startling, and I am not aware that Buddha has himself drawn the conclusion, which has been drawn by others, viz. that those who have reached the highest Sambodhi, and are in fact no longer themselves, are outside the domain of good and bad, and beyond the reach of guilt. Verses like [39](http://www.sacred-texts.com/bud/sbe10/sbe1005.htm#pp_39) and [412](http://www.sacred-texts.com/bud/sbe10/sbe1028.htm#pp_412) admit of a different explanation. Still our verses being miscellaneous extracts, might possibly have been taken from a work in which such an opinion was advanced, and I find that Mr. Childers, no mean admirer of Buddha, was not shocked by my explanation. 'In my judgment,' he says, 'this verse is intended to express in a forcible manner the Buddhist doctrine that the Arhat cannot commit a serious sin.' However, we have met before wilh far-fetched puns in these verses, and it is not impossible that the native commentators were right after all in seeing some puns or riddles in this verse. D'Alwis, following the commentary, explains mother as lust, father as pride, the two valiant klngs as heretical systems, and the realm as sensual pleasure, while veyyaggha is taken by him for a place infested wilh the tigers of obstruction against final beatitude. Some confirmation of this interpretation is supplied by a passage in the third book of the Lankâvatâra-sûtra, as quoted by Mr. Beal in his translation of the Dhammapada, Introduction, p. 5. Here a stanza is quoted as having been recited by Buddha, in explanation of a similar startling utterance which he had made to Mahâmati:
 
-> 'Lust, or carnal desire, this is the Mother,  
-> Ignorance, this is the Father,  
-> The highest point of knowledge, this is Buddha,  
-> All the kle*s*as, these are the Rahats,  
-> The five skandhas, these are the Priests;  
-> To commit the five unpardonable sins  
-> Is to destroy these five  
-> And yet not suffer the pains of hell.'  
-    
+> 'Lust, or carnal desire, this is the Mother,
+> Ignorance, this is the Father,
+> The highest point of knowledge, this is Buddha,
+> All the kle*s*as, these are the Rahats,
+> The five skandhas, these are the Priests;
+> To commit the five unpardonable sins
+> Is to destroy these five
+> And yet not suffer the pains of hell.'
+
 The Lankâvatâra-sûtra was translated into Chinese by Bodhiru*k*i (508-511); when it was written is doubtful. See also *G*âtaka, vol. ii. p. 263.
 
 > 295. A true Brâhma*n*a goes scatheless, though he have killed father and mother, and two holy kings, and an eminent man besides. [pg 71]

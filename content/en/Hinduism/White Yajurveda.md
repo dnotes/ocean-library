@@ -1,6 +1,6 @@
 ---
 id: various__white-yajur-veda-index__3400288226__en
-title: White Yajur Veda Index
+title: White Yajur Veda
 author: Various
 access: research
 language: en

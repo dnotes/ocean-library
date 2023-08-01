@@ -1,7 +1,7 @@
 ---
 id: >-
   gautama-buddha__sacred-books-east-vol-10-dhammapada-sutta-nipata-index__2370037302__en
-title: 'Sacred Books of the East, Vol. 10: The Dhammapada and Sutta Nipata Index'
+title: 'Sacred Books of the East, Vol. 10: The Dhammapada and Sutta Nipata'
 author: Gautama Buddha
 access: research
 language: en
@@ -30,7 +30,7 @@ publicationName: Sacred Books of the East, vol. 10
 
 Translation by V. FAUSBÖLL[^1]
 
-[^1]: Translation from Pali, published in The Sacred Books of the East, Vol. X, Part II, Oxford, Clarendon Press, 1881; scanned, proofread, 
+[^1]: Translation from Pali, published in The Sacred Books of the East, Vol. X, Part II, Oxford, Clarendon Press, 1881; scanned, proofread,
 and formatted by Christopher M. Weimer, March 2002; Edited by F. Max Müller
 ---
 
@@ -38,14 +38,14 @@ and formatted by Christopher M. Weimer, March 2002; Edited by F. Max Müller
 
 **The Sutta-Nipâta**
 
-[Title Page](http://www.sacred-texts.com/bud/sbe10/sbe1029.htm)  
-[Contents](http://www.sacred-texts.com/bud/sbe10/sbe1030.htm)  
-[Glossary](http://www.sacred-texts.com/bud/sbe10/sbe1031.htm)  
-[Introduction](http://www.sacred-texts.com/bud/sbe10/sbe1032.htm)  
-[I. Uragavagga.](http://www.sacred-texts.com/bud/sbe10/sbe1033.htm)  
-[II. Kûlavagga.](http://www.sacred-texts.com/bud/sbe10/sbe1034.htm)  
-[III. Mahâvagga.](http://www.sacred-texts.com/bud/sbe10/sbe1035.htm)  
-[IV. Atthakavagga.](http://www.sacred-texts.com/bud/sbe10/sbe1036.htm)  
+[Title Page](http://www.sacred-texts.com/bud/sbe10/sbe1029.htm)
+[Contents](http://www.sacred-texts.com/bud/sbe10/sbe1030.htm)
+[Glossary](http://www.sacred-texts.com/bud/sbe10/sbe1031.htm)
+[Introduction](http://www.sacred-texts.com/bud/sbe10/sbe1032.htm)
+[I. Uragavagga.](http://www.sacred-texts.com/bud/sbe10/sbe1033.htm)
+[II. Kûlavagga.](http://www.sacred-texts.com/bud/sbe10/sbe1034.htm)
+[III. Mahâvagga.](http://www.sacred-texts.com/bud/sbe10/sbe1035.htm)
+[IV. Atthakavagga.](http://www.sacred-texts.com/bud/sbe10/sbe1036.htm)
 
 [pg xi]
 
@@ -123,21 +123,21 @@ Brâhma*n*as, who slay innocent cows and have acquired wealth through the favour
 
    'Exert thyself, then, O Dhotaka,'--so said Bhagavat,--'being wise and thoughtful in this world, let one, having listened to my utterance, learn his own extinction,' v. 1061.
 
-     Tena h' âtappa*m* karohi,--Dhotakâ 'ti Bhagavâ,--  
-     idh' eva nipako sato  
-     ito sutvâna nigghosa*m*  
+     Tena h' âtappa*m* karohi,--Dhotakâ 'ti Bhagavâ,--
+     idh' eva nipako sato
+     ito sutvâna nigghosa*m*
      sikkhe nibbânam attano.
 
    With this short sketch of the contents of the Suttanipâta for a guide, I trust it will be easy to understand even the more obscure parts of the book.
 
 V. FAUSBÖLL.      
 
-   COPENHAGEN,  
+   COPENHAGEN,
             Sept. 13, 1880.
 
 * * *
 
-[](http://www.sacred-texts.com/bud/sbe10/index.htm)  
+[](http://www.sacred-texts.com/bud/sbe10/index.htm)
 
 [pg 1]
 
@@ -417,10 +417,10 @@ guarded in respect of speech, temperate in food; I make truth to cut away (weeds
 
    'I do not see, O Brâma*n*a, in the world (of men)
 
-[^fn_13_1]: A*ññ*ena *k*a kevalina*m* mahesi*m*  
-         Khî*n*âsava*m* kukku*kk*avûpasanta*m*  
-         Annena pânena upa*tth*ahassu,  
-         Khetta*m* hi ta*m* pu*ññ*apekhassa hoti.  
+[^fn_13_1]: A*ññ*ena *k*a kevalina*m* mahesi*m*
+         Khî*n*âsava*m* kukku*kk*avûpasanta*m*
+         Annena pânena upa*tth*ahassu,
+         Khetta*m* hi ta*m* pu*ññ*apekhassa hoti.
     Cf. [Sundarikabhâradvâ*g*a v. 28](http://www.sacred-texts.com/bud/sbe10/sbe1035.htm#pp_481).
 
 [pg 14]
@@ -469,9 +469,9 @@ unequalled? Being asked, describe to me a Magga*g*îvin, and reveal to me a Magg
 
 *K*undasutta is ended.
 
-[^fn_16_1]: Yo Dhammapade sudesite  
-         Magge *g*îvati sa*ññ*ato satîmâ  
-         Anava*gg*apadâni sevamâno  
+[^fn_16_1]: Yo Dhammapade sudesite
+         Magge *g*îvati sa*ññ*ato satîmâ
+         Anava*gg*apadâni sevamâno
          Tatiya*m* bhikkhunam âhu magga*g*îvi*m*.
 
 [^fn_16_2]: Comp. *G*âtaka II, p. 281.
@@ -872,7 +872,7 @@ Vi*g*ayasutta is ended.
 
    2\. Whosoever, after cutting down the (sin that has) arisen, does not let (it again) take root and does not give way to it while springing up towards him, him
 
-[^fn_33_1]: Yathâ ida*m* tathâ eta*m*  
+[^fn_33_1]: Yathâ ida*m* tathâ eta*m*
          Yathâ eta*m* tathâ idam.
 
 [pg 34]
@@ -889,14 +889,14 @@ the solitarily wandering they call a Muni; such a great Isi has seen the state o
 
    7\. The Muni that wanders solitarily, the zealous,
 
-[^fn_34_1]: Yo *g*âtam u*kkh*i*gg*a na ropayeyya  
-         *G*âyanta*m* assa nânuppave*kkh*e  
-         Tam âhu eka*m* munina*m* *k*aranta*m*,  
+[^fn_34_1]: Yo *g*âtam u*kkh*i*gg*a na ropayeyya
+         *G*âyanta*m* assa nânuppave*kkh*e
+         Tam âhu eka*m* munina*m* *k*aranta*m*,
          Addakkhi so santipada*m* mahesi.
 
-[^fn_34_2]: Sa*m*khâya vatthûni pamâya bî*g*a*m*  
-         Sineham assa nânuppave*kkh*e,  
-         Sa ve munî *g*âtikhayantadassî  
+[^fn_34_2]: Sa*m*khâya vatthûni pamâya bî*g*a*m*
+         Sineham assa nânuppave*kkh*e,
+         Sa ve munî *g*âtikhayantadassî
          Takka*m* pahâya na upeti sa*m*kha*m*.
 
 [^fn_34_3]: Nivesanâni. Comp. Du*tth*aka, v. 6.
@@ -933,7 +933,7 @@ Uragavagga is ended.
 
 * * *
 
-[](http://www.sacred-texts.com/bud/sbe10/index.htm)  
+[](http://www.sacred-texts.com/bud/sbe10/index.htm)
 
 [pg 37]
 
@@ -1079,9 +1079,9 @@ Hirisutta is ended.
 
    2\. Buddha said: 'Not cultivating (the society of)
 
-[^fn_43_1]: Pâmu*gg*akara*n*a*m* *th*âna*m*  
-         Pasa*m*sâvahana*m* sukha*m*  
-         Phalânisa*m*so\[* bhâveti  
+[^fn_43_1]: Pâmu*gg*akara*n*a*m* *th*âna*m*
+         Pasa*m*sâvahana*m* sukha*m*
+         Phalânisa*m*so\[* bhâveti
      Vahanto porisa*m* dhura*m*.
 
 2\. Comp. [Dhp. v. 205](http://www.sacred-texts.com/bud/sbe10/sbe1017.htm#pp_205).
@@ -1228,9 +1228,9 @@ Dhamma*k*ariyasutta is ended.
 
    12\. Having asked for rice, beds, garments, butter. and oil, and gathered them justly, they made sacrifices
 
-[^fn_49_1]: A*ññ*atra tamhâ samayâ  
-         Utuverama*n*im pati  
-         Antarâ methuna*m* dhamma*m*  
+[^fn_49_1]: A*ññ*atra tamhâ samayâ
+         Utuverama*n*im pati
+         Antarâ methuna*m* dhamma*m*
          Nâsu ga*kkh*anti brâhma*n*â.
 
 [pg 50]
@@ -1391,10 +1391,10 @@ Vatthugâthâ.
 
 Râhulasutta is ended.
 
-[^fn_56_1]: Mitte bha*g*assu kalyâ*n*e  
-         Panta*ñ* *k*a sayanâsana*m*  
-         Vivitta*m* appanigghosa*m*,  
-         Matta*ññ*û hohi bho*g*ane.  
+[^fn_56_1]: Mitte bha*g*assu kalyâ*n*e
+         Panta*ñ* *k*a sayanâsana*m*
+         Vivitta*m* appanigghosa*m*,
+         Matta*ññ*û hohi bho*g*ane.
     Comp. Dhp. [v. 185](http://www.sacred-texts.com/bud/sbe10/sbe1016.htm#pp_185) and [v. 375](http://www.sacred-texts.com/bud/sbe10/sbe1027.htm#pp_375).
 
 [pg 57]
@@ -1437,9 +1437,9 @@ about worshipping thee, having liberation in view, strong, and seeing Nibbâna. 
 
    9\. 'Having earnestly called upon him who has completely left birth and death behind and shaken off (sin), I will make him proclaim the Dhamma, for ordinary people cannot do what they want, but the Tathâgatas act with a purpose[^fn_58_1]. (350)
 
-[^fn_58_1]: Pahîna*g*âtimara*n*a*m* asesa*m*  
-         Niggayha dhona*m* vadessâmi dhamma*m*,  
-         Na kâmakâro hi puthu*gg*anâna*m*  
+[^fn_58_1]: Pahîna*g*âtimara*n*a*m* asesa*m*
+         Niggayha dhona*m* vadessâmi dhamma*m*,
+         Na kâmakâro hi puthu*gg*anâna*m*
          Sa*m*kheyyakâro *k*a tathâgatâna*m*.
 
 [pg 59]
@@ -1458,9 +1458,9 @@ about worshipping thee, having liberation in view, strong, and seeing Nibbâna. 
 
    16\. 'Kappiya (Kappâyana) saw, O Bhagavat, the beginning
 
-[^fn_59_1]: Sampannaveyyâkarana*m* tava-y-ida*m*  
-         Samu*ggu*pa*ññ*assa samuggahîta*m*,  
-         Ayam a*ñg*ali pa*kkh*imo suppanâmito,  
+[^fn_59_1]: Sampannaveyyâkarana*m* tava-y-ida*m*
+         Samu*ggu*pa*ññ*assa samuggahîta*m*,
+         Ayam a*ñg*ali pa*kkh*imo suppanâmito,
          Mâ mohayi *g*ânam anomapa*ññ*a.
 
 [^fn_59_2]: Parovaran ti lokuttaralokiyavasena sundarâsundara*m* dûre santika*m* vâ. Commentator.
@@ -1507,9 +1507,9 @@ he is independent and not to be led by others, such a one will wander rightly in
 
    13\. 'The believer, possessed of knowledge, seeing
 
-[^fn_61_1]: Na so upadhîsu sâram eti  
-         Âdânesu vineyya *kh*andarâga*m*  
-         So anissito ana*ññ*aneyyo  
+[^fn_61_1]: Na so upadhîsu sâram eti
+         Âdânesu vineyya *kh*andarâga*m*
+         So anissito ana*ññ*aneyyo
          Sammâ so.
 
 [pg 62]
@@ -1618,7 +1618,7 @@ Dhammikasutta is ended.
 
 * * *
 
-[](http://www.sacred-texts.com/bud/sbe10/index.htm)  
+[](http://www.sacred-texts.com/bud/sbe10/index.htm)
 
 [pg 67]
 
@@ -1694,9 +1694,9 @@ Pabba*gg*âsutta is ended.
 
    5\. 'Difficult is the way of exertion, difficult to pass, difficult to enter upon;' saying these verses Mâra stood near Buddha. (428)
 
-[^fn_69_1]: Sahassabhâgo mara*n*assa,  
-         Eka*m*so tava *g*îvita*m*,  
-         *G*îva*m* bho *g*îvita*m* seyyo,  
+[^fn_69_1]: Sahassabhâgo mara*n*assa,
+         Eka*m*so tava *g*îvita*m*,
+         *G*îva*m* bho *g*îvita*m* seyyo,
          *G*îva*m* pu*ññ*âni kâhasi.
 
 [pg 70]
@@ -1719,14 +1719,14 @@ Pabba*gg*âsutta is ended.
 
    14\. 'Gain, fame, honour, and what celebrity has
 
-[^fn_70_1]: Eva*m* ma*m* pahitattam pi  
+[^fn_70_1]: Eva*m* ma*m* pahitattam pi
          Ki*m* *g*îvam anupu*kkh*asi.
 
-[^fn_70_2]: Lohite sussamânamhi  
-         Pitta*m* semha*ñ* *k*a sussati,  
-         Ma*m*sesu khîyamânesu  
-         Bhiyyo *k*ittam pasîdati  
-         Bhiyyo sati *k*a pa*ññ*â ka  
+[^fn_70_2]: Lohite sussamânamhi
+         Pitta*m* semha*ñ* *k*a sussati,
+         Ma*m*sesu khîyamânesu
+         Bhiyyo *k*ittam pasîdati
+         Bhiyyo sati *k*a pa*ññ*â ka
          Samâdhi mama ti*tth*ati.
 
 [pg 71]
@@ -1749,12 +1749,12 @@ been falsely obtained; and he who exalts himself and despises others[^fn_71_1]. 
 
    22\. Mâra: 'For seven years I followed Bhagavat step by step; I found no fault in the perfectly enlightened, thoughtful (Buddha). (445)
 
-[^fn_71_1]: Yo *k*' attâna*m* samukka*m*se  
+[^fn_71_1]: Yo *k*' attâna*m* samukka*m*se
          Pare *k*a ava*g*ânati.
 
-[^fn_71_2]: Ya*m* te ta*m* na-ppasahati  
-         Sena*m* loko sadevako  
-         Ta*m* te pa*ññ*âya ga*kkh*âmi\[*  
+[^fn_71_2]: Ya*m* te ta*m* na-ppasahati
+         Sena*m* loko sadevako
+         Ta*m* te pa*ññ*âya ga*kkh*âmi\[*
      Âma*m* patta*m* va amhanâ.
 
 *. Instead of ga*kkh*âmi I read bha*ñg*âmi. B[á] has ve*kkh*âpi, B[í] ve*ggh*âmi.\]
@@ -1783,7 +1783,7 @@ Padhânasutta is ended.
 
    'O Bhikkhus, the Bhikkhu speaks well-spoken (language), not ill-spoken; he speaks what is right (dhamma), not what is unrighteous (adhamma); he speaks what is pleasing, not what is unpleasing; he speaks what is true, not what is false. O Bhikkhus, the speech that is provided with these four requisites, is well-spoken, not ill-spoken, both faultless
 
-[^fn_72_1]: Kâko va selam âsa*gg*a\[*.  
+[^fn_72_1]: Kâko va selam âsa*gg*a\[*.
      Nibbi*gg*âpema Gotama*m*\[+\].
 
 *. C[^b] C[^k] âva*gg*a, B[á] assa*gg*a, B[í] âssa*gg*a.
@@ -1848,8 +1848,8 @@ Vessa; having thoroughly observed the class of common people, I wander about the
 
 [^fn_75_1]: See Rhys Davids, Buddhism, p. 166.
 
-[^fn_75_2]: Ta*m* Sâvitti*m* pu*kkh*âmi  
-         Tipada*m* *k*atuvîsatakkhara*m*.  
+[^fn_75_2]: Ta*m* Sâvitti*m* pu*kkh*âmi
+         Tipada*m* *k*atuvîsatakkhara*m*.
                (Rig-veda III, 62, 10.)
 
 [pg 76]
@@ -1908,8 +1908,8 @@ are no objects of sense whatever, Tathâgata deserves the oblation[^fn_78_1]. (4
 
    27\. Bhagavat: 'What is obtained by stanzas is not to be enjoyed by me, this is not the custom of the clearly-seeing, O Brâma*n*a; Buddhas reject what is obtained by stanzas. While the Dhamma
 
-[^fn_78_1]: Âsa*m* anissâya vivekadassî  
-         Paravediya*m*\[* di*tth*im upâtivatto  
+[^fn_78_1]: Âsa*m* anissâya vivekadassî
+         Paravediya*m*\[* di*tth*im upâtivatto
      Âramma*n*â yassa na santi ke*k*i, &c.
 
 2\. Comp. [Kalahavivâdasutta, v. 14](http://www.sacred-texts.com/bud/sbe10/sbe1036.htm#pp_875).
@@ -2110,13 +2110,13 @@ not enter time (kappa) amongst gods and men who are subject to time, him they ca
 
    17\. 'He who, after examining both kinds of senses, internally and externally, is endowed with a
 
-[^fn_90_1]: Devamanussesu kappiyesu  
+[^fn_90_1]: Devamanussesu kappiyesu
          Kappan n' eti tam âhu nahâtako.
 
-[^fn_90_2]: Âgu*m* na karoti ki*ñk*i loke  
-         Sabbasa*m*yoge visa*gg*a bandhanâni  
-         Sabbattha na sa*gg*atî vimutto  
-         Nâgo tâdi pavu*kk*ate tathattâ.  
+[^fn_90_2]: Âgu*m* na karoti ki*ñk*i loke
+         Sabbasa*m*yoge visa*gg*a bandhanâni
+         Sabbattha na sa*gg*atî vimutto
+         Nâgo tâdi pavu*kk*ate tathattâ.
     But compare [Pabba*gg*âsutta 17](#pp_420                                                                                                                                                       ), [Mâgandiyasutta 11](http://www.sacred-texts.com/bud/sbe10/sbe1036.htm#pp_845), &c.
 
 [pg 91]
@@ -2153,7 +2153,7 @@ clear understanding and has conquered evil and good (ka*n*hasukka), such a one i
 
    28\. 'Whosoever abstains from the action that has a painful result, above and below and across and in
 
-[^fn_92_1]: Yass' assu lutâni bandhanâni  
+[^fn_92_1]: Yass' assu lutâni bandhanâni
          A*ggh*atta*m* bahiddhâ *k*a sangamûla*m*.
 
 [pg 93]
@@ -2170,9 +2170,9 @@ the middle, who wanders with understanding, who has put an end to deceit, arroga
 
    32\. 'The doubt I had before thou hast cleared away for me, O thou clearly-seeing; surely thou art a Muni, perfectly enlightened, there is no obstacle for thee. (541)
 
-[^fn_93_1]: Yâni *k*a tî*n*i yâni *k*a sa*tth*i  
-         Sama*n*appavâdasitâni bhûripa*ññ*a  
-         Sa*ññ*akkhara sa*ññ*anissitâni (?)  
+[^fn_93_1]: Yâni *k*a tî*n*i yâni *k*a sa*tth*i
+         Sama*n*appavâdasitâni bhûripa*ññ*a
+         Sa*ññ*akkhara sa*ññ*anissitâni (?)
          Osara*n*âni vineyya oghatam' agâ.
 
 [pg 94]
@@ -2333,9 +2333,9 @@ face in suitable stanzas.' Then the Brâma*n*a Sela praised Bhagavat face to fac
 
    Then Ke*n*iya, the *G*a*t*ila, by the expiration of that night, having provided in his hermitage nice hard food and soft food, let Bhagavat know the time (of the meal): 'It is time, O venerable Gotama, the meal is prepared.' Then Bhagavat in the morning, having put on his raiment and taken his bowl and robes, went to the *G*a*t*ila Ke*n*iya's hermitage, and having gone there he sat down on the prepared seat, together with the assembly of Bhikkhus. Then Ke*n*iya, the *G*a*t*ila, satisfied and served with his own hands the assembly of Bhikkhus, with Buddha at their head, with nice hard food and soft food. Then Ke*n*iya, the *G*a*t*ila, having gone up to Bhagavat who had finished eating and had taken his hand out of the bowl, took a low seat and sat down apart, and
 
-[^fn_104_1]: Svâkkhâta*m* brahma*k*ariya*m*  
-         Sandi*tth*ika*m* akâlika*m*  
-         Yattha amoghâ pabba*gg*â  
+[^fn_104_1]: Svâkkhâta*m* brahma*k*ariya*m*
+         Sandi*tth*ika*m* akâlika*m*
+         Yattha amoghâ pabba*gg*â
          Appamattassa sikkhato.
 
 [pg 105]
@@ -2468,12 +2468,12 @@ wealthy Brâma*n*as lived at I*kkh*âna*m*kala, as the Brâma*n*a *K*a*m*kin, th
 
    6\. 'We ask Gotama who has come as an eye to the world: Is a man a Brâhma*n*a by birth, or is he so
 
-[^fn_110_1]: Anu*ññ*âtapati*ññ*âtâ  
+[^fn_110_1]: Anu*ññ*âtapati*ññ*âtâ
          Tevi*gg*â mayam asm' ubho.
 
-[^fn_110_2]: Tevi*gg*ânam\[* yad akkhâta*m*  
-     Tatra kevalino 'smase,  
-     Padak' asmâ veyyâkara*n*â,  
+[^fn_110_2]: Tevi*gg*ânam\[* yad akkhâta*m*
+     Tatra kevalino 'smase,
+     Padak' asmâ veyyâkara*n*â,
      Gappe\[+\] â*k*ariyasâdisâ.
 
 *. Tevi*gg*âna*m* = tivedâna*m*. Commentator; but compare [v. 63](#pp_656).
@@ -2526,9 +2526,9 @@ by deeds? Tell us who do not know, that we may know a Brâma*n*a.' (599)
 
    26\. 'And whoever amongst men possesses villages and countries,--know this, O Vâse*tth*a,--he is a king, not a Brâma*n*a. (619)
 
-[^fn_112_1]: Pa*kk*atta*m* sasarîresu,  
-         Manussesv-eta*m* na vi*gg*ati,  
-         Vokâra*ñ* *k*a manussesu  
+[^fn_112_1]: Pa*kk*atta*m* sasarîresu,
+         Manussesv-eta*m* na vi*gg*ati,
+         Vokâra*ñ* *k*a manussesu
          Sama*ññ*âya pavu*kk*ati.
 
 [pg 113]
@@ -2613,14 +2613,14 @@ is eminent, a hero, a great sage (mahesi), victorious, free from desire, purifie
 
    61\. 'By work the world exists, by work mankind
 
-[^fn_116_1]: Sama*ññ*â h' esâ lokasmi*m*  
-         Nâmagotta*m* pakappita*m*,  
-         Sammu*kk*â samudâgata*m*  
+[^fn_116_1]: Sama*ññ*â h' esâ lokasmi*m*
+         Nâmagotta*m* pakappita*m*,
+         Sammu*kk*â samudâgata*m*
          Tattha tattha pakappita*m*.
 
-[^fn_116_2]: Evam eta*m* yathâbhûta*m*  
-         Kamma*m* passanti pa*nd*itâ  
-         Pa*t*i*kk*asamuppâdadasâ  
+[^fn_116_2]: Evam eta*m* yathâbhûta*m*
+         Kamma*m* passanti pa*nd*itâ
+         Pa*t*i*kk*asamuppâdadasâ
          Kammavipâkakovidâ.
 
 [pg 117]
@@ -2637,9 +2637,9 @@ exists, beings are bound by work as the linch-pin of the rolling cart (keeps the
 
 Vâse*tth*asutta is ended.
 
-[^fn_117_1]: Kammanâ vattatî loko,  
-         Kammanâ vattatî pa*g*â,  
-         Kammanibandhanâ sattâ  
+[^fn_117_1]: Kammanâ vattatî loko,
+         Kammanâ vattatî pa*g*â,
+         Kammanibandhanâ sattâ
          Rathasâ*n*îva yâyato.
 
 [^fn_117_2]: Tîhi vi*gg*âhi sampanno.
@@ -2716,9 +2716,9 @@ he stood apart, and standing apart Brahman Sahampati said this to Bhagavat: 'O t
 
 [^fn_122_2]: Comp. [Dhp. v. 125](http://www.sacred-texts.com/bud/sbe10/sbe1011.htm#pp_125).
 
-[^fn_122_3]: Mukhadugga vibhûta-m-anariya  
-         Bhûnahu\[* pâpaka dukkatakâri  
-     Purisanta kalî ava*g*âta  
+[^fn_122_3]: Mukhadugga vibhûta-m-anariya
+         Bhûnahu\[* pâpaka dukkatakâri
+     Purisanta kalî ava*g*âta
      Mâ bahubhâ*n*i dha nerayiko si.
 
 *. Bhûnahu bhûtihanaka vuddhinâsaka. Commentator.\]
@@ -2743,9 +2743,9 @@ he stood apart, and standing apart Brahman Sahampati said this to Bhagavat: 'O t
 
 [^fn_123_2]: Andha*m* va Timisa*m* âyanti.
 
-[^fn_123_3]: Pu*l*avâvasathe salilasmi*m*  
-         Tattha ki*m* pa*kka*ti kibbisakârî,  
-         Gantu*m* na hi tîram p' atthi  
+[^fn_123_3]: Pu*l*avâvasathe salilasmi*m*
+         Tattha ki*m* pa*kka*ti kibbisakârî,
+         Gantu*m* na hi tîram p' atthi
          Sabbasamâ hi samantakapallâ.
 
 [pg 124]
@@ -2770,7 +2770,7 @@ Kokâliyasutta is ended.
 
 > The Isi Asita, also called Ka*n*hasiri, on seeing the gods rejoicing, asks the cause of it, and having heard that Buddha has been born, he descends from Tusita heaven. When the Sakyas showed the child to him, he received it joyfully and prophesied
 
-[^fn_124_1]: Nahutâni hi ko*t*iyo pa*ñk*a bhavanti  
+[^fn_124_1]: Nahutâni hi ko*t*iyo pa*ñk*a bhavanti
          Dvâdasa ko*t*isatâni pun' a*ññ*â.
 
 [pg 125]
@@ -2847,13 +2847,13 @@ The Vatthugâthâs are ended.
 
    27\. 'As I am so are these, as these are so am I, identifying himself with others, let him not kill nor cause (any one) to kill[^fn_128_2]. (705)
 
-[^fn_128_1]: U*kk*âva*k*â ni*kkh*aranti  
+[^fn_128_1]: U*kk*âva*k*â ni*kkh*aranti
          Dâye aggisikhûpamâ.
 
-[^fn_128_2]: Yathâ aha*m* tathâ ete  
-         Yathâ ete tathâ aha*m*  
-         Attâna*m* upama*m* katvâ  
-         Na haneyya na ghâtaye.  
+[^fn_128_2]: Yathâ aha*m* tathâ ete
+         Yathâ ete tathâ aha*m*
+         Attâna*m* upama*m* katvâ
+         Na haneyya na ghâtaye.
             Comp. [Dhp v. 129](http://www.sacred-texts.com/bud/sbe10/sbe1012.htm#pp_129).
 
 [pg 129]
@@ -2876,9 +2876,9 @@ The Vatthugâthâs are ended.
 
 [^fn_129_1]: Na vâ*k*am payutam bha*n*e.
 
-[^fn_129_2]: Alattha*m* yad ida*m* sâdhu  
-         Nâlattha*m* kusalam iti,  
-         Ubhayen' eva so tâdi\[*  
+[^fn_129_2]: Alattha*m* yad ida*m* sâdhu
+         Nâlattha*m* kusalam iti,
+         Ubhayen' eva so tâdi\[*
      Rukkha*m* va upanivattati.
 
 *. Tâdi = nibbikâro. Commentator.\]
@@ -2901,9 +2901,9 @@ hand, considered dumb without being dumb, let him not blush at a little gift, le
 
    42\. 'Understand this from the waters in chasms
 
-[^fn_130_1]: U*kk*âva*k*â hi pa*t*ipadâ  
-         Sama*n*ena pakâsitâ,  
-         Na pâra*m* digu*n*a*m* yanti,  
+[^fn_130_1]: U*kk*âva*k*â hi pa*t*ipadâ
+         Sama*n*ena pakâsitâ,
+         Na pâra*m* digu*n*a*m* yanti,
          Na ida*m* ekagu*n*a*m* muta*m*.
 
 [^fn_130_2]: Na *k*âpi bahu *k*intaye.
@@ -2932,19 +2932,19 @@ Nâlakasutta is ended.
 
    At one time Bhagavat dwelt at Sâvatthî in Pubbârâma, Migâramâtar's mansion. At that time Bhagavat on the Uposatha day[^fn_131_4], on the fifteenth,
 
-[^fn_131_1]: Tan nadîhi vi*g*ânâtha  
-         Sobbhesu padaresu *k*a:  
-         Sanantâ yanti kussobbhâ  
+[^fn_131_1]: Tan nadîhi vi*g*ânâtha
+         Sobbhesu padaresu *k*a:
+         Sanantâ yanti kussobbhâ
          Tu*n*hî yâti mahodadhi.
 
-[^fn_131_2]: Ya*m* sama*n*o bahu bhâsati  
-         Upeta*m* atthasa*m*hita*m*  
-         *G*âna*m* so dhamma*m* deseti  
+[^fn_131_2]: Ya*m* sama*n*o bahu bhâsati
+         Upeta*m* atthasa*m*hita*m*
+         *G*âna*m* so dhamma*m* deseti
          *G*âna*m* so bahu bhâsati.
 
-[^fn_131_3]: Yo *k*a *g*âna*m* sa*m*yatatto  
-         *G*âna*m* na bahu bhâsati  
-         Sa munî monam arahati  
+[^fn_131_3]: Yo *k*a *g*âna*m* sa*m*yatatto
+         *G*âna*m* na bahu bhâsati
+         Sa munî monam arahati
          Sa munî monam a*ggh*agâ.
 
 [^fn_131_4]: See Rhys Davids, Buddhism, p. 140.
@@ -3101,14 +3101,14 @@ the Dyad duly, that is strenuous, ardent, resolute, of two fruits one fruit is t
 
 [^fn_143_1]: Nâmarûpasmi*m*, 'individuality.'
 
-[^fn_143_2]: Yena yena hi ma*ññ*anti  
-         Tato ta*m* hoti a*ññ*athâ,  
-         Ta*m* hi tassa musâ hoti,  
+[^fn_143_2]: Yena yena hi ma*ññ*anti
+         Tato ta*m* hoti a*ññ*athâ,
+         Ta*m* hi tassa musâ hoti,
          Mosadhamma*m* hi ittara*m*.
 
-[^fn_143_3]: Amosadhamma*m* nibbâna*m*  
-         Tad ariyâ sa*kk*ato vidû,  
-         Te ye sa*kk*âbhisamayâ  
+[^fn_143_3]: Amosadhamma*m* nibbâna*m*
+         Tad ariyâ sa*kk*ato vidû,
+         Te ye sa*kk*âbhisamayâ
          Ni*kkh*âtâ parinibbutâ.
 
 [pg 144]
@@ -3125,16 +3125,16 @@ Bhikkhus, by the Bhikkhu who considers the Dyad duly, who is strenuous, ardent, 
 
    40\. 'For those that are enveloped there is gloom, for those that do not see there is darkness, and for the good it is manifest, for those that see there is light; (even being) near, those that are ignorant of the way and the Dhamma, do not discern (anything)[^fn_144_2]. (763)
 
-[^fn_144_1]: Sukhan ti di*tth*am ariyehi  
-         Sakkâyass' uparodhana*m*,  
-         Pa*kk*anîkam ida*m* hoti  
+[^fn_144_1]: Sukhan ti di*tth*am ariyehi
+         Sakkâyass' uparodhana*m*,
+         Pa*kk*anîkam ida*m* hoti
          Sabbalokena passata*m*.
 
-[^fn_144_2]: Nivutâna*m* tamo hotî  
-         Andhakâro apassata*m*,  
-         Sata*ñ* *k*a viva*t*a*m* hoti  
-         Âloko passatâm iva,  
-         Santike na vi*g*ânanti  
+[^fn_144_2]: Nivutâna*m* tamo hotî
+         Andhakâro apassata*m*,
+         Sata*ñ* *k*a viva*t*a*m* hoti
+         Âloko passatâm iva,
+         Santike na vi*g*ânanti
          Magadhammass' akovidâ.
 
 [pg 145]
@@ -3149,14 +3149,14 @@ Dvayatânupassanâsutta is ended.
 
 Mahâvagga, the third.
 
-[^fn_145_1]: Ko nu a*ññ*atra-m-ariyehi  
-         Pada*m* sambuddham arahati  
-         Ya*m* pada*m* samma-d-a*ññ*âya  
+[^fn_145_1]: Ko nu a*ññ*atra-m-ariyehi
+         Pada*m* sambuddham arahati
+         Ya*m* pada*m* samma-d-a*ññ*âya
          Parinibbanti anâsavâ.
 
 * * *
 
-[](http://www.sacred-texts.com/bud/sbe10/index.htm)  
+[](http://www.sacred-texts.com/bud/sbe10/index.htm)
 
 [pg 146]
 
@@ -3228,16 +3228,16 @@ Guha*tth*akasutta is ended.
 
 [^fn_148_1]: Comp. [Sallasutta, v. 9](http://www.sacred-texts.com/bud/sbe10/sbe1035.htm#pp_582).
 
-[^fn_148_2]: Ubhosu antesu vineyya *kh*anda*m*  
-         Phassa*m* pari*ññ*âya anânugiddho  
-         Yad atta garahî tad akubbamâno  
+[^fn_148_2]: Ubhosu antesu vineyya *kh*anda*m*
+         Phassa*m* pari*ññ*âya anânugiddho
+         Yad atta garahî tad akubbamâno
           Na lippatî di*tth*asutesu dhîro.
 
 [^fn_148_3]: Sa*ññ*a*m* = nâmarûpa*m*. Commentator.
 
-[^fn_148_4]: Saka*m* hi di*tth*im katha*m* a*kk*ayeyya  
-         *Kh*andânunîto ru*k*iyâ nivi*tth*o,  
-         Saya*m* samattâni pakubbamâno  
+[^fn_148_4]: Saka*m* hi di*tth*im katha*m* a*kk*ayeyya
+         *Kh*andânunîto ru*k*iyâ nivi*tth*o,
+         Saya*m* samattâni pakubbamâno
          Yathâ hi *g*âneyya tathâ vadeyya.
 
 [pg 149]
@@ -3256,20 +3256,20 @@ his own virtue and (holy) works to others, him the good call ignoble, one who pr
 
 [^fn_149_2]: Yass' ussadâ n' atthi kuhi*ñk*i loke.
 
-[^fn_149_3]: Pakappitâ sa*m*khatâ yassa dhammâ  
-         Purakkhatâ santi avîvadâtâ  
-         Yad attanî passati ânisa*m*sa*m*  
+[^fn_149_3]: Pakappitâ sa*m*khatâ yassa dhammâ
+         Purakkhatâ santi avîvadâtâ
+         Yad attanî passati ânisa*m*sa*m*
          Ta*m* nissito kuppapa*t*i*kk*asanti*m*.
 
-[^fn_149_4]: Di*tth*înivesâ na hi svâtivattâ,  
-         Dhammesu ni*kkh*eyya samuggahîta*m*,  
-         Tasmâ naro tesu nivesanesu  
-         Nirassatî âdiyati-*kk*a dhamma*m*.  
+[^fn_149_4]: Di*tth*înivesâ na hi svâtivattâ,
+         Dhammesu ni*kkh*eyya samuggahîta*m*,
+         Tasmâ naro tesu nivesanesu
+         Nirassatî âdiyati-*kk*a dhamma*m*.
     Comp. [Parama*tth*akasutta, v. 6](#pp_801).
 
-[^fn_149_5]: Dhonassa hî n' atthi kuhi*ñk*i loke  
-         Pakappitâ di*tth*i bhavâbhavesu,  
-         Mâya*ñ* *k*a mâna*ñ* *k*a pahâya dhono  
+[^fn_149_5]: Dhonassa hî n' atthi kuhi*ñk*i loke
+         Pakappitâ di*tth*i bhavâbhavesu,
+         Mâya*ñ* *k*a mâna*ñ* *k*a pahâya dhono
          Sa kena ga*kkh*eyya, anûpayo so.
 
 [pg 150]
@@ -3288,17 +3288,17 @@ Du*tth*a*tth*akasutta is ended.
 
    2\. If a man's purification takes place by (his philosophical) views, or he by knowledge leaves pain behind, then he is purified by another (way than the ariyamagga, i.e. the noble way), together with his upadhis, on account of his views he tells him to say so[^fn_150_3]. (789)
 
-[^fn_150_1]: Upayo\[* hi dhammesu upeti vâda*m*  
-     Anûpaya*m* kena katha*m* vadeyya  
-     Atta*m* niratta*m* na hi tassa atthi  
+[^fn_150_1]: Upayo\[* hi dhammesu upeti vâda*m*
+     Anûpaya*m* kena katha*m* vadeyya
+     Atta*m* niratta*m* na hi tassa atthi
      Adhosi so di*tth*im idh' eva sabba*m*.
 
-2\. Passâmi suddha*m* parama*m* aroga*m*,  
-     Di*tth*ena sa*m*suddhi narassa hoti,  
-     Et' âbhi*g*ânam paraman ti *ñ*atvâ.  
+2\. Passâmi suddha*m* parama*m* aroga*m*,
+     Di*tth*ena sa*m*suddhi narassa hoti,
+     Et' âbhi*g*ânam paraman ti *ñ*atvâ.
      Suddhânupassiti pa*kk*eti *ñ*âna*m*.
 
-3\. Di*tth*îhi na*m* pâva tathâ vadâna*m*.  
+3\. Di*tth*îhi na*m* pâva tathâ vadâna*m*.
 Comp. [*G*arâsutta, v. l0](#pp_813); [Pasûrasutta, v. 7](#pp_830).
 
 *. Upayo ti ta*n*hâdi*tth*inissito. Commentator.\]
@@ -3315,14 +3315,14 @@ Comp. [*G*arâsutta, v. l0](#pp_813); [Pasûrasutta, v. 7](#pp_830).
 
    7\. They do not form (any view), they do not prefer (anything), they do not say, 'I am infinitely pure;' having cut the tied knot of attachment, they do not long for (anything) anywhere in the world. (794)
 
-\[1.Na brâhma*n*o a*ññ*ato suddhim âha  
-     Di*tth*e sute sîlavate mute vâ  
-     pu*ññ*e *k*a pâpe *k*a anûpalitto  
+\[1.Na brâhma*n*o a*ññ*ato suddhim âha
+     Di*tth*e sute sîlavate mute vâ
+     pu*ññ*e *k*a pâpe *k*a anûpalitto
      Atta*ñg*aho na idha pakubbamâno.
 
-2\. Sa sabbadhammesu visenibhûto\[*\]  
-     Ya*m* ki*ñk*i di*tth*a*m* va suta*m* muta*m* vâ  
-     Tam eva dassi*m* viva*t*a*m* *k*aranta*m*  
+2\. Sa sabbadhammesu visenibhûto\[*\]
+     Ya*m* ki*ñk*i di*tth*a*m* va suta*m* muta*m* vâ
+     Tam eva dassi*m* viva*t*a*m* *k*aranta*m*
      Ken' îdha lokasmi*m* vikappayeyya?
 
 *. Mârasena*m* vinâsetvâ *th*itabhâvena visenibhûto. Commentator.\]
@@ -3345,18 +3345,18 @@ Suddha*tth*akasutta is ended.
 
    3\. The expert call just that a tie dependent
 
-[^fn_152_1]: *K*atunna*m* kilesasîmâna*m* atîtattâ  
+[^fn_152_1]: *K*atunna*m* kilesasîmâna*m* atîtattâ
          Sîmâtigo bâhitapâpattâ *k*a brâhma*n*o.
 
-[^fn_152_2]: Paraman ti di*tth*îsu paribbasâno  
-         Yad uttari*m* kurute *g*antu loke  
-         Hînâ ti a*ññ*e tato sabbam âha,  
-         Tasmâ vivâdâni avîtivatto.  
+[^fn_152_2]: Paraman ti di*tth*îsu paribbasâno
+         Yad uttari*m* kurute *g*antu loke
+         Hînâ ti a*ññ*e tato sabbam âha,
+         Tasmâ vivâdâni avîtivatto.
     Properly, 'others (are) wretched.'
 
-[^fn_152_3]: Yad attanî passati ânisa*m*sa*m*  
-         Di*tth*e sute sîlavate mute vâ  
-         Tad eva so tattha samuggahâya  
+[^fn_152_3]: Yad attanî passati ânisa*m*sa*m*
+         Di*tth*e sute sîlavate mute vâ
+         Tad eva so tattha samuggahâya
          Nihînato passati sabbam a*ññ*a*m*.
 
 [pg 153]
@@ -3371,19 +3371,19 @@ upon which one looks upon anything else as bad. Therefore let a Bhikkhu not depe
 
    7\. ln him there is not the least prejudiced idea with regard to what has been seen, heard, or thought; how could any one in this world alter such a Brâhma*n*a who does not adopt any view? (802)
 
-[^fn_153_1]: Ta*m* vâpi gantha*m* kusalâ vadanti  
-         Ya*m* nissito passati hînam a*ññ*a*m*,  
-         Tasmâ hi di*tth*a*m* va suta*m* muta*m* vâ  
+[^fn_153_1]: Ta*m* vâpi gantha*m* kusalâ vadanti
+         Ya*m* nissito passati hînam a*ññ*a*m*,
+         Tasmâ hi di*tth*a*m* va suta*m* muta*m* vâ
          Sîlabbata*m* bhikkhu na nissayeyya.
 
-[^fn_153_2]: Atta*m* pahâya anupâdiyâno  
-         *Ñ*â*n*e pi so nissaya*m* no karoti,  
-         Sa ve viyattesu na vaggasârî,  
+[^fn_153_2]: Atta*m* pahâya anupâdiyâno
+         *Ñ*â*n*e pi so nissaya*m* no karoti,
+         Sa ve viyattesu na vaggasârî,
          Di*tth*im pi so na pa*kk*eti ki*ñk*i.
 
-[^fn_153_3]: Yass' ûbhayante pa*n*idhîdha n' atthi  
-         Bhavâbhavâya idha vâ hura*m* vâ  
-         Nivesanâ tassa na santi ke*k*i  
+[^fn_153_3]: Yass' ûbhayante pa*n*idhîdha n' atthi
+         Bhavâbhavâya idha vâ hura*m* vâ
+         Nivesanâ tassa na santi ke*k*i
          Dhammesu ni*kkh*eyya samuggahîtâ.
 
 [pg 154]
@@ -3408,9 +3408,9 @@ Parama*tth*akasutta is ended.
 
    5\. Both seen and heard are the persons whose particular name is mentioned, but only the name
 
-[^fn_154_1]: Mara*n*ena pi ta*m* pahîyati  
-         Ya*m* puriso mama-y-idan ti ma*ññ*ati,  
-         Evam pi viditvâ pa*nd*ito  
+[^fn_154_1]: Mara*n*ena pi ta*m* pahîyati
+         Ya*m* puriso mama-y-idan ti ma*ññ*ati,
+         Evam pi viditvâ pa*nd*ito
          Na pamattâya nametha mâmako.
 
 [pg 155]
@@ -3427,19 +3427,19 @@ remains undecayed of the person that has passed away[^fn_155_1]. (808)
 
    10\. He who has shaken off (sin) does not therefore think (much of anything) because it has been seen or heard or thought; he does not wish for
 
-[^fn_155_1]: Di*tth*âpi sutâpi te *g*anâ  
-         Yesa*m* nâma*m* idam pavu*kk*ati  
-         Nâmam evâvasissati  
+[^fn_155_1]: Di*tth*âpi sutâpi te *g*anâ
+         Yesa*m* nâma*m* idam pavu*kk*ati
+         Nâmam evâvasissati
          Akkheyya*m* petassa *g*antuno.
 
-[^fn_155_2]: Patilîna*k*arassa bhikkhuno  
-         Bha*g*amânassa vittamânasa*m*\[*  
-     Sâmaggiyam âhu tassa ta*m*  
+[^fn_155_2]: Patilîna*k*arassa bhikkhuno
+         Bha*g*amânassa vittamânasa*m*\[*
+     Sâmaggiyam âhu tassa ta*m*
      Yo attâna*m* bhavane na dassaye.
 
-3\. Udabindu yathâpi pokkhare  
-     Padume vâri yathâ na lippati  
-     Eva*m* muni nôpalippati  
+3\. Udabindu yathâpi pokkhare
+     Padume vâri yathâ na lippati
+     Eva*m* muni nôpalippati
      Yad ida*m* di*ttt*hasuta*m* mutesu vâ.
 
 *. B[í] has vivitta-.\]
@@ -3468,10 +3468,10 @@ purification through another, for he is not pleased nor displeased (with anythin
 
    6\. 'Then he makes weapons (i.e. commits evil
 
-[^fn_156_1]: Dhono na hi tena ma*ññ*ati  
-         Yad ida*m* di*tth*asuta*m* mutesu vâ,  
-         Nâ*ññ*ena visuddhim i*kkh*ati,  
-         Na hi so ra*gg*ati no vira*gg*ati.  
+[^fn_156_1]: Dhono na hi tena ma*ññ*ati
+         Yad ida*m* di*tth*asuta*m* mutesu vâ,
+         Nâ*ññ*ena visuddhim i*kkh*ati,
+         Na hi so ra*gg*ati no vira*gg*ati.
     Comp. [Suddha*tth*akasutta, v. 2](#pp_789).
 
 [pg 157]
@@ -3496,14 +3496,14 @@ Tissametteyyasutta is ended.
 
    1\. Here they maintain 'purity,' in other doctrines (dhamma) they do not allow purity; what they have devoted themselves to, that they call good, and they enter extensively upon the single truths[^fn_157_2]. (824)
 
-[^fn_157_1]: Atha satthâni kurute  
-         Paravâdehi *k*odito,  
-         Esa khv-assa mahâgedho,  
+[^fn_157_1]: Atha satthâni kurute
+         Paravâdehi *k*odito,
+         Esa khv-assa mahâgedho,
          Mosava*gg*a*m* pagâhati.
 
-[^fn_157_2]: Idh' eya suddhi*m* iti vâdiyanti  
-         Nâ*ññ*esu dhammesu visuddhim âhu  
-         Ya*m* nissitâ tattha subha*m* vadânâ  
+[^fn_157_2]: Idh' eya suddhi*m* iti vâdiyanti
+         Nâ*ññ*esu dhammesu visuddhim âhu
+         Ya*m* nissitâ tattha subha*m* vadânâ
          Pa*kk*ekasa*kk*esu puthû nivi*tth*â.
 
 [pg 158]
@@ -3522,10 +3522,10 @@ Tissametteyyasutta is ended.
 
    8\. As a hero nourished by kingly food goes about roaring, wishing for an adversary--where he (i.e. the philosopher, Di*tth*igatika) is, go thou there, O
 
-[^fn_158_1]: Yi u*nn*atî sâssa vighâtabûmi,  
-         Mânâtimâna*m* vadate pan' eso,  
-         Etam pi disvâ na vivâdayetha  
-         Na hi tena suddhi*m* kusalâ vadanti.  
+[^fn_158_1]: Yi u*nn*atî sâssa vighâtabûmi,
+         Mânâtimâna*m* vadate pan' eso,
+         Etam pi disvâ na vivâdayetha
+         Na hi tena suddhi*m* kusalâ vadanti.
     Comp. [Suddha*tth*akasutta, v. 2](#pp_789).
 
 [pg 159]
@@ -3548,16 +3548,16 @@ Pasûrasutta is ended.
 
    1\. Buddha: 'Even seeing Ta*n*hâ, Arati, and Ragâ (the daughters of Mâra), there was not the least wish
 
-[^fn_159_1]: Sûro yathâ râ*g*akhâdâya pu*tth*o  
-         Abhiga*gg*am eti pa*t*isûram i*kkh*a*m*--  
-         Yen' eva so tena palehi sûra,  
+[^fn_159_1]: Sûro yathâ râ*g*akhâdâya pu*tth*o
+         Abhiga*gg*am eti pa*t*isûram i*kkh*a*m*--
+         Yen' eva so tena palehi sûra,
          Pubbe va n' atthi yad ida*m* yudhâya.
 
 [^fn_159_2]: Pa*t*isenikattâ ti pa*t*ilomakârako. Commentator.
 
-[^fn_159_3]: Atha tva*m* pavitakkam âgamâ  
-         Manasâ di*tth*igatâni *k*intayanto,  
-         Dhonena yuga*m* samâgamâ,  
+[^fn_159_3]: Atha tva*m* pavitakkam âgamâ
+         Manasâ di*tth*igatâni *k*intayanto,
+         Dhonena yuga*m* samâgamâ,
          Na hi tva*m* pagghasi sampayâtave.
 
 [pg 160]
@@ -3572,18 +3572,18 @@ Pasûrasutta is ended.
 
    5\. 'Not by (any philosophical) opinion, not by tradition, not by knowledge, O Mâgandiya,'--so said Bhagavat,--'not by virtue and (holy) works can any one say that purity exists; nor by absence of (philosophical) opinion, by absence of tradition, by absence of knowledge, by absence of virtue and (holy) works either; having abandoned these without adopting (anything else), let him, calm and independent, not desire existence[^fn_160_3]. (839)
 
-[^fn_160_1]: Ida*m* vadâmîti na tassa hoti--Mâgandiyâ ti Bhagavâ--  
-         Dhammesu ni*kkh*eyya samuggahîta*m*  
-         Passa*ñ* *k*a di*tth*îsu anuggahâya  
+[^fn_160_1]: Ida*m* vadâmîti na tassa hoti--Mâgandiyâ ti Bhagavâ--
+         Dhammesu ni*kkh*eyya samuggahîta*m*
+         Passa*ñ* *k*a di*tth*îsu anuggahâya
          A*ggh*attasanti*m* pa*k*ina*m* adassa*m*.
 
 [^fn_160_2]: Vini*kkh*aya, placita?
 
-[^fn_160_3]: Na di*tth*iyâ na sutiyâ na *ñ*â*n*ena--Mâgandiyâ ti Bhagavâ--  
-         Sîlabbatenâpi na suddhim âha  
-         Adi*tth*iyâ assutiyâ a*ñ*â*n*â  
-         Asîlatâ abbatâ no pi tena,  
-         Ete *k*a nissa*gg*a anuggahâya  
+[^fn_160_3]: Na di*tth*iyâ na sutiyâ na *ñ*â*n*ena--Mâgandiyâ ti Bhagavâ--
+         Sîlabbatenâpi na suddhim âha
+         Adi*tth*iyâ assutiyâ a*ñ*â*n*â
+         Asîlatâ abbatâ no pi tena,
+         Ete *k*a nissa*gg*a anuggahâya
          Santo anissâya bhava*m* na *g*appe.
 
 [pg 161]
@@ -3598,14 +3598,14 @@ Pasûrasutta is ended.
 
    10\. 'Having left his house, wandering about
 
-[^fn_161_1]: Di*tth*i*ñ* *k*a nissâya anupu*kkh*amâno  
-         Samuggahîtesu pamoham âgâ  
-         Ito *k*a nâddakkhi a*n*um pi sa*ññ*a*m*  
+[^fn_161_1]: Di*tth*i*ñ* *k*a nissâya anupu*kkh*amâno
+         Samuggahîtesu pamoham âgâ
+         Ito *k*a nâddakkhi a*n*um pi sa*ññ*a*m*
          Tasmâ tuva*m* momuhato dahâsi.
 
-[^fn_161_2]: Sa*kk*an ti so brâhma*n*o ki*m* vadeyya  
-         Musâ ti vâ so vivadetha kena  
-         Yasmi*m* sama*m* visama*ñ* *k*âpi n' atthi  
+[^fn_161_2]: Sa*kk*an ti so brâhma*n*o ki*m* vadeyya
+         Musâ ti vâ so vivadetha kena
+         Yasmi*m* sama*m* visama*ñ* *k*âpi n' atthi
          Sa kena vâda*m* pa*t*isa*m*yu*g*eyya.
 
 [pg 162]
@@ -3630,9 +3630,9 @@ Mâgandiyasutta is ended.
 
    2\. 'He whose desire is departed before the dissolution (of his body),'--so said Bhagavat,--'who
 
-[^fn_162_1]: Sa*ññ*âvirattassa na santi ganthâ,  
-         Pa*ññ*âvimuttassa na santi mohâ,  
-         Sa*ññ*a*ñ* *k*a di*tth*i*ñ* *k*a ye aggahesu*m*  
+[^fn_162_1]: Sa*ññ*âvirattassa na santi ganthâ,
+         Pa*ññ*âvimuttassa na santi mohâ,
+         Sa*ññ*a*ñ* *k*a di*tth*i*ñ* *k*a ye aggahesu*m*
          Te gha*tt*ayantâ vi*k*aranti loke.
 
 [pg 163]
@@ -3651,15 +3651,15 @@ does not depend upon beginning and end, nor reckons upon the middle, by him ther
 
    8\. 'Equable (upekhaka), always thoughtful, he does not think himself equal (to others)[^fn_163_3] in the world, nor distinguished, nor low: for him there are no desires (ussada). (855)
 
-[^fn_163_1]: Vîtata*n*ho purâ bhedâ  
-         Pubbam antam anissito  
-         Vema*ggh*e n' ûpasa*m*kheyyo  
+[^fn_163_1]: Vîtata*n*ho purâ bhedâ
+         Pubbam antam anissito
+         Vema*ggh*e n' ûpasa*m*kheyyo
          Tassa n' atthi purekkhata*m*.
 
 [^fn_163_2]: Rasesu nânugi*ggh*ati
 
-[^fn_163_3]: Na loke ma*ññ*ate sama*m*  
-         Na visesî na nî*k*eyyo.  
+[^fn_163_3]: Na loke ma*ññ*ate sama*m*
+         Na visesî na nî*k*eyyo.
     Compare [Tuva*t*akasutta, v. 4](#pp_918); [Attada*nd*asutta, v. 20](#pp_954).
 
 [pg 164]
@@ -3686,9 +3686,9 @@ Purâbhedasutta is ended.
 
    1\. 'Whence (do spring up) contentions and disputes, lamentation and sorrow together with envy;
 
-[^fn_164_1]: Vîtagedho ama*kkh*arî  
-         Na ussesu vadate muni  
-         Na samesu na omesu,  
+[^fn_164_1]: Vîtagedho ama*kkh*arî
+         Na ussesu vadate muni
+         Na samesu na omesu,
          Kappa*m* n' eti akappiyo.
 
 [^fn_164_2]: Comp. infra, [Attada*nd*asutta, v. 16](#pp_950), and [Dhp. v. 367](http://www.sacred-texts.com/bud/sbe10/sbe1027.htm#pp_367).
@@ -3737,14 +3737,14 @@ their origin, for want of what do these not arise? This notion which (thou menti
 
    14\. 'What we have asked thee thou hast explained
 
-[^fn_166_1]: Katha*m* sametassa vibhoti rûpa*m*,  
-         Sukha*m* dukha*m* vâpi katha*m* vibhoti,  
-         Eta*m* me pabrûhi, yathâ vibhoti  
+[^fn_166_1]: Katha*m* sametassa vibhoti rûpa*m*,
+         Sukha*m* dukha*m* vâpi katha*m* vibhoti,
+         Eta*m* me pabrûhi, yathâ vibhoti
          Ta*m* *g*âniyâma, iti me mano ahû.
 
-[^fn_166_2]: Na sannasa*ññ*î na visannasa*ññ*î  
-         No pi asa*ññ*î na vibhûtasa*ññ*î  
-         Eva*m* sametassa vibhoti rûpa*m*  
+[^fn_166_2]: Na sannasa*ññ*î na visannasa*ññ*î
+         No pi asa*ññ*î na vibhûtasa*ññ*î
+         Eva*m* sametassa vibhoti rûpa*m*
          Sa*ññ*ânidânâ hi papa*ñk*asa*m*khâ.
 
 [pg 167]
@@ -3767,14 +3767,14 @@ Kalahavivâdasutta is ended.
 
 [^fn_167_1]: Comp. [Sundarikabhâradvâ*g*asutta, v. 25](http://www.sacred-texts.com/bud/sbe10/sbe1035.htm#pp_478).
 
-[^fn_167_2]: Ettâvat' aggam pi vadanti h' eke  
-         Yakkhassa suddhi*m* idha pa*nd*itâse,  
-         Tesa*m* pun' eke samaya*m*\[* vadanti  
+[^fn_167_2]: Ettâvat' aggam pi vadanti h' eke
+         Yakkhassa suddhi*m* idha pa*nd*itâse,
+         Tesa*m* pun' eke samaya*m*\[* vadanti
      Anupâdisese kusalâ vadânâ.
 
-3\. Ete *k*a *ñ*atvâ upanissitâ ti  
-     *Ñ*atvâ munî nissaye so vima*m*sî  
-     *Ñ*atvâ vimutto na vivâdam eti  
+3\. Ete *k*a *ñ*atvâ upanissitâ ti
+     *Ñ*atvâ munî nissaye so vima*m*sî
+     *Ñ*atvâ vimutto na vivâdam eti
      Bhavâbhavâya na sameti dhîro.
 
 *. U*kkh*edam. Commentator.\]
@@ -3795,14 +3795,14 @@ the (only) expert (saying), '(He) who understands this, he knows the Dhamma; he 
 
    7\. For the truth is one, there is not a second, about which one intelligent man might dispute with another intelligent man; (but) they themselves praise different truths, therefore the Sama*n*as do not say one and the same thing)[^fn_168_2]. (884)
 
-[^fn_168_1]: Saka*m* saka*m* di*tth*i paribbasânâ  
-         Viggayha nânâ kusalâ vadanti  
-         Yo eva*m* *g*ânâti sa vedi dhamma*m*  
+[^fn_168_1]: Saka*m* saka*m* di*tth*i paribbasânâ
+         Viggayha nânâ kusalâ vadanti
+         Yo eva*m* *g*ânâti sa vedi dhamma*m*
          Ida*m* pa*t*ikkosa*m* akevalî so.
 
-[^fn_168_2]: Eka*m* hi sa*kk*am na dutîyam atthi  
-         Yasmi*m* pa*g*âno vivade pa*g*âna*m*,  
-         Nânâ te sa*kk*âni saya*m* thunanti,  
+[^fn_168_2]: Eka*m* hi sa*kk*am na dutîyam atthi
+         Yasmi*m* pa*g*âno vivade pa*g*âna*m*,
+         Nânâ te sa*kk*âni saya*m* thunanti,
          Tasmâ na eka*m* sama*n*â vadanti.
 
 [pg 169]
@@ -3817,19 +3817,19 @@ the (only) expert (saying), '(He) who understands this, he knows the Dhamma; he 
 
    12\. He is full of his overbearing (philosophical) view, mad with pride, thinking himself perfect, he is in his own opinion anointed with the spirit (of genius), for his (philosopbical) view is quite complete. (889)
 
-[^fn_169_1]: Na h' evâ sa*kk*âni bahûni nânâ  
-         A*ññ*atra sa*ññ*âya ni*kk*âni loke,  
-         Takka*ñ* *k*a di*tth*isu pakappayitvâ  
+[^fn_169_1]: Na h' evâ sa*kk*âni bahûni nânâ
+         A*ññ*atra sa*ññ*âya ni*kk*âni loke,
+         Takka*ñ* *k*a di*tth*isu pakappayitvâ
          Sa*kk*a*m* musâ ti dvayadhammam âhu.
 
-[^fn_169_2]: Di*tth*e sute sîlavate mute vâ  
-         Ete *k*a nissâya vimânadassî  
-         Vini*kkh*aye *th*atvâ pahassamânâ  
+[^fn_169_2]: Di*tth*e sute sîlavate mute vâ
+         Ete *k*a nissâya vimânadassî
+         Vini*kkh*aye *th*atvâ pahassamânâ
          Bâlo paro akusalo ti *k*âhu.
 
-[^fn_169_3]: Yen' eva bâlo ti para*m* dahâti  
-         Tenâtumâna*m* kusalo ti *k*âha,  
-         Sayam attanâ sa kusalâ vadâno  
+[^fn_169_3]: Yen' eva bâlo ti para*m* dahâti
+         Tenâtumâna*m* kusalo ti *k*âha,
+         Sayam attanâ sa kusalâ vadâno
          A*ññ*a*m* vimâneti, tath' eva pâva.
 
 [pg 170]
@@ -3846,14 +3846,14 @@ the (only) expert (saying), '(He) who understands this, he knows the Dhamma; he 
 
 *K*ûlaviyûhasutta is ended.
 
-[^fn_170_1]: Parassa *k*e hi va*k*asâ nihîno  
-         Tumo\[* sahâ hoti nihînapa*ññ*o,  
-     Atha *k*e sayam vedagu hoti dhîro  
+[^fn_170_1]: Parassa *k*e hi va*k*asâ nihîno
+         Tumo\[* sahâ hoti nihînapa*ññ*o,
+     Atha *k*e sayam vedagu hoti dhîro
      Na ko*k*i bâlo sama*n*esû atthi.
 
-2\. Vini*kkh*aye *th*atvâ saya*m* pamâya  
-     Uddha*m* so lokasmi*m* vivâdam eti,  
-     Hitvâna sabbâni vini*kkh*ayâni  
+2\. Vini*kkh*aye *th*atvâ saya*m* pamâya
+     Uddha*m* so lokasmi*m* vivâdam eti,
+     Hitvâna sabbâni vini*kkh*ayâni
      Na medhaka*m* kurute *g*antu loke.
 
 *. So pi ten' eva. Commentator. Ved. tva (?).\]
@@ -3876,14 +3876,14 @@ the (only) expert (saying), '(He) who understands this, he knows the Dhamma; he 
 
    5\. If he falls off from virtue and (holy) works, he trembles, having missed (his) work; he laments, he
 
-[^fn_171_1]: Yâ kâ*k*' imâ sammutiyo puthu*gg*â  
-         Sabbâ va etâ na upeti vidvâ,  
-         Anûpayo so, upaya*m* kim eyya  
+[^fn_171_1]: Yâ kâ*k*' imâ sammutiyo puthu*gg*â
+         Sabbâ va etâ na upeti vidvâ,
+         Anûpayo so, upaya*m* kim eyya
          Di*tth*e sute khanti*m*\[* akubbamâno?
 
-2\. Sîluttamâ sa*ññ*amenâhu suddhi*m*,  
-     Vata*m* samâdâya upa*tth*itâse,  
-     Idh' eva sikkhema ath' assa suddhi*m*,  
+2\. Sîluttamâ sa*ññ*amenâhu suddhi*m*,
+     Vata*m* samâdâya upa*tth*itâse,
+     Idh' eva sikkhema ath' assa suddhi*m*,
      Bhavûpanîtâ kusalâ vadânâ.
 
 *. So all the MSS.\]
@@ -3906,9 +3906,9 @@ prays for purity in this world, as one who has lost his caravan or wandered away
 
 [^fn_172_1]: *G*appitâni.
 
-[^fn_172_2]: Parassa *k*e vamhayitena hîno  
-         Na ko*k*i dhammesu visesi assa,  
-         Puthû hi a*ññ*assa vadanti dhamma*m*  
+[^fn_172_2]: Parassa *k*e vamhayitena hîno
+         Na ko*k*i dhammesu visesi assa,
+         Puthû hi a*ññ*assa vadanti dhamma*m*
          Nihînato samhi da*l*ha*m* vadânâ.
 
 [pg 173]
@@ -3925,19 +3925,19 @@ prays for purity in this world, as one who has lost his caravan or wandered away
 
    17\. A Brâhma*n*a does not enter time, (or) the
 
-[^fn_173_1]: Sadhammapû*g*â *k*a panâ tath' eva  
-         Yathâ pasa*m*santi sakâyanâni,  
-         Sabbe pavâdâ tath' ivâ bhaveyyu*m*  
+[^fn_173_1]: Sadhammapû*g*â *k*a panâ tath' eva
+         Yathâ pasa*m*santi sakâyanâni,
+         Sabbe pavâdâ tath' ivâ bhaveyyu*m*
          Suddhi hi nesa*m* pa*kk*attam eva.
 
-[^fn_173_2]: *G*ânâmi passâmi tath' eva eta*m*  
-         di*tth*iyâ eke pa*kk*enti suddhi*m*  
-         Addakkhi *k*e ki*m* hi tumassa tena  
+[^fn_173_2]: *G*ânâmi passâmi tath' eva eta*m*
+         di*tth*iyâ eke pa*kk*enti suddhi*m*
+         Addakkhi *k*e ki*m* hi tumassa tena
          Atisitvâ a*ññ*ena vadanti suddhi*m*.
 
-[^fn_173_3]: Nivissavâdî na hi suddhinâyo  
-         Pakappitâ di*tth*i purekkharâno  
-         Ya*m* nissito tattha subha*m* vadâno  
+[^fn_173_3]: Nivissavâdî na hi suddhinâyo
+         Pakappitâ di*tth*i purekkharâno
+         Ya*m* nissito tattha subha*m* vadâno
          Suddhi*m* vado tattha, tath' addasâ so.
 
 [pg 174]
@@ -3984,9 +3984,9 @@ Mahâviyûhasutta is ended.
 
 [^fn_175_3]: *Th*ito.
 
-[^fn_175_4]: Akittayi viva*t*a*k*akkhu sakkhi  
-         Dhamma*m* parissayavinaya*m*,  
-         Pa*t*ipada*m* vadehi, bhaddan te,  
+[^fn_175_4]: Akittayi viva*t*a*k*akkhu sakkhi
+         Dhamma*m* parissayavinaya*m*,
+         Pa*t*ipada*m* vadehi, bhaddan te,
          Pâtimokkha*m* athavâpi samâdhi*m*.
 
 [pg 176]
@@ -4063,9 +4063,9 @@ this world an arrow, difficult to see, stuck in the heart. (938)
 
 [^fn_178_1]: Âkâsa*m* na sito siyâ ti ta*n*ha*m* nissito na bhaveyya. Commentator.
 
-[^fn_178_2]: Gedha*m* brûmi mahogho ti  
-         Â*g*ava*m* brûmi *g*appana*m*  
-         Âramma*n*a*m* pakappana*m*  
+[^fn_178_2]: Gedha*m* brûmi mahogho ti
+         Â*g*ava*m* brûmi *g*appana*m*
+         Âramma*n*a*m* pakappana*m*
          Kâmapa*m*ko dura*kk*ayo.
 
 [pg 179]
@@ -4092,9 +4092,9 @@ stands fast on the firm ground (of Nibbâna, being) a Brâhma*n*a, he, having fo
 
 [^fn_179_3]: Comp. infra, [*G*atuka*nn*in's question, v. 5](http://www.sacred-texts.com/bud/sbe10/sbe1037.htm#pp_1099).
 
-[^fn_179_4]: Yassa n'atthi 'idam me' ti  
-         'Paresa*m* vâpi ki*ñk*ana*m*'  
-         Mamatta*m* so asa*m*vinda*m*  
+[^fn_179_4]: Yassa n'atthi 'idam me' ti
+         'Paresa*m* vâpi ki*ñk*ana*m*'
+         Mamatta*m* so asa*m*vinda*m*
          'N' atthi me' ti na so*k*ati.
 
 [^fn_179_5]: = upekhako. Commentator.
@@ -4121,9 +4121,9 @@ Attada*nd*asutta is ended.
 
    4\. 'To a Bhikkhu who is loath (of the world) and affects an isolated seat, the root of a tree or a cemetery, or (who lives) in the caves of the mountains, (958)
 
-[^fn_180_1]: Ane*g*assa vi*g*ânato  
-         N' atthi kâ*k*i nisa*m*khiti,  
-         Virato so viyârambhâ  
+[^fn_180_1]: Ane*g*assa vi*g*ânato
+         N' atthi kâ*k*i nisa*m*khiti,
+         Virato so viyârambhâ
          Khema*m* passati sabbadhi.
 
 [^fn_180_2]: Comp. supra, Purâbhedasutta, vv. 15, 20 {sic., vv. [8](#pp_855), [13](#pp_860)}.
@@ -4194,7 +4194,7 @@ A*tth*akavagga, the fourth.
 
 * * *
 
-[](http://www.sacred-texts.com/bud/sbe10/index.htm)  
+[](http://www.sacred-texts.com/bud/sbe10/index.htm)
 
 [pg 184]
 
@@ -4244,9 +4244,9 @@ A*tth*akavagga, the fourth.
 
    15\. 'Who then, say, in the circumference of the
 
-[^fn_185_1]: Na so muddha*m* pa*g*ânâti,  
-         Kuhako so dhanatthiko,  
-         Muddhani muddhapâte *k*a  
+[^fn_185_1]: Na so muddha*m* pa*g*ânâti,
+         Kuhako so dhanatthiko,
+         Muddhani muddhapâte *k*a
          *Ñ*â*n*a*m* tassa na vi*gg*ati.
 
 [pg 186]
@@ -4269,7 +4269,7 @@ earth knows the head and head-splitting, tell me that, O deity?' (990)
 
    23\. 'He whose appearance in the world is difficult to be met with often, he is at the present time[^fn_186_2]
 
-[^fn_186_1]: Sabbadhammakkhaya*m* patto (i.e. nibbâna)  
+[^fn_186_1]: Sabbadhammakkhaya*m* patto (i.e. nibbâna)
          Vimutto upadhisa*m*khaye.
 
 [^fn_186_2]: Sv-â*gg*a.
@@ -4342,9 +4342,9 @@ and being themselves widely renowned throughout the world, thinkers delighting i
 
    52\. Then with great joy having composed himself the young man put his hide on one shoulder,
 
-[^fn_189_1]: Mukha*m* *g*ivhâya *kh*âdeti,  
-         U*nn*' assa bhamukantare,  
-         Kosohita*m* vatthaguyha*m*,  
+[^fn_189_1]: Mukha*m* *g*ivhâya *kh*âdeti,
+         U*nn*' assa bhamukantare,
+         Kosohita*m* vatthaguyha*m*,
          Eva*m* *g*ânâhi mâ*n*ava.
 
 [pg 190]
@@ -4451,9 +4451,9 @@ Pu*nn*akamâ*n*avapu*kkh*â is ended.
 
    8\. 'Living so, thoughtful, strenuous, let the Bhikkhu wandering about, after abandoning selfishness, birth,
 
-[^fn_194_1]: Kittayissâmi te dhamma*m*--Mettagû ti Bhagavâ--  
-         Di*tth*e dhamme anîtiha*m*  
-         Ya*m* viditvâ sato *k*ara*m*  
+[^fn_194_1]: Kittayissâmi te dhamma*m*--Mettagû ti Bhagavâ--
+         Di*tth*e dhamme anîtiha*m*
+         Ya*m* viditvâ sato *k*ara*m*
          Tare loke visattika*m*.
 
 [pg 195]
@@ -4470,9 +4470,9 @@ and old age, and sorrow, and lamentation, being a wise man, leave pain in this w
 
 Mettagûmâ*n*avapu*kkh*â is ended.
 
-[^fn_195_1]: Et' âbhinandâmi va*k*o mahesino  
-         Sukittita*m* Gotama nûpadhîka*m*,  
-         Addhâ hi Bhagavâ pahâsi dukkha*m*,  
+[^fn_195_1]: Et' âbhinandâmi va*k*o mahesino
+         Sukittita*m* Gotama nûpadhîka*m*,
+         Addhâ hi Bhagavâ pahâsi dukkha*m*,
          Tathâ hi te vidito esa dhammo.
 
     Sukittita*m* Gotama nûpadhîkan ti ettha anupadhikan ti nibbâna*m*, ta*m* sandhâya vâ Bhagavanta*m* âlapanto âha sukittita*m*, &c. Commentator.
@@ -4493,14 +4493,14 @@ Mettagûmâ*n*avapu*kkh*â is ended.
 
    5\. Dhotaka: 'Teach (me), O Brâhma*n*a, having compassion (on me), the Dhamma of seclusion (i.e. Nibbâna), that I may understand (it and) that I, without falling into many shapes like the air, may wander calm and independent in this world[^fn_196_2].' (?) (1064)
 
-[^fn_196_1]: Nâha*m* gamissâmi pamo*k*anâya  
-         Katha*m*kathi*m* Dhotaka *k*a*ñk*i loke,  
-         Dhamma*ñ* *k*a se*tth*am â*g*ânamâno  
+[^fn_196_1]: Nâha*m* gamissâmi pamo*k*anâya
+         Katha*m*kathi*m* Dhotaka *k*a*ñk*i loke,
+         Dhamma*ñ* *k*a se*tth*am â*g*ânamâno
          Eva*m* tuva*m* ogham ima*m* taresi.
 
-[^fn_196_2]: Anusâsa brahme karu*n*âyamâno  
-         Vivekadhamma*m* yam aha*m* vi*g*a*ññ*a*m*  
-         Yathâha*m* âkâso va avyâpa*gg*amâno\[*  
+[^fn_196_2]: Anusâsa brahme karu*n*âyamâno
+         Vivekadhamma*m* yam aha*m* vi*g*a*ññ*a*m*
+         Yathâha*m* âkâso va avyâpa*gg*amâno\[*
      Idh' eva santo asito *k*areyya*m*.
 
 *. Nânappakârata*m* anâpa*gg*amâno. Commentator.\]
@@ -4527,9 +4527,9 @@ Dhotakamâ*n*avapu*kkh*â is ended.
 
 [^fn_197_2]: Santim uttama*m*.
 
-[^fn_197_3]: Âki*ñk*a*ññ*a*m* pekkhamâno satîmâ--Upasîvâ ti Bhagavâ--  
-         N' atthîti nissâya tarassu ogha*m*,  
-         Kâme pahâya. virato kathâhi  
+[^fn_197_3]: Âki*ñk*a*ññ*a*m* pekkhamâno satîmâ--Upasîvâ ti Bhagavâ--
+         N' atthîti nissâya tarassu ogha*m*,
+         Kâme pahâya. virato kathâhi
          Ta*n*hakkhaya*m* rattamahâbhi passa.
 
 [pg 198]
@@ -4544,19 +4544,19 @@ Dhotakamâ*n*avapu*kkh*â is ended.
 
    7\. Upasîva: 'Has he (only) disappeared, or does he not exist (any longer), or is he for ever free
 
-[^fn_198_1]: Sabbesu kâmesu yo vîtarâgo  
-         Âki*ñk*a*ññ*a*m* nissito hitva-m-a*ññ*a*m*  
-         Sa*ññ*âvimokhe parame vimutto  
+[^fn_198_1]: Sabbesu kâmesu yo vîtarâgo
+         Âki*ñk*a*ññ*a*m* nissito hitva-m-a*ññ*a*m*
+         Sa*ññ*âvimokhe parame vimutto
          Ti*tth*e nu so tattha anânuyâyî.
 
-[^fn_198_2]: Titthe *k*e so tattha anânuyâyî  
-         Pûgam pi vassâna*m* samanta*k*akkhu  
-         Tatth' eva so sîti siyâ vimutto  
+[^fn_198_2]: Titthe *k*e so tattha anânuyâyî
+         Pûgam pi vassâna*m* samanta*k*akkhu
+         Tatth' eva so sîti siyâ vimutto
          Bhavetha vi*ññ*â*n*a*m* tathâvidhassa?
 
-[^fn_198_3]: A*kk*î yathâ vâtavegena khitto  
-         Attha*m* paleti na upeti sa*m*kha*m*  
-         Eva*m* munî nâmakâyâ vimutto  
+[^fn_198_3]: A*kk*î yathâ vâtavegena khitto
+         Attha*m* paleti na upeti sa*m*kha*m*
+         Eva*m* munî nâmakâyâ vimutto
          Attha*m* paleti na upeti sa*m*kha*m*.
 
 [pg 199]
@@ -4575,22 +4575,22 @@ Upasîvamâ*n*avapu*kkh*â is ended.
 
    2\. Buddha: 'Not because of (any philosophical) view, nor of tradition, nor of knowledge, O Nanda, do the expert call (any one) a Muni; (but) such as wander free from woe, free from desire, after having secluded themselves, those I call Munis[^fn_199_4].' (1077)
 
-[^fn_199_1]: Atthangato so uda va so n' atthi  
-         Udâhu ve sassatiyâ arogo,  
-         Tam me munî sâdhu viyâkarohi,  
+[^fn_199_1]: Atthangato so uda va so n' atthi
+         Udâhu ve sassatiyâ arogo,
+         Tam me munî sâdhu viyâkarohi,
          Tathâ hi te vidito esa dhammo.
 
-[^fn_199_2]: Atthangatassa na pamâ*n*am atthi,  
-         Yena nam va*gg*u ta*m* tassa n' atthi,  
-         Sabbesu dhammesu samûhatesu  
+[^fn_199_2]: Atthangatassa na pamâ*n*am atthi,
+         Yena nam va*gg*u ta*m* tassa n' atthi,
+         Sabbesu dhammesu samûhatesu
          Samûhatâ vâdapathâpi sabbe.
 
-[^fn_199_3]: *Ñ*â*ñ*ûpapanna*m* no muni*m* vadanti  
+[^fn_199_3]: *Ñ*â*ñ*ûpapanna*m* no muni*m* vadanti
          Udâhu ve *g*îviten' ûpapanna*m*?
 
-[^fn_199_4]: Na ditthiyâ na sutiyâ na *ñ*â*n*ena  
-         Muni*ñ* *k*a Nanda kusalâ vadanti,  
-         Visenikatvâ anighâ nirâsâ  
+[^fn_199_4]: Na ditthiyâ na sutiyâ na *ñ*â*n*ena
+         Muni*ñ* *k*a Nanda kusalâ vadanti,
+         Visenikatvâ anighâ nirâsâ
          *K*aranti ye te munayo ti brûmi.
 
 [pg 200]
@@ -4603,12 +4603,12 @@ Upasîvamâ*n*avapu*kkh*â is ended.
 
    6\. 'I do not say that all Sama*n*as and Brâhma*n*as, O Nanda,'--so said Bhagavat,--'are shrouded by birth and old age; those who, after leaving in this world what has been seen or heard or thought, and all virtue and (holy) works, after leaving everything of various kinds, after penetrating desire, are free from passion, such indeed I call men that have crossed the stream[^fn_200_1].' (1081)
 
-[^fn_200_1]: Nâha*m* 'sabbe sama*n*abrâhma*n*âse  
-         *G*âti*g*arâya nivutâ' ti brûmi,  
-         Ye s' îdha di*tth*a*m* va suta*m* muta*m* vâ  
-         Sîlabbata*m* vâpi pahâya sabba*m*  
-         Anekarûpam pi pahâya sabba*m*  
-         Ta*n*ha*m* pari*ññ*âya anâsavâse  
+[^fn_200_1]: Nâha*m* 'sabbe sama*n*abrâhma*n*âse
+         *G*âti*g*arâya nivutâ' ti brûmi,
+         Ye s' îdha di*tth*a*m* va suta*m* muta*m* vâ
+         Sîlabbata*m* vâpi pahâya sabba*m*
+         Anekarûpam pi pahâya sabba*m*
+         Ta*n*ha*m* pari*ññ*âya anâsavâse
          Te ve narâ oghati*nn*â ti brûmi.
 
 [pg 201]
@@ -4627,10 +4627,10 @@ Nandamâ*n*avapu*kkh*â is ended.
 
    3\. Buddha: 'In this world (much) has been seen,
 
-[^fn_201_1]: Ye me pubbe viyâka*m*su  
-         Hura*m* Gotamasâsana*m*  
-         I*kk*-âsi iti bhavissati  
-         Sabban ta*m* itihîtiha*m*  
+[^fn_201_1]: Ye me pubbe viyâka*m*su
+         Hura*m* Gotamasâsana*m*
+         I*kk*-âsi iti bhavissati
+         Sabban ta*m* itihîtiha*m*
          Sabban ta*m* takkava*ddh*ana*m*.
 
 [pg 202]
@@ -4651,12 +4651,12 @@ Hemakamâ*n*avapu*kkh*â is ended.
 
    3\. Todeyya: 'Is he without breathing or is he breathing, is he possessed of understanding or is he forming himself an understanding[^fn_202_2]? Explain this to me, O thou all-seeing one, that I may know a Muni, O Sakka.' (1089)
 
-[^fn_202_1]: Etad a*ññ*âya ye satâ  
-         Di*tth*adhammâbhinibhutâ  
-         Upasantâ *k*a tedasâ (?)\[*  
+[^fn_202_1]: Etad a*ññ*âya ye satâ
+         Di*tth*adhammâbhinibhutâ
+         Upasantâ *k*a tedasâ (?)\[*
      Ti*ññ*â loke visattika*m*.
 
-2\. Nirâsaso so uda âsasâno  
+2\. Nirâsaso so uda âsasâno
      Pa*ññ*â*n*avâ so uda pa*ññ*akappî.
 
 *. B reads ye satâ instead of tedasâ.\]
@@ -4677,12 +4677,12 @@ Todeyyamâ*n*avapu*kkh*â is ended.
 
    3\. 'This matchless island, possessing nothing (and) grasping after nothing, I call Nibbâna, the destruction of decay and death[^fn_203_2]. (1093)
 
-[^fn_203_1]: Tva*ñ* *k*a me dipa*m*\[* akkhâb  
+[^fn_203_1]: Tva*ñ* *k*a me dipa*m*\[* akkhâb
      Yathâ yida*m* nâpara*m* siyâ.
 
-2\. Aki*ñk*ana*m* anâdâna*m*  
-     Eta*m* dîpa*m* anâpâra*m*  
-     Nibbâna*m* iti na*m* brûmi  
+2\. Aki*ñk*ana*m* anâdâna*m*
+     Eta*m* dîpa*m* anâpâra*m*
+     Nibbâna*m* iti na*m* brûmi
      *G*arâma*kk*uparikkhaya*m*.
 
 Aki*ñk*anan ti ki*ñk*anapa*t*ipakkha*m*, anâdânan ti âdânapa*t*ipakkha*m*, ki*ñk*anâdânavûpasaman ti vutta*m* hoti. Commentator.
@@ -4707,9 +4707,9 @@ Kappamâ*n*avapu*kkh*â is ended.
 
    4\. 'What is before thee, lay that aside; let there be nothing behind thee; if thou wilt not grasp after what is in the middle, thou wilt wander calm[^fn_204_2]. (1098)
 
-[^fn_204_1]: Kâmesu vinaya gedha*m*,  
-         Nekkhamma*m* da*tth*u khemato  
-         Uggahîta*m* niratta*m* vâ  
+[^fn_204_1]: Kâmesu vinaya gedha*m*,
+         Nekkhamma*m* da*tth*u khemato
+         Uggahîta*m* niratta*m* vâ
          Mâ te vi*gg*ittha ki*ñk*ana*m*.
 
 [^fn_204_2]: Comp. supra, [Attada*nd*asutta, v. 15](http://www.sacred-texts.com/bud/sbe10/sbe1036.htm#pp_949).
@@ -4734,9 +4734,9 @@ Kappamâ*n*avapu*kkh*â is ended.
 
 Bhadrâvudhamâ*n*avapu*kkh*â is ended.
 
-[^fn_205_1]: Oka*mg*aha*m* ta*n*ha*kkh*ida*m* ane*g*a*m*  
-         Nandi*mg*aha*m* oghati*nn*a*m* vimutta*m*  
-         Kappa*mg*aha*m* abhiyâ*k*e sumedham,  
+[^fn_205_1]: Oka*mg*aha*m* ta*n*ha*kkh*ida*m* ane*g*a*m*
+         Nandi*mg*aha*m* oghati*nn*a*m* vimutta*m*
+         Kappa*mg*aha*m* abhiyâ*k*e sumedham,
          Sutvâna nâgassa apanamissanti ito.
 
 [pg 206]
@@ -4757,14 +4757,14 @@ Bhadrâvudhamâ*n*avapu*kkh*â is ended.
 
    6\. Udaya: 'How does consciousness cease in him that wanders thoughtful? Having come to ask thee, let us hear thy words.' (1109)
 
-[^fn_206_1]: Upekhâsatisa*m*suddha*m*  
-         Dhammatakkapure*g*ava*m*  
-         A*ññ*âvimokha*m* pabrûmi  
+[^fn_206_1]: Upekhâsatisa*m*suddha*m*
+         Dhammatakkapure*g*ava*m*
+         A*ññ*âvimokha*m* pabrûmi
          Avi*gg*âya pabhedana*m*.
 
-[^fn_206_2]: Ki*m* su sa*m*yo*g*ano loko,  
-         Ki*m* su tassa vi*k*âra*n*â  
-         Kiss' assa vippahânena  
+[^fn_206_2]: Ki*m* su sa*m*yo*g*ano loko,
+         Ki*m* su tassa vi*k*âra*n*â
+         Kiss' assa vippahânena
          Nibbâna*m* iti vu*kk*ati?
 
 [pg 207]
@@ -4785,16 +4785,16 @@ Udayamâ*n*avapu*kkh*â is ended.
 
    4\. 'Having understood that the bonds of pleasure do not originate in nothingness (?), he sees clearly in
 
-[^fn_207_1]: Vibhûtarûpasa*ññ*issa  
-         Sabbakâyapahâyino  
-         A*ggh*atta*ñ* *k*a bahiddhâ *k*a  
-         Natthi ki*ñk*îti passato  
-         *Ñ*â*n*a*m* Sakkânupu*kkh*âmi,  
+[^fn_207_1]: Vibhûtarûpasa*ññ*issa
+         Sabbakâyapahâyino
+         A*ggh*atta*ñ* *k*a bahiddhâ *k*a
+         Natthi ki*ñk*îti passato
+         *Ñ*â*n*a*m* Sakkânupu*kkh*âmi,
          Katha*m* neyyo tathâvidho.
 
-[^fn_207_2]: Vi*ññ*â*n*atthitiyo sabbâ--Posâlâ ti Bhagavâ--  
-         Abhi*g*âna*m* Tathâgato  
-         Ti*tth*antam ena*m* *g*ânâti  
+[^fn_207_2]: Vi*ññ*â*n*atthitiyo sabbâ--Posâlâ ti Bhagavâ--
+         Abhi*g*âna*m* Tathâgato
+         Ti*tth*antam ena*m* *g*ânâti
          Vimutta*m* tapparâyana*m*.
 
 [pg 208]
@@ -4817,11 +4817,11 @@ Posâlamâ*n*avapu*kkh*â is ended.
 
 Mogharâ*g*amâ*n*avapu*kkh*â is ended.
 
-[^fn_208_1]: Âki*ñk*a*ññ*âsambhava*m*  
-         Nandîsa*m*yo*g*ana*m* iti  
-         Evam eva*m* abhi*ññ*âya  
-         Tato tattha vipassati,  
-         Eta*m* *ñ*â*n*a*m* tatha*m*tassa  
+[^fn_208_1]: Âki*ñk*a*ññ*âsambhava*m*
+         Nandîsa*m*yo*g*ana*m* iti
+         Evam eva*m* abhi*ññ*âya
+         Tato tattha vipassati,
+         Eta*m* *ñ*â*n*a*m* tatha*m*tassa
          Brâhma*n*assa vusîmato.
 
 [^fn_208_2]: Comp. [Dhp. v. 170](http://www.sacred-texts.com/bud/sbe10/sbe1015.htm#pp_170).
@@ -4886,20 +4886,20 @@ who thoroughly understands the world[^fn_211_1], has overcome all existences, is
 
 [^fn_211_1]: Lokantagû.
 
-[^fn_211_2]: Di*g*o yathâ kubbanaka*m* pahâya  
-         Bahupphala*m* kânana*m* âvaseyya  
-         Evam p' aha*m* appadasse pahâya  
+[^fn_211_2]: Di*g*o yathâ kubbanaka*m* pahâya
+         Bahupphala*m* kânana*m* âvaseyya
+         Evam p' aha*m* appadasse pahâya
          Mahodadhi*m* ha*m*so-r-iv' a*ggh*apatto.
 
-[^fn_211_3]: Ye 'me pubbe viyâka*m*su  
-         hura*m* Gotamasâsana*m*  
-         i*kk*-âsi iti bhavissati  
-         sabban ta*m* itihîtiha*m*  
+[^fn_211_3]: Ye 'me pubbe viyâka*m*su
+         hura*m* Gotamasâsana*m*
+         i*kk*-âsi iti bhavissati
+         sabban ta*m* itihîtiha*m*
          sabban ta*m* takkava*ddh*ana*m*.
 
-[^fn_211_4]: Yo me dhammam adesesi  
-         Sandi*tth*ikam akâlika*m*  
-         Ta*n*hakkhayam anîtika*m*  
+[^fn_211_4]: Yo me dhammam adesesi
+         Sandi*tth*ikam akâlika*m*
+         Ta*n*hakkhayam anîtika*m*
          Yassa n'atthi upamâ kva*k*i.
 
 [pg 212]
@@ -4920,9 +4920,9 @@ who thoroughly understands the world[^fn_211_1], has overcome all existences, is
 
    23\. Bhagavat[^fn_212_2]: 'As Vakkali was delivered by
 
-[^fn_212_1]: Saddhâ *k*a pîti *k*a mano sati *k*a  
-         Nâmenti me Gotamasâsanamhâ (?),  
-         Ya*m* ya*m* disa*m* va*g*ati bhûripa*ññ*o  
+[^fn_212_1]: Saddhâ *k*a pîti *k*a mano sati *k*a
+         Nâmenti me Gotamasâsanamhâ (?),
+         Ya*m* ya*m* disa*m* va*g*ati bhûripa*ññ*o
          Sa tena ten' eva nato 'ham asmi.
 
 [^fn_212_2]: At the conclusion of this (i.e. the preceding) gâthâ, Bhagavat, who stayed at Sâvatthî, when seeing the maturity of the minds of Pingiya and Bâvarî, shed a golden light. Pingiya, who sat picturing Buddha's virtues to Bâvarî, having seen the light, looked round, saying, 'What is this?' And when he saw Bhagavat standing, as it were, before him, he said to the Brâhma*n*a Bâvarî: 'Buddha has come.' The Brâhma*n*a rose from his seat and stood with folded hands. Bhagavat, shedding a light, showed himself to the Brâhma*n*a, and knowing what was beneficial for both, he said this stanza while addressing Pingiya. Commentator.
@@ -4941,12 +4941,12 @@ Pârâyanavagga is ended.
 
 Suttanipâta is ended.
 
-[^fn_213_1]: Yathâ ahû Vakkali muttasaddho  
-         Bhadrâvudho Â*l*avi-Gotamo *k*a  
-         Evam eva tvam pi pamu*ñk*ayassu saddha*m*,  
+[^fn_213_1]: Yathâ ahû Vakkali muttasaddho
+         Bhadrâvudho Â*l*avi-Gotamo *k*a
+         Evam eva tvam pi pamu*ñk*ayassu saddha*m*,
          Gamissasi tva*m* Pingiya ma*kk*udheyyapâra*m*.
 
-[^fn_213_2]: Asa*m*hîra*m* asa*m*kuppa*m*  
-         Yassa n' atthi upamâ kva*k*i  
-         Addhâ gamissâmi, na me 'ttha ka*m*khâ,  
+[^fn_213_2]: Asa*m*hîra*m* asa*m*kuppa*m*
+         Yassa n' atthi upamâ kva*k*i
+         Addhâ gamissâmi, na me 'ttha ka*m*khâ,
          Eva*m* padhârehi avitta*k*itta*m*.

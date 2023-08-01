@@ -1,6 +1,6 @@
 ---
 id: sbe15__index__19982346__en
-title: index
+title: The Kaṭha-Upanishad
 author: sbe15
 access: research
 language: en
