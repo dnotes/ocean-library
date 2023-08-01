@@ -1,5 +1,4 @@
 import { error } from "@sveltejs/kit";
-import yaml from 'js-yaml'
 import type { PageServerLoad } from "./$types"
 import { getDoc } from "$lib";
 import rawContent from "$lib/rawContent";
