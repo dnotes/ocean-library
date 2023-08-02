@@ -1,11 +1,5 @@
 <script lang="ts">
   import type { PageData } from "./$types";
-  // @ts-ignore this doesn't have a type
-  import md from 'ocean-markdown-it'
-  // @ts-ignore same here
-  import mdParNums from 'markdown-it-auto-parnum'
-  md.use(mdParNums)
-
   import { pipeline } from "@xenova/transformers";
   import { onMount } from "svelte";
   import { pick } from "lodash-es";
@@ -32,18 +26,17 @@
     })
     return {
       id: `${data.content.slug}_${blockIdx.toString().padStart(7,'0')}_${textIdx.toString().padStart(5,'0')}`,
-      values: emb.data,
-      metadata: { ...pick(doc, ['slug','title','author','collection','language','category','date']), address:[offset, blockLength], text }
+      values: Object.values(emb.data),
+      metadata: { ...pick(doc, ['slug','title','author','collection','language','category','date']), idx:offset, len:blockLength, text }
     }
   }
 
   async function upsert(records:any) {
-    let request = fetch(`https://ocean-af77af9.svc.us-west1-gcp-free.pinecone.io/vectors/upsert`, {
+    let request = fetch(`/upsert`, {
       method: 'POST',
       body: JSON.stringify(records),
       headers: {
         'Content-Type': 'application/json',
-        'Api-Key': '',
       },
     })
     return request
@@ -125,7 +118,9 @@
   {#if !data.content.markdown?.startsWith('# ')}
     <h1>{data.content.title}</h1>
   {/if}
-  {@html md.render(data.content.markdown)}
+  {#each data.content.blocks as item}
+    {@html item}
+  {/each}
 </div>
 
 <style lang="postcss">

@@ -1,4 +1,10 @@
 import yaml from 'js-yaml'
+// @ts-ignore no type def
+import md from 'ocean-markdown-it'
+// @ts-ignore no type def
+import parnums from 'markdown-it-auto-parnum'
+md.use(parnums)
+import * as cheerio from 'cheerio'
 
 export type Doc = {
   id?:string
@@ -14,9 +20,10 @@ export type Doc = {
   words?:number
   slug:string
   markdown?:string
+  blocks:string[]
 }
 
-export function getDoc(raw:string, path:string, includeMarkdown = true):Doc {
+export function getDoc(raw:string, path:string, getContent = true, includeMarkdown = false):Doc {
 
   let [ language, category ] = path.replace(/.+\/content\//, '').split('/')
   let slug = path.replace(/.+\//, '').replace(/\.md$/, '');
@@ -28,6 +35,7 @@ export function getDoc(raw:string, path:string, includeMarkdown = true):Doc {
     slug,
     author: 'unknown',
     title: 'untitled',
+    blocks: []
   }
 
   try {
@@ -42,6 +50,16 @@ export function getDoc(raw:string, path:string, includeMarkdown = true):Doc {
   if (typeof words !== 'undefined' && typeof words !== 'number') {
     words = parseInt(words.toString())
   }
+
+  let blocks:string[] = []
+  if (getContent) {
+    let html = md.render(markdown)
+    const $ = cheerio.load(html)
+    $('a[¶]').text('')
+    if ($('body').children().first()[0].name.match(/h1/i)) $('body').children().first().remove()
+    blocks = $('body').children().toArray().map(el => $.html(el))
+  }
+
   return {
     id: cleanText(data?.id),
     title: cleanText(data?.title) || '',
@@ -53,7 +71,9 @@ export function getDoc(raw:string, path:string, includeMarkdown = true):Doc {
     date: cleanText(data?.date),
 
     slug,
+    blocks,
     markdown: includeMarkdown ? cleanText(markdown.trim()) : undefined
+
   }
 }
 
