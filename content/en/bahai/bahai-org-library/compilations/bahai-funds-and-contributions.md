@@ -30,8 +30,8 @@ ocnmd_version: 2
 collectionId: compilations
 collection: Compilations
 ---
-# Bahá’í Funds and Contributions[^1]
-A Compilation Prepared by the Research Department of the Universal House of Justice
+# Bahá’í Funds and Contributions
+A Compilation Prepared by the Research Department of the Universal House of Justice [^1]
 
 January 1970
 
