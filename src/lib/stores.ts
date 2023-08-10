@@ -41,11 +41,8 @@ export const searchRunner = derived([embeddingsGenerator, searchHistory, setting
     let idx = $searchHistory.findIndex(item => item.text === text)
     if (idx > -1) {
       search = ($searchHistory.splice(idx,1))[0]
-      $searchHistory = [search, ...$searchHistory]
     }
-    else {
-      $searchHistory = [search, ...$searchHistory]
-    }
+    searchHistory.set([search, ...$searchHistory])
 
     if (search.results.length && !force) return search
 
@@ -78,6 +75,7 @@ export const searchRunner = derived([embeddingsGenerator, searchHistory, setting
         else quote.s.push(hit.metadata.s)
       })
       search.ready = true
+      searchHistory.set([ search, ...$searchHistory ])
       return search
 
     }
