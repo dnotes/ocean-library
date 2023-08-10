@@ -60,10 +60,10 @@
       <SearchForm {search} on:search={updateSearch} />
     </div>
 
-    <div class="py-3">
+    <div class="py-1">
       <label>
         Sort:
-        <select name="searchSort" id="searchSort" bind:value={$settings.searchSort} class="text-stone-900 px-2 py-1">
+        <select name="searchSort" id="searchSort" bind:value={$settings.searchSort} class="bg-transparent text-blue-500">
           <option value="ordered">by library order</option>
           <option value="scored">by score</option>
         </select>
