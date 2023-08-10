@@ -40,7 +40,7 @@ async function dbRecord(text, doc, blockIdx, sentenceIdx, clauseIdx) {
   return {
     id,
     values: Object.values(emb.data),
-    metadata: { ...pick(doc, ['slug','title','author','collection','language','category','date']), blk:blockIdx, s:sentenceIdx, c:clauseIdx, text }
+    metadata: { ...pick(doc, ['slug','title','author','collection','language','category','date','sort']), blk:blockIdx, s:sentenceIdx, c:clauseIdx, text }
   }
 }
 
