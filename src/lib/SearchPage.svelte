@@ -6,6 +6,7 @@
   import LibraryTree from "./LibraryTree.svelte";
   import ScoredResults from "./ScoredResults.svelte";
   import { goto } from "$app/navigation";
+  import { sortBy } from "lodash-es";
 
   export let search:Search = { text:'', results:[] }
 
@@ -28,6 +29,25 @@
       await docs[$currentSearchHit.slug]
       goto(`#blk-${$currentSearchHit.blk}`)
     })()
+  }
+
+  let items:SearchHit[] = []
+  $: if (search?.results?.length) {
+    items = $settings.searchSort === 'scored' ? sortBy(search.results,'score').reverse() : sortBy(search.results, 'sort')
+  }
+
+  let currentItemIndex:number = 0
+  $: if ($currentSearchHit) currentItemIndex = items.findIndex(item => item === $currentSearchHit)
+
+  $:console.log(currentItemIndex)
+
+  function prevHit() {
+    if (currentItemIndex <= 0) return
+    $currentSearchHit = items[currentItemIndex-1]
+  }
+  function nextHit() {
+    if (currentItemIndex >= items.length -1) return
+    $currentSearchHit = items[currentItemIndex+1]
   }
 
 </script>
@@ -54,9 +74,9 @@
       {#if search.results}
 
         {#if $settings?.searchSort === 'scored'}
-          <ScoredResults items={search.results} on:change={(e)=>{$currentSearchHit = e.detail}} />
+          <ScoredResults {items} bind:currentItem={$currentSearchHit} />
         {:else}
-          <LibraryTree items={search.results} on:change={(e)=>{$currentSearchHit = e.detail}} />
+          <LibraryTree {items} bind:currentItem={$currentSearchHit} />
         {/if}
 
       {:else}
@@ -68,17 +88,43 @@
 
   </div>
 
-  <div class="hidden md:block w-full p-12 max-h-full overflow-auto">
+  <div class:hidden={!$currentSearchHit} class="fixed left-0 right-0 top-0 bottom-0 md:static p-12 max-h-full flex flex-col overflow-hidden bg-stone-200 dark:bg-stone-900">
 
-    {#if $currentSearchHit}
-      {#await docs[$currentSearchHit.slug] then doc}
-        <div class="prose prose-xl prose-stone dark:prose-invert mx-auto">
-          {#each doc.blocks as block}
+    <div class:hidden={!$currentSearchHit} class="h-20 flex-shrink-0 bg-stone-500 -ml-12 -mr-12 md:-ml-5 -mt-12 md:-mt-0 flex md:flex relative">
+      <div class="absolute top-0 right-2 text-2xl">
+        <button type="button" on:click={()=>{$currentSearchHit=undefined}}>
+          &CircleTimes;
+        </button>
+      </div>
+      <div class="flex md:hidden h-18 w-20 pb-2 text-5xl items-end justify-center">
+        <button type="button" on:click={prevHit}>&#8678;</button>
+      </div>
+      <div class="flex-grow flex flex-col text-center">
+        <div class="font-bold text-lg">
+          {$currentSearchHit?.title}
+        </div>
+        {#if $currentSearchHit?.author}
+          <div class="italic text-sm">
+            {$currentSearchHit?.author}
+          </div>
+        {/if}
+        <div>
+          score: {Math.round($currentSearchHit?.score * 100)}%
+        </div>
+      </div>
+      <div class="h-20 w-20 pb-2 text-5xl flex items-end justify-center">
+        <button type="button" on:click={nextHit}>&#8680;</button>
+      </div>
+    </div>
+    {#await docs[$currentSearchHit?.slug] then doc}
+      {#if doc}
+        <div class="prose prose-xl prose-stone dark:prose-invert mx-auto overflow-auto flex-grow">
+          {#each doc.blocks.slice(Math.max($currentSearchHit?.blk - 50, 0), $currentSearchHit?.blk + 50) as block}
             <div class="relative">{@html block}</div>
           {/each}
         </div>
-      {/await}
-    {/if}
+      {/if}
+    {/await}
 
   </div>
 

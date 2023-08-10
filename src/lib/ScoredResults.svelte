@@ -9,7 +9,7 @@
 
   let results = sortBy(items,'score').reverse()
 
-  let currentItem:SearchHit|undefined
+  export let currentItem:SearchHit|undefined
   function setItem(item:SearchHit) {
     currentItem = item
     dispatch('change',item)
@@ -18,7 +18,7 @@
 </script>
 
 
-{#each items as item}
+{#each results as item}
 
   <!-- svelte-ignore a11y-click-events-have-key-events -->
   <!-- svelte-ignore a11y-no-static-element-interactions -->

@@ -20,7 +20,7 @@
     return tree
   }, {})
 
-  let currentItem:SearchHit
+  export let currentItem:SearchHit|undefined
   function setItem(item:SearchHit) {
     currentItem = item
     dispatch('change', item)
