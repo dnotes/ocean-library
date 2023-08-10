@@ -25,6 +25,10 @@
     {#if data.content.description}
       <div>{data.content.description}</div>
     {/if}
+
+    {#if data.content.url}
+      <a target="_blank" href="{data.content.url}">link</a>
+    {/if}
   </div>
 
   {#each data.content.blocks as item}

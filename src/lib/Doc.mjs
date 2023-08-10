@@ -88,6 +88,7 @@ export function getDoc(raw, path, getContent = true, includeMarkdown = false) {
     description: cleanText(data?.description),
     date: cleanText(data?.date),
     sort: '',
+    url: (data._sourceUrl ?? data._convertedFrom),
 
     slug,
     blocks,

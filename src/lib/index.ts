@@ -42,6 +42,7 @@ export type DocMeta = {
   date?:string
   words?:number
   slug:string
+  url?:string
 }
 
 export type Doc = DocMeta & {
