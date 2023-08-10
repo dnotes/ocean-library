@@ -5,16 +5,18 @@ author: ‘Abdu’l‑Bahá
 access: research
 language: en
 priority: 10
-wordsCount: 6596
+wordsCount: 6576
 _conversionOpts:
   encoding: UTF-8
   reconvert: true
   postPatterns:
+    '/(\s*)\*\s+(\[\^\d+\]:)\s*\n/': '$1$2 '
     '/^(?:\*\s*)*(\[\^[\w\d]+\]:)\s*\n*/': '$1 '
     '/\n\n(.+\\\[\d+\\\])$/': '\n\n$1 {¶=none .cite}'
-  ignoreElements: div.of
+  ignoreElements: 'div.of,nav,a.sd:not(.ef)'
   fnRefEl: sup.ve
-  fnTextEl: a.sd
+  fnTextEl: a.sd.ef
+  converter: html
 sourceUrl: >-
   https://www.bahai.org/library/authoritative-texts/abdul-baha/tablets-hague-abdul-baha/tablets-hague-abdul-baha.xhtml?4da4be11
 _convertedFrom: >-
@@ -23,9 +25,6 @@ _softHyphenWords: ''
 ocnmd_version: 2
 ---
 # ‘Abdu’l‑Bahá’s Tablets to The Hague
-*   First Tablet to The Hague – 17 December 1919
-*   Second Tablet to The Hague – 1 July 1920
-
 ## First Tablet to The Hague
 
 ### 17 December 1919

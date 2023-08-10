@@ -5,19 +5,21 @@ author: various
 access: research
 language: en
 priority: 10
-wordsCount: 21773
+wordsCount: 21755
 _conversionOpts:
   encoding: UTF-8
   reconvert: true
   postPatterns:
+    '/(\s*)\*\s+(\[\^\d+\]:)\s*\n/': '$1$2 '
     '/^(?:\*\s*)*(\[\^[\w\d]+\]:)\s*\n*/': '$1 '
     '/\n\n(.+\\\[\d+\\\])$/': '\n\n$1 {¶=none .cite}'
-  ignoreElements: div.of
+  ignoreElements: 'div.of,nav,a.sd:not(.ef)'
   fnRefEl: sup.ve
-  fnTextEl: a.sd
+  fnTextEl: a.sd.ef
   metaElements:
     author: various
     collection: Compilations
+  converter: html
 sourceUrl: >-
   https://www.bahai.org/library/authoritative-texts/compilations/family-life/family-life.xhtml?5acfa15a
 _convertedFrom: >-
@@ -26,6 +28,7 @@ _softHyphenWords: ''
 collectionTitle: Compilations
 ocnmd_version: 2
 collectionId: compilations
+collection: Compilations
 ---
 # Family Life
 A Compilation of Extracts from the Bahá’í Writings and from Letters Written by and on Behalf of Shoghi Effendi and the Universal House of Justice
@@ -37,10 +40,6 @@ March 2008
 Note ye how easily, where unity existeth in a given family, the affairs of that family are conducted; what progress the members of that family make, how they prosper in the world. Their concerns are in order, they enjoy comfort and tranquillity, they are secure, their position is assured, they come to be envied by all. Such a family but addeth to its stature and its lasting honour, as day succeedeth day.
 
 ‘Abdu’l-Bahá
-
-1.  Preservation of the Bond between Husband and Wife
-2.  Parent-Child Relationships and Responsibilities
-3.  Enhancing Family Life
 
 I. Preservation of the Bond between Husband and Wife
 

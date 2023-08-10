@@ -5,16 +5,18 @@ author: ‘Abdu’l‑Bahá
 access: research
 language: en
 priority: 10
-wordsCount: 58393
+wordsCount: 58007
 _conversionOpts:
   encoding: UTF-8
   reconvert: true
   postPatterns:
+    '/(\s*)\*\s+(\[\^\d+\]:)\s*\n/': '$1$2 '
     '/^(?:\*\s*)*(\[\^[\w\d]+\]:)\s*\n*/': '$1 '
     '/\n\n(.+\\\[\d+\\\])$/': '\n\n$1 {¶=none .cite}'
-  ignoreElements: div.of
+  ignoreElements: 'div.of,nav,a.sd:not(.ef)'
   fnRefEl: sup.ve
-  fnTextEl: a.sd
+  fnTextEl: a.sd.ef
+  converter: html
 sourceUrl: >-
   https://www.bahai.org/library/authoritative-texts/abdul-baha/memorials-faithful/memorials-faithful.xhtml?057bfbc4
 _convertedFrom: >-
@@ -26,78 +28,6 @@ ocnmd_version: 2
 by ‘Abdu’l‑Bahá
 
 Translated from the original Persian text and annotated by Marzieh Gail
-
-*   ### List of individuals
-
-    1.  Nabíl-i-Akbar
-    2.  Ismu’lláhu’l-Aṣdaq
-    3.  Mullá ‘Alí-Akbar
-    4.  S_hayk_h Salmán
-    5.  Mírzá Muḥammad-‘Alí, the Afnán
-    6.  Ḥájí Mírzá Ḥasan, the Afnán
-    7.  Muḥammad-‘Alíy-i-Iṣfahání
-    8.  ‘Abdu’ṣ-Ṣáliḥ, the Gardener
-    9.  Ustád Ismá’íl
-    10.  Nabíl-i-Zarandí
-    11.  Darvísh Ṣidq-‘Alí
-    12.  Áqá Mírzá Maḥmúd and Áqá Riḍá
-    13.  Pidar-Ján of Qazvín
-    14.  S_hayk_h Ṣádiq-i-Yazdí
-    15.  S_háh-Muḥammad-Amín
-    16.  Mas_hhadí Faṭṭáḥ
-    17.  Nabíl of Qá’in
-    18.  Siyyid Muḥammad-Taqí Mans_hádí
-    19.  Muḥammad-‘Alí Ṣabbáq of Yazd
-    20.  ‘Abdu’l-Ghaffár of Iṣfahán
-    21.  ‘Alí Najaf-Ábádí
-    22.  Mas_hhadí Ḥusayn and Mas_hhadí Muḥammad-i-Ádhirbáyjání
-    23.  Ḥájí ‘Abdu’r-Raḥím-i-Yazdí
-    24.  Ḥájí ‘Abdu’lláh Najaf-Ábádí
-    25.  Muḥammad-Hádíy-i-Ṣaḥḥáf
-    26.  Mírzá Muḥammad-Qulí
-    27.  Ustád Báqir and Ustád Aḥmad
-    28.  Muḥammad Ḥaná-Sáb
-    29.  Ḥájí Faraju’lláh Tafrís_hí
-    30.  Áqá Ibráhím-i-Iṣfahání and His Brothers
-    31.  Áqá Muḥammad-Ibráhím
-    32.  Zaynu’l-‘Ábidín Yazdí
-    33.  Ḥájí Mullá Mihdíy-i-Yazdí
-    34.  His Eminence Kalím (Mírzá Músá)
-    35.  Ḥájí Muḥammad K_hán
-    36.  Áqá Muḥammad-Ibráhím Amír
-    37.  Mírzá Mihdíy-i-Kás_hání
-    38.  Mishkín-Qalam
-    39.  Ustád ‘Alí-Akbar-i-Najjár
-    40.  S_hayk_h ‘Alí-Akbar-i-Mázgání
-    41.  Mírzá Muḥammad, the Servant at the Travelers’ Hospice
-    42.  Mírzá Muḥammad-i-Vakíl
-    43.  Ḥájí Muḥammad-Riḍáy-i-S_hírází
-    44.  Ḥusayn Effendi Tabrízí
-    45.  Jamshíd-i-Gurjí
-    46.  Ḥájí Ja‘far-i-Tabrízí and His Brothers
-    47.  Ḥájí Mírzá Muḥammad-Taqí, the Afnán
-    48.  ‘Abdu’lláh Bag_hdádí
-    49.  Muḥammad-Muṣṭafá Bag_hdádí
-    50.  Sulaymán K_hán-i-Tunukábání
-    51.  ‘Abdu’r-Raḥmán, the Coppersmith
-    52.  Muḥammad-Ibráhím-i-Tabrízí
-    53.  Muḥammad-‘Alíy-i-Ardikání
-    54.  Ḥájí Áqáy-i-Tabrízí
-    55.  Ustád Qulám-‘Alíy-i-Najjár
-    56.  Jináb-i-Muníb
-    57.  Mírzá Muṣṭafá Naráqí
-    58.  Zaynu’l-Muqarrabín
-    59.  ‘Aẓím-i-Tafrís_hí
-    60.  Mírzá Ja‘far-i-Yazdí
-    61.  Ḥusayn-Áqáy-i-Tabrízí
-    62.  Ḥájí ‘Alí-‘Askar-i-Tabrízí
-    63.  Áqá ‘Alíy-i-Qazvíní
-    64.  Áqá Muḥammad-Báqir and Áqá Muḥammad-Ismá’íl, the Tailor
-    65.  Abu’l-Qásim of Sulṭán-Ábád
-    66.  Áqá Faraj
-    67.  The Consort of the King of Martyrs
-    68.  Shamsu’ḍ-Ḍuḥá
-    69.  Ṭáhirih
 
 – 1 –
 
@@ -1501,295 +1431,175 @@ Salutations be unto her, and praise. Holy be her dust, as the tiers of light com
 
 *   ### 1\. Nabíl-i-Akbar
 
-    *   [^1]:
-
-        For the author of The Dawn-Breakers, see Nabíl-i-Zarandí.
+    [^1]:         For the author of The Dawn-Breakers, see Nabíl-i-Zarandí.
 
 *   ### 2\. Ismu’lláhu’l-Aṣdaq
 
-    *   [^1]:
-
-        Cf. Nabíl, The Dawn-Breakers, Chapter XX, note beginning “‘Abdu’l‑Bahá refers, in the ‘Memorials of the Faithful’…”.
+    [^1]:         Cf. Nabíl, The Dawn-Breakers, Chapter XX, note beginning “‘Abdu’l‑Bahá refers, in the ‘Memorials of the Faithful’…”.
 
 *   ### 3\. Mullá ‘Alí-Akbar
 
-    *   [^1]:
+    [^1]:         Cf. Qur’án 19:98.
 
-        Cf. Qur’án 19:98.
+    [^2]:         Qur’án 3:91.
 
-    *   [^2]:
-
-        Qur’án 3:91.
-
-    *   [^3]:
-
-        Qur’án 54:55.
+    [^3]:         Qur’án 54:55.
 
 *   ### 4\. S_hayk_h Salmán
 
-    *   [^1]:
+    [^1]:         1849–1850.
 
-        1849–1850.
-
-    *   [^2]:
-
-        1853; 1892.
+    [^2]:         1853; 1892.
 
 *   ### 5\. Mírzá Muḥammad-‘Alí, the Afnán
 
-    *   [^1]:
+    [^1]:         Áqá Ján. Cf. Shoghi Effendi, God Passes By, Chapter XI, paragraph beginning “Their strict confinement had hardly been mitigated…”.
 
-        Áqá Ján. Cf. Shoghi Effendi, God Passes By, Chapter XI, paragraph beginning “Their strict confinement had hardly been mitigated…”.
+    [^2]:         Siyyid Muḥammad, the Antichrist of the Bahá’í Revelation. Cf. Shoghi Effendi, God Passes By, Chapter X paragraph beginning “A constant witness of the ever deepening attachment…” and paragraph beginning “Their strict confinement had hardly been mitigated…”.
 
-    *   [^2]:
+    [^3]:         The Afnán are the kindred of the Báb. Shoghi Effendi, God Passes By, Chapter XIV, paragraph beginning “In this weighty and incomparable Document…” and Chapter XXII, paragraph beginning “The Document establishing that Order…”.
 
-        Siyyid Muḥammad, the Antichrist of the Bahá’í Revelation. Cf. Shoghi Effendi, God Passes By, Chapter X paragraph beginning “A constant witness of the ever deepening attachment…” and paragraph beginning “Their strict confinement had hardly been mitigated…”.
-
-    *   [^3]:
-
-        The Afnán are the kindred of the Báb. Shoghi Effendi, God Passes By, Chapter XIV, paragraph beginning “In this weighty and incomparable Document…” and Chapter XXII, paragraph beginning “The Document establishing that Order…”.
-
-    *   [^4]:
-
-        Herald of the Prophet Muḥammad.
+    [^4]:         Herald of the Prophet Muḥammad.
 
 *   ### 8\. ‘Abdu’ṣ-Ṣáliḥ, the Gardener
 
-    *   [^1]:
-
-        Qur’án 68:4.
+    [^1]:         Qur’án 68:4.
 
 *   ### 9\. Ustád Ismá’íl
 
-    *   [^1]:
+    [^1]:         This wine, Rúmí says elsewhere, comes from the jar of “Yea verily.” That is, it symbolizes the Primal Covenant established between God and man on the day of “Am I not your Lord?” On that day, the Creator summoned posterity out of the loins of Adam and said to the generations unborn, “Am I not your Lord?” Whereupon they answered, “Yea, verily, Thou art.” Cf. Qur’án 7:171.
 
-        This wine, Rúmí says elsewhere, comes from the jar of “Yea verily.” That is, it symbolizes the Primal Covenant established between God and man on the day of “Am I not your Lord?” On that day, the Creator summoned posterity out of the loins of Adam and said to the generations unborn, “Am I not your Lord?” Whereupon they answered, “Yea, verily, Thou art.” Cf. Qur’án 7:171.
-
-    *   [^2]:
-
-        The Turkish para was one-ninth of a cent. Cf. Webster, New International Dictionary.
+    [^2]:         The Turkish para was one-ninth of a cent. Cf. Webster, New International Dictionary.
 
 *   ### 10\. Nabíl-i-Zarandí
 
-    *   [^1]:
+    [^1]:         Nabíl, author of The Dawn-Breakers, is Bahá’u’lláh’s “Poet-Laureate, His chronicler and His indefatigable disciple.” Cf. God Passes By, Chapter VIII, paragraph beginning “At the same time an influx of Persian Bábís…”.
 
-        Nabíl, author of The Dawn-Breakers, is Bahá’u’lláh’s “Poet-Laureate, His chronicler and His indefatigable disciple.” Cf. God Passes By, Chapter VIII, paragraph beginning “At the same time an influx of Persian Bábís…”.
+    [^2]:         Mírzá Yaḥyá, the community’s “nominal head,” was the “center provisionally appointed pending the manifestation of the Promised One.” God Passes By, Chapter VIII, paragraph beginning “The return of Bahá’u’lláh from Sulaymáníyyih…”
 
-    *   [^2]:
+    [^3]:         A reference to Islámic symbolism, according to which good is protected from evil: the angels repel such evil spirits as attempt to spy on Paradise, by hurling shooting stars at them. Cf. Qur’án 15:18, 37:10 and 67:5.
 
-        Mírzá Yaḥyá, the community’s “nominal head,” was the “center provisionally appointed pending the manifestation of the Promised One.” God Passes By, Chapter VIII, paragraph beginning “The return of Bahá’u’lláh from Sulaymáníyyih…”
+    [^4]:         A reference to the declaration of Bahá’u’lláh’s advent in 1863, as the Promised One of the Báb. The Báb’s own advent had taken place in the “year sixty”—1844.
 
-    *   [^3]:
+    [^5]:         Bahá’í writings emphasize that the “divinity attributed to so great a Being and the complete incarnation of the names and attributes of God in so exalted a Person should, under no circumstances, be misconceived or misinterpreted … that invisible yet rational God … however much we extol the divinity of His Manifestations on earth, can in no wise incarnate His infinite, His unknowable, His incorruptible and all-embracing Reality in … a mortal being.” Cf. Shoghi Effendi, The Dispensation of Bahá’u’lláh.
 
-        A reference to Islámic symbolism, according to which good is protected from evil: the angels repel such evil spirits as attempt to spy on Paradise, by hurling shooting stars at them. Cf. Qur’án 15:18, 37:10 and 67:5.
+    [^6]:         According to the abjad reckoning, the letters of “shidád” total 309. 1892, the date of Bahá’u’lláh’s ascension, was 1309 A.H.
 
-    *   [^4]:
-
-        A reference to the declaration of Bahá’u’lláh’s advent in 1863, as the Promised One of the Báb. The Báb’s own advent had taken place in the “year sixty”—1844.
-
-    *   [^5]:
-
-        Bahá’í writings emphasize that the “divinity attributed to so great a Being and the complete incarnation of the names and attributes of God in so exalted a Person should, under no circumstances, be misconceived or misinterpreted … that invisible yet rational God … however much we extol the divinity of His Manifestations on earth, can in no wise incarnate His infinite, His unknowable, His incorruptible and all-embracing Reality in … a mortal being.” Cf. Shoghi Effendi, The Dispensation of Bahá’u’lláh.
-
-    *   [^6]:
-
-        According to the abjad reckoning, the letters of “shidád” total 309. 1892, the date of Bahá’u’lláh’s ascension, was 1309 A.H.
-
-    *   [^7]:
-
-        Gharíq. The letters composing this word total 1310, which Hijra year began July 26, 1892.
+    [^7]:         Gharíq. The letters composing this word total 1310, which Hijra year began July 26, 1892.
 
 *   ### 11\. Darvísh Ṣidq-‘Alí
 
-    *   [^1]:
+    [^1]:         Terms used by the Ṣúfís.
 
-        Terms used by the Ṣúfís.
-
-    *   [^2]:
-
-        Ṣidq, truth.
+    [^2]:         Ṣidq, truth.
 
 *   ### 13\. Pidar-Ján of Qazvín
 
-    *   [^1]:
-
-        Qur’án 54:55.
+    [^1]:         Qur’án 54:55.
 
 *   ### 14\. S_hayk_h Ṣádiq-i-Yazdí
 
-    *   [^1]:
+    [^1]:         This word has a number of meanings, including truthful, loyal and just.
 
-        This word has a number of meanings, including truthful, loyal and just.
+    [^2]:         Yá Sháfí.
 
-    *   [^2]:
-
-        Yá Sháfí.
-
-    *   [^3]:
-
-        Qur’án 76:5.
+    [^3]:         Qur’án 76:5.
 
 *   ### 17\. Nabíl of Qá’in
 
-    *   [^1]:
+    [^1]:         Nabíl of Qá’in was his title.
 
-        Nabíl of Qá’in was his title.
+    [^2]:         Qur’án 5:59.
 
-    *   [^2]:
+    [^3]:         The kran was 20 sháhís, or almost 8 cents. Cf. Webster, op. cit.
 
-        Qur’án 5:59.
+    [^4]:         Mírzá Mihdí, the son of Bahá’u’lláh who, praying one evening on the barracks roof, fell to his death. Cf. God Passes By, Chapter XI, paragraph beginning “To the galling weight of these tribulations…”
 
-    *   [^3]:
-
-        The kran was 20 sháhís, or almost 8 cents. Cf. Webster, op. cit.
-
-    *   [^4]:
-
-        Mírzá Mihdí, the son of Bahá’u’lláh who, praying one evening on the barracks roof, fell to his death. Cf. God Passes By, Chapter XI, paragraph beginning “To the galling weight of these tribulations…”
-
-    *   [^5]:
-
-        Cf. Qur’án 13:28; 2:99; 3:67.
+    [^5]:         Cf. Qur’án 13:28; 2:99; 3:67.
 
 *   ### 18\. Siyyid Muḥammad-Taqí Mans_hádí
 
-    *   [^1]:
-
-        Yazíd (son of Mu‘ávíyih), Umayyad Caliph by whose order the Imám Ḥusayn was martyred. Proverbial for cruelty. Cf. S. Haïm, New Persian-English Dictionary, s.v.
+    [^1]:         Yazíd (son of Mu‘ávíyih), Umayyad Caliph by whose order the Imám Ḥusayn was martyred. Proverbial for cruelty. Cf. S. Haïm, New Persian-English Dictionary, s.v.
 
 *   ### 19\. Muḥammad-‘Alí Ṣabbáq of Yazd
 
-    *   [^1]:
-
-        The rebellion of Mírzá Yaḥyá, who had been named provisional chief of the Bábí community. The Báb had never appointed a successor or viceregent, instead referring His disciples to the imminent advent of His Promised One. In the interim a virtual unknown was, for security reasons, made the ostensible leader. Following His declaration in 1863 as the Promised One of the Báb, Bahá’u’lláh withdrew for a time, in Adrianople, to allow the exiles a free choice as between Him and this unworthy half brother, whose crimes and follies had threatened to destroy the infant Faith. Terrified at being challenged to face Bahá’u’lláh in a public debate, Mírzá Yaḥyá refused, and was completely discredited. As Bahá’í history has repeatedly demonstrated, this crisis too, however grievous, resulted in still greater victories for the Faith—including the rallying of prominent disciples to Bahá’u’lláh, and the global proclamation of Bahá’u’lláh’s mission, in His Tablets to the Pope and Kings. Cf. God Passes By, Chapter II, paragraph beginning “A successor or viceregent the Báb had never named…”, Chapter X and passim.
+    [^1]:         The rebellion of Mírzá Yaḥyá, who had been named provisional chief of the Bábí community. The Báb had never appointed a successor or viceregent, instead referring His disciples to the imminent advent of His Promised One. In the interim a virtual unknown was, for security reasons, made the ostensible leader. Following His declaration in 1863 as the Promised One of the Báb, Bahá’u’lláh withdrew for a time, in Adrianople, to allow the exiles a free choice as between Him and this unworthy half brother, whose crimes and follies had threatened to destroy the infant Faith. Terrified at being challenged to face Bahá’u’lláh in a public debate, Mírzá Yaḥyá refused, and was completely discredited. As Bahá’í history has repeatedly demonstrated, this crisis too, however grievous, resulted in still greater victories for the Faith—including the rallying of prominent disciples to Bahá’u’lláh, and the global proclamation of Bahá’u’lláh’s mission, in His Tablets to the Pope and Kings. Cf. God Passes By, Chapter II, paragraph beginning “A successor or viceregent the Báb had never named…”, Chapter X and passim.
 
 *   ### 20\. ‘Abdu’l-Ghaffár of Iṣfahán
 
-    *   [^1]:
-
-        Mírzá Yaḥyá had not been banished from Persia. Now, however, he was being exiled from Adrianople to Cyprus, and ‘Abdu’l-Ghaffár was one of the four companions condemned to go with him. Cf. Bahá’u’lláh’s Epistle to the Son of the Wolf, paragraph beginning “Again I repeat, and plead with thee…”, and God Passes By, Chapter X, paragraph beginning “On the morning of the 2nd of Jamádíyu’l-Avval 1285 A.H…”.
+    [^1]:         Mírzá Yaḥyá had not been banished from Persia. Now, however, he was being exiled from Adrianople to Cyprus, and ‘Abdu’l-Ghaffár was one of the four companions condemned to go with him. Cf. Bahá’u’lláh’s Epistle to the Son of the Wolf, paragraph beginning “Again I repeat, and plead with thee…”, and God Passes By, Chapter X, paragraph beginning “On the morning of the 2nd of Jamádíyu’l-Avval 1285 A.H…”.
 
 *   ### 25\. Muḥammad-Hádíy-i-Ṣaḥḥáf
 
-    *   [^1]:
-
-        Cf. Qur’án 11:101; 11:100; 76:5; 76:22; 17:20.
+    [^1]:         Cf. Qur’án 11:101; 11:100; 76:5; 76:22; 17:20.
 
 *   ### 26\. Mírzá Muḥammad-Qulí
 
-    *   [^1]:
+    [^1]:         Cf. God Passes By, Chapter VII, paragraph beginning “On the first day of the month of Rabí‘u’th-Thání…”.
 
-        Cf. God Passes By, Chapter VII, paragraph beginning “On the first day of the month of Rabí‘u’th-Thání…”.
-
-    *   [^2]:
-
-        Cf. God Passes By, Chapter X, paragraph beginning “Explicit orders had been issued…”, paragraph beginning “The drastic farmán of Sulṭán ‘Abdu’l-‘Azíz…” and paragraph beginning “‘Sulṭán ‘Abdu’l-‘Azíz,’ Bahá’u’lláh is reported by one of His fellow-exiles to have stated…”.
+    [^2]:         Cf. God Passes By, Chapter X, paragraph beginning “Explicit orders had been issued…”, paragraph beginning “The drastic farmán of Sulṭán ‘Abdu’l-‘Azíz…” and paragraph beginning “‘Sulṭán ‘Abdu’l-‘Azíz,’ Bahá’u’lláh is reported by one of His fellow-exiles to have stated…”.
 
 *   ### 27\. Ustád Báqir and Ustád Aḥmad
 
-    *   [^1]:
-
-        Qur’án 54:55.
+    [^1]:         Qur’án 54:55.
 
 *   ### 28\. Muḥammad Ḥaná-Sáb
 
-    *   [^1]:
+    [^1]:         This reference to two worlds, du jihán, may indicate the saying: Iṣfahán is half the world—Iṣfahán niṣf-i-jihán.
 
-        This reference to two worlds, du jihán, may indicate the saying: Iṣfahán is half the world—Iṣfahán niṣf-i-jihán.
+    [^2]:         For this definition of the Manifestation of God, see God Passes By, Chapter VII, paragraph beginning “Mírzá Áqá Ján himself has testified…”.
 
-    *   [^2]:
+    [^3]:         These “twin shining lights” were two brothers, famous merchants of Iṣfahán. Because he owed them a large sum of money, the leading priest—Imám-Jum‘ih—of the city brought about their martyrdom. See Bahá’u’lláh’s Epistle to the Son of the Wolf, and God Passes By, Chapter XII, paragraph beginning “In Iṣfahán Mullá Káẓim was beheaded…”. and paragraph beginning “Nor should a review of the outstanding features of Bahá’u’lláh's writings…”.
 
-        For this definition of the Manifestation of God, see God Passes By, Chapter VII, paragraph beginning “Mírzá Áqá Ján himself has testified…”.
-
-    *   [^3]:
-
-        These “twin shining lights” were two brothers, famous merchants of Iṣfahán. Because he owed them a large sum of money, the leading priest—Imám-Jum‘ih—of the city brought about their martyrdom. See Bahá’u’lláh’s Epistle to the Son of the Wolf, and God Passes By, Chapter XII, paragraph beginning “In Iṣfahán Mullá Káẓim was beheaded…”. and paragraph beginning “Nor should a review of the outstanding features of Bahá’u’lláh's writings…”.
-
-    *   [^4]:
-
-        Qur’án 89:27–30.
+    [^4]:         Qur’án 89:27–30.
 
 *   ### 30\. Áqá Ibráhím-i-Iṣfahání and His Brothers
 
-    *   [^1]:
+    [^1]:         Qur’án 24:35.
 
-        Qur’án 24:35.
+    [^2]:         Qur’án 89:27–30.
 
-    *   [^2]:
-
-        Qur’án 89:27–30.
-
-    *   [^3]:
-
-        Cf. Qur’án 13:28: “Truly in the remembrance of God are the hearts set at rest.”
+    [^3]:         Cf. Qur’án 13:28: “Truly in the remembrance of God are the hearts set at rest.”
 
 *   ### 31\. Áqá Muḥammad-Ibráhím
 
-    *   [^1]:
+    [^1]:         Qur’án 76:5.
 
-        Qur’án 76:5.
-
-    *   [^2]:
-
-        Qur’án 13:28.
+    [^2]:         Qur’án 13:28.
 
 *   ### 33\. Ḥájí Mullá Mihdíy-i-Yazdí
 
-    *   [^1]:
+    [^1]:         Qur’án 3:91.
 
-        Qur’án 3:91.
-
-    *   [^2]:
-
-        Qur’án 29:19; 53:48; 56:62.
+    [^2]:         Qur’án 29:19; 53:48; 56:62.
 
 *   ### 34\. His Eminence Kalím (Mírzá Músá)
 
-    *   [^1]:
+    [^1]:         Mírzá Músá.
 
-        Mírzá Músá.
+    [^2]:         Cf. God Passes By, Chapter X paragraph beginning “Even in Gallipoli, where three nights were spent…”.
 
-    *   [^2]:
-
-        Cf. God Passes By, Chapter X paragraph beginning “Even in Gallipoli, where three nights were spent…”.
-
-    *   [^3]:
-
-        Some four hundred miles northwest of Bag_hdád.
+    [^3]:         Some four hundred miles northwest of Bag_hdád.
 
 *   ### 37\. Mírzá Mihdíy-i-Kás_hání
 
-    *   [^1]:
+    [^1]:         Shikastih—broken—a cursive or half-shorthand script, is thought to have been invented at the close of the seventeenth century, in Hirát.
 
-        Shikastih—broken—a cursive or half-shorthand script, is thought to have been invented at the close of the seventeenth century, in Hirát.
-
-    *   [^2]:
-
-        Gawhar K_hánum’s marriage to Bahá’u’lláh took place in Bag_hdád. She remained with her brother in that city when Bahá’u’lláh left ‘Iráq and later proceeded to ‘Akká at His instruction. While traveling from Bag_hdád to Mosul, she was made captive together with other believers, among them Zaynu’l-Muqarrabín. Bahá’u’lláh makes reference to this captivity in His Tablet to the S_háh.
+    [^2]:         Gawhar K_hánum’s marriage to Bahá’u’lláh took place in Bag_hdád. She remained with her brother in that city when Bahá’u’lláh left ‘Iráq and later proceeded to ‘Akká at His instruction. While traveling from Bag_hdád to Mosul, she was made captive together with other believers, among them Zaynu’l-Muqarrabín. Bahá’u’lláh makes reference to this captivity in His Tablet to the S_háh.
 
         Gawhar K_hánum broke the Covenant of Bahá’u’lláh following His passing. She passed away during the Ministry of ‘Abdu’l‑Bahá.
 
-    *   [^3]:
-
-        Qur’án 76:9.
+    [^3]:         Qur’án 76:9.
 
 *   ### 38\. Mishkín-Qalam
 
-    *   [^1]:
+    [^1]:         A famed calligrapher who lived and wrote at the court of S_háh-‘Abbás, the Ṣafaví (1557–1628).
 
-        A famed calligrapher who lived and wrote at the court of S_háh-‘Abbás, the Ṣafaví (1557–1628).
+    [^2]:         Mishk is musk. Mishkín-Qalam means either musk-scented pen, or jet black pen.
 
-    *   [^2]:
+    [^3]:         Qur’án 61:4.
 
-        Mishk is musk. Mishkín-Qalam means either musk-scented pen, or jet black pen.
-
-    *   [^3]:
-
-        Qur’án 61:4.
-
-    *   [^4]:
-
-        In some of this artist’s productions, the writing was so arranged as to take the forms of birds. When E. G. Browne was in Persia, he was told that “these would be eagerly sought after by Persians of all classes, were it not that they all bore, as the signature of the penman, the following verse: Dar díyár-i-khaṭṭ sháh-i-ṣáḥib-‘alam Bandiy-i-báb-i-Bahá, Mishkín-Qalam.”
+    [^4]:         In some of this artist’s productions, the writing was so arranged as to take the forms of birds. When E. G. Browne was in Persia, he was told that “these would be eagerly sought after by Persians of all classes, were it not that they all bore, as the signature of the penman, the following verse: Dar díyár-i-khaṭṭ sháh-i-ṣáḥib-‘alam Bandiy-i-báb-i-Bahá, Mishkín-Qalam.”
 
         Cf. A Year Amongst the Persians, p. 227. The verse might be translated: Lord of calligraphy, my banner goes before; But to Bahá’u’lláh, a bondsman at the door, Naught else I am, Mishkín-Qalam.
 
@@ -1797,326 +1607,184 @@ Salutations be unto her, and praise. Holy be her dust, as the tiers of light com
 
 *   ### 39\. Ustád ‘Alí-Akbar-i-Najjár
 
-    *   [^1]:
+    [^1]:         Ustád is a master, one who is skilled in an art or profession.
 
-        Ustád is a master, one who is skilled in an art or profession.
+    [^2]:         Qur’án 6:127.
 
-    *   [^2]:
-
-        Qur’án 6:127.
-
-    *   [^3]:
-
-        Qur’án 3:28.
+    [^3]:         Qur’án 3:28.
 
 *   ### 40\. S_hayk_h ‘Alí-Akbar-i-Mázgání
 
-    *   [^1]:
-
-        Qur’án 2:266, 267.
+    [^1]:         Qur’án 2:266, 267.
 
 *   ### 41\. Mírzá Muḥammad, the Servant at the Travelers’ Hospice
 
-    *   [^1]:
-
-        For some of these Arabic phrases, see Qur’án 3:170; 4:12, 175; 5:16, 17; 11:100, 101; 28:79; 41:35.
+    [^1]:         For some of these Arabic phrases, see Qur’án 3:170; 4:12, 175; 5:16, 17; 11:100, 101; 28:79; 41:35.
 
 *   ### 42\. Mírzá Muḥammad-i-Vakíl
 
-    *   [^1]:
+    [^1]:         The Bag_hdád period in Bahá’í history was from April 8, 1853, to May 3, 1863. According to various estimates the túmán of the day ranged from $1.08 to $1.60.
 
-        The Bag_hdád period in Bahá’í history was from April 8, 1853, to May 3, 1863. According to various estimates the túmán of the day ranged from $1.08 to $1.60.
-
-    *   [^2]:
-
-        This was in accord with the law of Islám. Cf. Qur’án 4:12.
+    [^2]:         This was in accord with the law of Islám. Cf. Qur’án 4:12.
 
 *   ### 43\. Ḥájí Muḥammad-Riḍáy-i-S_hírází
 
-    *   [^1]:
-
-        Qur’án 7:171.
+    [^1]:         Qur’án 7:171.
 
 *   ### 44\. Ḥusayn Effendi Tabrízí
 
-    *   [^1]:
-
-        For the tribulations following Bahá’u’lláh’s departure see God Passes By, chapter XV.
+    [^1]:         For the tribulations following Bahá’u’lláh’s departure see God Passes By, chapter XV.
 
 *   ### 45\. Jamshíd-i-Gurjí
 
-    *   [^1]:
+    [^1]:         Persia’s Hercules.
 
-        Persia’s Hercules.
+    [^2]:         Qur’án 89:27.
 
-    *   [^2]:
-
-        Qur’án 89:27.
-
-    *   [^3]:
-
-        Qur’án 4:71.
+    [^3]:         Qur’án 4:71.
 
 *   ### 46\. Ḥájí Ja‘far-i-Tabrízí and His Brothers
 
-    *   [^1]:
+    [^1]:         Cf. God Passes By, Chapter X, paragraph beginning “The Persian Ambassador promptly informed…”.
 
-        Cf. God Passes By, Chapter X, paragraph beginning “The Persian Ambassador promptly informed…”.
-
-    *   [^2]:
-
-        Qur’án 89:27–30.
+    [^2]:         Qur’án 89:27–30.
 
 *   ### 47\. Ḥájí Mírzá Muḥammad-Taqí, the Afnán
 
-    *   [^1]:
+    [^1]:         The Afnán are the Báb’s kindred.
 
-        The Afnán are the Báb’s kindred.
-
-    *   [^2]:
-
-        Qur’án 7:171.
+    [^2]:         Qur’án 7:171.
 
 *   ### 49\. Muḥammad-Muṣṭafá Bag_hdádí
 
-    *   [^1]:
+    [^1]:         Qur’án 39:69.
 
-        Qur’án 39:69.
+    [^2]:         The Promised One of the Báb.
 
-    *   [^2]:
+    [^3]:         Islamic symbolism: Satan is the “stoned one”; with shooting stars for stones, the angels repel demons from Paradise. Qur’án 3:31, 15:17, 34; 37:7; 67:5.
 
-        The Promised One of the Báb.
+    [^4]:         Qur’án 2:17.
 
-    *   [^3]:
-
-        Islamic symbolism: Satan is the “stoned one”; with shooting stars for stones, the angels repel demons from Paradise. Qur’án 3:31, 15:17, 34; 37:7; 67:5.
-
-    *   [^4]:
-
-        Qur’án 2:17.
-
-    *   [^5]:
-
-        Qur’án 4:71.
+    [^5]:         Qur’án 4:71.
 
 *   ### 50\. Sulaymán K_hán-i-Tunukábání
 
-    *   [^1]:
+    [^1]:         The Prime Minister.
 
-        The Prime Minister.
-
-    *   [^2]:
-
-        Qum is the shrine city of Fáṭimih, “the Immaculate.” Sister of the eighth Imám, Imám Riḍá, she was buried here in 816 A.D.
+    [^2]:         Qum is the shrine city of Fáṭimih, “the Immaculate.” Sister of the eighth Imám, Imám Riḍá, she was buried here in 816 A.D.
 
 *   ### 56\. Jináb-i-Muníb
 
-    *   [^1]:
+    [^1]:         The remainder of the verse is: “Let us split the roof of Heaven and draw a new design.”
 
-        The remainder of the verse is: “Let us split the roof of Heaven and draw a new design.”
-
-    *   [^2]:
-
-        Qur’án 52:4.
+    [^2]:         Qur’án 52:4.
 
 *   ### 57\. Mírzá Muṣṭafá Naráqí
 
-    *   [^1]:
-
-        Cf. Qur’án 13:28.
+    [^1]:         Cf. Qur’án 13:28.
 
 *   ### 58\. Zaynu’l-Muqarrabín
 
-    *   [^1]:
+    [^1]:         Qur’án 3:190.
 
-        Qur’án 3:190.
+    [^2]:         Cf. Qur’án 39:68.
 
-    *   [^2]:
-
-        Cf. Qur’án 39:68.
-
-    *   [^3]:
-
-        Qur’án 7:171.
+    [^3]:         Qur’án 7:171.
 
 *   ### 60\. Mírzá Ja‘far-i-Yazdí
 
-    *   [^1]:
+    [^1]:         Manqúl va ma‘qúl: “desumed” versus “excogitated” knowledge.
 
-        Manqúl va ma‘qúl: “desumed” versus “excogitated” knowledge.
+    [^2]:         Qur’án 3:190.
 
-    *   [^2]:
+    [^3]:         Bahá’u’lláh was accompanied by members of His family and twenty-six disciples. The convoy included a mounted guard of ten soldiers with their officer, a train of fifty mules, and seven pairs of howdahs, each pair surmounted by four parasols. The journey to Constantinople lasted from May 3, 1863, to August 16. Cf. God Passes By, Chapter IX, paragraph beginning “The same tokens of devotion shown Bahá’u’lláh…”.
 
-        Qur’án 3:190.
-
-    *   [^3]:
-
-        Bahá’u’lláh was accompanied by members of His family and twenty-six disciples. The convoy included a mounted guard of ten soldiers with their officer, a train of fifty mules, and seven pairs of howdahs, each pair surmounted by four parasols. The journey to Constantinople lasted from May 3, 1863, to August 16. Cf. God Passes By, Chapter IX, paragraph beginning “The same tokens of devotion shown Bahá’u’lláh…”.
-
-    *   [^4]:
-
-        Qur’án 26:119; 36:41.
+    [^4]:         Qur’án 26:119; 36:41.
 
 *   ### 61\. Ḥusayn-Áqáy-i-Tabrízí
 
-    *   [^1]:
-
-        Cf. Qur’án 5:59.
+    [^1]:         Cf. Qur’án 5:59.
 
 *   ### 62\. Ḥájí ‘Alí-‘Askar-i-Tabrízí
 
-    *   [^1]:
-
-        Qur’án 39:68–69: “And there shall be a blast on the trumpet, and all who are in the heavens and all who are in the earth shall swoon away, save those whom God shall vouchsafe to live. Then shall there be another blast on it, and lo! arising they shall gaze around them: and the earth shall shine with the light of her Lord.…”
+    [^1]:         Qur’án 39:68–69: “And there shall be a blast on the trumpet, and all who are in the heavens and all who are in the earth shall swoon away, save those whom God shall vouchsafe to live. Then shall there be another blast on it, and lo! arising they shall gaze around them: and the earth shall shine with the light of her Lord.…”
 
 *   ### 64\. Áqá Muḥammad-Báqir and Áqá Muḥammad-Ismá’íl, the Tailor
 
-    *   [^1]:
+    [^1]:         In S_hayk_hí terminology, the Fourth Support or Fourth Pillar was the perfect man or channel of grace, always to be sought. Ḥájí Muḥammad-Karím K_hán regarded himself as such. Cf. Bahá’u’lláh, Kitáb-i-Íqán (The Book of Certitude), paragraph beginning “For instance, a certain man, reputed for his learning…”, and ‘Abdu’l‑Bahá, A Traveller’s Narrative, paragraph beginning “Now since He was noted amongst the people…”.
 
-        In S_hayk_hí terminology, the Fourth Support or Fourth Pillar was the perfect man or channel of grace, always to be sought. Ḥájí Muḥammad-Karím K_hán regarded himself as such. Cf. Bahá’u’lláh, Kitáb-i-Íqán (The Book of Certitude), paragraph beginning “For instance, a certain man, reputed for his learning…”, and ‘Abdu’l‑Bahá, A Traveller’s Narrative, paragraph beginning “Now since He was noted amongst the people…”.
+    [^2]:         The promised Twelfth Imám.
 
-    *   [^2]:
+    [^3]:         ‘Allámiy-i-Ḥillí, “the Very Erudite Doctor,” title of the famed S_hí‘ah theologian, Jamálu’d-Dín Ḥasan ibn-i-Yúsuf ibn-i-‘Alí of Hilla (1250–1325 A.D.).
 
-        The promised Twelfth Imám.
-
-    *   [^3]:
-
-        ‘Allámiy-i-Ḥillí, “the Very Erudite Doctor,” title of the famed S_hí‘ah theologian, Jamálu’d-Dín Ḥasan ibn-i-Yúsuf ibn-i-‘Alí of Hilla (1250–1325 A.D.).
-
-    *   [^4]:
-
-        The Turkish ghurúsh or piaster of the time was forty paras, the para one-ninth of a cent. These figures are approximate only.
+    [^4]:         The Turkish ghurúsh or piaster of the time was forty paras, the para one-ninth of a cent. These figures are approximate only.
 
 *   ### 67\. The Consort of the King of Martyrs
 
-    *   [^1]:
+    [^1]:         Accent the first syllable: FÁ-teh-meh.
 
-        Accent the first syllable: FÁ-teh-meh.
+    [^2]:         Gibbon writes of the Imám Ḥusayn’s martyrdom and the fate of his Household, that “in a distant age and climate the tragic scene … will awaken the sympathy of the coldest reader.”
 
-    *   [^2]:
+    [^3]:         The Sadratu’l-Muntahá, translated inter alia as the Sidrah Tree which marks the boundary, and the Lote-Tree of the extremity. Cf. Qur’án 53:14. It is said to stand at the loftiest point in Paradise, and to mark the place beyond which neither men nor angels can pass. In Bahá’í terminology it refers to the Manifestation of God.
 
-        Gibbon writes of the Imám Ḥusayn’s martyrdom and the fate of his Household, that “in a distant age and climate the tragic scene … will awaken the sympathy of the coldest reader.”
+    [^4]:         This prayer was revealed by ‘Abdu’l‑Bahá for the Consort of the King of Martyrs.
 
-    *   [^3]:
-
-        The Sadratu’l-Muntahá, translated inter alia as the Sidrah Tree which marks the boundary, and the Lote-Tree of the extremity. Cf. Qur’án 53:14. It is said to stand at the loftiest point in Paradise, and to mark the place beyond which neither men nor angels can pass. In Bahá’í terminology it refers to the Manifestation of God.
-
-    *   [^4]:
-
-        This prayer was revealed by ‘Abdu’l‑Bahá for the Consort of the King of Martyrs.
-
-    *   [^5]:
-
-        Qur’án 76:5.
+    [^5]:         Qur’án 76:5.
 
 *   ### 68\. Shamsu’ḍ-Ḍuḥá
 
-    *   [^1]:
+    [^1]:         Pronounced Shams-oz-Zohá.
 
-        Pronounced Shams-oz-Zohá.
+    [^2]:         A forerunner of the Báb, and co-founder of the S_hayk_hí School. See glossary.
 
-    *   [^2]:
+    [^3]:         His daughter, at a later date, became the consort of ‘Abdu’l‑Bahá. Cf. God Passes By, Chapter VIII, paragraph beginning “At the same time an influx of Persian Bábís…” and The Dawn-Breakers, Chapter XXI, paragraph beginning “‘How great was the consternation…”.
 
-        A forerunner of the Báb, and co-founder of the S_hayk_hí School. See glossary.
+    [^4]:         “Gate of the Gate,” a title of Mullá Ḥusayn, the first to believe in the Báb. For an account of his sister, cf. The Dawn-Breakers, Chapter XX, note beginning “Among them was Mullá Ḥusayn…”.
 
-    *   [^3]:
+    [^5]:         “Solace of the Eyes.”
 
-        His daughter, at a later date, became the consort of ‘Abdu’l‑Bahá. Cf. God Passes By, Chapter VIII, paragraph beginning “At the same time an influx of Persian Bábís…” and The Dawn-Breakers, Chapter XXI, paragraph beginning “‘How great was the consternation…”.
+    [^6]:         Persian women of the day went heavily veiled in public.
 
-    *   [^4]:
+    [^7]:         Qur’án 7:7; 14:42; 21:48; 57:25, etc.
 
-        “Gate of the Gate,” a title of Mullá Ḥusayn, the first to believe in the Báb. For an account of his sister, cf. The Dawn-Breakers, Chapter XX, note beginning “Among them was Mullá Ḥusayn…”.
+    [^8]:         Cf. Nabíl, The Dawn-Breakers, chapter XV.
 
-    *   [^5]:
+    [^9]:         The reference is to Muḥammad’s daughter, Fáṭimih, “the bright and fair of face, the Lady of Light.”
 
-        “Solace of the Eyes.”
+    [^10]:         Eldest son of the S_háh and ruler over more than two-fifths of the kingdom. He ratified the death sentence. Soon after these events, he fell into disgrace. Cf. God Passes By, Chapter XII, paragraph beginning “In Iṣfahán Mullá Káẓim was beheaded…” and Chapter XIII, paragraph beginning “Nor should, in a review of this nature…”.
 
-    *   [^6]:
-
-        Persian women of the day went heavily veiled in public.
-
-    *   [^7]:
-
-        Qur’án 7:7; 14:42; 21:48; 57:25, etc.
-
-    *   [^8]:
-
-        Cf. Nabíl, The Dawn-Breakers, chapter XV.
-
-    *   [^9]:
-
-        The reference is to Muḥammad’s daughter, Fáṭimih, “the bright and fair of face, the Lady of Light.”
-
-    *   [^10]:
-
-        Eldest son of the S_háh and ruler over more than two-fifths of the kingdom. He ratified the death sentence. Soon after these events, he fell into disgrace. Cf. God Passes By, Chapter XII, paragraph beginning “In Iṣfahán Mullá Káẓim was beheaded…” and Chapter XIII, paragraph beginning “Nor should, in a review of this nature…”.
-
-    *   [^11]:
-
-        The eighth Imám, poisoned by order of the Caliph Ma‘múm, A.H. 203, after the Imám had been officially designated as the Caliph’s heir apparent. His shrine, with its golden dome, has been called the glory of the S_hí‘ah world. “A part of My body is to be buried in K_hurasán,” the Prophet traditionally said.
+    [^11]:         The eighth Imám, poisoned by order of the Caliph Ma‘múm, A.H. 203, after the Imám had been officially designated as the Caliph’s heir apparent. His shrine, with its golden dome, has been called the glory of the S_hí‘ah world. “A part of My body is to be buried in K_hurasán,” the Prophet traditionally said.
 
 *   ### 69\. Ṭáhirih
 
-    *   [^1]:
+    [^1]:         Pronounced TÁ-heh-reh.
 
-        Pronounced TÁ-heh-reh.
+    [^2]:         Cf. The Dawn-Breakers, Chapter III, note beginning “According to ‘Memorials of the Faithful’…” and Chapter XV, note beginning “‘Abdu’l-Bahá relates…”. Certain lines, there translated by Shoghi Effendi, are incorporated here.
 
-    *   [^2]:
+    [^3]:         A forerunner of the Báb, and first of the two founders of the S_hayk_hí School. See glossary.
 
-        Cf. The Dawn-Breakers, Chapter III, note beginning “According to ‘Memorials of the Faithful’…” and Chapter XV, note beginning “‘Abdu’l-Bahá relates…”. Certain lines, there translated by Shoghi Effendi, are incorporated here.
+    [^4]:         Qur’án 17:1; 30:56; 50:19; etc.
 
-    *   [^3]:
+    [^5]:         The sixth Imám.
 
-        A forerunner of the Báb, and first of the two founders of the S_hayk_hí School. See glossary.
+    [^6]:         The “Aḥsanu’l-Qiṣaṣ,” the Báb’s commentary on the Súrih of Joseph, was called the Qur’án of the Bábís, and was translated from Arabic into Persian by Ṭáhirih. Cf. God Passes By, Chapter V, paragraph beginning “Already in S_híráz…”.
 
-    *   [^4]:
+    [^7]:         Qur’án 3:54: “Then will we invoke and lay the malison of God on those that lie!” The ordeal was by imprecation.
 
-        Qur’án 17:1; 30:56; 50:19; etc.
+    [^8]:         Qur’án 21:48; 19:37, etc. In Islám the Bridge of Ṣiráṭ, sharp as a sword and finer than a hair, stretches across Hell to Heaven.
 
-    *   [^5]:
+    [^9]:         Cf. The Dawn-Breakers, Chapter XV, paragraph beginning “This state of tension continued…”. The murderer was not a Bábí, but a fervent admirer of the S_hayk_hí leaders, the Twin Luminous Lights.
 
-        The sixth Imám.
+    [^10]:         Cf. The Dawn-Breakers, Chapter XV, paragraph beginning “The candour and sincerity of Mullá ‘Abdu’lláh…”.
 
-    *   [^6]:
+    [^11]:         This refers to the doctrine that there are three ways to God: the Law (sharí‘at), the Path (ṭaríqat), and the Truth (ḥaqíqat). That is, the law of the orthodox, the path of the dervish, and the truth. Cf. R. A. Nicholson, Commentary on the Mathnaví of Rúmí, s.v.
 
-        The “Aḥsanu’l-Qiṣaṣ,” the Báb’s commentary on the Súrih of Joseph, was called the Qur’án of the Bábís, and was translated from Arabic into Persian by Ṭáhirih. Cf. God Passes By, Chapter V, paragraph beginning “Already in S_híráz…”.
+    [^12]:         The eighteenth Letter of the Living, martyred with unspeakable cruelty in the marketplace at Bárfurúsh, when he was twenty-seven. Bahá’u’lláh conferred on him a station second only to that of the Báb Himself. Cf. The Dawn-Breakers, pp. 408–15.
 
-    *   [^7]:
+    [^13]:         Cf. Qur’án 74:8 and 6:73. Also Isaiah 27:13 and Zechariah 9:14.
 
-        Qur’án 3:54: “Then will we invoke and lay the malison of God on those that lie!” The ordeal was by imprecation.
+    [^14]:         Qur’án, Súrih 56.
 
-    *   [^8]:
+    [^15]:         A systematic campaign against the new Faith had been launched in Persia by the civil and ecclesiastical authorities combined. The believers, cut down wherever they were isolated, banded together when they could, for protection against the Government, the clergy, and the people. Betrayed and surrounded as they passed through the forest of Mázindarán, some 300 believers, mostly students and recluses, built the Fort of S_hayk_h Ṭabarsí and held out against the armies of Persia for eleven months. Cf. The Dawn-Breakers, chapters XIX and XX; God Passes By, Chapter V, paragraph beginning “This fierce, nation-wide controversy…” et seq.
 
-        Qur’án 21:48; 19:37, etc. In Islám the Bridge of Ṣiráṭ, sharp as a sword and finer than a hair, stretches across Hell to Heaven.
-
-    *   [^9]:
-
-        Cf. The Dawn-Breakers, Chapter XV, paragraph beginning “This state of tension continued…”. The murderer was not a Bábí, but a fervent admirer of the S_hayk_hí leaders, the Twin Luminous Lights.
-
-    *   [^10]:
-
-        Cf. The Dawn-Breakers, Chapter XV, paragraph beginning “The candour and sincerity of Mullá ‘Abdu’lláh…”.
-
-    *   [^11]:
-
-        This refers to the doctrine that there are three ways to God: the Law (sharí‘at), the Path (ṭaríqat), and the Truth (ḥaqíqat). That is, the law of the orthodox, the path of the dervish, and the truth. Cf. R. A. Nicholson, Commentary on the Mathnaví of Rúmí, s.v.
-
-    *   [^12]:
-
-        The eighteenth Letter of the Living, martyred with unspeakable cruelty in the marketplace at Bárfurúsh, when he was twenty-seven. Bahá’u’lláh conferred on him a station second only to that of the Báb Himself. Cf. The Dawn-Breakers, pp. 408–15.
-
-    *   [^13]:
-
-        Cf. Qur’án 74:8 and 6:73. Also Isaiah 27:13 and Zechariah 9:14.
-
-    *   [^14]:
-
-        Qur’án, Súrih 56.
-
-    *   [^15]:
-
-        A systematic campaign against the new Faith had been launched in Persia by the civil and ecclesiastical authorities combined. The believers, cut down wherever they were isolated, banded together when they could, for protection against the Government, the clergy, and the people. Betrayed and surrounded as they passed through the forest of Mázindarán, some 300 believers, mostly students and recluses, built the Fort of S_hayk_h Ṭabarsí and held out against the armies of Persia for eleven months. Cf. The Dawn-Breakers, chapters XIX and XX; God Passes By, Chapter V, paragraph beginning “This fierce, nation-wide controversy…” et seq.
-
-    *   [^16]:
-
-        On August 15, 1852, a half-crazed Bábí youth wounded the S_háh with shot from a pistol. The assailant was instantly killed, and the authorities carried out a wholesale massacre of the believers, its climax described by Renan as “a day perhaps unparalleled in the history of the world.” Cf. Lord Curzon, Persia and the Persian Question, pp. 501–2, and God Passes By, Chapter V, paragraph beginning “Obsessed by the bitter tragedy of the martyrdom of his beloved Master…” et seq.
+    [^16]:         On August 15, 1852, a half-crazed Bábí youth wounded the S_háh with shot from a pistol. The assailant was instantly killed, and the authorities carried out a wholesale massacre of the believers, its climax described by Renan as “a day perhaps unparalleled in the history of the world.” Cf. Lord Curzon, Persia and the Persian Question, pp. 501–2, and God Passes By, Chapter V, paragraph beginning “Obsessed by the bitter tragedy of the martyrdom of his beloved Master…” et seq.

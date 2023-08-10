@@ -11,11 +11,13 @@ _conversionOpts:
   encoding: UTF-8
   reconvert: true
   postPatterns:
+    '/(\s*)\*\s+(\[\^\d+\]:)\s*\n/': '$1$2 '
     '/^(?:\*\s*)*(\[\^[\w\d]+\]:)\s*\n*/': '$1 '
     '/\n\n(.+\\\[\d+\\\])$/': '\n\n$1 {¶=none .cite}'
-  ignoreElements: div.of
+  ignoreElements: 'div.of,nav,a.sd:not(.ef)'
   fnRefEl: sup.ve
-  fnTextEl: a.sd
+  fnTextEl: a.sd.ef
+  converter: html
 sourceUrl: >-
   https://www.bahai.org/library/authoritative-texts/the-universal-house-of-justice/messages/20020401_001/20020401_001.xhtml?1b0ef451
 _convertedFrom: >-

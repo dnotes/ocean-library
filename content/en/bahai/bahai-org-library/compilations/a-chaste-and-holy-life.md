@@ -5,19 +5,21 @@ author: various
 access: research
 language: en
 priority: 10
-wordsCount: 6957
+wordsCount: 6942
 _conversionOpts:
   encoding: UTF-8
   reconvert: true
   postPatterns:
+    '/(\s*)\*\s+(\[\^\d+\]:)\s*\n/': '$1$2 '
     '/^(?:\*\s*)*(\[\^[\w\d]+\]:)\s*\n*/': '$1 '
     '/\n\n(.+\\\[\d+\\\])$/': '\n\n$1 {¶=none .cite}'
-  ignoreElements: div.of
+  ignoreElements: 'div.of,nav,a.sd:not(.ef)'
   fnRefEl: sup.ve
-  fnTextEl: a.sd
+  fnTextEl: a.sd.ef
   metaElements:
     author: various
     collection: Compilations
+  converter: html
 sourceUrl: >-
   https://www.bahai.org/library/authoritative-texts/compilations/chaste-holy-life/chaste-holy-life.xhtml?76941272
 _convertedFrom: >-
@@ -26,6 +28,7 @@ _softHyphenWords: ''
 collectionTitle: Compilations
 ocnmd_version: 2
 collectionId: compilations
+collection: Compilations
 ---
 # A Chaste and Holy Life
 A Compilation Prepared by the Research Department
@@ -37,10 +40,6 @@ September 1988
 Such a chaste and holy life, with its implications of modesty, purity, temperance, decency, and clean-mindedness, involves no less than the exercise of moderation in all that pertains to dress, language, amusements, and all artistic and literary avocations. It demands daily vigilance in the control of one’s carnal desires and corrupt inclinations. It calls for the abandonment of a frivolous conduct, with its excessive attachment to trivial and often misdirected pleasures. It requires total abstinence from all alcoholic drinks, from opium, and from similar habit-forming drugs. It condemns the prostitution of art and of literature, the practices of nudism and of companionate marriage, infidelity in marital relationships, and all manner of promiscuity, of easy familiarity, and of sexual vices...
 
 (“The Advent of Divine Justice” (Wilmette: Bahá’í Publishing Trust, 1984), p. 30)
-
-*   The Bahá’í Standard
-*   A Chaste and Holy Life
-*   The Power of Example
 
 The Bahá’í Standard
 

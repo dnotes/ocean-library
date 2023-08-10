@@ -5,19 +5,21 @@ author: various
 access: research
 language: en
 priority: 10
-wordsCount: 43822
+wordsCount: 43710
 _conversionOpts:
   encoding: UTF-8
   reconvert: true
   postPatterns:
+    '/(\s*)\*\s+(\[\^\d+\]:)\s*\n/': '$1$2 '
     '/^(?:\*\s*)*(\[\^[\w\d]+\]:)\s*\n*/': '$1 '
     '/\n\n(.+\\\[\d+\\\])$/': '\n\n$1 {¶=none .cite}'
-  ignoreElements: div.of
+  ignoreElements: 'div.of,nav,a.sd:not(.ef)'
   fnRefEl: sup.ve
-  fnTextEl: a.sd
+  fnTextEl: a.sd.ef
   metaElements:
     author: various
     collection: Compilations
+  converter: html
 sourceUrl: >-
   https://www.bahai.org/library/authoritative-texts/compilations/social-action/social-action.xhtml?cc99404b
 _convertedFrom: >-
@@ -26,36 +28,12 @@ _softHyphenWords: ''
 collectionTitle: Compilations
 ocnmd_version: 2
 collectionId: compilations
+collection: Compilations
 ---
 # Social Action
 A Compilation Prepared by the Research Department of the Universal House of Justice
 
 August 2020
-
-*   Underlying Concepts and Principles
-
-    *   The Concept of Social and Economic Development Enshrined in the Teachings
-    *   Collective Maturity and an Ever-Advancing Civilization
-    *   Oneness and Justice
-    *   The Role of Knowledge
-*   The Nature of Bahá’í Social and Economic Development
-
-    *   Coherence Between the Material and Spiritual Dimensions of Existence
-    *   Capacity Building, Participation, and Organic Growth
-    *   The Emergence of Social Action
-    *   Community Development and the Movement of Populations
-*   Methods and Approaches
-
-    *   Learning and Systematic Action
-    *   Consultation and Collaboration
-    *   Utilizing Material Means
-*   Selected Themes Pertaining to Social and Economic Development
-
-    *   Education
-    *   Agriculture
-    *   Economics
-    *   Health
-    *   Arts, Media, and Technology
 
 Underlying Concepts and Principles
 

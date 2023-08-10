@@ -5,16 +5,18 @@ author: Shoghi Effendi
 access: research
 language: en
 priority: 10
-wordsCount: 72288
+wordsCount: 72227
 _conversionOpts:
   encoding: UTF-8
   reconvert: true
   postPatterns:
+    '/(\s*)\*\s+(\[\^\d+\]:)\s*\n/': '$1$2 '
     '/^(?:\*\s*)*(\[\^[\w\d]+\]:)\s*\n*/': '$1 '
     '/\n\n(.+\\\[\d+\\\])$/': '\n\n$1 {¶=none .cite}'
-  ignoreElements: div.of
+  ignoreElements: 'div.of,nav,a.sd:not(.ef)'
   fnRefEl: sup.ve
-  fnTextEl: a.sd
+  fnTextEl: a.sd.ef
+  converter: html
 sourceUrl: >-
   https://www.bahai.org/library/authoritative-texts/shoghi-effendi/world-order-bahaullah/world-order-bahaullah.xhtml?93be3e2a
 _convertedFrom: >-
@@ -26,19 +28,6 @@ ocnmd_version: 2
 Selected Letters
 
 by Shoghi Effendi
-
-*   The World Order of Bahá’u’lláh
-*   The World Order of Bahá’u’lláh: Further Considerations
-*   The Goal of a New World Order
-*   The Golden Age of the Cause of Bahá’u’lláh
-*   America and the Most Great Peace
-*   The Dispensation of Bahá’u’lláh
-
-    *   Bahá’u’lláh
-    *   The Báb
-    *   ‘Abdu’l‑Bahá
-    *   The Administrative Order
-*   The Unfoldment of World Civilization
 
 * * *
 
@@ -1099,6 +1088,4 @@ March 11, 1936.
 
 *   ### America and the Most Great Peace
 
-    *   [^1]:
-
-        In an address by Dr. Henry H. Jessup at the Parliament of Religions, Columbian Exposition, Chicago, 1893.—Editor.
+    [^1]:         In an address by Dr. Henry H. Jessup at the Parliament of Religions, Columbian Exposition, Chicago, 1893.—Editor.

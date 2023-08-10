@@ -5,19 +5,21 @@ author: various
 access: research
 language: en
 priority: 10
-wordsCount: 17555
+wordsCount: 17525
 _conversionOpts:
   encoding: UTF-8
   reconvert: true
   postPatterns:
+    '/(\s*)\*\s+(\[\^\d+\]:)\s*\n/': '$1$2 '
     '/^(?:\*\s*)*(\[\^[\w\d]+\]:)\s*\n*/': '$1 '
     '/\n\n(.+\\\[\d+\\\])$/': '\n\n$1 {¶=none .cite}'
-  ignoreElements: div.of
+  ignoreElements: 'div.of,nav,a.sd:not(.ef)'
   fnRefEl: sup.ve
-  fnTextEl: a.sd
+  fnTextEl: a.sd.ef
   metaElements:
     author: various
     collection: Compilations
+  converter: html
 sourceUrl: >-
   https://www.bahai.org/library/authoritative-texts/compilations/huququllah-right-god/huququllah-right-god.xhtml?647e0954
 _convertedFrom: >-
@@ -26,6 +28,7 @@ _softHyphenWords: ''
 collectionTitle: Compilations
 ocnmd_version: 2
 collectionId: compilations
+collection: Compilations
 ---
 # Ḥuqúqu’lláh—The Right of God
 A Compilation of Extracts from the Writings
@@ -35,11 +38,6 @@ of Bahá’u’lláh and ‘Abdu’l-Bahá and from Letters Written by and on Be
 April 2007
 
 Amended August 2009
-
-*   Foundations of the Law of Ḥuqúqu’lláh
-*   Application of the Law of Ḥuqúqu’lláh
-*   Functions of the Trustees of Ḥuqúqu’lláh and the Spiritual Assemblies
-*   Disbursement of Ḥuqúqu’lláh Funds
 
 1\. Foundations of the Law of Ḥuqúqu’lláh
 

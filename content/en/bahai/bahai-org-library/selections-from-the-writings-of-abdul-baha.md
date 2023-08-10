@@ -5,16 +5,18 @@ author: ‘Abdu’l‑Bahá
 access: research
 language: en
 priority: 10
-wordsCount: 98776
+wordsCount: 98687
 _conversionOpts:
   encoding: UTF-8
   reconvert: true
   postPatterns:
+    '/(\s*)\*\s+(\[\^\d+\]:)\s*\n/': '$1$2 '
     '/^(?:\*\s*)*(\[\^[\w\d]+\]:)\s*\n*/': '$1 '
     '/\n\n(.+\\\[\d+\\\])$/': '\n\n$1 {¶=none .cite}'
-  ignoreElements: div.of
+  ignoreElements: 'div.of,nav,a.sd:not(.ef)'
   fnRefEl: sup.ve
-  fnTextEl: a.sd
+  fnTextEl: a.sd.ef
+  converter: html
 sourceUrl: >-
   https://www.bahai.org/library/authoritative-texts/abdul-baha/selections-writings-abdul-baha/selections-writings-abdul-baha.xhtml?e4866639
 _convertedFrom: >-
@@ -26,11 +28,6 @@ ocnmd_version: 2
 Compiled by the Research Department of the Universal House of Justice
 
 Translated by a Committee at the Bahá’í World Centre and by Marzieh Gail
-
-*   Preface
-*   Selections from the Writings of ‘Abdu’l‑Bahá
-
-*   Notes on Translations
 
 References to the Qur’án
 
@@ -2845,388 +2842,236 @@ Sections Translated by a Committee at the World Centre, based on earlier Transla
 
     *   #### 2: “O my Lord! I have drawn nigh unto Thee, in the…”
 
-        *   [^1]:
+        [^1]:             Qur’án 60:13
 
-            Qur’án 60:13
+        [^2]:             Matthew 22:14
 
-        *   [^2]:
-
-            Matthew 22:14
-
-        *   [^3]:
-
-            Qur’án 57:21
+        [^3]:             Qur’án 57:21
 
     *   #### 4: “Praise be to Him Who hath made the world of being,…”
 
-        *   [^1]:
+        [^1]:             Qur’án 17:81
 
-            Qur’án 17:81
+        [^2]:             Qur’án 15:72
 
-        *   [^2]:
+        [^3]:             Qur’án 39:68; Epistle to the Son of the Wolf, p. 133
 
-            Qur’án 15:72
+        [^4]:             Qur’án 74:8
 
-        *   [^3]:
+        [^5]:             Qur’án 39:68
 
-            Qur’án 39:68; Epistle to the Son of the Wolf, p. 133
+        [^6]:             Qur’án 79:6
 
-        *   [^4]:
+        [^7]:             Qur’án 22:2
 
-            Qur’án 74:8
+        [^8]:             Qur’án 34:39
 
-        *   [^5]:
+        [^9]:             Qur’án 29:19
 
-            Qur’án 39:68
+        [^10]:             Qur’án 79:34
 
-        *   [^6]:
+        [^11]:             Qur’án 6:91; 52:12
 
-            Qur’án 79:6
-
-        *   [^7]:
-
-            Qur’án 22:2
-
-        *   [^8]:
-
-            Qur’án 34:39
-
-        *   [^9]:
-
-            Qur’án 29:19
-
-        *   [^10]:
-
-            Qur’án 79:34
-
-        *   [^11]:
-
-            Qur’án 6:91; 52:12
-
-        *   [^12]:
-
-            Napoleon III
+        [^12]:             Napoleon III
 
     *   #### 8: “O ye beloved of ‘Abdu’l‑Bahá and ye handmaids of…”
 
-        *   [^1]:
-
-            Believed to be the angel appointed to sound the trumpet on the Day of Resurrection to raise the dead at the bidding of the Lord.
+        [^1]:             Believed to be the angel appointed to sound the trumpet on the Day of Resurrection to raise the dead at the bidding of the Lord.
 
     *   #### 9: “O thou whose heart overfloweth with love for the…”
 
-        *   [^1]:
-
-            Ḥuqúqu’lláh
+        [^1]:             Ḥuqúqu’lláh
 
     *   #### 19: “Praise be to Him through Whose splendors the…”
 
-        *   [^1]:
+        [^1]:             Qur’án 6:103
 
-            Qur’án 6:103
+        [^2]:             Qur’án 17:110
 
-        *   [^2]:
+        [^3]:             John 14:11
 
-            Qur’án 17:110
+        [^4]:             John 14:10
 
-        *   [^3]:
-
-            John 14:11
-
-        *   [^4]:
-
-            John 14:10
-
-        *   [^5]:
-
-            Qur’án 6:91
+        [^5]:             Qur’án 6:91
 
     *   #### 20: “When Christ appeared, twenty centuries ago, although…”
 
-        *   [^1]:
-
-            Written especially for Dr. Esslemont’s immortal work Bahá’u’lláh and the New Era.
+        [^1]:             Written especially for Dr. Esslemont’s immortal work Bahá’u’lláh and the New Era.
 
     *   #### 28: “O leaf upon the Tree of Life! The Tree of Life, of…”
 
-        *   [^1]:
-
-            John 6:51, 58
+        [^1]:             John 6:51, 58
 
     *   #### 29: “O thou who art captivated by the truth and…”
 
-        *   [^1]:
+        [^1]:             cf. John 15:26; 16:12–13
 
-            cf. John 15:26; 16:12–13
-
-        *   [^2]:
-
-            Regarding this Tablet Shoghi Effendi’s secretary wrote on his behalf, 9 May 1938, “…this obviously refers to the Báb, as the text shows clearly, and is in no way a reference to Swedenborg.”
+        [^2]:             Regarding this Tablet Shoghi Effendi’s secretary wrote on his behalf, 9 May 1938, “…this obviously refers to the Báb, as the text shows clearly, and is in no way a reference to Swedenborg.”
 
     *   #### 31: “O thou who art dear, and wise! Thy letter dated…”
 
-        *   [^1]:
-
-            Jesus
+        [^1]:             Jesus
 
     *   #### 35: “O army of God! A letter signed jointly by all of…”
 
-        *   [^1]:
-
-            Cities in China celebrated for their musk-producing animals.
+        [^1]:             Cities in China celebrated for their musk-producing animals.
 
     *   #### 39: “O handmaid of God! Thy letter hath been received,…”
 
-        *   [^1]:
-
-            The earthquake of 1906
+        [^1]:             The earthquake of 1906
 
     *   #### 44: “The members thereof must take counsel together…”
 
-        *   [^1]:
-
-            Of a Spiritual Assembly
+        [^1]:             Of a Spiritual Assembly
 
     *   #### 63: “O ye blessed souls! The letter ye had written to…”
 
-        *   [^1]:
+        [^1]:             The Bahá’ís of Najaf-Ábád
 
-            The Bahá’ís of Najaf-Ábád
-
-        *   [^2]:
-
-            Muḥammad
+        [^2]:             Muḥammad
 
     *   #### 74: “O bird that singeth sweetly of the Abhá Beauty! In…”
 
-        *   [^1]:
-
-            Shahnáz, the name given to the recipient of this Tablet, is also the name of a musical mode.
+        [^1]:             Shahnáz, the name given to the recipient of this Tablet, is also the name of a musical mode.
 
     *   #### 79: “O respected personage! I have read your work,…”
 
-        *   [^1]:
-
-            An article from Andrew Carnegie’s book The Gospel of Wealth was published in England in the Pall Mall Budget and called The Gospel of Wealth, cf. Andrew Carnegie’s Autobiography, 255n.
+        [^1]:             An article from Andrew Carnegie’s book The Gospel of Wealth was published in England in the Pall Mall Budget and called The Gospel of Wealth, cf. Andrew Carnegie’s Autobiography, 255n.
 
     *   #### 87: “O thou memento of him who died for the Blessed…”
 
-        *   [^1]:
-
-            Qur’án 36:36, and cf. 51:49
+        [^1]:             Qur’án 36:36, and cf. 51:49
 
     *   #### 103: “The education and training of children is among…”
 
-        *   [^1]:
+        [^1]:             Qur’án 25:55, 35:13, 55:19–25. See also Marriage Prayer revealed by ‘Abdu’l‑Bahá beginning “He is God! O peerless Lord! In Thine almighty wisdom Thou hast enjoined marriage upon the peoples…”
 
-            Qur’án 25:55, 35:13, 55:19–25. See also Marriage Prayer revealed by ‘Abdu’l‑Bahá beginning “He is God! O peerless Lord! In Thine almighty wisdom Thou hast enjoined marriage upon the peoples…”
-
-        *   [^2]:
-
-            See Some Answered Questions, pp. 328–9 for ‘Abdu’l‑Bahá’s comments on the arc of descent and ascent.
+        [^2]:             See Some Answered Questions, pp. 328–9 for ‘Abdu’l‑Bahá’s comments on the arc of descent and ascent.
 
     *   #### 104: “O loved ones of God and handmaids of the…”
 
-        *   [^1]:
+        [^1]:             cf. Qur’án 37:60 (The Tree of Zaqqúm)
 
-            cf. Qur’án 37:60 (The Tree of Zaqqúm)
-
-        *   [^2]:
-
-            cf. Qur’án 24:35
+        [^2]:             cf. Qur’án 24:35
 
     *   #### 118: “O ye young Bahá’í children, ye seekers after true…”
 
-        *   [^1]:
-
-            Genesis 1:26
+        [^1]:             Genesis 1:26
 
     *   #### 123: “O thou who gazest upon the Kingdom of God!…”
 
-        *   [^1]:
-
-            A Bahá’í children’s class in Kenosha, Wisconsin.
+        [^1]:             A Bahá’í children’s class in Kenosha, Wisconsin.
 
     *   #### 129: “O Friends of the Pure and Omnipotent God! To…”
 
-        *   [^1]:
+        [^1]:             Qur’án 25:50
 
-            Qur’án 25:50
+        [^2]:             cf. John 3:5
 
-        *   [^2]:
+        [^3]:             cf. Qur’án 39:57
 
-            cf. John 3:5
-
-        *   [^3]:
-
-            cf. Qur’án 39:57
-
-        *   [^4]:
-
-            Possibly ‘Abdu’l‑Bahá was referring to the Sikhs; the description appears to apply to them.
+        [^4]:             Possibly ‘Abdu’l‑Bahá was referring to the Sikhs; the description appears to apply to them.
 
     *   #### 140: “Thou didst ask as to the transfiguration of Jesus,…”
 
-        *   [^1]:
-
-            Matthew 17:1–19; Mark 9:2–9; Luke 9:28–36
+        [^1]:             Matthew 17:1–19; Mark 9:2–9; Luke 9:28–36
 
     *   #### 143: “O thou who hast drawn nigh unto the spirit of…”
 
-        *   [^1]:
+        [^1]:             John 6:38
 
-            John 6:38
-
-        *   [^2]:
-
-            John 3:13
+        [^2]:             John 3:13
 
     *   #### 145: “Thou didst write as to the question of spiritual…”
 
-        *   [^1]:
-
-            The Báb, cf. Some Answered Questions, chap. XIII.
+        [^1]:             The Báb, cf. Some Answered Questions, chap. XIII.
 
     *   #### 154: “O thou son of the Kingdom! Thy most agreeable…”
 
-        *   [^1]:
-
-            Germany
+        [^1]:             Germany
 
     *   #### 156: “O thou servant of the Holy Threshold! We have…”
 
-        *   [^1]:
-
-            cf. Qur’án 3:35; 2:254
+        [^1]:             cf. Qur’án 3:35; 2:254
 
     *   #### 158: “Grieve thou not over the ascension of my beloved…”
 
-        *   [^1]:
-
-            cf. Qur’án 36:25
+        [^1]:             cf. Qur’án 36:25
 
     *   #### 160: “O thou sincere and loyal handmaid of the Lord!…”
 
-        *   [^1]:
-
-            The Pacific
+        [^1]:             The Pacific
 
     *   #### 163: “O ye two seekers after truth! Your letter was…”
 
-        *   [^1]:
-
-            Matthew 19:24; Mark 10:25
+        [^1]:             Matthew 19:24; Mark 10:25
 
     *   #### 164: “O ye two faithful and assured souls! The letter…”
 
-        *   [^1]:
-
-            30 September 1912
+        [^1]:             30 September 1912
 
     *   #### 188: “O ye the cherished loved ones of ‘Abdu’l‑Bahá!…”
 
-        *   [^1]:
+        [^1]:             at Bahjí
 
-            at Bahjí
-
-        *   [^2]:
-
-            Qur’án 24:39
+        [^2]:             Qur’án 24:39
 
     *   #### 191: “O thou who hast been sore afflicted on the pathway…”
 
-        *   [^1]:
-
-            John the Baptist
+        [^1]:             John the Baptist
 
     *   #### 195: “O thou exalted bough of the divine Lote-Tree!…”
 
-        *   [^1]:
+        [^1]:             Qur’án 36:29
 
-            Qur’án 36:29
+        [^2]:             Qur’án 20:12. Also referred to as the “Sacred Vale.”
 
-        *   [^2]:
-
-            Qur’án 20:12. Also referred to as the “Sacred Vale.”
-
-        *   [^3]:
-
-            cf. Qur’án 4:80
+        [^3]:             cf. Qur’án 4:80
 
     *   #### 200: “O my spiritual loved ones! At a time when an…”
 
-        *   [^1]:
-
-            This letter was signed by four hundred and twenty-two believers in America, and sent on 4 July 1905.
+        [^1]:             This letter was signed by four hundred and twenty-two believers in America, and sent on 4 July 1905.
 
     *   #### 202: “O ye lovers of truth, ye servants of humankind!…”
 
-        *   [^1]:
+        [^1]:             John 18:11
 
-            John 18:11
-
-        *   [^2]:
-
-            Qur’án 67:3
+        [^2]:             Qur’án 67:3
 
     *   #### 206: “Praise be to Him Who hath rent the dark asunder,…”
 
-        *   [^1]:
+        [^1]:             Qur’án 24:35
 
-            Qur’án 24:35
+        [^2]:             cf. Qur’án 28:29
 
-        *   [^2]:
+        [^3]:             Qur’án 76:5
 
-            cf. Qur’án 28:29
-
-        *   [^3]:
-
-            Qur’án 76:5
-
-        *   [^4]:
-
-            Qur’án 26:31; 26:44; the reference is to Moses’ rod, and the enchanters.
+        [^4]:             Qur’án 26:31; 26:44; the reference is to Moses’ rod, and the enchanters.
 
     *   #### 207: “O ye who have turned your faces toward the…”
 
-        *   [^1]:
+        [^1]:             Qur’án 61:4
 
-            Qur’án 61:4
+        [^2]:             The Báb
 
-        *   [^2]:
-
-            The Báb
-
-        *   [^3]:
-
-            Qur’án 67:3
+        [^3]:             Qur’án 67:3
 
     *   #### 209: “O ye servants of the Blessed Beauty!… It is clear…”
 
-        *   [^1]:
-
-            Qur’án 2:69
+        [^1]:             Qur’án 2:69
 
     *   #### 218: “O ye close and dear friends of ‘Abdu’l‑Bahá!…”
 
-        *   [^1]:
-
-            Gleanings from the Writings of Bahá’u’lláh, no. 72.
+        [^1]:             Gleanings from the Writings of Bahá’u’lláh, no. 72.
 
     *   #### 221: “O ye who are steadfast in the Covenant! The…”
 
-        *   [^1]:
-
-            Qur’án 76:5
+        [^1]:             Qur’án 76:5
 
     *   #### 227: “O ye esteemed ones who are pioneers among the…”
 
-        *   [^1]:
-
-            This is the first part of ‘Abdu’l‑Bahá’s reply to a letter addressed to Him by the Executive Committee of the Central Organization for a Durable Peace. The Tablet, described by Shoghi Effendi in God Passes By as of “far reaching importance,” and dated December 17, 1919, was dispatched to the Committee at The Hague by the hands of a special delegation.
+        [^1]:             This is the first part of ‘Abdu’l‑Bahá’s reply to a letter addressed to Him by the Executive Committee of the Central Organization for a Durable Peace. The Tablet, described by Shoghi Effendi in God Passes By as of “far reaching importance,” and dated December 17, 1919, was dispatched to the Committee at The Hague by the hands of a special delegation.
 
 *   ### Notes on Translations
 
-    *   [^1]:
-
-        This is a tradition which is quoted by Bahá’u’lláh (see Gleanings from the Writings of Bahá’u’lláh, item LXXXIX) and is also quoted by ‘Abdu’l‑Bahá in a Tablet which appears in the compilation of the Universal House of Justice on “Teaching.”
+    [^1]:         This is a tradition which is quoted by Bahá’u’lláh (see Gleanings from the Writings of Bahá’u’lláh, item LXXXIX) and is also quoted by ‘Abdu’l‑Bahá in a Tablet which appears in the compilation of the Universal House of Justice on “Teaching.”

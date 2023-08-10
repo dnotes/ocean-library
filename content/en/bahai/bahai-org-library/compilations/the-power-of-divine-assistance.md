@@ -10,14 +10,16 @@ _conversionOpts:
   encoding: UTF-8
   reconvert: true
   postPatterns:
+    '/(\s*)\*\s+(\[\^\d+\]:)\s*\n/': '$1$2 '
     '/^(?:\*\s*)*(\[\^[\w\d]+\]:)\s*\n*/': '$1 '
     '/\n\n(.+\\\[\d+\\\])$/': '\n\n$1 {¶=none .cite}'
-  ignoreElements: div.of
+  ignoreElements: 'div.of,nav,a.sd:not(.ef)'
   fnRefEl: sup.ve
-  fnTextEl: a.sd
+  fnTextEl: a.sd.ef
   metaElements:
     author: various
     collection: Compilations
+  converter: html
 sourceUrl: >-
   https://www.bahai.org/library/authoritative-texts/compilations/power-divine-assistance/power-divine-assistance.xhtml?c16cc0ab
 _convertedFrom: >-
@@ -26,6 +28,7 @@ _softHyphenWords: ''
 collectionTitle: Compilations
 ocnmd_version: 2
 collectionId: compilations
+collection: Compilations
 ---
 # The Power of Divine Assistance
 Compiled by: The Research Department

@@ -5,16 +5,18 @@ author: Shoghi Effendi
 access: research
 language: en
 priority: 10
-wordsCount: 70880
+wordsCount: 70849
 _conversionOpts:
   encoding: UTF-8
   reconvert: true
   postPatterns:
+    '/(\s*)\*\s+(\[\^\d+\]:)\s*\n/': '$1$2 '
     '/^(?:\*\s*)*(\[\^[\w\d]+\]:)\s*\n*/': '$1 '
     '/\n\n(.+\\\[\d+\\\])$/': '\n\n$1 {¶=none .cite}'
-  ignoreElements: div.of
+  ignoreElements: 'div.of,nav,a.sd:not(.ef)'
   fnRefEl: sup.ve
-  fnTextEl: a.sd
+  fnTextEl: a.sd.ef
+  converter: html
 sourceUrl: >-
   https://www.bahai.org/library/authoritative-texts/shoghi-effendi/bahai-administration/bahai-administration.xhtml?95df16b3
 _convertedFrom: >-
@@ -26,9 +28,6 @@ ocnmd_version: 2
 Selected Messages 1922–1932
 
 Shoghi Effendi
-
-*   Part One: Excerpts from the Will and Testament of ‘Abdu’l‑Bahá
-*   Part Two: Letters from Shoghi Effendi
 
 Part One
 
@@ -2104,78 +2103,52 @@ April 11, 1933.
 
     *   #### Letter of January 21, 1922
 
-        *   [^1]:
-
-            Descendants (feminine) of Bahá’u’lláh.
+        [^1]:             Descendants (feminine) of Bahá’u’lláh.
 
     *   #### Letter of Circa May, 1922 (undated).
 
-        *   [^1]:
-
-            Bahíyyih, sister of ‘Abdu’l‑Bahá.
+        [^1]:             Bahíyyih, sister of ‘Abdu’l‑Bahá.
 
     *   #### Letter of January 12, 1923
 
-        *   [^1]:
-
-            Published in the booklet “Prayer of Bahá’u’lláh: Prayers and Tablets of ‘Abdu’l‑Bahá.”
+        [^1]:             Published in the booklet “Prayer of Bahá’u’lláh: Prayers and Tablets of ‘Abdu’l‑Bahá.”
 
     *   #### Letter of January 17, 1923
 
-        *   [^1]:
-
-            These translations, with others received later, were published as a pamphlet by the N.S.A.
+        [^1]:             These translations, with others received later, were published as a pamphlet by the N.S.A.
 
     *   #### Letter of February 13, 1923
 
-        *   [^1]:
-
-            Published in the booklet “Prayer of Bahá’u’lláh: Prayers and Tablets of ‘Abdu’l‑Bahá.”
+        [^1]:             Published in the booklet “Prayer of Bahá’u’lláh: Prayers and Tablets of ‘Abdu’l‑Bahá.”
 
     *   #### Letter of March 12, 1923
 
-        *   [^1]:
-
-            The complete list of terms is to be found in Bahá’í World, volume VII.
+        [^1]:             The complete list of terms is to be found in Bahá’í World, volume VII.
 
     *   #### Letter of April 9, 1923
 
-        *   [^1]:
-
-            See previous footnote on transliterations.
+        [^1]:             See previous footnote on transliterations.
 
     *   #### Letter of April 27, 1923
 
-        *   [^1]:
-
-            Published in "The Star of the West" during the year 1923.
+        [^1]:             Published in "The Star of the West" during the year 1923.
 
     *   #### Letter of May, 1923
 
-        *   [^1]:
-
-            Published in the Bahá’í Magazine, Star of the West.
+        [^1]:             Published in the Bahá’í Magazine, Star of the West.
 
     *   #### Letter of November 26, 1923
 
-        *   [^1]:
-
-            Bahá’í Scriptures, New York, 1923; replaced by Bahá’í World Faith, 1943.
+        [^1]:             Bahá’í Scriptures, New York, 1923; replaced by Bahá’í World Faith, 1943.
 
     *   #### Letter of January 4, 1924
 
-        *   [^1]:
-
-            Published in "The Star of the West.”
+        [^1]:             Published in "The Star of the West.”
 
     *   #### Letter of November 30, 1925
 
-        *   [^1]:
-
-            Bahá’u’lláh and the New Era, by J. E. Esslemont, London, 1922; Bahá’í Publishing Committee, New York, 1927.
+        [^1]:             Bahá’u’lláh and the New Era, by J. E. Esslemont, London, 1922; Bahá’í Publishing Committee, New York, 1927.
 
     *   #### Letter of October 29, 1926
 
-        *   [^1]:
-
-            This enclosure consisted of a copy of an article by Queen Marie in her newspaper syndicated series entitled “Queen’s Counsel.” Since the queen’s first public reference to the Cause in this series, two additional references have appeared, one on September 26 and one on September 27, 1926.
+        [^1]:             This enclosure consisted of a copy of an article by Queen Marie in her newspaper syndicated series entitled “Queen’s Counsel.” Since the queen’s first public reference to the Cause in this series, two additional references have appeared, one on September 26 and one on September 27, 1926.

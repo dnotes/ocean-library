@@ -10,13 +10,14 @@ _conversionOpts:
   encoding: UTF-8
   reconvert: true
   postPatterns:
+    '/(\s*)\*\s+(\[\^\d+\]:)\s*\n/': '$1$2 '
     '/^(?:\*\s*)*(\[\^[\w\d]+\]:)\s*\n*/': '$1 '
     '/\n\n(.+\\\[\d+\\\])$/': '\n\n$1 {¶=none .cite}'
     '/^[^#\*\s].{4,100}$/': '#### $&'
     '#### Foreword': '### Foreword {¶=0}'
   ignoreElements: 'div.of,ul'
   fnRefEl: sup.ve
-  fnTextEl: a.sd
+  fnTextEl: a.sd.ef
   chPattern: '/\\- Chapter ([LXVI]+) -/'
   chReplacement: '### Chapter $1'
   chNumberFromRoman: true

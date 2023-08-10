@@ -5,16 +5,18 @@ author: The Universal House of Justice
 access: research
 language: en
 priority: 10
-wordsCount: 139082
+wordsCount: 137834
 _conversionOpts:
   encoding: UTF-8
   reconvert: true
   postPatterns:
+    '/(\s*)\*\s+(\[\^\d+\]:)\s*\n/': '$1$2 '
     '/^(?:\*\s*)*(\[\^[\w\d]+\]:)\s*\n*/': '$1 '
     '/\n\n(.+\\\[\d+\\\])$/': '\n\n$1 {¶=none .cite}'
-  ignoreElements: div.of
+  ignoreElements: 'div.of,nav,a.sd:not(.ef)'
   fnRefEl: sup.ve
-  fnTextEl: a.sd
+  fnTextEl: a.sd.ef
+  converter: html
 sourceUrl: >-
   https://www.bahai.org/library/authoritative-texts/the-universal-house-of-justice/turning-point/turning-point.xhtml?b72eff20
 _convertedFrom: >-
@@ -26,71 +28,6 @@ ocnmd_version: 2
 Selected Messages of the Universal House of Justice and Supplementary Material
 
 1996–2006
-
-*   Preface
-
-*   ### Part I: Selected Messages of the Universal House of Justice
-
-    *   26 December 1995, to the Conference of the Continental Boards of Counsellors regarding the Four Year Plan, 1996–2000
-    *   31 December 1995, to the Bahá’ís of the World regarding the Four Year Plan
-    *   3 January 1996, to the Friends Gathered at the International Youth Conference in Santa Cruz, Bolivia
-    *   Riḍván 1996, to the Bahá’ís of the World
-    *   Riḍván 1996, to the Followers of Bahá’u’lláh in Africa
-    *   Riḍván 1996, to the Followers of Bahá’u’lláh in Europe
-    *   Riḍván 1996, to the Followers of Bahá’u’lláh in Latin America and the Caribbean
-    *   Riḍván 1996, to the Followers of Bahá’u’lláh in North America: Alaska, Canada, Greenland, and the United States
-    *   Riḍván 1996, to the Followers of Bahá’u’lláh in Australia, the Cook Islands, the Eastern Caroline Islands, the Fiji Islands, French Polynesia, the Hawaiian Islands, Indonesia, Japan, Kiribati, Korea, the Mariana Islands, the Marshall Islands, New Caledonia and the Loyalty Islands, New Zealand, Papua New Guinea, the Philippines, Samoa, the Solomon Islands, Tonga, Tuvalu, Vanuatu, and the Western Caroline Islands
-    *   Riḍván 1996, to the Followers of Bahá’u’lláh in Cambodia, Hong Kong, Lao People’s Democratic Republic, Macau, Malaysia, Mongolia, Myanmar, Singapore, Taiwan, Thailand, and Vietnam
-    *   Riḍván 1996, to the Followers of Bahá’u’lláh in Andaman and Nicobar Islands, Bangladesh, India, Nepal, and Sri Lanka
-    *   Riḍván 1996, to the Followers of Bahá’u’lláh in Western and Central Asia
-    *   Riḍván 1997, to the Bahá’ís of the World
-    *   30 May 1997, to National Spiritual Assemblies regarding Regional Bahá’í Councils
-    *   6 January 1998, to the Friends Gathered at the Latin American Youth Congress in Chile
-    *   Riḍván 1998, to the Bahá’ís of the World
-    *   3 May 1998, to the Conference of Continental Counsellors
-    *   Riḍván 1999, to the Bahá’ís of the World
-    *   26 November 1999, to the Bahá’ís of the World regarding the unfoldment of the Divine Plan
-    *   8 January 2000, to the Friends Gathered at the Youth Congress in Paraguay
-    *   Riḍván 2000, to the Bahá’ís of the World
-    *   9 January 2001, to the Conference of the Continental Boards of Counsellors regarding the Five Year Plan, 2001–2006
-    *   14 January 2001, to the Conference Marking the Inauguration of the International Teaching Centre Building
-    *   16 January 2001, to the Bahá’ís of the World regarding the Conference of the Continental Counsellors
-    *   Riḍván 2001, to the Bahá’ís of the World
-    *   24 May 2001, to the Believers Gathered for the Events Marking the Completion of the Projects on Mount Carmel
-    *   22 December 2001, to the Friends Gathered at the Eighth ASEAN Youth Conference in Thailand
-    *   10 January 2002, to the Bahá’ís of the World regarding the pioneer call
-    *   Riḍván 2002, to the Bahá’ís of the World
-    *   17 January 2003, to the Bahá’ís of the World regarding the progress of the Five Year Plan, 2001–2006
-    *   10 April 2003, to the Friends Gathered at the Series of Youth Forums Called by the Regional Bahá’í Council of the Western States, U.S.A.
-    *   Riḍván 2003, to the Bahá’ís of the World
-    *   Riḍván 2004, to the Bahá’ís of the World
-    *   Riḍván 2005, to the Bahá’ís of the World
-    *   27 December 2005, to the Conference of the Continental Boards of Counsellors regarding the Five Year Plan, 2006–2011
-    *   28 December 2005, to all National Spiritual Assemblies regarding the curriculum for training institutes
-    *   31 December 2005, to the Bahá’ís of the World regarding the Conference of the Continental Counsellors
-    *   Riḍván 2006, to the Bahá’ís of the World
-*   ### Part II: Global Plans: Fundamental Concepts
-
-    *   a document dated 29 October 2005 prepared by an ad hoc committee for a workshop conducted at the Bahá’í World Centre
-    *   Advancing the Process of Entry by Troops
-    *   Two Essential Movements
-    *   Learning in Action
-    *   Learning to Be Systematic
-    *   Learning to Maintain Focus
-    *   Learning to Develop Human Resources for Expansion and Consolidation
-    *   Learning to Open Aspects of Bahá’í Community Life to Others
-    *   Learning to Reach Receptive Populations
-    *   Learning to Exercise Disciplined Initiative and to Participate in Collective Action
-    *   Learning to Administer Growth
-    *   Learning to Plan and to Mobilize
-*   ### Part III: Additional Documents
-
-    *   Training Institutes, a document prepared for and approved by the Universal House of Justice, April 1998
-    *   Training Institutes and Systematic Growth, a document prepared by the International Teaching Centre, February 2000
-    *   Building Momentum: A Coherent Approach to Growth, a document prepared by the International Teaching Centre, April 2003
-    *   Impact of Growth on Administration Processes, a document prepared by the International Teaching Centre, July 2005
-
-*   Notes
 
 Preface
 
@@ -724,111 +661,111 @@ The Universal House of Justice
 
 The establishment of Regional Bahá’í Councils in certain countries, their characteristics and functions
 
-1.  [^1]:  The Formation of Regional Bahá’í Councils:
+1.  The Formation of Regional Bahá’í Councils:
 
-    1.  [^1.1]:  Authority for the formation of Regional Bahá’í Councils: The formation of Regional Bahá’í Councils in any country, and the choice of the regions to be assigned to them are dependent upon the approval of the Universal House of Justice in each case.
+    1.  Authority for the formation of Regional Bahá’í Councils: The formation of Regional Bahá’í Councils in any country, and the choice of the regions to be assigned to them are dependent upon the approval of the Universal House of Justice in each case.
 
-    2.  [^1.2]:  Conditions indicating a need for the formation of Regional Bahá’í Councils: Regional Bahá’í Councils will be formed only in certain specific situations where this kind of decentralization is judged by the Universal House of Justice to be appropriate.
+    2.  Conditions indicating a need for the formation of Regional Bahá’í Councils: Regional Bahá’í Councils will be formed only in certain specific situations where this kind of decentralization is judged by the Universal House of Justice to be appropriate.
 
-2.  [^2]:  The Characteristic Features of Regional Bahá’í Councils:
+2.  The Characteristic Features of Regional Bahá’í Councils:
 
-    1.  [^2.1]:  Mode of Establishment and Membership:
+    1.  Mode of Establishment and Membership:
 
-        1.  [^2.1.1]:  Regional Bahá’í Councils are not necessarily established universally throughout a country, but rather in those regions where the condition and size of the Bahá’í community indicate that such a development would be beneficial. In such cases, all other parts of the country remain under the well-established pattern of national committees, including a national teaching committee and its regional teaching committees.
+        1.  Regional Bahá’í Councils are not necessarily established universally throughout a country, but rather in those regions where the condition and size of the Bahá’í community indicate that such a development would be beneficial. In such cases, all other parts of the country remain under the well-established pattern of national committees, including a national teaching committee and its regional teaching committees.
 
-        2.  [^2.1.2]:  The number of members of a Regional Bahá’í Council is nine or, in certain cases, seven or even five, depending upon the decision of the National Spiritual Assembly in each case.
+        2.  The number of members of a Regional Bahá’í Council is nine or, in certain cases, seven or even five, depending upon the decision of the National Spiritual Assembly in each case.
 
-        3.  [^2.1.3]:  In accordance with local requirements and the condition of the Bahá’í community, the Universal House of Justice will decide which Regional Bahá’í Councils are to be formed by election and which by appointment.
+        3.  In accordance with local requirements and the condition of the Bahá’í community, the Universal House of Justice will decide which Regional Bahá’í Councils are to be formed by election and which by appointment.
 
-        4.  [^2.1.4]:  It is within the discretion of the National Spiritual Assembly to decide, case by case, whether its members may also serve on Regional Bahá’í Councils. In general the preference is for members of National Assemblies not to serve on Councils, whether these be elected or appointed bodies.
+        4.  It is within the discretion of the National Spiritual Assembly to decide, case by case, whether its members may also serve on Regional Bahá’í Councils. In general the preference is for members of National Assemblies not to serve on Councils, whether these be elected or appointed bodies.
 
-    2.  [^2.2]:  Regional Bahá’í Councils formed by election:
+    2.  Regional Bahá’í Councils formed by election:
 
-        1.  [^2.2.1]:  The members of an elected Regional Bahá’í Council, who shall be nine in number, are elected from among all the adult believers in the region by the members of the Local Spiritual Assemblies in that region every year on 23 May, the anniversary of the Declaration of the Báb according to the Gregorian calendar, or on a weekend immediately before or after that date.
+        1.  The members of an elected Regional Bahá’í Council, who shall be nine in number, are elected from among all the adult believers in the region by the members of the Local Spiritual Assemblies in that region every year on 23 May, the anniversary of the Declaration of the Báb according to the Gregorian calendar, or on a weekend immediately before or after that date.
 
-        2.  [^2.2.2]:  Owing to the large number of voters involved and the brief interval between the National Convention and the elections of the Regional Bahá’í Councils, these elections are to be conducted primarily by mail, through methods to be decided by the National Spiritual Assembly. The voting is to be by secret ballot. The members of the Local Spiritual Assemblies may send in their ballots individually or they may be collected by the Secretary of the Local Spiritual Assembly and mailed together.
+        2.  Owing to the large number of voters involved and the brief interval between the National Convention and the elections of the Regional Bahá’í Councils, these elections are to be conducted primarily by mail, through methods to be decided by the National Spiritual Assembly. The voting is to be by secret ballot. The members of the Local Spiritual Assemblies may send in their ballots individually or they may be collected by the Secretary of the Local Spiritual Assembly and mailed together.
 
-        3.  [^2.2.3]:  If feasible and desirable, an electoral meeting, or several electoral meetings, may be held in the region for those voters able to attend, in order to provide an occasion for members of Local Spiritual Assemblies in the region to consult about the progress of the Cause. Other believers may attend, but would not take part in the voting.
+        3.  If feasible and desirable, an electoral meeting, or several electoral meetings, may be held in the region for those voters able to attend, in order to provide an occasion for members of Local Spiritual Assemblies in the region to consult about the progress of the Cause. Other believers may attend, but would not take part in the voting.
 
-        4.  [^2.2.4]:  If there is a tie vote, the tie is to be broken by lot, in view of the impracticability of holding a revote in such a situation.
+        4.  If there is a tie vote, the tie is to be broken by lot, in view of the impracticability of holding a revote in such a situation.
 
-        5.  [^2.2.5]:  Any vacancy on a Regional Bahá’í Council should be filled by the person who had the next highest number of votes on the ballot in the preceding election.
+        5.  Any vacancy on a Regional Bahá’í Council should be filled by the person who had the next highest number of votes on the ballot in the preceding election.
 
-        6.  [^2.2.6]:  Auxiliary Board members are not eligible for service on a Regional Bahá’í Council.
+        6.  Auxiliary Board members are not eligible for service on a Regional Bahá’í Council.
 
-        7.  [^2.2.7]:  The result of the election is to be confirmed by the National Spiritual Assembly.
+        7.  The result of the election is to be confirmed by the National Spiritual Assembly.
 
-    3.  [^2.3]:  Regional Bahá’í Councils formed by appointment:
+    3.  Regional Bahá’í Councils formed by appointment:
 
-        1.  [^2.3.1]:  It is left to the National Spiritual Assembly to decide whether the number of members is to be five, seven or nine.
+        1.  It is left to the National Spiritual Assembly to decide whether the number of members is to be five, seven or nine.
 
-        2.  [^2.3.2]:  Balloting takes place among members of Local Spiritual Assemblies in the region, similarly to that for the election of a Regional Bahá’í Council, but the outcome of the voting constitutes a confidential list of nominations for the National Spiritual Assembly, which appoints the members of the Council from among these nominees and others, including persons proposed by the members of the Auxiliary Boards within whose areas of responsibility the region lies.
+        2.  Balloting takes place among members of Local Spiritual Assemblies in the region, similarly to that for the election of a Regional Bahá’í Council, but the outcome of the voting constitutes a confidential list of nominations for the National Spiritual Assembly, which appoints the members of the Council from among these nominees and others, including persons proposed by the members of the Auxiliary Boards within whose areas of responsibility the region lies.
 
-3.  [^3]:  The Functions of Regional Bahá’í Councils:
+3.  The Functions of Regional Bahá’í Councils:
 
     The functions of a Regional Bahá’í Council and the degree of authority conferred upon it are within the discretion of a National Spiritual Assembly. However, they should not be limited to those of a national or regional committee for, in such a case, there would be no justification for bringing into being a Regional Bahá’í Council rather than appointing a national or regional committee. The functions and responsibilities generally envisaged for a Regional Bahá’í Council are as follows:
 
-    1.  [^3.1]:  To carry out the policies of the National Spiritual Assembly and to supervise, on behalf of the National Assembly, the smooth and efficient execution of the plans and projects for its region.
+    1.  To carry out the policies of the National Spiritual Assembly and to supervise, on behalf of the National Assembly, the smooth and efficient execution of the plans and projects for its region.
 
-    2.  [^3.2]:  To keep the National Spiritual Assembly regularly informed of the Council’s activities and of the conditions of the Faith throughout the region. Regional Bahá’í Councils are allowed to develop their own strategies and programs, and to carry out their day-to-day work without having to obtain further approval from the National Spiritual Assembly. However, through their frequent reports and the minutes of their meetings, the National Assembly is kept informed of their activities and maintains its overall supervision of the affairs of the Cause in all parts of the country.
+    2.  To keep the National Spiritual Assembly regularly informed of the Council’s activities and of the conditions of the Faith throughout the region. Regional Bahá’í Councils are allowed to develop their own strategies and programs, and to carry out their day-to-day work without having to obtain further approval from the National Spiritual Assembly. However, through their frequent reports and the minutes of their meetings, the National Assembly is kept informed of their activities and maintains its overall supervision of the affairs of the Cause in all parts of the country.
 
-    3.  [^3.3]:  To take initiative in the promotion of the Faith in the region and to carry out its decisions within the range of authority vested in it by the National Assembly. The National Assembly allows the Council a wide latitude for autonomous action, intervening in its work only in matters which the Assembly regards as being of major importance. The main task of a Regional Bahá’í Council is to devise and execute expansion and consolidation plans in close collaboration with the Local Spiritual Assemblies and the believers within its area of jurisdiction. Its goal is to create strong Local Spiritual Assemblies which will be the focal centers of Bahá’í activity, will exercise their vitally important role in the development of the Faith and will demonstrate their ability to regulate the affairs of their local communities.
+    3.  To take initiative in the promotion of the Faith in the region and to carry out its decisions within the range of authority vested in it by the National Assembly. The National Assembly allows the Council a wide latitude for autonomous action, intervening in its work only in matters which the Assembly regards as being of major importance. The main task of a Regional Bahá’í Council is to devise and execute expansion and consolidation plans in close collaboration with the Local Spiritual Assemblies and the believers within its area of jurisdiction. Its goal is to create strong Local Spiritual Assemblies which will be the focal centers of Bahá’í activity, will exercise their vitally important role in the development of the Faith and will demonstrate their ability to regulate the affairs of their local communities.
 
-    4.  [^3.4]:  To deal with both teaching and administrative matters within the region including the appointment of committees for issues within its terms of reference, such as external affairs and the translation, publication and distribution of Bahá’í literature.
+    4.  To deal with both teaching and administrative matters within the region including the appointment of committees for issues within its terms of reference, such as external affairs and the translation, publication and distribution of Bahá’í literature.
 
-        1.  [^3.4.1]:  In the area of teaching, a Regional Bahá’í Council may be given authority by the National Assembly to appoint, direct and supervise the work of a number of area or district teaching committees. In those cases where a Regional Bahá’í Council has to carry out a wide range of functions, it may also be authorized by the National Spiritual Assembly to appoint a regional teaching committee to be responsible to it for the teaching work in the region as a whole and for the direction and supervision of the area or district teaching committees.
+        1.  In the area of teaching, a Regional Bahá’í Council may be given authority by the National Assembly to appoint, direct and supervise the work of a number of area or district teaching committees. In those cases where a Regional Bahá’í Council has to carry out a wide range of functions, it may also be authorized by the National Spiritual Assembly to appoint a regional teaching committee to be responsible to it for the teaching work in the region as a whole and for the direction and supervision of the area or district teaching committees.
 
-        2.  [^3.4.2]:  A Regional Bahá’í Council may be asked by the National Spiritual Assembly to arrange and supervise the unit elections for delegates to the national convention.
+        2.  A Regional Bahá’í Council may be asked by the National Spiritual Assembly to arrange and supervise the unit elections for delegates to the national convention.
 
-        3.  [^3.4.3]:  The working relationship between the Local Spiritual Assemblies and the National Spiritual Assembly in an area where there is a Regional Bahá’í Council will depend upon the range of functions and responsibilities conferred by the National Assembly upon the Council. In any case the authority to deprive a believer of his or her administrative rights, or to restore them, remains with the National Assembly. The right of direct access to the National Assembly by a Local Spiritual Assembly is preserved.
+        3.  The working relationship between the Local Spiritual Assemblies and the National Spiritual Assembly in an area where there is a Regional Bahá’í Council will depend upon the range of functions and responsibilities conferred by the National Assembly upon the Council. In any case the authority to deprive a believer of his or her administrative rights, or to restore them, remains with the National Assembly. The right of direct access to the National Assembly by a Local Spiritual Assembly is preserved.
 
-    5.  [^3.5]:  To be responsible, under the general guidelines and policies established by the National Spiritual Assembly, for conducting, on behalf of the National Assembly, the external affairs of the Faith at the level of the region, representing the Bahá’ís of the region in relation to the civil authorities of that region.
+    5.  To be responsible, under the general guidelines and policies established by the National Spiritual Assembly, for conducting, on behalf of the National Assembly, the external affairs of the Faith at the level of the region, representing the Bahá’ís of the region in relation to the civil authorities of that region.
 
-    6.  [^3.6]:  To take part, under the guidance of the National Spiritual Assembly and in consultation with the Counselors or their deputies, in the formulation of a plan for its region as part of the national plan within the framework of each worldwide Plan.
+    6.  To take part, under the guidance of the National Spiritual Assembly and in consultation with the Counselors or their deputies, in the formulation of a plan for its region as part of the national plan within the framework of each worldwide Plan.
 
-    7.  [^3.7]:  To devise, for the approval of the National Assembly, its own expansion and consolidation programs for the achievement of the plan for its region, within the overall framework of the national plan.
+    7.  To devise, for the approval of the National Assembly, its own expansion and consolidation programs for the achievement of the plan for its region, within the overall framework of the national plan.
 
-    8.  [^3.8]:  To formulate an annual budget for the region, in consultation with the Counselors or their deputies when advisable, and to submit this budget to the National Spiritual Assembly for its approval.
+    8.  To formulate an annual budget for the region, in consultation with the Counselors or their deputies when advisable, and to submit this budget to the National Spiritual Assembly for its approval.
 
-        1.  [^3.8.1]:  Alternatively, should the conditions indicate the advisability of such a method, the annual budgets of Regional Bahá’í Councils may be specified by the National Spiritual Assembly.
+        1.  Alternatively, should the conditions indicate the advisability of such a method, the annual budgets of Regional Bahá’í Councils may be specified by the National Spiritual Assembly.
 
-    9.  [^3.9]:  To administer the budget for the region, sending regular reports and financial statements to the National Spiritual Assembly.
+    9.  To administer the budget for the region, sending regular reports and financial statements to the National Spiritual Assembly.
 
-    10.  [^3.10]:  A Regional Bahá’í Council can be authorized by the National Spiritual Assembly to act as its agent in operating a regional branch of the national Bahá’í fund. In this respect the Council may perform the following functions.
+    10.  A Regional Bahá’í Council can be authorized by the National Spiritual Assembly to act as its agent in operating a regional branch of the national Bahá’í fund. In this respect the Council may perform the following functions.
 
-        1.  [^3.10.1]:  It encourages believers within its region to contribute to various funds of the Cause, including the regional branch of the national fund, with the aim that, in due course, the entire expenditure for the region would be provided by the believers in the region.
+        1.  It encourages believers within its region to contribute to various funds of the Cause, including the regional branch of the national fund, with the aim that, in due course, the entire expenditure for the region would be provided by the believers in the region.
 
-        2.  [^3.10.2]:  If the whole of the budgeted expenditure for a year cannot be met by contributions from the believers in the region, the Council may apply to the National Spiritual Assembly for an allocation from the national Bahá’í fund.
+        2.  If the whole of the budgeted expenditure for a year cannot be met by contributions from the believers in the region, the Council may apply to the National Spiritual Assembly for an allocation from the national Bahá’í fund.
 
-        3.  [^3.10.3]:  It is also within the discretion of the Counselors to allocate financial assistance to a Regional Bahá’í Council from the funds at their disposition.
+        3.  It is also within the discretion of the Counselors to allocate financial assistance to a Regional Bahá’í Council from the funds at their disposition.
 
-    11.  [^3.11]:  Under normal conditions, correspondence between Regional Bahá’í Councils and the Bahá’í World Center should be addressed to the National Spiritual Assembly, which would then convey the communication to its intended recipient.
+    11.  Under normal conditions, correspondence between Regional Bahá’í Councils and the Bahá’í World Center should be addressed to the National Spiritual Assembly, which would then convey the communication to its intended recipient.
 
-        1.  [^3.11.1]:  If, because of local conditions, the Universal House of Justice authorizes certain Regional Bahá’í Councils to correspond directly with it, copies of all such correspondence should be sent to the National Assembly.
+        1.  If, because of local conditions, the Universal House of Justice authorizes certain Regional Bahá’í Councils to correspond directly with it, copies of all such correspondence should be sent to the National Assembly.
 
-        2.  [^3.11.2]:  Copies of the Bahá’í International News Service and of certain circular letters may be mailed from the Bahá’í World Center directly to all Regional Bahá’í Councils.
+        2.  Copies of the Bahá’í International News Service and of certain circular letters may be mailed from the Bahá’í World Center directly to all Regional Bahá’í Councils.
 
-        3.  [^3.11.3]:  When Regional Bahá’í Councils publish Bahá’í literature or regional newsletters, copies of such publications should be sent directly to the Bahá’í World Center under the same guidelines as apply to national Bahá’í publications.
+        3.  When Regional Bahá’í Councils publish Bahá’í literature or regional newsletters, copies of such publications should be sent directly to the Bahá’í World Center under the same guidelines as apply to national Bahá’í publications.
 
-        4.  [^3.11.4]:  Although, in general, Regional Bahá’í Councils can be authorized to correspond directly with the World Center in order to share current information about the activities of their respective communities, this should not be misconstrued as a means to bypass the institution of the National Spiritual Assembly in matters requiring guidance or decision.
+        4.  Although, in general, Regional Bahá’í Councils can be authorized to correspond directly with the World Center in order to share current information about the activities of their respective communities, this should not be misconstrued as a means to bypass the institution of the National Spiritual Assembly in matters requiring guidance or decision.
 
-    12.  [^3.12]:  In most countries the legal status of Regional Bahá’í Councils would seem to be adequately covered by the National Assembly’s incorporation.
+    12.  In most countries the legal status of Regional Bahá’í Councils would seem to be adequately covered by the National Assembly’s incorporation.
 
-    13.  [^3.13]:  Just as Counselors have direct consultative relations with National and Local Spiritual Assemblies, so they also have direct relations with Regional Bahá’í Councils.
+    13.  Just as Counselors have direct consultative relations with National and Local Spiritual Assemblies, so they also have direct relations with Regional Bahá’í Councils.
 
-        1.  [^3.13.1]:  Whenever the Counselors feel it necessary or desirable, they are free to deputize one or more Auxiliary Board members to represent them in consultations with a Regional Bahá’í Council. Also, occasional meetings should be arranged between a Regional Bahá’í Council and the Auxiliary Board members responsible for areas within its region, for the discussion of the vision and strategies for the work. A regular and free exchange of information between Auxiliary Board members on the one hand and Regional Bahá’í Councils on the other is encouraged.
+        1.  Whenever the Counselors feel it necessary or desirable, they are free to deputize one or more Auxiliary Board members to represent them in consultations with a Regional Bahá’í Council. Also, occasional meetings should be arranged between a Regional Bahá’í Council and the Auxiliary Board members responsible for areas within its region, for the discussion of the vision and strategies for the work. A regular and free exchange of information between Auxiliary Board members on the one hand and Regional Bahá’í Councils on the other is encouraged.
 
-4.  [^4]:  National Committees in the New Structure:
+4.  National Committees in the New Structure:
 
     It is advisable for a National Spiritual Assembly to have a National Teaching Committee even if Regional Bahá’í Councils are formed in every part of a country. The functions of the National Teaching Committee in a country in which Regional Bahá’í Councils have been established are as follows.
 
-    1.  [^4.1]:  The Guardian has referred to national committees as expert advisers and executive assistants of a National Spiritual Assembly. This suggests that, rather than diminishing the role of its National Teaching Committee when Regional Bahá’í Councils are formed, a National Spiritual Assembly would develop further the advisory and executive aspects of its responsibilities in certain respects. The capacity of the National Teaching Committee to monitor the effectiveness of the teaching work throughout the country could be enhanced. Through its knowledge of the progress of the work, it should be able to bring to the National Assembly’s attention strengths and needs in any region. There are also a number of specific matters, such as the analysis of opportunities for expansion and consolidation in rapidly changing conditions, the identification of successful approaches to teaching, and the dissemination of promising teaching methods, which would benefit from the constant attention of a vibrant and competent National Teaching Committee. Issues related to teaching among minorities and specific groups who reside in more than one region of the country present another area which would benefit from a National Teaching Committee’s attention.
+    1.  The Guardian has referred to national committees as expert advisers and executive assistants of a National Spiritual Assembly. This suggests that, rather than diminishing the role of its National Teaching Committee when Regional Bahá’í Councils are formed, a National Spiritual Assembly would develop further the advisory and executive aspects of its responsibilities in certain respects. The capacity of the National Teaching Committee to monitor the effectiveness of the teaching work throughout the country could be enhanced. Through its knowledge of the progress of the work, it should be able to bring to the National Assembly’s attention strengths and needs in any region. There are also a number of specific matters, such as the analysis of opportunities for expansion and consolidation in rapidly changing conditions, the identification of successful approaches to teaching, and the dissemination of promising teaching methods, which would benefit from the constant attention of a vibrant and competent National Teaching Committee. Issues related to teaching among minorities and specific groups who reside in more than one region of the country present another area which would benefit from a National Teaching Committee’s attention.
 
-    2.  [^4.2]:  The work of the National Teaching Committee in relation to Regional Bahá’í Councils is one of service and assistance, rather than direction and supervision as it is in relation to regional teaching committees. A parallel can be seen in the work of a national training institute, to which the National Assembly assigns the task of developing human resources: the institute assists the Councils by offering them programs for the training of the human resources needed to carry out their plans in each region. The National Teaching Committee would, similarly, offer services to the Councils in support of the teaching work.
+    2.  The work of the National Teaching Committee in relation to Regional Bahá’í Councils is one of service and assistance, rather than direction and supervision as it is in relation to regional teaching committees. A parallel can be seen in the work of a national training institute, to which the National Assembly assigns the task of developing human resources: the institute assists the Councils by offering them programs for the training of the human resources needed to carry out their plans in each region. The National Teaching Committee would, similarly, offer services to the Councils in support of the teaching work.
 
-    3.  [^4.3]:  In countries where Regional Bahá’í Councils have been introduced only for certain areas, the National Teaching Committee is expected to perform not only the functions outlined above, but also to remain responsible, both directly and through its Regional Teaching Committees, for serving those areas not under the care of a Council. In carrying out such functions there must, of course, be close collaboration between the National Teaching Committee and its Regional Teaching Committees on the one hand, and the Regional Bahá’í Councils on the other.
+    3.  In countries where Regional Bahá’í Councils have been introduced only for certain areas, the National Teaching Committee is expected to perform not only the functions outlined above, but also to remain responsible, both directly and through its Regional Teaching Committees, for serving those areas not under the care of a Council. In carrying out such functions there must, of course, be close collaboration between the National Teaching Committee and its Regional Teaching Committees on the one hand, and the Regional Bahá’í Councils on the other.
 
-    4.  [^4.4]:  In the case of all national committees, it is important to ensure that legitimate national programs do not run counter to the process of decentralization, except in special emergency situations.
+    4.  In the case of all national committees, it is important to ensure that legitimate national programs do not run counter to the process of decentralization, except in special emergency situations.
 
 – 15 –
 
@@ -2334,19 +2271,19 @@ The Four Year Plan calls for a significant advance in the process of entry by tr
 
 The purpose of the present document is twofold. On the one hand, it offers an overview of the efforts thus far made by the worldwide Bahá’í community to establish institutes; on the other, it reviews their accomplishments to date and explores their possibilities for further development and potential effect on the process of entry by troops. Passages from the relevant guidance given by the House of Justice provide the framework for the study undertaken. The document is divided into three sections:
 
-1.  [^1]:  Awareness of the Importance of Training
+1.  Awareness of the Importance of Training
 
-2.  [^2]:  Enhancement of Institutional Capacity
+2.  Enhancement of Institutional Capacity
 
-    1.  [^2.1]:  Institutes in small communities with a large percentage of knowledgeable believers
+    1.  Institutes in small communities with a large percentage of knowledgeable believers
 
         *   Teacher training programs
 
         *   Instruments of teaching
 
-    2.  [^2.2]:  Institutes in communities which witnessed large-scale expansion prior to the Plan, but whose human resources remained exceedingly low
+    2.  Institutes in communities which witnessed large-scale expansion prior to the Plan, but whose human resources remained exceedingly low
 
-    3.  [^2.3]:  Institutes in communities which, having experienced large-scale expansion, had already acquired some capacity for training prior to the Plan
+    3.  Institutes in communities which, having experienced large-scale expansion, had already acquired some capacity for training prior to the Plan
 
         *   Sequence of courses
 
@@ -2358,13 +2295,13 @@ The purpose of the present document is twofold. On the one hand, it offers an ov
 
         *   Integrating the system
 
-    4.  [^2.4]:  Institutional capacity for training related to social and economic development
+    4.  Institutional capacity for training related to social and economic development
 
-3.  [^3]:  Advancing the Process of Entry by Troops
+3.  Advancing the Process of Entry by Troops
 
-    1.  [^3.1]:  Increasing human resources
+    1.  Increasing human resources
 
-    2.  [^3.2]:  Accelerating expansion
+    2.  Accelerating expansion
 
 1\. Awareness of the Importance of Training
 
@@ -2546,47 +2483,47 @@ The purpose of training institutes was clarified and elaborated in the April 199
 
 This paper presents an overview of the advancement of the institute process since the release of the April 1998 document. The analysis is framed in the guidance the House of Justice has given to National Spiritual Assemblies during the past two years in relation to training institutes. It is divided into four sections:
 
-1.  [^1]:  Experience with the Institute Process
+1.  Experience with the Institute Process
 
-    1.  [^1.1]:  Administrative structure
+    1.  Administrative structure
 
-    2.  [^1.2]:  Collaboration
+    2.  Collaboration
 
-    3.  [^1.3]:  Curriculum
+    3.  Curriculum
 
-        1.  [^1.3.1]:  A systematic approach
+        1.  A systematic approach
 
-        2.  [^1.3.2]:  Sequence of courses
+        2.  Sequence of courses
 
-    4.  [^1.4]:  Delivery systems
+    4.  Delivery systems
 
-        1.  [^1.4.1]:  Distance education
+        1.  Distance education
 
-        2.  [^1.4.2]:  Study circles
+        2.  Study circles
 
-        3.  [^1.4.3]:  Tutors and tutor training
+        3.  Tutors and tutor training
 
-2.  [^2]:  Institutes in Action
+2.  Institutes in Action
 
-    1.  [^2.1]:  Creating human resources
+    1.  Creating human resources
 
-    2.  [^2.2]:  Impact on teaching and growth
+    2.  Impact on teaching and growth
 
-    3.  [^2.3]:  Direct instruments of teaching
+    3.  Direct instruments of teaching
 
-3.  [^3]:  Systematization of Teaching (Area Growth Programs)
+3.  Systematization of Teaching (Area Growth Programs)
 
-4.  [^4]:  Challenges for Training Institutes
+4.  Challenges for Training Institutes
 
-    1.  [^4.1]:  Quality and effectiveness
+    1.  Quality and effectiveness
 
-    2.  [^4.2]:  Illiteracy
+    2.  Illiteracy
 
-    3.  [^4.3]:  Resource persons
+    3.  Resource persons
 
-    4.  [^4.4]:  Infrastructure
+    4.  Infrastructure
 
-    5.  [^4.5]:  Deputization of institute staff
+    5.  Deputization of institute staff
 
 1\. Experience with the Institute Process
 
@@ -2823,47 +2760,47 @@ April 2003
 
 In its message of 17 January 2003 to the Bahá’ís of the world, the Universal House of Justice presents a cogent analysis of the progress of the Bahá’í world in advancing the process of entry by troops since the beginning of the Five Year Plan. Utilizing the 17 January message as the framework for reflecting on our “collective experience,” this document reviews the learning which underlies that experience and offers further perspectives on the challenges of promoting systematic growth. The document is divided into five sections:
 
-1.  [^1]:  A Vision of Growth
+1.  A Vision of Growth
 
-    1.  [^1.1]:  Categorizing clusters
+    1.  Categorizing clusters
 
-    2.  [^1.2]:  Establishing priorities
+    2.  Establishing priorities
 
-    3.  [^1.3]:  Proceeding through a sequence of courses
+    3.  Proceeding through a sequence of courses
 
-    4.  [^1.4]:  “Evoking the spirit of enterprise”
+    4.  “Evoking the spirit of enterprise”
 
-2.  [^2]:  Movement of Clusters from One Stage of Growth to the Next
+2.  Movement of Clusters from One Stage of Growth to the Next
 
-    1.  [^2.1]:  Opening virgin areas
+    1.  Opening virgin areas
 
-    2.  [^2.2]:  Establishing the institute process in emerging clusters
+    2.  Establishing the institute process in emerging clusters
 
-    3.  [^2.3]:  Advancing clusters with a vigorous institute process
+    3.  Advancing clusters with a vigorous institute process
 
-    4.  [^2.4]:  Accelerating expansion and consolidation in advanced clusters
+    4.  Accelerating expansion and consolidation in advanced clusters
 
-3.  [^3]:  Enhancing Institutional Capacity
+3.  Enhancing Institutional Capacity
 
-    1.  [^3.1]:  Managing the process of growth
+    1.  Managing the process of growth
 
-    2.  [^3.2]:  Reexamining administrative approaches
+    2.  Reexamining administrative approaches
 
-    3.  [^3.3]:  Facilitating individual initiative
+    3.  Facilitating individual initiative
 
-    4.  [^3.4]:  Serving large numbers
+    4.  Serving large numbers
 
-4.  [^4]:  Change in the Culture of the Bahá’í Community
+4.  Change in the Culture of the Bahá’í Community
 
-    1.  [^4.1]:  Learning and planning at the grassroots
+    1.  Learning and planning at the grassroots
 
-    2.  [^4.2]:  Maintaining a focus
+    2.  Maintaining a focus
 
-    3.  [^4.3]:  Empowering the rank and file
+    3.  Empowering the rank and file
 
-    4.  [^4.4]:  An “outward-looking orientation”
+    4.  An “outward-looking orientation”
 
-5.  [^5]:  The Movement of Humanity toward Bahá’u’lláh
+5.  The Movement of Humanity toward Bahá’u’lláh
 
 * * *
 
@@ -3283,21 +3220,15 @@ Footnotes
 
     *   #### 26 December 1995, to the Conference of the Continental Boards of Counsellors regarding the Four Year Plan, 1996–2000
 
-        *   [^1]:
-
-            “For ease of reference, the objectives as originally stated are repeated here: 1. Carrying the healing Message of Bahá’u’lláh to the generality of mankind; 2. Greater involvement of the Faith in the life of human society; 3. A worldwide increase in the translation, production, distribution and use of Bahá’í literature; 4. Further acceleration in the process of the maturation of local and national Bahá’í communities; 5. Greater attention to universal participation and the spiritual enrichment of individual believers; 6. A wider extension of Bahá’í family life; and 7. The pursuit of projects of social and economic development in well-established Bahá’í communities.” The Universal House of Justice, from a letter dated 30 September 1992 to all National Spiritual Assemblies introducing the Three Year Plan.
+        [^1]:             “For ease of reference, the objectives as originally stated are repeated here: 1. Carrying the healing Message of Bahá’u’lláh to the generality of mankind; 2. Greater involvement of the Faith in the life of human society; 3. A worldwide increase in the translation, production, distribution and use of Bahá’í literature; 4. Further acceleration in the process of the maturation of local and national Bahá’í communities; 5. Greater attention to universal participation and the spiritual enrichment of individual believers; 6. A wider extension of Bahá’í family life; and 7. The pursuit of projects of social and economic development in well-established Bahá’í communities.” The Universal House of Justice, from a letter dated 30 September 1992 to all National Spiritual Assemblies introducing the Three Year Plan.
 
     *   #### 30 May 1997, to National Spiritual Assemblies regarding Regional Bahá’í Councils
 
-        *   [^1]:
-
-            Letter of 18 October 1927 to the National Spiritual Assembly of the Bahá’ís of the United States and Canada.
+        [^1]:             Letter of 18 October 1927 to the National Spiritual Assembly of the Bahá’ís of the United States and Canada.
 
     *   #### 17 January 2003, to the Bahá’ís of the World regarding the progress of the Five Year Plan, 2001–2006
 
-        *   [^1]:
-
-            A cover letter to this message, dated 17 January 2003 to all National Spiritual Assemblies written on behalf of the Universal House of Justice stated: “The Bahá’í world community has made significant strides since the launching of the Plan, and the House of Justice is conscious of the role that the institutions of the Faith have played in keeping the friends focused on the vital work before them. It hopes that the attached message will offer them an exciting vision of the future unfoldment of the Plan and the tasks they are being called upon to accomplish. That through your wise leadership their efforts will reach the level of intensity required to bring about and sustain accelerated expansion and consolidation is the object of its most fervent prayers at the Sacred Threshold.”
+        [^1]:             A cover letter to this message, dated 17 January 2003 to all National Spiritual Assemblies written on behalf of the Universal House of Justice stated: “The Bahá’í world community has made significant strides since the launching of the Plan, and the House of Justice is conscious of the role that the institutions of the Faith have played in keeping the friends focused on the vital work before them. It hopes that the attached message will offer them an exciting vision of the future unfoldment of the Plan and the tasks they are being called upon to accomplish. That through your wise leadership their efforts will reach the level of intensity required to bring about and sustain accelerated expansion and consolidation is the object of its most fervent prayers at the Sacred Threshold.”
 
 Endnotes
 
@@ -3305,1474 +3236,752 @@ Endnotes
 
     *   #### Advancing the Process of Entry by Troops
 
-        *   [^1]:
+        [^1]:             Message dated 26 December 1995 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
 
-            Message dated 26 December 1995 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
+        [^2]:             Message dated 26 November 1999 written by the Universal House of Justice to the Bahá’ís of the world.
 
-        *   [^2]:
+        [^3]:             Riḍván 153 \[1996\] message written by the Universal House of Justice to the Bahá’ís of the world.
 
-            Message dated 26 November 1999 written by the Universal House of Justice to the Bahá’ís of the world.
+        [^4]:             Message dated 9 November 1993 written by the Universal House of Justice to all National Spiritual Assemblies.
 
-        *   [^3]:
-
-            Riḍván 153 \[1996\] message written by the Universal House of Justice to the Bahá’ís of the world.
-
-        *   [^4]:
-
-            Message dated 9 November 1993 written by the Universal House of Justice to all National Spiritual Assemblies.
-
-        *   [^5]:
-
-            Letter dated 25 June 1953 written on behalf of Shoghi Effendi to the National Spiritual Assembly of the United States, cited in Citadel of Faith: Messages to America, 1947–1957(Wilmette: Bahá’í Publishing Trust, 1965, 1995 printing), p. 117.
+        [^5]:             Letter dated 25 June 1953 written on behalf of Shoghi Effendi to the National Spiritual Assembly of the United States, cited in Citadel of Faith: Messages to America, 1947–1957(Wilmette: Bahá’í Publishing Trust, 1965, 1995 printing), p. 117.
 
     *   #### Two Essential Movements
 
-        *   [^1]:
+        [^1]:             Message dated 22 December 2001 written by the Universal House of Justice to the Friends gathered at the Eighth ASEAN Youth Conference in Thailand.
 
-            Message dated 22 December 2001 written by the Universal House of Justice to the Friends gathered at the Eighth ASEAN Youth Conference in Thailand.
+        [^2]:             Letter dated 23 March 2003 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Trinidad and Tobago.
 
-        *   [^2]:
+        [^3]:             Letter dated 31 July 2002 written on behalf of the Universal House of Justice to an individual believer.
 
-            Letter dated 23 March 2003 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Trinidad and Tobago.
+        [^4]:             Letter dated 31 July 2002 written on behalf of the Universal House of Justice to an individual believer.
 
-        *   [^3]:
+        [^5]:             Letter dated 31 July 2002 written on behalf of the Universal House of Justice to an individual believer.
 
-            Letter dated 31 July 2002 written on behalf of the Universal House of Justice to an individual believer.
+        [^6]:             Letter dated 18 August 2005 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Germany.
 
-        *   [^4]:
+        [^7]:             Letter dated 23 December 2001 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Brazil.
 
-            Letter dated 31 July 2002 written on behalf of the Universal House of Justice to an individual believer.
+        [^8]:             Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
 
-        *   [^5]:
+        [^9]:             Message dated 9 January 2001 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
 
-            Letter dated 31 July 2002 written on behalf of the Universal House of Justice to an individual believer.
+        [^10]:             Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
 
-        *   [^6]:
+        [^11]:             Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
 
-            Letter dated 18 August 2005 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Germany.
+        [^12]:             Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
 
-        *   [^7]:
+        [^13]:             Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
 
-            Letter dated 23 December 2001 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Brazil.
+        [^14]:             Letter dated 8 September 2000 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Eritrea.
 
-        *   [^8]:
+        [^15]:             Message dated 9 January 2001 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
 
-            Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
-
-        *   [^9]:
-
-            Message dated 9 January 2001 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
-
-        *   [^10]:
-
-            Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
-
-        *   [^11]:
-
-            Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
-
-        *   [^12]:
-
-            Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
-
-        *   [^13]:
-
-            Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
-
-        *   [^14]:
-
-            Letter dated 8 September 2000 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Eritrea.
-
-        *   [^15]:
-
-            Message dated 9 January 2001 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
-
-        *   [^16]:
-
-            Riḍván 2005 message written by the Universal House of Justice to the Bahá’ís of the world.
+        [^16]:             Riḍván 2005 message written by the Universal House of Justice to the Bahá’ís of the world.
 
     *   #### Learning in Action
 
-        *   [^1]:
+        [^1]:             Letter dated 14 August 2002 written on behalf of the Universal House of Justice to an individual believer.
 
-            Letter dated 14 August 2002 written on behalf of the Universal House of Justice to an individual believer.
+        [^2]:             Letter dated 12 August 2002 written on behalf of the Universal House of Justice to an individual believer.
 
-        *   [^2]:
+        [^3]:             Message dated 31 December 1995 written by the Universal House of Justice to the Bahá’ís of the world.
 
-            Letter dated 12 August 2002 written on behalf of the Universal House of Justice to an individual believer.
+        [^4]:             The Institution of the Counsellors, a document prepared by the Universal House of Justice (Haifa: Bahá’í World Centre, 2001), p. 24.
 
-        *   [^3]:
+        [^5]:             Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
 
-            Message dated 31 December 1995 written by the Universal House of Justice to the Bahá’ís of the world.
+        [^6]:             The Institution of the Counsellors, pp. 28–29.
 
-        *   [^4]:
+        [^7]:             Message dated 3 May 1998 written by the Universal House of Justice to the Conference of the Continental Counsellors.
 
-            The Institution of the Counsellors, a document prepared by the Universal House of Justice (Haifa: Bahá’í World Centre, 2001), p. 24.
+        [^8]:             Letter dated 14 August 2002 written on behalf of the Universal House of Justice to an individual believer.
 
-        *   [^5]:
+        [^9]:             Riḍván 2000 message written by the Universal House of Justice to the Bahá’ís of the world.
 
-            Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
-
-        *   [^6]:
-
-            The Institution of the Counsellors, pp. 28–29.
-
-        *   [^7]:
-
-            Message dated 3 May 1998 written by the Universal House of Justice to the Conference of the Continental Counsellors.
-
-        *   [^8]:
-
-            Letter dated 14 August 2002 written on behalf of the Universal House of Justice to an individual believer.
-
-        *   [^9]:
-
-            Riḍván 2000 message written by the Universal House of Justice to the Bahá’ís of the world.
-
-        *   [^10]:
-
-            Letter dated 11 April 2005 written on behalf of the Universal House of Justice to an individual believer.
+        [^10]:             Letter dated 11 April 2005 written on behalf of the Universal House of Justice to an individual believer.
 
     *   #### Learning to Be Systematic
 
-        *   [^1]:
+        [^1]:             Riḍván 155 \[1998\] message written by the Universal House of Justice to the Bahá’ís of the world.
 
-            Riḍván 155 \[1998\] message written by the Universal House of Justice to the Bahá’ís of the world.
+        [^2]:             Message dated 26 December 1995 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
 
-        *   [^2]:
+        [^3]:             Century of Light, a document prepared on behalf of the Universal House of Justice (Haifa: Bahá’í World Centre, 2001), pp. 99–100.
 
-            Message dated 26 December 1995 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
+        [^4]:             Century of Light, a document prepared on behalf of the Universal House of Justice (Haifa: Bahá’í World Centre, 2001), pp. 101–108.
 
-        *   [^3]:
+        [^5]:             Century of Light, a document prepared on behalf of the Universal House of Justice(Haifa: Bahá’í World Centre, 2001), p. 108.
 
-            Century of Light, a document prepared on behalf of the Universal House of Justice (Haifa: Bahá’í World Centre, 2001), pp. 99–100.
+        [^6]:             Message dated 26 November 1999 written by the Universal House of Justice to the Bahá’ís of the world.
 
-        *   [^4]:
+        [^7]:             Letter dated 31 July 2002 written on behalf of the Universal House of Justice to an individual believer.
 
-            Century of Light, a document prepared on behalf of the Universal House of Justice (Haifa: Bahá’í World Centre, 2001), pp. 101–108.
+        [^8]:             The Institution of the Counsellors, p. 18.
 
-        *   [^5]:
+        [^9]:             The Institution of the Counsellors, pp. 19–20.
 
-            Century of Light, a document prepared on behalf of the Universal House of Justice(Haifa: Bahá’í World Centre, 2001), p. 108.
+        [^10]:             Letter dated 12 December 2001 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the United States.
 
-        *   [^6]:
+        [^11]:             Riḍván 153 \[1996\] message written by the Universal House of Justice to the Followers of Bahá’u’lláh in Europe.
 
-            Message dated 26 November 1999 written by the Universal House of Justice to the Bahá’ís of the world.
+        [^12]:             Message dated 9 January 2001 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
 
-        *   [^7]:
+        [^13]:             Message dated 9 January 2001 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
 
-            Letter dated 31 July 2002 written on behalf of the Universal House of Justice to an individual believer.
+        [^14]:             Message dated 26 December 1995 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
 
-        *   [^8]:
+        [^15]:             Letter dated 19 October 2005 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the United States.
 
-            The Institution of the Counsellors, p. 18.
-
-        *   [^9]:
-
-            The Institution of the Counsellors, pp. 19–20.
-
-        *   [^10]:
-
-            Letter dated 12 December 2001 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the United States.
-
-        *   [^11]:
-
-            Riḍván 153 \[1996\] message written by the Universal House of Justice to the Followers of Bahá’u’lláh in Europe.
-
-        *   [^12]:
-
-            Message dated 9 January 2001 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
-
-        *   [^13]:
-
-            Message dated 9 January 2001 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
-
-        *   [^14]:
-
-            Message dated 26 December 1995 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
-
-        *   [^15]:
-
-            Letter dated 19 October 2005 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the United States.
-
-        *   [^16]:
-
-            Letter dated 18 August 2005 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Germany.
+        [^16]:             Letter dated 18 August 2005 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Germany.
 
     *   #### Learning to Maintain Focus
 
-        *   [^1]:
+        [^1]:             Message dated 26 November 1999 written by the Universal House of Justice to the Bahá’ís of the world.
 
-            Message dated 26 November 1999 written by the Universal House of Justice to the Bahá’ís of the world.
+        [^2]:             Letter dated 16 September 1996 written on behalf of the Universal House of Justice to the National Spiritual Assembly of India.
 
-        *   [^2]:
+        [^3]:             Letter dated 16 September 1996 written on behalf of the Universal House of Justice to the National Spiritual Assembly of India.
 
-            Letter dated 16 September 1996 written on behalf of the Universal House of Justice to the National Spiritual Assembly of India.
+        [^4]:             Letter dated 23 October 2000 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Kenya.
 
-        *   [^3]:
+        [^5]:             Letter dated 18 September 1998 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Côte d’Ivoire.
 
-            Letter dated 16 September 1996 written on behalf of the Universal House of Justice to the National Spiritual Assembly of India.
+        [^6]:             Letter dated 17 May 2005 written on behalf of the Universal House of Justice to an individual believer.
 
-        *   [^4]:
+        [^7]:             Letter dated 11 July 2005 written on behalf of the Universal House of Justice to the Spiritual Assembly of Malaysia.
 
-            Letter dated 23 October 2000 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Kenya.
+        [^8]:             Letter dated 10 August 1997 written on behalf of the Universal House of Justice to the National Spiritual Assemblies represented at the Fourth Bahá’í ASEAN Forum.
 
-        *   [^5]:
+        [^9]:             Letter dated 7 April 1997 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Belarus.
 
-            Letter dated 18 September 1998 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Côte d’Ivoire.
+        [^10]:             Letter dated 9 June 2002 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Uganda.
 
-        *   [^6]:
+        [^11]:             Letter dated 6 July 1997 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Guyana.
 
-            Letter dated 17 May 2005 written on behalf of the Universal House of Justice to an individual believer.
+        [^12]:             Letter dated 1 June 1997 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Uganda.
 
-        *   [^7]:
+        [^13]:             Letter dated 25 December 2000 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Australia.
 
-            Letter dated 11 July 2005 written on behalf of the Universal House of Justice to the Spiritual Assembly of Malaysia.
+        [^14]:             Letter dated 13 August 2002 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Brazil.
 
-        *   [^8]:
+        [^15]:             Letter dated 24 December 2001 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the United States.
 
-            Letter dated 10 August 1997 written on behalf of the Universal House of Justice to the National Spiritual Assemblies represented at the Fourth Bahá’í ASEAN Forum.
+        [^16]:             Letter dated 25 March 2001 written on behalf of the Universal House of Justice to a Bahá’í agency.
 
-        *   [^9]:
+        [^17]:             Letter dated 29 June 1997 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the Western Caroline Islands.
 
-            Letter dated 7 April 1997 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Belarus.
+        [^18]:             Message dated 22 December 2001 written by the Universal House of Justice to the Friends gathered at the Eighth ASEAN Youth Conference in Thailand.
 
-        *   [^10]:
+        [^19]:             Letter dated 22 December 2004 written on behalf of the Universal House of Justice to the Administrative Committee of Burundi.
 
-            Letter dated 9 June 2002 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Uganda.
+        [^20]:             Riḍván 2004 message written by the Universal House of Justice to the Bahá’ís of the world.
 
-        *   [^11]:
+        [^21]:             Letter dated 4 July 2005 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the Russian Federation.
 
-            Letter dated 6 July 1997 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Guyana.
+        [^22]:             Letter dated 2 September 2001 from the Department of the Secretariat of the Universal House of Justice to the National Spiritual Assembly of Paraguay.
 
-        *   [^12]:
+        [^23]:             Message dated 11 July 2005 written on behalf of the Universal House of Justice to the National Spiritual Assemblies in Europe.
 
-            Letter dated 1 June 1997 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Uganda.
+        [^24]:             Letter dated 15 May 2005 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the United States.
 
-        *   [^13]:
+        [^25]:             Letter dated 15 May 2005 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the United States.
 
-            Letter dated 25 December 2000 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Australia.
+        [^26]:             Letter dated 18 August 2005 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the United Kingdom.
 
-        *   [^14]:
+        [^27]:             Letter dated 31 May 2005 written on behalf of the Universal House of Justice to a National Spiritual Assembly.
 
-            Letter dated 13 August 2002 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Brazil.
+        [^28]:             Letter dated 26 June 2002 written on behalf of the Universal House of Justice to an individual believer.
 
-        *   [^15]:
+        [^29]:             Letter dated 22 August 2004 written on behalf of the Universal House of Justice to an individual believer.
 
-            Letter dated 24 December 2001 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the United States.
+        [^30]:             Letter dated 26 June 2002 written on behalf of the Universal House of Justice to an individual believer.
 
-        *   [^16]:
+        [^31]:             Riḍván 2003 message written by the Universal House of Justice to the Bahá’ís of the world.
 
-            Letter dated 25 March 2001 written on behalf of the Universal House of Justice to a Bahá’í agency.
+        [^32]:             Letter dated 20 February 2003 written on behalf of the Universal House of Justice to an individual believer.
 
-        *   [^17]:
+        [^33]:             Letter dated 16 March 2004 written on behalf of the Universal House of Justice to an individual believer.
 
-            Letter dated 29 June 1997 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the Western Caroline Islands.
+        [^34]:             Letter dated 8 October 2001 written on behalf of the Universal House of Justice to the National Spiritual Assembly of New Zealand.
 
-        *   [^18]:
+        [^35]:             Letter dated 27 August 2002 written on behalf of the Universal House of Justice to an individual believer.
 
-            Message dated 22 December 2001 written by the Universal House of Justice to the Friends gathered at the Eighth ASEAN Youth Conference in Thailand.
+        [^36]:             Letter dated 14 January 1999 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the United States.
 
-        *   [^19]:
+        [^37]:             Message dated 26 December 1995 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
 
-            Letter dated 22 December 2004 written on behalf of the Universal House of Justice to the Administrative Committee of Burundi.
-
-        *   [^20]:
-
-            Riḍván 2004 message written by the Universal House of Justice to the Bahá’ís of the world.
-
-        *   [^21]:
-
-            Letter dated 4 July 2005 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the Russian Federation.
-
-        *   [^22]:
-
-            Letter dated 2 September 2001 from the Department of the Secretariat of the Universal House of Justice to the National Spiritual Assembly of Paraguay.
-
-        *   [^23]:
-
-            Message dated 11 July 2005 written on behalf of the Universal House of Justice to the National Spiritual Assemblies in Europe.
-
-        *   [^24]:
-
-            Letter dated 15 May 2005 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the United States.
-
-        *   [^25]:
-
-            Letter dated 15 May 2005 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the United States.
-
-        *   [^26]:
-
-            Letter dated 18 August 2005 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the United Kingdom.
-
-        *   [^27]:
-
-            Letter dated 31 May 2005 written on behalf of the Universal House of Justice to a National Spiritual Assembly.
-
-        *   [^28]:
-
-            Letter dated 26 June 2002 written on behalf of the Universal House of Justice to an individual believer.
-
-        *   [^29]:
-
-            Letter dated 22 August 2004 written on behalf of the Universal House of Justice to an individual believer.
-
-        *   [^30]:
-
-            Letter dated 26 June 2002 written on behalf of the Universal House of Justice to an individual believer.
-
-        *   [^31]:
-
-            Riḍván 2003 message written by the Universal House of Justice to the Bahá’ís of the world.
-
-        *   [^32]:
-
-            Letter dated 20 February 2003 written on behalf of the Universal House of Justice to an individual believer.
-
-        *   [^33]:
-
-            Letter dated 16 March 2004 written on behalf of the Universal House of Justice to an individual believer.
-
-        *   [^34]:
-
-            Letter dated 8 October 2001 written on behalf of the Universal House of Justice to the National Spiritual Assembly of New Zealand.
-
-        *   [^35]:
-
-            Letter dated 27 August 2002 written on behalf of the Universal House of Justice to an individual believer.
-
-        *   [^36]:
-
-            Letter dated 14 January 1999 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the United States.
-
-        *   [^37]:
-
-            Message dated 26 December 1995 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
-
-        *   [^38]:
-
-            Letter dated 20 February 2003 written on behalf of the Universal House of Justice to an individual believer.
+        [^38]:             Letter dated 20 February 2003 written on behalf of the Universal House of Justice to an individual believer.
 
     *   #### Learning to Develop Human Resources for Expansion and Consolidation
 
-        *   [^1]:
+        [^1]:             Riḍván 2000 message written by the Universal House of Justice to the Bahá’ís of the world.
 
-            Riḍván 2000 message written by the Universal House of Justice to the Bahá’ís of the world.
+        [^2]:             Message dated 26 November 1999 written by the Universal House of Justice to the Bahá’ís of the world.
 
-        *   [^2]:
+        [^3]:             Message dated 9 January 2001 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
 
-            Message dated 26 November 1999 written by the Universal House of Justice to the Bahá’ís of the world.
+        [^4]:             Message dated 26 December 1995 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
 
-        *   [^3]:
+        [^5]:             Letter dated 31 May 2001 written on behalf of the Universal House of Justice to an individual believer.
 
-            Message dated 9 January 2001 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
+        [^6]:             Letter dated 19 January 1997 written on behalf of the Universal House of Justice to the Spiritual Assembly of Thailand.
 
-        *   [^4]:
+        [^7]:             Letter dated 8 May 1997 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Bulgaria.
 
-            Message dated 26 December 1995 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
+        [^8]:             Letter dated 8 May 1997 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Bulgaria.
 
-        *   [^5]:
+        [^9]:             Letter dated 19 November 2001 written on behalf of the Universal House of Justice to an individual believer.
 
-            Letter dated 31 May 2001 written on behalf of the Universal House of Justice to an individual believer.
+        [^10]:             Message dated 9 January 2001 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
 
-        *   [^6]:
+        [^11]:             “Training Institutes,” a document prepared for and approved by the Universal House of Justice, April 1998, p. 7.
 
-            Letter dated 19 January 1997 written on behalf of the Universal House of Justice to the Spiritual Assembly of Thailand.
+        [^12]:             Letter dated 7 June 2001 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Australia.
 
-        *   [^7]:
+        [^13]:             Letter dated 16 March 2004 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the Czech Republic.
 
-            Letter dated 8 May 1997 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Bulgaria.
+        [^14]:             Letter dated 26 July 2004 written on behalf of the Universal House of Justice to an individual believer.
 
-        *   [^8]:
+        [^15]:             Letter dated 26 July 2004 written on behalf of the Universal House of Justice to an individual believer.
 
-            Letter dated 8 May 1997 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Bulgaria.
+        [^16]:             Message dated 9 January 2001 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
 
-        *   [^9]:
+        [^17]:             Letter dated 26 July 2004 written on behalf of the Universal House of Justice to an individual believer.
 
-            Letter dated 19 November 2001 written on behalf of the Universal House of Justice to an individual believer.
+        [^18]:             Riḍván 2004 message written by the Universal House of Justice to the Bahá’ís of the world.
 
-        *   [^10]:
+        [^19]:             Memorandum dated 7 November 1996 written by the Universal House of Justice to the International Teaching Centre.
 
-            Message dated 9 January 2001 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
+        [^20]:             Letter dated 14 April 1998 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Côte d’Ivoire.
 
-        *   [^11]:
+        [^21]:             Letter dated 5 October 1998 written on behalf of the Universal House of Justice to an individual believer.
 
-            “Training Institutes,” a document prepared for and approved by the Universal House of Justice, April 1998, p. 7.
+        [^22]:             Letter dated 19 January 1998 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Haiti.
 
-        *   [^12]:
+        [^23]:             Letter dated 5 October 1998 written on behalf of the Universal House of Justice to an individual believer.
 
-            Letter dated 7 June 2001 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Australia.
+        [^24]:             Letter dated 24 May 2001 written on behalf of the Universal House of Justice to an individual believer.
 
-        *   [^13]:
+        [^25]:             Letter dated 23 March 2003 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Trinidad and Tobago.
 
-            Letter dated 16 March 2004 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the Czech Republic.
+        [^26]:             Letter dated 23 December 2001 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Brazil.
 
-        *   [^14]:
+        [^27]:             Message dated 9 January 2001 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
 
-            Letter dated 26 July 2004 written on behalf of the Universal House of Justice to an individual believer.
+        [^28]:             Riḍván 2005 message written by the Universal House of Justice to the Bahá’ís of the world.
 
-        *   [^15]:
+        [^29]:             Letter dated 26 August 2003 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Mexico.
 
-            Letter dated 26 July 2004 written on behalf of the Universal House of Justice to an individual believer.
+        [^30]:             Letter dated 16 September 2003 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the Philippines.
 
-        *   [^16]:
+        [^31]:             Letter dated 11 May 2003 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Ethiopia.
 
-            Message dated 9 January 2001 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
+        [^32]:             Letter dated 9 June 2002 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Uganda.
 
-        *   [^17]:
+        [^33]:             Letter dated 19 May 2004 written on behalf of the Universal House of Justice to a National Spiritual Assembly.
 
-            Letter dated 26 July 2004 written on behalf of the Universal House of Justice to an individual believer.
+        [^34]:             Letter dated 17 May 2004 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Sarawak.
 
-        *   [^18]:
+        [^35]:             Letter dated 18 June 2001 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Finland.
 
-            Riḍván 2004 message written by the Universal House of Justice to the Bahá’ís of the world.
+        [^36]:             Letter dated 23 April 2004 written on behalf of the Universal House of Justice to an individual believer.
 
-        *   [^19]:
+        [^37]:             Letter dated 19 October 2005 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the United States.
 
-            Memorandum dated 7 November 1996 written by the Universal House of Justice to the International Teaching Centre.
-
-        *   [^20]:
-
-            Letter dated 14 April 1998 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Côte d’Ivoire.
-
-        *   [^21]:
-
-            Letter dated 5 October 1998 written on behalf of the Universal House of Justice to an individual believer.
-
-        *   [^22]:
-
-            Letter dated 19 January 1998 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Haiti.
-
-        *   [^23]:
-
-            Letter dated 5 October 1998 written on behalf of the Universal House of Justice to an individual believer.
-
-        *   [^24]:
-
-            Letter dated 24 May 2001 written on behalf of the Universal House of Justice to an individual believer.
-
-        *   [^25]:
-
-            Letter dated 23 March 2003 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Trinidad and Tobago.
-
-        *   [^26]:
-
-            Letter dated 23 December 2001 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Brazil.
-
-        *   [^27]:
-
-            Message dated 9 January 2001 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
-
-        *   [^28]:
-
-            Riḍván 2005 message written by the Universal House of Justice to the Bahá’ís of the world.
-
-        *   [^29]:
-
-            Letter dated 26 August 2003 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Mexico.
-
-        *   [^30]:
-
-            Letter dated 16 September 2003 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the Philippines.
-
-        *   [^31]:
-
-            Letter dated 11 May 2003 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Ethiopia.
-
-        *   [^32]:
-
-            Letter dated 9 June 2002 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Uganda.
-
-        *   [^33]:
-
-            Letter dated 19 May 2004 written on behalf of the Universal House of Justice to a National Spiritual Assembly.
-
-        *   [^34]:
-
-            Letter dated 17 May 2004 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Sarawak.
-
-        *   [^35]:
-
-            Letter dated 18 June 2001 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Finland.
-
-        *   [^36]:
-
-            Letter dated 23 April 2004 written on behalf of the Universal House of Justice to an individual believer.
-
-        *   [^37]:
-
-            Letter dated 19 October 2005 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the United States.
-
-        *   [^38]:
-
-            Letter dated 11 September 2005 written on behalf of the Universal House of Justice to a National Spiritual Assembly.
+        [^38]:             Letter dated 11 September 2005 written on behalf of the Universal House of Justice to a National Spiritual Assembly.
 
     *   #### Learning to Open Aspects of Bahá’í Community Life to Others
 
-        *   [^1]:
+        [^1]:             Message dated 9 January 2001 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
 
-            Message dated 9 January 2001 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
+        [^2]:             Riḍván 2002 message written by the Universal House of Justice to the Bahá’ís of the world.
 
-        *   [^2]:
+        [^3]:             Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
 
-            Riḍván 2002 message written by the Universal House of Justice to the Bahá’ís of the world.
+        [^4]:             Letter dated 25 September 2001 written on behalf of the Universal House of Justice to the Spiritual Assembly of Argentina.
 
-        *   [^3]:
+        [^5]:             Letter dated 8 May 1997 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Bulgaria.
 
-            Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
+        [^6]:             Message dated 26 December 1995 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
 
-        *   [^4]:
+        [^7]:             Letter dated 27 April 2004 written on behalf of the Universal House of Justice to an individual believer.
 
-            Letter dated 25 September 2001 written on behalf of the Universal House of Justice to the Spiritual Assembly of Argentina.
+        [^8]:             One Common Faith, a document prepared for and approved by the Universal House of Justice, ¶67
 
-        *   [^5]:
+        [^9]:             Letter dated 4 May 2005 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Kazakhstan.
 
-            Letter dated 8 May 1997 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Bulgaria.
+        [^10]:             Memorandum dated 27 April 1998 written by the Universal House of Justice to the Office of Social and Economic Development.
 
-        *   [^6]:
+        [^11]:             Shoghi Effendi, published in Bahá’í News, no. 13, September 1926, p. 1, cited in Principles of Bahá’í Administration: A Compilation (London: Bahá’í Publishing Trust, 1976), p. 20.
 
-            Message dated 26 December 1995 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
-
-        *   [^7]:
-
-            Letter dated 27 April 2004 written on behalf of the Universal House of Justice to an individual believer.
-
-        *   [^8]:
-
-            One Common Faith, a document prepared for and approved by the Universal House of Justice, ¶67
-
-        *   [^9]:
-
-            Letter dated 4 May 2005 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Kazakhstan.
-
-        *   [^10]:
-
-            Memorandum dated 27 April 1998 written by the Universal House of Justice to the Office of Social and Economic Development.
-
-        *   [^11]:
-
-            Shoghi Effendi, published in Bahá’í News, no. 13, September 1926, p. 1, cited in Principles of Bahá’í Administration: A Compilation (London: Bahá’í Publishing Trust, 1976), p. 20.
-
-        *   [^12]:
-
-            Message dated 9 January 2001 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
+        [^12]:             Message dated 9 January 2001 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
 
     *   #### Learning to Reach Receptive Populations
 
-        *   [^1]:
+        [^1]:             Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
 
-            Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
+        [^2]:             Letter dated 28 May 2004 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the United States.
 
-        *   [^2]:
+        [^3]:             Letter dated 20 March 2002 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Austria.
 
-            Letter dated 28 May 2004 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the United States.
+        [^4]:             Letter dated 28 May 2004 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the United States.
 
-        *   [^3]:
+        [^5]:             Letter dated 5 August 2004 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Canada.
 
-            Letter dated 20 March 2002 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Austria.
+        [^6]:             Letter dated 31 October 2002 written on behalf of the Universal House of Justice to an individual believer.
 
-        *   [^4]:
+        [^7]:             Message dated 9 January 2001 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
 
-            Letter dated 28 May 2004 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the United States.
+        [^8]:             “Training Institutes,” p. 5.
 
-        *   [^5]:
+        [^9]:             “Training Institutes,” p. 5.
 
-            Letter dated 5 August 2004 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Canada.
+        [^10]:             Letter dated 26 June 2002 written on behalf of the Universal House of Justice to an individual believer.
 
-        *   [^6]:
+        [^11]:             Message dated 9 January 2001 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
 
-            Letter dated 31 October 2002 written on behalf of the Universal House of Justice to an individual believer.
+        [^12]:             Riḍván 153 \[1996\] message written by the Universal House of Justice to the Followers of Bahá’u’lláh in Europe.
 
-        *   [^7]:
+        [^13]:             Letter dated 22 June 2005 written by the Universal House of Justice to a conference of Arabic-speaking believers, July 2005.
 
-            Message dated 9 January 2001 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
+        [^14]:             Letter dated 28 May 2004 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the United States.
 
-        *   [^8]:
+        [^15]:             Letter dated 25 March 2002 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Uganda.
 
-            “Training Institutes,” p. 5.
+        [^16]:             Message dated 10 April 2003 written by the Universal House of Justice to the Friends gathered at the series of youth forums called by the Regional Bahá’í Council of the Western States, U.S.A.
 
-        *   [^9]:
+        [^17]:             Riḍván 153 \[1996\] message written by the Universal House of Justice to the Followers of Bahá’u’lláh in Latin America and the Caribbean.
 
-            “Training Institutes,” p. 5.
-
-        *   [^10]:
-
-            Letter dated 26 June 2002 written on behalf of the Universal House of Justice to an individual believer.
-
-        *   [^11]:
-
-            Message dated 9 January 2001 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
-
-        *   [^12]:
-
-            Riḍván 153 \[1996\] message written by the Universal House of Justice to the Followers of Bahá’u’lláh in Europe.
-
-        *   [^13]:
-
-            Letter dated 22 June 2005 written by the Universal House of Justice to a conference of Arabic-speaking believers, July 2005.
-
-        *   [^14]:
-
-            Letter dated 28 May 2004 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the United States.
-
-        *   [^15]:
-
-            Letter dated 25 March 2002 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Uganda.
-
-        *   [^16]:
-
-            Message dated 10 April 2003 written by the Universal House of Justice to the Friends gathered at the series of youth forums called by the Regional Bahá’í Council of the Western States, U.S.A.
-
-        *   [^17]:
-
-            Riḍván 153 \[1996\] message written by the Universal House of Justice to the Followers of Bahá’u’lláh in Latin America and the Caribbean.
-
-        *   [^18]:
-
-            Message dated 10 January 2002 written by the Universal House of Justice to the Bahá’ís of the world.
+        [^18]:             Message dated 10 January 2002 written by the Universal House of Justice to the Bahá’ís of the world.
 
     *   #### Learning to Exercise Disciplined Initiative and to Participate in Collective Action
 
-        *   [^1]:
+        [^1]:             The Institution of the Counsellors, p. 19.
 
-            The Institution of the Counsellors, p. 19.
+        [^2]:             The Institution of the Counsellors, p. 19.
 
-        *   [^2]:
+        [^3]:             Riḍván 152 \[1995\] message written by the Universal House of Justice to the Bahá’ís of the world.
 
-            The Institution of the Counsellors, p. 19.
+        [^4]:             Riḍván 152 \[1995\] message written by the Universal House of Justice to the Bahá’ís of the world.
 
-        *   [^3]:
+        [^5]:             Riḍván 153 \[1996\] message written by the Universal House of Justice to the Bahá’ís of the world.
 
-            Riḍván 152 \[1995\] message written by the Universal House of Justice to the Bahá’ís of the world.
+        [^6]:             Riḍván 155 \[1998\] message written by the Universal House of Justice to the Bahá’ís of the world.
 
-        *   [^4]:
+        [^7]:             The Institution of the Counsellors, pp. 20–21.
 
-            Riḍván 152 \[1995\] message written by the Universal House of Justice to the Bahá’ís of the world.
+        [^8]:             Letter dated 22 August 2002 written on behalf of the Universal House of Justice to an individual believer.
 
-        *   [^5]:
+        [^9]:             Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
 
-            Riḍván 153 \[1996\] message written by the Universal House of Justice to the Bahá’ís of the world.
+        [^10]:             Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
 
-        *   [^6]:
+        [^11]:             Letter dated 10 July 2005 from the Department of the Secretariat of the Universal House of Justice to an individual believer.
 
-            Riḍván 155 \[1998\] message written by the Universal House of Justice to the Bahá’ís of the world.
+        [^12]:             Letter dated 21 July 2005 written on behalf of the Universal House of Justice to the Local Spiritual Assembly of Guelph, Canada.
 
-        *   [^7]:
+        [^13]:             Letter dated 16 March 2004 written on behalf of the Universal House of Justice to a National Spiritual Assembly.
 
-            The Institution of the Counsellors, pp. 20–21.
+        [^14]:             Letter dated 20 February 2003 written on behalf of the Universal House of Justice to an individual believer.
 
-        *   [^8]:
+        [^15]:             Riḍván 153 \[1996\] message written by the Universal House of Justice to the Followers of Bahá’u’lláh in Europe.
 
-            Letter dated 22 August 2002 written on behalf of the Universal House of Justice to an individual believer.
+        [^16]:             Memorandum dated 9 April 1996 written by the Universal House of Justice to the International Teaching Centre.
 
-        *   [^9]:
+        [^17]:             Riḍván 153 \[1996\] message written by the Universal House of Justice to the Followers of Bahá’u’lláh in Latin America and the Caribbean.
 
-            Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
+        [^18]:             Letter dated 11 September 2005 written on behalf of the Universal House of Justice to a National Spiritual Assembly.
 
-        *   [^10]:
+        [^19]:             Letter dated 24 January 2003 written on behalf of the Universal House of Justice to two individual believers.
 
-            Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
+        [^20]:             Letter dated 31 July 2002 written on behalf of the Universal House of Justice to an individual believer.
 
-        *   [^11]:
+        [^21]:             Letter dated 19 May 1994 written by the Universal House of Justice to the National Spiritual Assembly of the United States.
 
-            Letter dated 10 July 2005 from the Department of the Secretariat of the Universal House of Justice to an individual believer.
+        [^22]:             Message dated 9 January 2001 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
 
-        *   [^12]:
+        [^23]:             Letter dated 18 August 2005 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Germany.
 
-            Letter dated 21 July 2005 written on behalf of the Universal House of Justice to the Local Spiritual Assembly of Guelph, Canada.
+        [^24]:             Letter dated 14 September 2005 written on behalf of the Universal House of Justice to an individual believer.
 
-        *   [^13]:
+        [^25]:             Message dated 26 December 1995 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
 
-            Letter dated 16 March 2004 written on behalf of the Universal House of Justice to a National Spiritual Assembly.
-
-        *   [^14]:
-
-            Letter dated 20 February 2003 written on behalf of the Universal House of Justice to an individual believer.
-
-        *   [^15]:
-
-            Riḍván 153 \[1996\] message written by the Universal House of Justice to the Followers of Bahá’u’lláh in Europe.
-
-        *   [^16]:
-
-            Memorandum dated 9 April 1996 written by the Universal House of Justice to the International Teaching Centre.
-
-        *   [^17]:
-
-            Riḍván 153 \[1996\] message written by the Universal House of Justice to the Followers of Bahá’u’lláh in Latin America and the Caribbean.
-
-        *   [^18]:
-
-            Letter dated 11 September 2005 written on behalf of the Universal House of Justice to a National Spiritual Assembly.
-
-        *   [^19]:
-
-            Letter dated 24 January 2003 written on behalf of the Universal House of Justice to two individual believers.
-
-        *   [^20]:
-
-            Letter dated 31 July 2002 written on behalf of the Universal House of Justice to an individual believer.
-
-        *   [^21]:
-
-            Letter dated 19 May 1994 written by the Universal House of Justice to the National Spiritual Assembly of the United States.
-
-        *   [^22]:
-
-            Message dated 9 January 2001 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
-
-        *   [^23]:
-
-            Letter dated 18 August 2005 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Germany.
-
-        *   [^24]:
-
-            Letter dated 14 September 2005 written on behalf of the Universal House of Justice to an individual believer.
-
-        *   [^25]:
-
-            Message dated 26 December 1995 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
-
-        *   [^26]:
-
-            Message dated September 1964 written by the Universal House of Justice to the Bahá’ís of the world, cited in Messages from the Universal House of Justice, 1963–1968 (Wilmette: Bahá’í Publishing Trust, 1996), pp. 42–43.
+        [^26]:             Message dated September 1964 written by the Universal House of Justice to the Bahá’ís of the world, cited in Messages from the Universal House of Justice, 1963–1968 (Wilmette: Bahá’í Publishing Trust, 1996), pp. 42–43.
 
     *   #### Learning to Administer Growth
 
-        *   [^1]:
+        [^1]:             Letter dated 7 May 2004 written by the Universal House of Justice to the National Spiritual Assembly of India.
 
-            Letter dated 7 May 2004 written by the Universal House of Justice to the National Spiritual Assembly of India.
+        [^2]:             Riḍván 2004 message written by the Universal House of Justice to the Bahá’ís of the world.
 
-        *   [^2]:
+        [^3]:             Letter dated 26 November 2003 written on behalf of the Universal House of Justice to the National Spiritual Assembly of India.
 
-            Riḍván 2004 message written by the Universal House of Justice to the Bahá’ís of the world.
+        [^4]:             Letter dated 26 August 2003 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Mexico.
 
-        *   [^3]:
+        [^5]:             Letter dated 16 September 2003 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the Philippines.
 
-            Letter dated 26 November 2003 written on behalf of the Universal House of Justice to the National Spiritual Assembly of India.
+        [^6]:             Message dated 9 January 2001 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
 
-        *   [^4]:
+        [^7]:             The Institution of the Counsellors, p. 23.
 
-            Letter dated 26 August 2003 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Mexico.
+        [^8]:             The Institution of the Counsellors, p. 22.
 
-        *   [^5]:
+        [^9]:             The Institution of the Counsellors, p. 22.
 
-            Letter dated 16 September 2003 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the Philippines.
+        [^10]:             Letter dated 16 September 2003 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the Philippines.
 
-        *   [^6]:
+        [^11]:             Letter dated 14 February 2005 written on behalf of the Universal House of Justice to the National Spiritual Assembly of India.
 
-            Message dated 9 January 2001 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
+        [^12]:             Letter dated 16 September 2003 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the Philippines.
 
-        *   [^7]:
+        [^13]:             Letter dated 17 November 2004 written on behalf of the Universal House of Justice to an individual believer.
 
-            The Institution of the Counsellors, p. 23.
+        [^14]:             Letter dated 8 July 2005 from the Department of Statistics at the Bahá’í World Centre to the National Spiritual Assembly of Namibia.
 
-        *   [^8]:
+        [^15]:             Letter dated 18 August 2005 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Germany.
 
-            The Institution of the Counsellors, p. 22.
+        [^16]:             Letter dated 15 January 2004 written on behalf of the Universal House of Justice to an individual believer.
 
-        *   [^9]:
+        [^17]:             Letter dated 21 November 2003 written on behalf of the Universal House of Justice to the National Spiritual Assembly of India.
 
-            The Institution of the Counsellors, p. 22.
+        [^18]:             Letter dated 27 May 2005 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the Russian Federation.
 
-        *   [^10]:
+        [^19]:             Letter dated 27 October 2005 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the Democratic Republic of the Congo.
 
-            Letter dated 16 September 2003 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the Philippines.
+        [^20]:             Letter dated 15 December 2003 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Moldova.
 
-        *   [^11]:
+        [^21]:             Letter dated 15 December 2003 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Moldova.
 
-            Letter dated 14 February 2005 written on behalf of the Universal House of Justice to the National Spiritual Assembly of India.
-
-        *   [^12]:
-
-            Letter dated 16 September 2003 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the Philippines.
-
-        *   [^13]:
-
-            Letter dated 17 November 2004 written on behalf of the Universal House of Justice to an individual believer.
-
-        *   [^14]:
-
-            Letter dated 8 July 2005 from the Department of Statistics at the Bahá’í World Centre to the National Spiritual Assembly of Namibia.
-
-        *   [^15]:
-
-            Letter dated 18 August 2005 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Germany.
-
-        *   [^16]:
-
-            Letter dated 15 January 2004 written on behalf of the Universal House of Justice to an individual believer.
-
-        *   [^17]:
-
-            Letter dated 21 November 2003 written on behalf of the Universal House of Justice to the National Spiritual Assembly of India.
-
-        *   [^18]:
-
-            Letter dated 27 May 2005 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the Russian Federation.
-
-        *   [^19]:
-
-            Letter dated 27 October 2005 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the Democratic Republic of the Congo.
-
-        *   [^20]:
-
-            Letter dated 15 December 2003 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Moldova.
-
-        *   [^21]:
-
-            Letter dated 15 December 2003 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Moldova.
-
-        *   [^22]:
-
-            Letter dated 19 October 2005 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the United States.
+        [^22]:             Letter dated 19 October 2005 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the United States.
 
     *   #### Learning to Plan and to Mobilize
 
-        *   [^1]:
+        [^1]:             Message dated 9 January 2001 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
 
-            Message dated 9 January 2001 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
+        [^2]:             Riḍván 155 \[1998\] message written by the Universal House of Justice to the Bahá’ís of the world.
 
-        *   [^2]:
+        [^3]:             Riḍván 155 \[1998\] message written by the Universal House of Justice to the Bahá’ís of the world.
 
-            Riḍván 155 \[1998\] message written by the Universal House of Justice to the Bahá’ís of the world.
+        [^4]:             Message dated 9 January 2001 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
 
-        *   [^3]:
+        [^5]:             The Institution of the Counsellors, pp. 23–24.
 
-            Riḍván 155 \[1998\] message written by the Universal House of Justice to the Bahá’ís of the world.
+        [^6]:             Letter dated 12 December 2001 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the United States.
 
-        *   [^4]:
+        [^7]:             Letter dated 12 August 2001 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the Philippines.
 
-            Message dated 9 January 2001 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
+        [^8]:             Letter dated 27 May 2005 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the Russian Federation.
 
-        *   [^5]:
+        [^9]:             Riḍván 153 \[1996\] message written by the Universal House of Justice to the Followers of Bahá’u’lláh in the Andaman and Nicobar Islands, Bangladesh, India, Nepal and Sri Lanka.
 
-            The Institution of the Counsellors, pp. 23–24.
+        [^10]:             Riḍván 153 \[1996\] message written by the Universal House of Justice to the Followers of Bahá’u’lláh in Latin America and the Caribbean.
 
-        *   [^6]:
+        [^11]:             Letter dated 3 March 1998 written on behalf of the Universal House of Justice to the Spiritual Assembly of Hong Kong.
 
-            Letter dated 12 December 2001 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the United States.
+        [^12]:             Letter dated 3 March 1999 written on behalf of the Universal House of Justice to the National Spiritual Assemblies of Cambodia, the Lao People’s Democratic Republic, Malaysia, Myanmar, the Philippines, Sabah, Sarawak, Singapore, and Thailand.
 
-        *   [^7]:
+        [^13]:             Letter dated 29 June 1997 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the Western Caroline Islands.
 
-            Letter dated 12 August 2001 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the Philippines.
+        [^14]:             Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
 
-        *   [^8]:
+        [^15]:             Letter dated 18 August 2005 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Germany.
 
-            Letter dated 27 May 2005 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the Russian Federation.
+        [^16]:             Letter dated 9 December 2001 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Seychelles.
 
-        *   [^9]:
+        [^17]:             Letter dated 9 December 2001 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Seychelles.
 
-            Riḍván 153 \[1996\] message written by the Universal House of Justice to the Followers of Bahá’u’lláh in the Andaman and Nicobar Islands, Bangladesh, India, Nepal and Sri Lanka.
+        [^18]:             Letter dated 11 April 2005 written on behalf of the Universal House of Justice to an individual believer.
 
-        *   [^10]:
+        [^19]:             Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
 
-            Riḍván 153 \[1996\] message written by the Universal House of Justice to the Followers of Bahá’u’lláh in Latin America and the Caribbean.
+        [^20]:             Message dated 26 December 1995 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
 
-        *   [^11]:
+        [^21]:             Introduction to The Institution of the Counsellors, p. 2.
 
-            Letter dated 3 March 1998 written on behalf of the Universal House of Justice to the Spiritual Assembly of Hong Kong.
+        [^22]:             Letter dated 14 September 2005 written on behalf of the Universal House of Justice to an individual believer.
 
-        *   [^12]:
+        [^23]:             The Institution of the Counsellors, p. 22.
 
-            Letter dated 3 March 1999 written on behalf of the Universal House of Justice to the National Spiritual Assemblies of Cambodia, the Lao People’s Democratic Republic, Malaysia, Myanmar, the Philippines, Sabah, Sarawak, Singapore, and Thailand.
+        [^24]:             The Institution of the Counsellors, p. 22.
 
-        *   [^13]:
+        [^25]:             Introduction to The Institution of the Counsellors, p. 3.
 
-            Letter dated 29 June 1997 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the Western Caroline Islands.
+        [^26]:             The Institution of the Counsellors, pp. 21–22.
 
-        *   [^14]:
+        [^27]:             The Institution of the Counsellors, p. 22.
 
-            Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
+        [^28]:             Riḍván 153 \[1996\] message written by the Universal House of Justice to the Followers of Bahá’u’lláh in Africa.
 
-        *   [^15]:
+        [^29]:             Riḍván 153 \[1996\] message written by the Universal House of Justice to the Followers of Bahá’u’lláh in the Andaman and Nicobar Islands, Bangladesh, India, Nepal, and Sri Lanka.
 
-            Letter dated 18 August 2005 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Germany.
+        [^30]:             Message dated 26 November 1999 written by the Universal House of Justice to the Bahá’ís of the world.
 
-        *   [^16]:
+        [^31]:             Riḍván 2000 message written by the Universal House of Justice to the Bahá’ís of the world.
 
-            Letter dated 9 December 2001 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Seychelles.
+        [^32]:             Message dated 26 November 1999 written by the Universal House of Justice to the Bahá’ís of the world.
 
-        *   [^17]:
+        [^33]:             Letter dated 11 January 1995 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Peru.
 
-            Letter dated 9 December 2001 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Seychelles.
-
-        *   [^18]:
-
-            Letter dated 11 April 2005 written on behalf of the Universal House of Justice to an individual believer.
-
-        *   [^19]:
-
-            Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
-
-        *   [^20]:
-
-            Message dated 26 December 1995 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
-
-        *   [^21]:
-
-            Introduction to The Institution of the Counsellors, p. 2.
-
-        *   [^22]:
-
-            Letter dated 14 September 2005 written on behalf of the Universal House of Justice to an individual believer.
-
-        *   [^23]:
-
-            The Institution of the Counsellors, p. 22.
-
-        *   [^24]:
-
-            The Institution of the Counsellors, p. 22.
-
-        *   [^25]:
-
-            Introduction to The Institution of the Counsellors, p. 3.
-
-        *   [^26]:
-
-            The Institution of the Counsellors, pp. 21–22.
-
-        *   [^27]:
-
-            The Institution of the Counsellors, p. 22.
-
-        *   [^28]:
-
-            Riḍván 153 \[1996\] message written by the Universal House of Justice to the Followers of Bahá’u’lláh in Africa.
-
-        *   [^29]:
-
-            Riḍván 153 \[1996\] message written by the Universal House of Justice to the Followers of Bahá’u’lláh in the Andaman and Nicobar Islands, Bangladesh, India, Nepal, and Sri Lanka.
-
-        *   [^30]:
-
-            Message dated 26 November 1999 written by the Universal House of Justice to the Bahá’ís of the world.
-
-        *   [^31]:
-
-            Riḍván 2000 message written by the Universal House of Justice to the Bahá’ís of the world.
-
-        *   [^32]:
-
-            Message dated 26 November 1999 written by the Universal House of Justice to the Bahá’ís of the world.
-
-        *   [^33]:
-
-            Letter dated 11 January 1995 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Peru.
-
-        *   [^34]:
-
-            Letter dated 11 January 1995 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Peru.
+        [^34]:             Letter dated 11 January 1995 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Peru.
 
 *   ### Part III: Additional Documents
 
     *   #### Training Institutes, a document prepared for and approved by the Universal House of Justice, April 1998
 
-        *   [^1]:
+        [^1]:             Message dated 26 December 1995 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
 
-            Message dated 26 December 1995 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
+        [^2]:             Message dated 26 December 1995 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
 
-        *   [^2]:
+        [^3]:             Riḍván 1996 message written by the Universal House of Justice to the Bahá’ís of the world.
 
-            Message dated 26 December 1995 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
+        [^4]:             Riḍván 1996 message written by the Universal House of Justice to the Followers of Bahá’u’lláh in Europe.
 
-        *   [^3]:
+        [^5]:             Riḍván 1996 message written by the Universal House of Justice to the Followers of Bahá’u’lláh in Cambodia, Hong Kong, Lao People’s Democratic Republic, Macau, Malaysia, Mongolia, Myanmar, Singapore, Taiwan, Thailand, and Vietnam.
 
-            Riḍván 1996 message written by the Universal House of Justice to the Bahá’ís of the world.
+        [^6]:             Riḍván 1996 message written by the Universal House of Justice to the Followers of Bahá’u’lláh in the Andaman and Nicobar Islands, Bangladesh, India, Nepal, and Sri Lanka.
 
-        *   [^4]:
+        [^7]:             Riḍván 1996 message written by the Universal House of Justice to the Bahá’ís of the world.
 
-            Riḍván 1996 message written by the Universal House of Justice to the Followers of Bahá’u’lláh in Europe.
+        [^8]:             Memorandum dated 3 April 1997 written by the Universal House of Justice to the International Teaching Centre.
 
-        *   [^5]:
+        [^9]:             Letter dated 1 June 1997 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Uganda.
 
-            Riḍván 1996 message written by the Universal House of Justice to the Followers of Bahá’u’lláh in Cambodia, Hong Kong, Lao People’s Democratic Republic, Macau, Malaysia, Mongolia, Myanmar, Singapore, Taiwan, Thailand, and Vietnam.
+        [^10]:             Letter dated 29 August 1996 written on behalf of the Universal House of Justice to an individual believer.
 
-        *   [^6]:
+        [^11]:             Letter dated 29 July 1997 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Sweden.
 
-            Riḍván 1996 message written by the Universal House of Justice to the Followers of Bahá’u’lláh in the Andaman and Nicobar Islands, Bangladesh, India, Nepal, and Sri Lanka.
+        [^12]:             Letter dated 8 May 1997 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Bulgaria.
 
-        *   [^7]:
+        [^13]:             Memorandum dated 10 July 1997 written by the Universal House of Justice to the International Teaching Centre.
 
-            Riḍván 1996 message written by the Universal House of Justice to the Bahá’ís of the world.
+        [^14]:             Letter dated 19 January 1998 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Haiti.
 
-        *   [^8]:
+        [^15]:             Letter dated 16 May 1997 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Honduras.
 
-            Memorandum dated 3 April 1997 written by the Universal House of Justice to the International Teaching Centre.
+        [^16]:             Letter dated 5 February 1997 written on behalf of the Universal House of Justice to an individual believer.
 
-        *   [^9]:
+        [^17]:             Letter dated 21 January 1998 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Brazil.
 
-            Letter dated 1 June 1997 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Uganda.
+        [^18]:             Letter dated 14 November 1997 written on behalf of the Universal House of Justice to the National Spiritual Assembly of El Salvador.
 
-        *   [^10]:
+        [^19]:             Letter dated 3 April 1997 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Brazil.
 
-            Letter dated 29 August 1996 written on behalf of the Universal House of Justice to an individual believer.
+        [^20]:             Letter dated 24 December 1997 written on behalf of the Universal House of Justice to the National Spiritual Assembly of India.
 
-        *   [^11]:
+        [^21]:             Letter dated 5 December 1996 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Uganda.
 
-            Letter dated 29 July 1997 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Sweden.
+        [^22]:             Letter dated 6 July 1997 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Guyana.
 
-        *   [^12]:
+        [^23]:             Letter dated 9 January 1997 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the Eastern Caroline Islands.
 
-            Letter dated 8 May 1997 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Bulgaria.
+        [^24]:             Letter dated 14 April 1995 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Panama.
 
-        *   [^13]:
-
-            Memorandum dated 10 July 1997 written by the Universal House of Justice to the International Teaching Centre.
-
-        *   [^14]:
-
-            Letter dated 19 January 1998 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Haiti.
-
-        *   [^15]:
-
-            Letter dated 16 May 1997 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Honduras.
-
-        *   [^16]:
-
-            Letter dated 5 February 1997 written on behalf of the Universal House of Justice to an individual believer.
-
-        *   [^17]:
-
-            Letter dated 21 January 1998 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Brazil.
-
-        *   [^18]:
-
-            Letter dated 14 November 1997 written on behalf of the Universal House of Justice to the National Spiritual Assembly of El Salvador.
-
-        *   [^19]:
-
-            Letter dated 3 April 1997 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Brazil.
-
-        *   [^20]:
-
-            Letter dated 24 December 1997 written on behalf of the Universal House of Justice to the National Spiritual Assembly of India.
-
-        *   [^21]:
-
-            Letter dated 5 December 1996 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Uganda.
-
-        *   [^22]:
-
-            Letter dated 6 July 1997 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Guyana.
-
-        *   [^23]:
-
-            Letter dated 9 January 1997 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the Eastern Caroline Islands.
-
-        *   [^24]:
-
-            Letter dated 14 April 1995 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Panama.
-
-        *   [^25]:
-
-            Letter dated 11 January 1995 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Peru.
+        [^25]:             Letter dated 11 January 1995 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Peru.
 
     *   #### Training Institutes and Systematic Growth, a document prepared by the International Teaching Centre, February 2000
 
-        *   [^1]:
+        [^1]:             Riḍván 153 \[1996\] message written by the Universal House of Justice to the Bahá’ís of the world.
 
-            Riḍván 153 \[1996\] message written by the Universal House of Justice to the Bahá’ís of the world.
+        [^2]:             Message dated 26 December 1995 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
 
-        *   [^2]:
+        [^3]:             Letter dated 19 November 1998 written on behalf of the Universal House of Justice to the Spiritual Assembly of Chad.
 
-            Message dated 26 December 1995 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
+        [^4]:             Letter dated 10 August 1998 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the United States.
 
-        *   [^3]:
+        [^5]:             Riḍván 153 \[1996\] message written by the Universal House of Justice to the Bahá’ís of the world.
 
-            Letter dated 19 November 1998 written on behalf of the Universal House of Justice to the Spiritual Assembly of Chad.
+        [^6]:             Riḍván 153 \[1996\] message written by the Universal House of Justice to the Bahá’ís of the world.
 
-        *   [^4]:
+        [^7]:             Letter dated 9 December 1998 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the Russian Federation.
 
-            Letter dated 10 August 1998 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the United States.
+        [^8]:             Riḍván 153 \[1996\] message written by the Universal House of Justice to the Bahá’ís of the world.
 
-        *   [^5]:
+        [^9]:             Letter dated 19 October 1997 written on behalf of the Universal House of Justice to an individual believer.
 
-            Riḍván 153 \[1996\] message written by the Universal House of Justice to the Bahá’ís of the world.
+        [^10]:             Riḍván 156 \[1999\] message written by the Universal House of Justice to the Bahá’ís of the world.
 
-        *   [^6]:
+        [^11]:             Letter dated 27 March 1998 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Vanuatu.
 
-            Riḍván 153 \[1996\] message written by the Universal House of Justice to the Bahá’ís of the world.
+        [^12]:             Letter dated 18 March 1999 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the United Kingdom.
 
-        *   [^7]:
+        [^13]:             Letter dated 18 January 1999 written on behalf of the Universal House of Justice to an individual believer.
 
-            Letter dated 9 December 1998 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the Russian Federation.
+        [^14]:             Letter dated 29 July 1998 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Bolivia.
 
-        *   [^8]:
+        [^15]:             Letter dated 9 October 1998 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Papua New Guinea.
 
-            Riḍván 153 \[1996\] message written by the Universal House of Justice to the Bahá’ís of the world.
+        [^16]:             Letter dated 16 March 1998 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Tonga.
 
-        *   [^9]:
+        [^17]:             Letter dated 14 April 1998 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Côte d’Ivoire.
 
-            Letter dated 19 October 1997 written on behalf of the Universal House of Justice to an individual believer.
+        [^18]:             Letter dated 5 October 1998 written on behalf of the Universal House of Justice to an individual believer.
 
-        *   [^10]:
+        [^19]:             Letter dated 9 October 1998 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Papua New Guinea.
 
-            Riḍván 156 \[1999\] message written by the Universal House of Justice to the Bahá’ís of the world.
+        [^20]:             Letter dated 10 December 1998 written on behalf of the Universal House of Justice an individual believer.
 
-        *   [^11]:
+        [^21]:             Letter dated 5 October 1998 written on behalf of the Universal House of Justice to an individual believer.
 
-            Letter dated 27 March 1998 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Vanuatu.
+        [^22]:             Letter dated 3 March 1998 written on behalf of the Universal House of Justice to the Spiritual Assembly of Hong Kong.
 
-        *   [^12]:
+        [^23]:             Letter dated 26 November 1999 written by the Universal House of Justice to the Bahá’ís of the world.
 
-            Letter dated 18 March 1999 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the United Kingdom.
+        [^24]:             Riḍván 153 \[1996\] message written by the Universal House of Justice to the Bahá’ís of the world.
 
-        *   [^13]:
+        [^25]:             Letter dated 20 May 1998 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Tanzania.
 
-            Letter dated 18 January 1999 written on behalf of the Universal House of Justice to an individual believer.
+        [^26]:             Letter dated 22 September 1999 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Norway.
 
-        *   [^14]:
+        [^27]:             Message dated 26 December 1995 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
 
-            Letter dated 29 July 1998 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Bolivia.
+        [^28]:             Letter dated 10 April 1998 written on behalf of the Universal House of Justice to the National Spiritual Assembly of India.
 
-        *   [^15]:
+        [^29]:             Letter dated 24 August 1999 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the United States.
 
-            Letter dated 9 October 1998 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Papua New Guinea.
+        [^30]:             Letter dated 24 August 1999 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the United States.
 
-        *   [^16]:
+        [^31]:             Riḍván 156 \[1999\] message written by the Universal House of Justice to the Bahá’ís of the world.
 
-            Letter dated 16 March 1998 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Tonga.
-
-        *   [^17]:
-
-            Letter dated 14 April 1998 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Côte d’Ivoire.
-
-        *   [^18]:
-
-            Letter dated 5 October 1998 written on behalf of the Universal House of Justice to an individual believer.
-
-        *   [^19]:
-
-            Letter dated 9 October 1998 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Papua New Guinea.
-
-        *   [^20]:
-
-            Letter dated 10 December 1998 written on behalf of the Universal House of Justice an individual believer.
-
-        *   [^21]:
-
-            Letter dated 5 October 1998 written on behalf of the Universal House of Justice to an individual believer.
-
-        *   [^22]:
-
-            Letter dated 3 March 1998 written on behalf of the Universal House of Justice to the Spiritual Assembly of Hong Kong.
-
-        *   [^23]:
-
-            Letter dated 26 November 1999 written by the Universal House of Justice to the Bahá’ís of the world.
-
-        *   [^24]:
-
-            Riḍván 153 \[1996\] message written by the Universal House of Justice to the Bahá’ís of the world.
-
-        *   [^25]:
-
-            Letter dated 20 May 1998 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Tanzania.
-
-        *   [^26]:
-
-            Letter dated 22 September 1999 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Norway.
-
-        *   [^27]:
-
-            Message dated 26 December 1995 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
-
-        *   [^28]:
-
-            Letter dated 10 April 1998 written on behalf of the Universal House of Justice to the National Spiritual Assembly of India.
-
-        *   [^29]:
-
-            Letter dated 24 August 1999 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the United States.
-
-        *   [^30]:
-
-            Letter dated 24 August 1999 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the United States.
-
-        *   [^31]:
-
-            Riḍván 156 \[1999\] message written by the Universal House of Justice to the Bahá’ís of the world.
-
-        *   [^32]:
-
-            Riḍván 156 \[1999\] message written by the Universal House of Justice to the Bahá’ís of the world.
+        [^32]:             Riḍván 156 \[1999\] message written by the Universal House of Justice to the Bahá’ís of the world.
 
     *   #### Building Momentum: A Coherent Approach to Growth, a document prepared by the International Teaching Centre, April 2003
 
-        *   [^1]:
+        [^1]:             Message dated 22 December 2001 written by the Universal House of Justice to the friends gathered at the Eighth ASEAN Youth Conference in Thailand.
 
-            Message dated 22 December 2001 written by the Universal House of Justice to the friends gathered at the Eighth ASEAN Youth Conference in Thailand.
+        [^2]:             Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
 
-        *   [^2]:
+        [^3]:             Letter dated 12 December 2001 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the United States.
 
-            Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
+        [^4]:             Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
 
-        *   [^3]:
+        [^5]:             Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
 
-            Letter dated 12 December 2001 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the United States.
+        [^6]:             Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
 
-        *   [^4]:
+        [^7]:             Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
 
-            Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
+        [^8]:             Letter dated 20 March 2002 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Austria.
 
-        *   [^5]:
+        [^9]:             Letter dated 8 April 2002 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Bolivia.
 
-            Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
+        [^10]:             Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
 
-        *   [^6]:
+        [^11]:             Letter dated 3 June 2001 written on behalf of the Universal House of Justice to an individual believer.
 
-            Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
+        [^12]:             Letter dated 31 May 2001 written on behalf of the Universal House of Justice to an individual believer.
 
-        *   [^7]:
+        [^13]:             Letter dated 4 October 2000 written on behalf of the Universal House of Justice to the Spiritual Assembly of the Andaman and Nicobar Islands.
 
-            Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
+        [^14]:             Letter dated 23 October 2000 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Kenya.
 
-        *   [^8]:
+        [^15]:             Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
 
-            Letter dated 20 March 2002 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Austria.
+        [^16]:             Message dated 9 January 2001 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
 
-        *   [^9]:
+        [^17]:             Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
 
-            Letter dated 8 April 2002 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Bolivia.
+        [^18]:             Letter dated 3 June 2001 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the Union of Myanmar.
 
-        *   [^10]:
+        [^19]:             Letter dated 3 June 2001 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the Union of Myanmar.
 
-            Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
+        [^20]:             Letter dated 8 September 2000 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Eritrea.
 
-        *   [^11]:
+        [^21]:             Letter dated 20 March 2002 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Austria.
 
-            Letter dated 3 June 2001 written on behalf of the Universal House of Justice to an individual believer.
+        [^22]:             Message dated 9 January 2001 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
 
-        *   [^12]:
+        [^23]:             Riḍván 2002 message written by the Universal House of Justice to the Bahá’ís of the world.
 
-            Letter dated 31 May 2001 written on behalf of the Universal House of Justice to an individual believer.
+        [^24]:             Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
 
-        *   [^13]:
+        [^25]:             Letter dated 8 September 2000 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Eritrea.
 
-            Letter dated 4 October 2000 written on behalf of the Universal House of Justice to the Spiritual Assembly of the Andaman and Nicobar Islands.
+        [^26]:             Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
 
-        *   [^14]:
+        [^27]:             Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
 
-            Letter dated 23 October 2000 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Kenya.
+        [^28]:             Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
 
-        *   [^15]:
+        [^29]:             Message dated 9 January 2001 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
 
-            Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
+        [^30]:             Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
 
-        *   [^16]:
+        [^31]:             Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
 
-            Message dated 9 January 2001 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
+        [^32]:             Letter dated 4 June 1957 written on behalf of Shoghi Effendi to the National Spiritual Assembly of Canada, published in The Gift of Teaching (England: Bahá’í Publishing Trust, 1977), p. 35.
 
-        *   [^17]:
+        [^33]:             Message dated 9 January 2001 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
 
-            Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
+        [^34]:             Letter dated 3 April 2000 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Guyana.
 
-        *   [^18]:
+        [^35]:             Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
 
-            Letter dated 3 June 2001 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the Union of Myanmar.
+        [^36]:             Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
 
-        *   [^19]:
+        [^37]:             Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
 
-            Letter dated 3 June 2001 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the Union of Myanmar.
+        [^38]:             Riḍván 2002 message written by the Universal House of Justice to the Bahá’ís of the world.
 
-        *   [^20]:
+        [^39]:             Letter dated 30 June 1957 written on behalf of Shoghi Effendi to the National Spiritual Assembly of Alaska, published in High Endeavors (n.p.: National Spiritual Assembly of the Bahá’ís of Alaska, 1976), pp. 35–36.
 
-            Letter dated 8 September 2000 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Eritrea.
+        [^40]:             Message dated 9 January 2001 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
 
-        *   [^21]:
+        [^41]:             Message dated 9 January 2001 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
 
-            Letter dated 20 March 2002 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Austria.
+        [^42]:             Letter dated 12 December 2001 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the United States.
 
-        *   [^22]:
+        [^43]:             Letter dated 23 December 2001 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Brazil.
 
-            Message dated 9 January 2001 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
+        [^44]:             Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
 
-        *   [^23]:
+        [^45]:             Letter dated 30 August 1930 written on behalf of Shoghi Effendi to the National Spiritual Assembly of the United States and Canada, published in Lights of Guidance (New Delhi: Bahá’í Publishing Trust, 1996), p. 19.
 
-            Riḍván 2002 message written by the Universal House of Justice to the Bahá’ís of the world.
+        [^46]:             Letter dated 9 December 2001 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Seychelles.
 
-        *   [^24]:
+        [^47]:             Letter dated 20 August 2002 written on behalf of the Universal House of Justice to an individual believer.
 
-            Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
+        [^48]:             Handwritten note of Shoghi Effendi appended to a letter dated 11 March 1933 written on his behalf to an individual believer, cited in a message dated 20 October 1983 written by the Universal House of Justice to the Bahá’ís of the world, published in Readings on Bahá’í Social and Economic Development (Florida: Palabra Publications, 2000), p. 7.
 
-        *   [^25]:
+        [^49]:             Riḍván 150 \[1993\] message written by the Universal House of Justice to the Bahá’ís of the world.
 
-            Letter dated 8 September 2000 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Eritrea.
+        [^50]:             Riḍván 153 \[1996\] message written by the Universal House of Justice to the Bahá’ís of the world.
 
-        *   [^26]:
+        [^51]:             Riḍván 2000 message written by the Universal House of Justice to the Bahá’ís of the world.
 
-            Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
+        [^52]:             Riḍván 2000 message written by the Universal House of Justice to the Bahá’ís of the world.
 
-        *   [^27]:
+        [^53]:             Message dated 9 January 2001 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
 
-            Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
+        [^54]:             The Institution of the Counsellors, a document prepared by the Universal House of Justice (Haifa: Bahá’í World Centre, 2001), p. 24.
 
-        *   [^28]:
+        [^55]:             Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
 
-            Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
+        [^56]:             The Institution of the Counsellors, p. 24.
 
-        *   [^29]:
+        [^57]:             The Institution of the Counsellors, p. 20.
 
-            Message dated 9 January 2001 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
+        [^58]:             Letter dated 12 August 2002 written on behalf of the Universal House of Justice to an individual believer.
 
-        *   [^30]:
+        [^59]:             Letter dated 14 August 2002 written on behalf of the Universal House of Justice to an individual believer.
 
-            Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
+        [^60]:             Riḍván 153 \[1996\] message written by the Universal House of Justice to the Bahá’ís of the world.
 
-        *   [^31]:
+        [^61]:             Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
 
-            Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
+        [^62]:             Riḍván 2000 message written by the Universal House of Justice to the Bahá’ís of the world.
 
-        *   [^32]:
+        [^63]:             Letter dated 26 June 2002 written on behalf of the Universal House of Justice to an individual believer.
 
-            Letter dated 4 June 1957 written on behalf of Shoghi Effendi to the National Spiritual Assembly of Canada, published in The Gift of Teaching (England: Bahá’í Publishing Trust, 1977), p. 35.
+        [^64]:             Bahá’u’lláh, quoted by Shoghi Effendi in The Advent of Divine Justice (Wilmette: Bahá’í Publishing Trust, 1990), p. 78.
 
-        *   [^33]:
+        [^65]:             Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
 
-            Message dated 9 January 2001 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
+        [^66]:             Letter dated 10 December 1942 written on behalf of Shoghi Effendi to two individual believers, published in Lights of Guidance, p. 67.
 
-        *   [^34]:
+        [^67]:             Message dated 24 May 2001 written by the Universal House of Justice to the believers gathered for the events marking the completion of the projects on Mount Carmel.
 
-            Letter dated 3 April 2000 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Guyana.
+        [^68]:             Bahá’u’lláh, quoted by Shoghi Effendi in The Advent of Divine Justice, p. 82.
 
-        *   [^35]:
-
-            Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
-
-        *   [^36]:
-
-            Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
-
-        *   [^37]:
-
-            Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
-
-        *   [^38]:
-
-            Riḍván 2002 message written by the Universal House of Justice to the Bahá’ís of the world.
-
-        *   [^39]:
-
-            Letter dated 30 June 1957 written on behalf of Shoghi Effendi to the National Spiritual Assembly of Alaska, published in High Endeavors (n.p.: National Spiritual Assembly of the Bahá’ís of Alaska, 1976), pp. 35–36.
-
-        *   [^40]:
-
-            Message dated 9 January 2001 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
-
-        *   [^41]:
-
-            Message dated 9 January 2001 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
-
-        *   [^42]:
-
-            Letter dated 12 December 2001 written on behalf of the Universal House of Justice to the National Spiritual Assembly of the United States.
-
-        *   [^43]:
-
-            Letter dated 23 December 2001 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Brazil.
-
-        *   [^44]:
-
-            Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
-
-        *   [^45]:
-
-            Letter dated 30 August 1930 written on behalf of Shoghi Effendi to the National Spiritual Assembly of the United States and Canada, published in Lights of Guidance (New Delhi: Bahá’í Publishing Trust, 1996), p. 19.
-
-        *   [^46]:
-
-            Letter dated 9 December 2001 written on behalf of the Universal House of Justice to the National Spiritual Assembly of Seychelles.
-
-        *   [^47]:
-
-            Letter dated 20 August 2002 written on behalf of the Universal House of Justice to an individual believer.
-
-        *   [^48]:
-
-            Handwritten note of Shoghi Effendi appended to a letter dated 11 March 1933 written on his behalf to an individual believer, cited in a message dated 20 October 1983 written by the Universal House of Justice to the Bahá’ís of the world, published in Readings on Bahá’í Social and Economic Development (Florida: Palabra Publications, 2000), p. 7.
-
-        *   [^49]:
-
-            Riḍván 150 \[1993\] message written by the Universal House of Justice to the Bahá’ís of the world.
-
-        *   [^50]:
-
-            Riḍván 153 \[1996\] message written by the Universal House of Justice to the Bahá’ís of the world.
-
-        *   [^51]:
-
-            Riḍván 2000 message written by the Universal House of Justice to the Bahá’ís of the world.
-
-        *   [^52]:
-
-            Riḍván 2000 message written by the Universal House of Justice to the Bahá’ís of the world.
-
-        *   [^53]:
-
-            Message dated 9 January 2001 written by the Universal House of Justice to the Conference of the Continental Boards of Counsellors.
-
-        *   [^54]:
-
-            The Institution of the Counsellors, a document prepared by the Universal House of Justice (Haifa: Bahá’í World Centre, 2001), p. 24.
-
-        *   [^55]:
-
-            Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
-
-        *   [^56]:
-
-            The Institution of the Counsellors, p. 24.
-
-        *   [^57]:
-
-            The Institution of the Counsellors, p. 20.
-
-        *   [^58]:
-
-            Letter dated 12 August 2002 written on behalf of the Universal House of Justice to an individual believer.
-
-        *   [^59]:
-
-            Letter dated 14 August 2002 written on behalf of the Universal House of Justice to an individual believer.
-
-        *   [^60]:
-
-            Riḍván 153 \[1996\] message written by the Universal House of Justice to the Bahá’ís of the world.
-
-        *   [^61]:
-
-            Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
-
-        *   [^62]:
-
-            Riḍván 2000 message written by the Universal House of Justice to the Bahá’ís of the world.
-
-        *   [^63]:
-
-            Letter dated 26 June 2002 written on behalf of the Universal House of Justice to an individual believer.
-
-        *   [^64]:
-
-            Bahá’u’lláh, quoted by Shoghi Effendi in The Advent of Divine Justice (Wilmette: Bahá’í Publishing Trust, 1990), p. 78.
-
-        *   [^65]:
-
-            Message dated 17 January 2003 written by the Universal House of Justice to the Bahá’ís of the world.
-
-        *   [^66]:
-
-            Letter dated 10 December 1942 written on behalf of Shoghi Effendi to two individual believers, published in Lights of Guidance, p. 67.
-
-        *   [^67]:
-
-            Message dated 24 May 2001 written by the Universal House of Justice to the believers gathered for the events marking the completion of the projects on Mount Carmel.
-
-        *   [^68]:
-
-            Bahá’u’lláh, quoted by Shoghi Effendi in The Advent of Divine Justice, p. 82.
-
-        *   [^69]:
-
-            Selections from the Writings of ‘Abdu’l‑Bahá (Wilmette: Bahá’í Publishing Trust, 1997), sec. 218.8.
+        [^69]:             Selections from the Writings of ‘Abdu’l‑Bahá (Wilmette: Bahá’í Publishing Trust, 1997), sec. 218.8.

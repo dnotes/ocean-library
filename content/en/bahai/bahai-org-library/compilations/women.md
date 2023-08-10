@@ -5,19 +5,21 @@ author: various
 access: research
 language: en
 priority: 10
-wordsCount: 18851
+wordsCount: 18810
 _conversionOpts:
   encoding: UTF-8
   reconvert: true
   postPatterns:
+    '/(\s*)\*\s+(\[\^\d+\]:)\s*\n/': '$1$2 '
     '/^(?:\*\s*)*(\[\^[\w\d]+\]:)\s*\n*/': '$1 '
     '/\n\n(.+\\\[\d+\\\])$/': '\n\n$1 {¶=none .cite}'
-  ignoreElements: div.of
+  ignoreElements: 'div.of,nav,a.sd:not(.ef)'
   fnRefEl: sup.ve
-  fnTextEl: a.sd
+  fnTextEl: a.sd.ef
   metaElements:
     author: various
     collection: Compilations
+  converter: html
 sourceUrl: >-
   https://www.bahai.org/library/authoritative-texts/compilations/women/women.xhtml?3a5fb619
 _convertedFrom: >-
@@ -26,6 +28,7 @@ _softHyphenWords: ''
 collectionTitle: Compilations
 ocnmd_version: 2
 collectionId: compilations
+collection: Compilations
 ---
 # Women
 Compiled by the Research Department
@@ -35,13 +38,6 @@ of the Universal House of Justice
 January 1986
 
 Revised July 1990
-
-1.  The Bahá’í concept of equality
-2.  The role of education in the development of women
-3.  Application of the principle of equality to family life
-4.  Women in the world at large
-5.  Fostering the development of women
-6.  Bibliography
 
 I. The Bahá’í Concept of Equality
 

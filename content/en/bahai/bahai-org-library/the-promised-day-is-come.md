@@ -5,16 +5,18 @@ author: Shoghi Effendi
 access: research
 language: en
 priority: 10
-wordsCount: 52021
+wordsCount: 51827
 _conversionOpts:
   encoding: UTF-8
   reconvert: true
   postPatterns:
+    '/(\s*)\*\s+(\[\^\d+\]:)\s*\n/': '$1$2 '
     '/^(?:\*\s*)*(\[\^[\w\d]+\]:)\s*\n*/': '$1 '
     '/\n\n(.+\\\[\d+\\\])$/': '\n\n$1 {¶=none .cite}'
-  ignoreElements: div.of
+  ignoreElements: 'div.of,nav,a.sd:not(.ef)'
   fnRefEl: sup.ve
-  fnTextEl: a.sd
+  fnTextEl: a.sd.ef
+  converter: html
 sourceUrl: >-
   https://www.bahai.org/library/authoritative-texts/shoghi-effendi/promised-day-come/promised-day-come.xhtml?b9abd411
 _convertedFrom: >-
@@ -24,43 +26,6 @@ ocnmd_version: 2
 ---
 # The Promised Day is Come
 By Shoghi Effendi
-
-*   ### List of sections
-
-    *   The Promised Day Is Come
-    *   This Judgment of God
-    *   What Response to His Call?
-    *   Features of This Moving Drama
-    *   A World Receded from Him
-    *   Recipients of the Message
-    *   Tablets to the Kings
-    *   The Most Great Law Revealed
-    *   Revealed to the Pope
-    *   Let the Oppressor Desist
-    *   God’s Vicar on Earth
-    *   Humiliation Immediate and Complete
-    *   The Rise of Bolshevism
-    *   End of the Holy Roman Empire
-    *   What of Turkey and Persia?
-    *   The Doom of Imperial Turkey
-    *   Divine Retribution on the Qájár Dynasty
-    *   The Decline in the Fortunes of Royalty
-    *   Recognition of Kingship
-    *   The Crumbling of Religious Orthodoxy
-    *   Words Addressed to Muslim Ecclesiastics
-    *   The Falling Fortunes of S_hí‘ah Islám
-    *   The Collapse of the Caliphate
-    *   A Warning Unto All Nations
-    *   His Messages to Christian Leaders
-    *   Christian Nations against Christian Nations
-    *   The Continuity of Revelation
-    *   The Three False Gods
-    *   The Weakened Pillars of Religion
-    *   God’s Purpose
-    *   The Great Age to Come
-    *   Religion and Social Evolution
-    *   The Wider, Inclusive Loyalty
-    *   World Commonwealth
 
 The Promised Day Is Come
 

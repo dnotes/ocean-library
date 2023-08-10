@@ -5,11 +5,12 @@ author: Bahá’u’lláh
 access: research
 language: en
 priority: 10
-wordsCount: 65923
+wordsCount: 65897
 _conversionOpts:
   encoding: UTF-8
   reconvert: true
   postPatterns:
+    '/(\s*)\*\s+(\[\^\d+\]:)\s*\n/': '$1$2 '
     '/^(?:\*\s*)*(\[\^[\w\d]+\]:)\s*\n*/': '$1 '
     '/\n\n(.+\\\[\d+\\\])$/': '\n\n$1 {¶=none .cite}'
   ignoreElements: 'div.of,a.sd:not(.ef),nav'
@@ -3141,112 +3142,60 @@ Paragraph
 
 *   ### The Kitáb-i-Aqdas
 
-    *   [^1]:
+    [^1]:         Napoleon III
 
-        Napoleon III
+    [^2]:         Ṭihrán
 
-    *   [^2]:
+    [^3]:         K_hurasán
 
-        Ṭihrán
+    [^4]:         The Báb
 
-    *   [^3]:
+    [^5]:         The Báb’s
 
-        K_hurasán
+    [^6]:         Bahá’u’lláh
 
-    *   [^4]:
+    [^7]:         The Báb
 
-        The Báb
+    [^8]:         The Báb
 
-    *   [^5]:
+    [^9]:         Bahá’u’lláh
 
-        The Báb’s
+    [^10]:         Kirmán
 
-    *   [^6]:
-
-        Bahá’u’lláh
-
-    *   [^7]:
-
-        The Báb
-
-    *   [^8]:
-
-        The Báb
-
-    *   [^9]:
-
-        Bahá’u’lláh
-
-    *   [^10]:
-
-        Kirmán
-
-    *   [^11]:
-
-        The Báb
+    [^11]:         The Báb
 
 *   ### Questions and Answers
 
-    *   [^1]:
+    [^1]:         Bahá’u’lláh
 
-        Bahá’u’lláh
+    [^2]:         First month of the Islamic lunar calendar
 
-    *   [^2]:
+    [^3]:         In Arabic the two verses differ in gender
 
-        First month of the Islamic lunar calendar
+    [^4]:         This relates to the minimum duration of a journey which exempts the traveler from fasting
 
-    *   [^3]:
+    [^5]:         The vernal equinox in the Northern Hemisphere
 
-        In Arabic the two verses differ in gender
+    [^6]:         The Tablet containing the three Obligatory Prayers now in use
 
-    *   [^4]:
+    [^7]:         Qur’án 2:115
 
-        This relates to the minimum duration of a journey which exempts the traveler from fasting
+    [^8]:         This refers to a volume of approximately one-half of a cubic meter
 
-    *   [^5]:
+    [^9]:         Color, taste and smell
 
-        The vernal equinox in the Northern Hemisphere
-
-    *   [^6]:
-
-        The Tablet containing the three Obligatory Prayers now in use
-
-    *   [^7]:
-
-        Qur’án 2:115
-
-    *   [^8]:
-
-        This refers to a volume of approximately one-half of a cubic meter
-
-    *   [^9]:
-
-        Color, taste and smell
-
-    *   [^10]:
-
-        Adrianople
+    [^10]:         Adrianople
 
 *   ### Synopsis and Codification
 
-    *   [^1]:
-
-        The method of dividing the estate is to be applied in cases of intestacy. See item o. in this section
+    [^1]:         The method of dividing the estate is to be applied in cases of intestacy. See item o. in this section
 
 *   ### Notes
 
-    *   [^1]:
+    [^1]:         On 10 July 2014, the Universal House of Justice announced the adoption of provisions for the common implementation of the Badí‘ calendar beginning at Naw-Rúz 172 (sunset 20 March 2015). The first day of the month of fasting now varies according to the day on which Naw-Rúz of the coming year falls.
 
-        On 10 July 2014, the Universal House of Justice announced the adoption of provisions for the common implementation of the Badí‘ calendar beginning at Naw-Rúz 172 (sunset 20 March 2015). The first day of the month of fasting now varies according to the day on which Naw-Rúz of the coming year falls.
+    [^2]:         In its message dated 10 July 2014 concerning the common implementation of the Badí‘ calendar beginning at Naw-Rúz 172, the Universal House of Justice designated Ṭihrán as the spot on the earth that would serve as the standard for determining, by means of astronomical computations from reliable sources, the moment of the vernal equinox in the northern hemisphere and thereby the day of Naw-Rúz.
 
-    *   [^2]:
+    [^3]:         In its message dated 10 July 2014 concerning the common implementation of the Badí‘ calendar, the Universal House of Justice stated that the Festivals of the Twin Birthdays are to be observed on the first and the second day following the occurrence of the eighth new moon after Naw-Rúz, as determined in advance by astronomical tables using Ṭihrán as the point of reference.
 
-        In its message dated 10 July 2014 concerning the common implementation of the Badí‘ calendar beginning at Naw-Rúz 172, the Universal House of Justice designated Ṭihrán as the spot on the earth that would serve as the standard for determining, by means of astronomical computations from reliable sources, the moment of the vernal equinox in the northern hemisphere and thereby the day of Naw-Rúz.
-
-    *   [^3]:
-
-        In its message dated 10 July 2014 concerning the common implementation of the Badí‘ calendar, the Universal House of Justice stated that the Festivals of the Twin Birthdays are to be observed on the first and the second day following the occurrence of the eighth new moon after Naw-Rúz, as determined in advance by astronomical tables using Ṭihrán as the point of reference.
-
-    *   [^4]:
-
-        With the implementation of the Badí‘ calendar as announced by the Universal House of Justice in its message dated 10 July 2014, the number of intercalary days varies according to the timing of the vernal equinox in successive years.
+    [^4]:         With the implementation of the Badí‘ calendar as announced by the Universal House of Justice in its message dated 10 July 2014, the number of intercalary days varies according to the timing of the vernal equinox in successive years.

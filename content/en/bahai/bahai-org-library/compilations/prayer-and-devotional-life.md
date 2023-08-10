@@ -5,19 +5,21 @@ author: various
 access: research
 language: en
 priority: 10
-wordsCount: 11259
+wordsCount: 11202
 _conversionOpts:
   encoding: UTF-8
   reconvert: true
   postPatterns:
+    '/(\s*)\*\s+(\[\^\d+\]:)\s*\n/': '$1$2 '
     '/^(?:\*\s*)*(\[\^[\w\d]+\]:)\s*\n*/': '$1 '
     '/\n\n(.+\\\[\d+\\\])$/': '\n\n$1 {¶=none .cite}'
-  ignoreElements: div.of
+  ignoreElements: 'div.of,nav,a.sd:not(.ef)'
   fnRefEl: sup.ve
-  fnTextEl: a.sd
+  fnTextEl: a.sd.ef
   metaElements:
     author: various
     collection: Compilations
+  converter: html
 sourceUrl: >-
   https://www.bahai.org/library/authoritative-texts/compilations/prayer-devotional-life/prayer-devotional-life.xhtml?7e22464b
 _convertedFrom: >-
@@ -26,6 +28,7 @@ _softHyphenWords: ''
 collectionTitle: Compilations
 ocnmd_version: 2
 collectionId: compilations
+collection: Compilations
 ---
 # Prayer and Devotional Life
 A Compilation of Extracts from the Writings of Bahá’u’lláh, the Báb, and ‘Abdu’l‑Bahá and the Letters of Shoghi Effendi and the Universal House of Justice
@@ -35,22 +38,6 @@ Prepared by the Research Department
 of the Universal House of Justice
 
 February 2019
-
-*   The Power of Prayer
-
-*   Communion with God
-*   The Spirit and Form of Prayer
-*   The Role of Meditation
-*   Prayer, Meditation, and Action
-*   Obligatory Prayers
-*   The Devotional Character of the Community
-*   Further Considerations
-
-    *   Prayers and Healing
-    *   The Importance of Memorization
-    *   The Object of Our Devotion
-
-*   Additional Passages
 
 The Power of Prayer
 

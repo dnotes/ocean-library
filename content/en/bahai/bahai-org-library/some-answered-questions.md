@@ -5,17 +5,18 @@ author: ‘Abdu’l‑Bahá
 access: research
 language: en
 priority: 10
-wordsCount: 83132
+wordsCount: 82965
 _conversionOpts:
   encoding: UTF-8
   reconvert: true
   chPattern: /– \d+ –/
   chReplacement: '### $&'
   postPatterns:
+    '/(\s*)\*\s+(\[\^\d+\]:)\s*\n/': '$1$2 '
     '/^(?:\*\s*)*(\[\^[\w\d]+\]:)\s*\n*/': '$1 '
     '/\n\n(.+\\\[\d+\\\])$/': '\n\n$1 {¶=none .cite}'
     /(Part \d+)\s+##\s+(.+)$/: '## $1: $2'
-    '/### – 1 –/': $& {¶=1}
+    /### – 1 –/: '$& {¶=1}'
   ignoreElements: 'div.of,a.sd:not(.ef),nav'
   fnRefEl: sup.ve
   fnTextEl: a.sd.ef
@@ -72,7 +73,7 @@ Laura Clifford Barney
 
 ## Part 1: On the Influence of the Prophets in the Evolution of Humanity
 
-### – 1 –
+### – 1 – {¶=1}
 
 Nature Is Governed by a Universal Law
 
@@ -1982,684 +1983,348 @@ In this day, thanks to the love of God, this has been achieved with the greatest
 
 *   ### Foreword
 
-    *   [^1]:
+    [^1]:         See, for example, Selections from the Writings of ‘Abdu’l‑Bahá, 30.2; The Promulgation of Universal Peace: Talks Delivered by ‘Abdu’l‑Bahá during His Visit to the United States and Canada in 1912, trans. Howard MacNutt (Wilmette, IL: Bahá’í Publishing Trust, 2012), p. 427; Paris Talks: Addresses Given by ‘Abdu’l‑Bahá in 1911, 2.1 and 28.6.
 
-        See, for example, Selections from the Writings of ‘Abdu’l‑Bahá, 30.2; The Promulgation of Universal Peace: Talks Delivered by ‘Abdu’l‑Bahá during His Visit to the United States and Canada in 1912, trans. Howard MacNutt (Wilmette, IL: Bahá’í Publishing Trust, 2012), p. 427; Paris Talks: Addresses Given by ‘Abdu’l‑Bahá in 1911, 2.1 and 28.6.
+    [^2]:         Chap. 46, par. 7.
 
-    *   [^2]:
+    [^3]:         Shoghi Effendi, God Passes By (Wilmette, IL: Bahá’í Publishing Trust, 1974, 2012 printing), p. 410.
 
-        Chap. 46, par. 7.
+    [^4]:         From a letter dated 13 March 1923 written by Shoghi Effendi to the Bahá’ís of Australasia.
 
-    *   [^3]:
-
-        Shoghi Effendi, God Passes By (Wilmette, IL: Bahá’í Publishing Trust, 1974, 2012 printing), p. 410.
-
-    *   [^4]:
-
-        From a letter dated 13 March 1923 written by Shoghi Effendi to the Bahá’ís of Australasia.
-
-    *   [^5]:
-
-        From a letter dated 14 November 1940 written on behalf of Shoghi Effendi to an individual believer.
+    [^5]:         From a letter dated 14 November 1940 written on behalf of Shoghi Effendi to an individual believer.
 
 *   ### Part 1: On the Influence of the Prophets in the Evolution of Humanity
 
-    *   [^1]:
+    [^1]:         Gen. 1:26.
 
-        Gen. 1:26.
+    [^2]:         Cf. John 6:42.
 
-    *   [^2]:
+    [^3]:         Cf. Jurjí Zaydán, Umayyads and ‘Abbásids: Being the Fourth Part of Jurjí Zaydán’s History of Islamic Civilization, trans. D. S. Margoliouth (London: Darf Publishers, 1987), pp. 125–31.
 
-        Cf. John 6:42.
+    [^4]:         ‘Umar.
 
-    *   [^3]:
+    [^5]:         Copernicus.
 
-        Cf. Jurjí Zaydán, Umayyads and ‘Abbásids: Being the Fourth Part of Jurjí Zaydán’s History of Islamic Civilization, trans. D. S. Margoliouth (London: Darf Publishers, 1987), pp. 125–31.
+    [^6]:         Qur’án 36:38.
 
-    *   [^4]:
+    [^7]:         Qur’án 36:40.
 
-        ‘Umar.
+    [^8]:         Copernicus.
 
-    *   [^5]:
+    [^9]:         ‘Abdu’l‑Bahá refers to the Báb by His title Ḥaḍrat-i-A‘lá—His Holiness the Exalted One—but He will be designated here by the name under which He is known in the West.
 
-        Copernicus.
+    [^10]:         ‘Abdu’l‑Bahá refers to Bahá’u’lláh here by His title Jamál-i-Mubárak (the Blessed Beauty). He is also called Jamál-i-Qidám (the Ancient Beauty) and Qalam-i-A‘lá (the Pen of the Most High), but He will be designated throughout as Bahá’u’lláh, the title by which He is known in the West.
 
-    *   [^6]:
+    [^11]:         Bahá’u’lláh was exiled first from Ṭihrán to Bag_hdád, then to Constantinople (Istanbul), then to Adrianople (Edirne), and was imprisoned in ‘Akká, “the Most Great Prison”, in 1868, in the precincts of which He passed away in 1892.
 
-        Qur’án 36:38.
+    [^12]:         Two cities in ‘Iráq which contain the tombs of the first and the third Imáms of the S_hí‘ah denomination, respectively, and which are important centres of pilgrimage.
 
-    *   [^7]:
+    [^13]:         Bahá’u’lláh’s first Tablet to Napoleon III was revealed in Adrianople (see Epistle to the Son of the Wolf, trans. Shoghi Effendi \[Wilmette, IL: Bahá’í Publishing Trust, 1988, 2001 printing\], p. 45), which Bahá’u’lláh called the “remote prison”.
 
-        Qur’án 36:40.
+    [^14]:         Cf. Súriy-i-Haykal (Súrih of the Temple), ¶138.
 
-    *   [^8]:
+    [^15]:         The son of the French consul in Syria who, according to Nabíl-i- A‘ẓam, was a follower of Bahá’u’lláh; see H. M. Balyuzi, Bahá’u’lláh: The King of Glory (Oxford: George Ronald, 1980), p. 320.
 
-        Copernicus.
+    [^16]:         Cf. Súriy-i-Haykal, ¶221.
 
-    *   [^9]:
+    [^17]:         “Yá Bahá’u’l-Abhá”, an invocation of the Greatest Name of God (the All-Glorious or Most Glorious).
 
-        ‘Abdu’l‑Bahá refers to the Báb by His title Ḥaḍrat-i-A‘lá—His Holiness the Exalted One—but He will be designated here by the name under which He is known in the West.
+    [^18]:         Bahá’u’lláh.
 
-    *   [^10]:
+    [^19]:         Cf. Kitáb-i-Íqán (The Book of Certitude), ¶213.
 
-        ‘Abdu’l‑Bahá refers to Bahá’u’lláh here by His title Jamál-i-Mubárak (the Blessed Beauty). He is also called Jamál-i-Qidám (the Ancient Beauty) and Qalam-i-A‘lá (the Pen of the Most High), but He will be designated throughout as Bahá’u’lláh, the title by which He is known in the West.
+    [^20]:         See Chapters 8–9 above.
 
-    *   [^11]:
+    [^21]:         See Dan. 9:24.
 
-        Bahá’u’lláh was exiled first from Ṭihrán to Bag_hdád, then to Constantinople (Istanbul), then to Adrianople (Edirne), and was imprisoned in ‘Akká, “the Most Great Prison”, in 1868, in the precincts of which He passed away in 1892.
+    [^22]:         Cf. Num. 14:34; Ezek. 4:6.
 
-    *   [^12]:
+    [^23]:         That is, Muḥammad’s wife and her cousin Varaqih-ibn-i-Nawfal.
 
-        Two cities in ‘Iráq which contain the tombs of the first and the third Imáms of the S_hí‘ah denomination, respectively, and which are important centres of pilgrimage.
+    [^24]:         As Muḥammad began His public ministry ten years before the Hijrah, this date corresponds to the year A.H. 1280, or A.D. 1863.
 
-    *   [^13]:
+    [^25]:         Rev. 11:3.
 
-        Bahá’u’lláh’s first Tablet to Napoleon III was revealed in Adrianople (see Epistle to the Son of the Wolf, trans. Shoghi Effendi \[Wilmette, IL: Bahá’í Publishing Trust, 1988, 2001 printing\], p. 45), which Bahá’u’lláh called the “remote prison”.
+    [^26]:         Qur’án 48:8.
 
-    *   [^14]:
+    [^27]:         Rev. 11:4.
 
-        Cf. Súriy-i-Haykal (Súrih of the Temple), ¶138.
+    [^28]:         Rev. 11:5.
 
-    *   [^15]:
+    [^29]:         Rev. 11:6.
 
-        The son of the French consul in Syria who, according to Nabíl-i- A‘ẓam, was a follower of Bahá’u’lláh; see H. M. Balyuzi, Bahá’u’lláh: The King of Glory (Oxford: George Ronald, 1980), p. 320.
+    [^30]:         Rev. 11:6.
 
-    *   [^16]:
+    [^31]:         Rev. 11:6.
 
-        Cf. Súriy-i-Haykal, ¶221.
+    [^32]:         Rev. 11:7.
 
-    *   [^17]:
+    [^33]:         Rev. 11:7.
 
-        “Yá Bahá’u’l-Abhá”, an invocation of the Greatest Name of God (the All-Glorious or Most Glorious).
+    [^34]:         Rev. 11:7.
 
-    *   [^18]:
+    [^35]:         Rev. 11:8.
 
-        Bahá’u’lláh.
+    [^36]:         Rev. 11:9.
 
-    *   [^19]:
+    [^37]:         Rev. 11:10.
 
-        Cf. Kitáb-i-Íqán (The Book of Certitude), ¶213.
+    [^38]:         Rev. 11:11.
 
-    *   [^20]:
+    [^39]:         Rev. 11:12.
 
-        See Chapters 8–9 above.
+    [^40]:         The Báb and Quddús.
 
-    *   [^21]:
+    [^41]:         Rev. 11:12.
 
-        See Dan. 9:24.
+    [^42]:         Rev. 11:13.
 
-    *   [^22]:
+    [^43]:         Rev. 11:13.
 
-        Cf. Num. 14:34; Ezek. 4:6.
+    [^44]:         Rev. 11:14.
 
-    *   [^23]:
+    [^45]:         Ezek. 30:1–3.
 
-        That is, Muḥammad’s wife and her cousin Varaqih-ibn-i-Nawfal.
+    [^46]:         Rev. 11:15.
 
-    *   [^24]:
+    [^47]:         Rev. 11:16–17.
 
-        As Muḥammad began His public ministry ten years before the Hijrah, this date corresponds to the year A.H. 1280, or A.D. 1863.
+    [^48]:         “Regarding the four and twenty elders: The Master, in a Tablet, stated that they are the Báb, the 18 Letters of the Living and five others who would be known in the future.” (From a letter dated 22 July 1943 written on behalf of Shoghi Effendi to an individual believer.) ‘Abdu’l‑Bahá in a Tablet identified one of the remaining five as Ḥájí Mírzá Muḥammad-Taqí Afnán, Vakílu’d-Dawlih.
 
-    *   [^25]:
+    [^49]:         Rev. 11:18.
 
-        Rev. 11:3.
+    [^50]:         Rev. 11:18.
 
-    *   [^26]:
+    [^51]:         Rev. 11:18.
 
-        Qur’án 48:8.
+    [^52]:         Rev. 11:18.
 
-    *   [^27]:
+    [^53]:         Rev. 11:19.
 
-        Rev. 11:4.
+    [^54]:         Rev. 11:19.
 
-    *   [^28]:
+    [^55]:         Rev. 11:19.
 
-        Rev. 11:5.
+    [^56]:         Rev. 11:19.
 
-    *   [^29]:
+    [^57]:         The translation of the paragraph to this point follows Shoghi Effendi’s revision of this passage as quoted in The World Order of Bahá’u’lláh: Selected Letters (Wilmette, IL: Bahá’í Publishing Trust, 1991, 2012 printing), pp. 204–5, and The Promised Day Is Come, ¶297\. It should be noted that the word nahál, which corresponds to “rod” in English and which has been rendered as such in paragraphs 1–2, has been rendered in this paragraph as “Branch”. In both cases the reference is to Bahá’u’lláh.
 
-        Rev. 11:6.
+    [^58]:         Rev. 21:1–3.
 
-    *   [^30]:
+    [^59]:         Rev. 21:2.
 
-        Rev. 11:6.
+    [^60]:         Rev. 12:2.
 
-    *   [^31]:
+    [^61]:         Rev. 12:3–4.
 
-        Rev. 11:6.
+    [^62]:         Rev. 12:4.
 
-    *   [^32]:
+    [^63]:         Rev. 12:5.
 
-        Rev. 11:7.
+    [^64]:         Rev. 12:5.
 
-    *   [^33]:
+    [^65]:         Rev. 12:6.
 
-        Rev. 11:7.
+    [^66]:         Rev. 12:6.
 
-    *   [^34]:
+    [^67]:         Rev. 12:6.
 
-        Rev. 11:7.
-
-    *   [^35]:
-
-        Rev. 11:8.
-
-    *   [^36]:
-
-        Rev. 11:9.
-
-    *   [^37]:
-
-        Rev. 11:10.
-
-    *   [^38]:
-
-        Rev. 11:11.
-
-    *   [^39]:
-
-        Rev. 11:12.
-
-    *   [^40]:
-
-        The Báb and Quddús.
-
-    *   [^41]:
-
-        Rev. 11:12.
-
-    *   [^42]:
-
-        Rev. 11:13.
-
-    *   [^43]:
-
-        Rev. 11:13.
-
-    *   [^44]:
-
-        Rev. 11:14.
-
-    *   [^45]:
-
-        Ezek. 30:1–3.
-
-    *   [^46]:
-
-        Rev. 11:15.
-
-    *   [^47]:
-
-        Rev. 11:16–17.
-
-    *   [^48]:
-
-        “Regarding the four and twenty elders: The Master, in a Tablet, stated that they are the Báb, the 18 Letters of the Living and five others who would be known in the future.” (From a letter dated 22 July 1943 written on behalf of Shoghi Effendi to an individual believer.) ‘Abdu’l‑Bahá in a Tablet identified one of the remaining five as Ḥájí Mírzá Muḥammad-Taqí Afnán, Vakílu’d-Dawlih.
-
-    *   [^49]:
-
-        Rev. 11:18.
-
-    *   [^50]:
-
-        Rev. 11:18.
-
-    *   [^51]:
-
-        Rev. 11:18.
-
-    *   [^52]:
-
-        Rev. 11:18.
-
-    *   [^53]:
-
-        Rev. 11:19.
-
-    *   [^54]:
-
-        Rev. 11:19.
-
-    *   [^55]:
-
-        Rev. 11:19.
-
-    *   [^56]:
-
-        Rev. 11:19.
-
-    *   [^57]:
-
-        The translation of the paragraph to this point follows Shoghi Effendi’s revision of this passage as quoted in The World Order of Bahá’u’lláh: Selected Letters (Wilmette, IL: Bahá’í Publishing Trust, 1991, 2012 printing), pp. 204–5, and The Promised Day Is Come, ¶297\. It should be noted that the word nahál, which corresponds to “rod” in English and which has been rendered as such in paragraphs 1–2, has been rendered in this paragraph as “Branch”. In both cases the reference is to Bahá’u’lláh.
-
-    *   [^58]:
-
-        Rev. 21:1–3.
-
-    *   [^59]:
-
-        Rev. 21:2.
-
-    *   [^60]:
-
-        Rev. 12:2.
-
-    *   [^61]:
-
-        Rev. 12:3–4.
-
-    *   [^62]:
-
-        Rev. 12:4.
-
-    *   [^63]:
-
-        Rev. 12:5.
-
-    *   [^64]:
-
-        Rev. 12:5.
-
-    *   [^65]:
-
-        Rev. 12:6.
-
-    *   [^66]:
-
-        Rev. 12:6.
-
-    *   [^67]:
-
-        Rev. 12:6.
-
-    *   [^68]:
-
-        The word sa‘ádat, rendered here as “felicity”, has further connotations of prosperity, joy, and well-being.
+    [^68]:         The word sa‘ádat, rendered here as “felicity”, has further connotations of prosperity, joy, and well-being.
 
 *   ### Part 2: Some Christian Subjects
 
-    *   [^69]:
+    [^69]:         Cf. Matt. 3:16–17; Mark 1:10–11; Luke 3:22.
 
-        Cf. Matt. 3:16–17; Mark 1:10–11; Luke 3:22.
+    [^70]:         Cf. Exod. 13:21–2.
 
-    *   [^70]:
+    [^71]:         Cf. John 10:38.
 
-        Cf. Exod. 13:21–2.
+    [^72]:         From Bahá’u’lláh’s Tablet to Náṣiri’d-Dín S_háh, in Súriy-i-Haykal, ¶192.
 
-    *   [^71]:
+    [^73]:         Qur’án 19:17; cf. Luke 1:26–8.
 
-        Cf. John 10:38.
+    [^74]:         Qur’án 36:36.
 
-    *   [^72]:
+    [^75]:         Qur’án 51:49.
 
-        From Bahá’u’lláh’s Tablet to Náṣiri’d-Dín S_háh, in Súriy-i-Haykal, ¶192.
+    [^76]:         John 1:12–13.
 
-    *   [^73]:
+    [^77]:         Gen 2:7.
 
-        Qur’án 19:17; cf. Luke 1:26–8.
+    [^78]:         Cf. Matt. 3:11; Mark 1:8; Luke 3:16; John 1:33.
 
-    *   [^74]:
+    [^79]:         Cf. Acts 15:20.
 
-        Qur’án 36:36.
+    [^80]:         ‘Abdu’l‑Bahá refers here to the notions of heat and cold that played an important role in traditional Islamic medicine.
 
-    *   [^75]:
+    [^81]:         John 6:51.
 
-        Qur’án 51:49.
+    [^82]:         Matt. 26:26.
 
-    *   [^76]:
+    [^83]:         Matt. 8:22; John 3:6.
 
-        John 1:12–13.
+    [^84]:         Cf. Matt. 13:14–15; John 12:39–40.
 
-    *   [^77]:
+    [^85]:         Cf. Matt. 24:29–30.
 
-        Gen 2:7.
+    [^86]:         See Kitáb-i-Íqán, ¶¶27–42 and 66–87.
 
-    *   [^78]:
+    [^87]:         Cf. John 3:13.
 
-        Cf. Matt. 3:11; Mark 1:8; Luke 3:16; John 1:33.
+    [^88]:         Masíkh (monster), a distortion of Masíḥ (Messiah).
 
-    *   [^79]:
+    [^89]:         Cf. 1 Thess. 5:2; 2 Pet. 3:10.
 
-        Cf. Acts 15:20.
+    [^90]:         John 17:5.
 
-    *   [^80]:
+    [^91]:         Cf. John 6:50–1.
 
-        ‘Abdu’l‑Bahá refers here to the notions of heat and cold that played an important role in traditional Islamic medicine.
+    [^92]:         Cf. Gen. 2:16–17.
 
-    *   [^81]:
+    [^93]:         Cf. Gen. 3:5.
 
-        John 6:51.
+    [^94]:         Cf. Gen. 3:11–15, 22.
 
-    *   [^82]:
+    [^95]:         Bahá’u’lláh.
 
-        Matt. 26:26.
+    [^96]:         Cf. John 6:51.
 
-    *   [^83]:
+    [^97]:         I.e., Jews and Christians.
 
-        Matt. 8:22; John 3:6.
+    [^98]:         Matt. 8:22.
 
-    *   [^84]:
+    [^99]:         Matt. 12:32.
 
-        Cf. Matt. 13:14–15; John 12:39–40.
+    [^100]:         Matt. 22:14.
 
-    *   [^85]:
+    [^101]:         Qur’án 2:105 and 3:74.
 
-        Cf. Matt. 24:29–30.
+    [^102]:         Matt. 22:14.
 
-    *   [^86]:
+    [^103]:         See, for example, Kitáb-i-Íqán, ¶¶156–79.
 
-        See Kitáb-i-Íqán, ¶¶27–42 and 66–87.
+    [^104]:         Cf. John 1:19–21.
 
-    *   [^87]:
+    [^105]:         That is, the individuality of John.
 
-        Cf. John 3:13.
+    [^106]:         Cf. Matt. 23:34–6.
 
-    *   [^88]:
+    [^107]:         Matt. 16:18.
 
-        Masíkh (monster), a distortion of Masíḥ (Messiah).
+    [^108]:         Peter’s given name was Simon, but Christ called him Cephas, which corresponds to the Greek words petros or petra, meaning “rock”.
 
-    *   [^89]:
-
-        Cf. 1 Thess. 5:2; 2 Pet. 3:10.
-
-    *   [^90]:
-
-        John 17:5.
-
-    *   [^91]:
-
-        Cf. John 6:50–1.
-
-    *   [^92]:
-
-        Cf. Gen. 2:16–17.
-
-    *   [^93]:
-
-        Cf. Gen. 3:5.
-
-    *   [^94]:
-
-        Cf. Gen. 3:11–15, 22.
-
-    *   [^95]:
-
-        Bahá’u’lláh.
-
-    *   [^96]:
-
-        Cf. John 6:51.
-
-    *   [^97]:
-
-        I.e., Jews and Christians.
-
-    *   [^98]:
-
-        Matt. 8:22.
-
-    *   [^99]:
-
-        Matt. 12:32.
-
-    *   [^100]:
-
-        Matt. 22:14.
-
-    *   [^101]:
-
-        Qur’án 2:105 and 3:74.
-
-    *   [^102]:
-
-        Matt. 22:14.
-
-    *   [^103]:
-
-        See, for example, Kitáb-i-Íqán, ¶¶156–79.
-
-    *   [^104]:
-
-        Cf. John 1:19–21.
-
-    *   [^105]:
-
-        That is, the individuality of John.
-
-    *   [^106]:
-
-        Cf. Matt. 23:34–6.
-
-    *   [^107]:
-
-        Matt. 16:18.
-
-    *   [^108]:
-
-        Peter’s given name was Simon, but Christ called him Cephas, which corresponds to the Greek words petros or petra, meaning “rock”.
-
-    *   [^109]:
-
-        Cf. Matt. 16:14–18.
+    [^109]:         Cf. Matt. 16:14–18.
 
 *   ### Part 3: On the Powers and Conditions of the Manifestations of God
 
-    *   [^110]:
+    [^110]:         Elsewhere ‘Abdu’l‑Bahá’s classification also includes the mineral spirit; see, for example, Chapter 64; Selections from the Writings of ‘Abdu’l-Bahá, sec. 30; and The Promulgation of Universal Peace: Talks Delivered by ‘Abdu’l‑Bahá during His Visit to the United States and Canada in 1912, trans. Howard MacNutt (Wilmette, IL: Bahá’í Publishing Trust, 2012), pp. 95, 264–5, 336, 360, and 377–8.
 
-        Elsewhere ‘Abdu’l‑Bahá’s classification also includes the mineral spirit; see, for example, Chapter 64; Selections from the Writings of ‘Abdu’l-Bahá, sec. 30; and The Promulgation of Universal Peace: Talks Delivered by ‘Abdu’l‑Bahá during His Visit to the United States and Canada in 1912, trans. Howard MacNutt (Wilmette, IL: Bahá’í Publishing Trust, 2012), pp. 95, 264–5, 336, 360, and 377–8.
+    [^111]:         From a Tradition attributed to Imám ‘Alí.
 
-    *   [^111]:
+    [^112]:         Qur’án 6:103.
 
-        From a Tradition attributed to Imám ‘Alí.
+    [^113]:         From a Tradition attributed to Imám ‘Alí.
 
-    *   [^112]:
+    [^114]:         Qur’án 59:2.
 
-        Qur’án 6:103.
+    [^115]:         Cf. John 14:11 and 17:21.
 
-    *   [^113]:
+    [^116]:         ‘Abdu’l‑Bahá here anticipates a question about the beginning of Bahá’u’lláh’s Revelation, which is taken up in greater detail in Chapters 16 and 39.
 
-        From a Tradition attributed to Imám ‘Alí.
+    [^117]:         Cf. Gleanings from the Writings of Bahá’u’lláh, XLI; and Súriy-i-Haykal, ¶192.
 
-    *   [^114]:
+    [^118]:         John 1:1.
 
-        Qur’án 59:2.
+    [^119]:         Matt. 6:9; Luke 11:2.
 
-    *   [^115]:
+    [^120]:         See, for example, Chapter 14.
 
-        Cf. John 14:11 and 17:21.
+    [^121]:         John 1:1.
 
-    *   [^116]:
+    [^122]:         Cf. Exod. 20:4–5; Deut. 5:8–9.
 
-        ‘Abdu’l‑Bahá here anticipates a question about the beginning of Bahá’u’lláh’s Revelation, which is taken up in greater detail in Chapters 16 and 39.
+    [^123]:         Cf. Num. 13–14.
 
-    *   [^117]:
+    [^124]:         Qur’án 48:1–2.
 
-        Cf. Gleanings from the Writings of Bahá’u’lláh, XLI; and Súriy-i-Haykal, ¶192.
+    [^125]:         Matt. 19:16–17.
 
-    *   [^118]:
-
-        John 1:1.
-
-    *   [^119]:
-
-        Matt. 6:9; Luke 11:2.
-
-    *   [^120]:
-
-        See, for example, Chapter 14.
-
-    *   [^121]:
-
-        John 1:1.
-
-    *   [^122]:
-
-        Cf. Exod. 20:4–5; Deut. 5:8–9.
-
-    *   [^123]:
-
-        Cf. Num. 13–14.
-
-    *   [^124]:
-
-        Qur’án 48:1–2.
-
-    *   [^125]:
-
-        Matt. 19:16–17.
-
-    *   [^126]:
-
-        Kitáb-i-Aqdas (The Most Holy Book), ¶47.
+    [^126]:         Kitáb-i-Aqdas (The Most Holy Book), ¶47.
 
 *   ### Part 4: On the Origin, Powers, and Conditions of Man
 
-    *   [^127]:
+    [^127]:         The word naw‘, translated here and in following chapters as “species”, has a range of meanings including kind, sort, and type. ‘Abdu’l‑Bahá is not using the word in the modern biological sense but in the sense of changeless archetypal forms.
 
-        The word naw‘, translated here and in following chapters as “species”, has a range of meanings including kind, sort, and type. ‘Abdu’l‑Bahá is not using the word in the modern biological sense but in the sense of changeless archetypal forms.
+    [^128]:         In a Tablet, Bahá’u’lláh attributes these words to Hermes.
 
-    *   [^128]:
+    [^129]:         See, for example, Chapters 2 and 80.
 
-        In a Tablet, Bahá’u’lláh attributes these words to Hermes.
+    [^130]:         Qur’án 23:14 and Persian Hidden Word no. 9.
 
-    *   [^129]:
+    [^131]:         Gen. 1:26.
 
-        See, for example, Chapters 2 and 80.
+    [^132]:         As will be seen in the next chapter, ‘Abdu’l‑Bahá uses the terms “appearance through emanation” and “procession through emanation” interchangeably.
 
-    *   [^130]:
+    [^133]:         See Chapter 80.
 
-        Qur’án 23:14 and Persian Hidden Word no. 9.
+    [^134]:         Cf. Gen. 2:7.
 
-    *   [^131]:
+    [^135]:         John 1:1.
 
-        Gen. 1:26.
+    [^136]:         John 1:1.
 
-    *   [^132]:
+    [^137]:         See, for example, John 14:10–11 and 17:21.
 
-        As will be seen in the next chapter, ‘Abdu’l‑Bahá uses the terms “appearance through emanation” and “procession through emanation” interchangeably.
+    [^138]:         See Chapter 36.
 
-    *   [^133]:
+    [^139]:         See Gen. 9:22–7.
 
-        See Chapter 80.
+    [^140]:         That is, that people cannot be held responsible for their own character.
 
-    *   [^134]:
+    [^141]:         Cf. Gleanings from the Writings of Bahá’u’lláh, XLI, and Súriy-i-Haykal, ¶192.
 
-        Cf. Gen. 2:7.
+    [^142]:         Cf. Rev. 22:13.
 
-    *   [^135]:
+    [^143]:         See Chapter 48.
 
-        John 1:1.
+    [^144]:         Cf. John 3:5.
 
-    *   [^136]:
+    [^145]:         Cf. John 1:13.
 
-        John 1:1.
+    [^146]:         Qur’án 23:14.
 
-    *   [^137]:
+    [^147]:         ‘Abdu’l‑Bahá is here directly addressing Laura Clifford Barney, whose father had passed away in 1902.
 
-        See, for example, John 14:10–11 and 17:21.
+    [^148]:         Mírzá Yaḥyá, half-brother and avowed enemy of Bahá’u’lláh.
 
-    *   [^138]:
+    [^149]:         “The first duty prescribed by God for His servants is the recognition of Him Who is the Dayspring of His Revelation and the Fountain of His laws, Who representeth the Godhead in both the Kingdom of His Cause and the world of creation. Whoso achieveth this duty hath attained unto all good; and whoso is deprived thereof hath gone astray, though he be the author of every righteous deed.” (Kitáb-i-Aqdas, ¶1.)
 
-        See Chapter 36.
+    [^150]:         See Chapter 84 for a fuller discussion of this subject.
 
-    *   [^139]:
+    [^151]:         Rom. 9:21.
 
-        See Gen. 9:22–7.
-
-    *   [^140]:
-
-        That is, that people cannot be held responsible for their own character.
-
-    *   [^141]:
-
-        Cf. Gleanings from the Writings of Bahá’u’lláh, XLI, and Súriy-i-Haykal, ¶192.
-
-    *   [^142]:
-
-        Cf. Rev. 22:13.
-
-    *   [^143]:
-
-        See Chapter 48.
-
-    *   [^144]:
-
-        Cf. John 3:5.
-
-    *   [^145]:
-
-        Cf. John 1:13.
-
-    *   [^146]:
-
-        Qur’án 23:14.
-
-    *   [^147]:
-
-        ‘Abdu’l‑Bahá is here directly addressing Laura Clifford Barney, whose father had passed away in 1902.
-
-    *   [^148]:
-
-        Mírzá Yaḥyá, half-brother and avowed enemy of Bahá’u’lláh.
-
-    *   [^149]:
-
-        “The first duty prescribed by God for His servants is the recognition of Him Who is the Dayspring of His Revelation and the Fountain of His laws, Who representeth the Godhead in both the Kingdom of His Cause and the world of creation. Whoso achieveth this duty hath attained unto all good; and whoso is deprived thereof hath gone astray, though he be the author of every righteous deed.” (Kitáb-i-Aqdas, ¶1.)
-
-    *   [^150]:
-
-        See Chapter 84 for a fuller discussion of this subject.
-
-    *   [^151]:
-
-        Rom. 9:21.
-
-    *   [^152]:
-
-        See Chapters 32, 62, and 63.
+    [^152]:         See Chapters 32, 62, and 63.
 
 *   ### Part 5: Miscellaneous Subjects
 
-    *   [^153]:
+    [^153]:         Cf. Matt. 5:39.
 
-        Cf. Matt. 5:39.
+    [^154]:         A Bahá’í sitting at table.
 
-    *   [^154]:
+    [^155]:         Matt. 8:22.
 
-        A Bahá’í sitting at table.
+    [^156]:         Cf. Aristotle, Physics 194b16–195a1.
 
-    *   [^155]:
+    [^157]:         The Tree of Zaqqúm, mentioned in Qur’án 17:60, 37:62–6, 44:43–6, and 56:52–3.
 
-        Matt. 8:22.
+    [^158]:         Cf. Qur’án 37:180.
 
-    *   [^156]:
+    [^159]:         Qur’án 59:2.
 
-        Cf. Aristotle, Physics 194b16–195a1.
+    [^160]:         See Chapter 33 for a fuller discussion of this subject.
 
-    *   [^157]:
+    [^161]:         While, as ‘Abdu’l‑Bahá explains, the idea is of ancient origin, its history in Islamic thought begins with Ibnu’l-‘Arabí (1165–1240). “Ibnu’l-‘Arabí is a thoroughgoing monist, and the name given to his doctrine (vaḥdatu’l-vujúd, the unity of existence) justly describes it. He holds that all things pre-exist as ideas in the knowledge of God, whence they emanate and whither they ultimately return.” R. A. Nicholson, “Mysticism”, The Legacy of Islam, ed. Sir Thomas Arnold and Alfred Guillaume (Oxford University Press, 1931), p. 224.
 
-        The Tree of Zaqqúm, mentioned in Qur’án 17:60, 37:62–6, 44:43–6, and 56:52–3.
+    [^162]:         Cf. Plotinus, Ennead 5.2.1: “The One is all things and not a single one of them…” (Armstrong’s trans.); and Plato, Parmenides 160b2–3: “Thus, if there is a One, the One is both all things and nothing whatsoever, alike with reference to itself and to the Others” (Cornford’s trans.). In the tradition of the Islamic philosophers, certain of the writings of Plotinus are attributed to Aristotle.
 
-    *   [^158]:
-
-        Cf. Qur’án 37:180.
-
-    *   [^159]:
-
-        Qur’án 59:2.
-
-    *   [^160]:
-
-        See Chapter 33 for a fuller discussion of this subject.
-
-    *   [^161]:
-
-        While, as ‘Abdu’l‑Bahá explains, the idea is of ancient origin, its history in Islamic thought begins with Ibnu’l-‘Arabí (1165–1240). “Ibnu’l-‘Arabí is a thoroughgoing monist, and the name given to his doctrine (vaḥdatu’l-vujúd, the unity of existence) justly describes it. He holds that all things pre-exist as ideas in the knowledge of God, whence they emanate and whither they ultimately return.” R. A. Nicholson, “Mysticism”, The Legacy of Islam, ed. Sir Thomas Arnold and Alfred Guillaume (Oxford University Press, 1931), p. 224.
-
-    *   [^162]:
-
-        Cf. Plotinus, Ennead 5.2.1: “The One is all things and not a single one of them…” (Armstrong’s trans.); and Plato, Parmenides 160b2–3: “Thus, if there is a One, the One is both all things and nothing whatsoever, alike with reference to itself and to the Others” (Cornford’s trans.). In the tradition of the Islamic philosophers, certain of the writings of Plotinus are attributed to Aristotle.
-
-    *   [^163]:
-
-        See Ibn Abí Uṣaybi‘ih, ‘Uyúnu’l-Anbá’ fí Ṭabaqáti’l-Aṭibbá’ (Cairo,1882), 1:76–7.
+    [^163]:         See Ibn Abí Uṣaybi‘ih, ‘Uyúnu’l-Anbá’ fí Ṭabaqáti’l-Aṭibbá’ (Cairo,1882), 1:76–7.

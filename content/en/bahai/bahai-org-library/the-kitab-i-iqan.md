@@ -5,16 +5,18 @@ author: Bahá’u’lláh
 access: research
 language: en
 priority: 10
-wordsCount: 51323
+wordsCount: 51131
 _conversionOpts:
   encoding: UTF-8
   reconvert: true
   postPatterns:
+    '/(\s*)\*\s+(\[\^\d+\]:)\s*\n/': '$1$2 '
     '/^(?:\*\s*)*(\[\^[\w\d]+\]:)\s*\n*/': '$1 '
     '/\n\n(.+\\\[\d+\\\])$/': '\n\n$1 {¶=none .cite}'
-  ignoreElements: div.of
+  ignoreElements: 'div.of,nav,a.sd:not(.ef)'
   fnRefEl: sup.ve
-  fnTextEl: a.sd
+  fnTextEl: a.sd.ef
+  converter: html
 sourceUrl: >-
   https://www.bahai.org/library/authoritative-texts/bahaullah/kitab-i-iqan/kitab-i-iqan.xhtml?9cf2755e
 _convertedFrom: >-
@@ -28,9 +30,6 @@ The Book of Certitude
 By Bahá’u’lláh
 
 Translated by Shoghi Effendi
-
-*   Part One
-*   Part Two
 
 * * *
 
@@ -642,748 +641,376 @@ END
 
 *   ### Part One
 
-    *   [^1]:
+    [^1]:         Qur’án 36:30.
 
-        Qur’án 36:30.
+    [^2]:         Qur’án 40:5.
 
-    *   [^2]:
+    [^3]:         Qur’án 11:38.
 
-        Qur’án 40:5.
+    [^4]:         Qur’án 71:26.
 
-    *   [^3]:
+    [^5]:         Qur’án 29:2.
 
-        Qur’án 11:38.
+    [^6]:         Qur’án 35:39.
 
-    *   [^4]:
+    [^7]:         Qur’án 11:61, 62.
 
-        Qur’án 71:26.
+    [^8]:         Abraham.
 
-    *   [^5]:
+    [^9]:         Qur’án 40:28.
 
-        Qur’án 29:2.
+    [^10]:         Qur’án 11:21.
 
-    *   [^6]:
+    [^11]:         Qur’án 2:87.
 
-        Qur’án 35:39.
+    [^12]:         Qur’án 3:70.
 
-    *   [^7]:
+    [^13]:         Qur’án 3:71.
 
-        Qur’án 11:61, 62.
+    [^14]:         Qur’án 3:99.
 
-    *   [^8]:
+    [^15]:         Qur’án 3:7.
 
-        Abraham.
+    [^16]:         Qur’án 76:9.
 
-    *   [^9]:
+    [^17]:         Qur’án 5:117.
 
-        Qur’án 40:28.
+    [^18]:         Qur’án 14:24.
 
-    *   [^10]:
+    [^19]:         The Greek word used (Thlipsis) has two meanings: pressure and oppression.
 
-        Qur’án 11:21.
+    [^20]:         Matthew 24:29–31.
 
-    *   [^11]:
+    [^21]:         The passage is quoted by Bahá’u’lláh in Arabic and interpreted in Persian.
 
-        Qur’án 2:87.
+    [^22]:         Luke 21:33.
 
-    *   [^12]:
+    [^23]:         ‘Lamentation’ attributed to the sixth Imám, Ja‘far-i-Ṣádiq.
 
-        Qur’án 3:70.
+    [^24]:         Qur’án 55:5.
 
-    *   [^13]:
+    [^25]:         Qur’án 67:2.
 
-        Qur’án 3:71.
+    [^26]:         Qur’án 76:5.
 
-    *   [^14]:
+    [^27]:         Qur’án 6:91.
 
-        Qur’án 3:99.
+    [^28]:         Qur’án 41:30.
 
-    *   [^15]:
+    [^29]:         Qur’án 70:40.
 
-        Qur’án 3:7.
+    [^30]:         Qur’án 82:1.
 
-    *   [^16]:
+    [^31]:         Qur’án 14:48.
 
-        Qur’án 76:9.
+    [^32]:         Qur’án 39:67.
 
-    *   [^17]:
+    [^33]:         The direction toward which the face must be turned when praying.
 
-        Qur’án 5:117.
+    [^34]:         Mecca.
 
-    *   [^18]:
+    [^35]:         Medina.
 
-        Qur’án 14:24.
+    [^36]:         Qur’án 2:144.
 
-    *   [^19]:
+    [^37]:         Prostrations.
 
-        The Greek word used (Thlipsis) has two meanings: pressure and oppression.
+    [^38]:         At Mecca.
 
-    *   [^20]:
+    [^39]:         Qur’án 2:149.
 
-        Matthew 24:29–31.
+    [^40]:         Qur’án 2:115.
 
-    *   [^21]:
+    [^41]:         Qur’án 2:143.
 
-        The passage is quoted by Bahá’u’lláh in Arabic and interpreted in Persian.
+    [^42]:         Qur’án 74:50.
 
-    *   [^22]:
+    [^43]:         Qur’án 28:20.
 
-        Luke 21:33.
+    [^44]:         Qur’án 24:35.
 
-    *   [^23]:
+    [^45]:         Qur’án 26:19.
 
-        ‘Lamentation’ attributed to the sixth Imám, Ja‘far-i-Ṣádiq.
+    [^46]:         Qur’án 19:22.
 
-    *   [^24]:
+    [^47]:         Qur’án 19:28.
 
-        Qur’án 55:5.
+    [^48]:         Matthew 2:2.
 
-    *   [^25]:
+    [^49]:         Qur’án 3:39.
 
-        Qur’án 67:2.
+    [^50]:         Matthew 3:1–2.
 
-    *   [^26]:
+    [^51]:         S_hayk_h Aḥmad-i-Aḥsá’í and Siyyid Káẓim-i-Ras_htí.
 
-        Qur’án 76:5.
+    [^52]:         Qur’án 55:29.
 
-    *   [^27]:
+    [^53]:         Qur’án 51:22.
 
-        Qur’án 6:91.
+    [^54]:         Qur’án 2:282.
 
-    *   [^28]:
+    [^55]:         Qur’án 55:56.
 
-        Qur’án 41:30.
+    [^56]:         Qur’án 2:87.
 
-    *   [^29]:
+    [^57]:         Qur’án 25:25.
 
-        Qur’án 70:40.
+    [^58]:         Qur’án 25:7.
 
-    *   [^30]:
+    [^59]:         Qur’án 2:210.
 
-        Qur’án 82:1.
+    [^60]:         Qur’án 44:10.
 
-    *   [^31]:
+    [^61]:         Qur’án 3:119.
 
-        Qur’án 14:48.
+    [^62]:         The sixth Imám of the S_hí‘ahs.
 
-    *   [^32]:
+    [^63]:         Qur’án 25:7.
 
-        Qur’án 39:67.
+    [^64]:         Qur’án 4:45.
 
-    *   [^33]:
+    [^65]:         Qur’án 2:75.
 
-        The direction toward which the face must be turned when praying.
+    [^66]:         Qur’án 2:79.
 
-    *   [^34]:
+    [^67]:         Qur’án 24:35.
 
-        Mecca.
+    [^68]:         Qur’án 9:33.
 
-    *   [^35]:
+    [^69]:         Qur’án 29:51.
 
-        Medina.
-
-    *   [^36]:
-
-        Qur’án 2:144.
-
-    *   [^37]:
-
-        Prostrations.
-
-    *   [^38]:
-
-        At Mecca.
-
-    *   [^39]:
-
-        Qur’án 2:149.
-
-    *   [^40]:
-
-        Qur’án 2:115.
-
-    *   [^41]:
-
-        Qur’án 2:143.
-
-    *   [^42]:
-
-        Qur’án 74:50.
-
-    *   [^43]:
-
-        Qur’án 28:20.
-
-    *   [^44]:
-
-        Qur’án 24:35.
-
-    *   [^45]:
-
-        Qur’án 26:19.
-
-    *   [^46]:
-
-        Qur’án 19:22.
-
-    *   [^47]:
-
-        Qur’án 19:28.
-
-    *   [^48]:
-
-        Matthew 2:2.
-
-    *   [^49]:
-
-        Qur’án 3:39.
-
-    *   [^50]:
-
-        Matthew 3:1–2.
-
-    *   [^51]:
-
-        S_hayk_h Aḥmad-i-Aḥsá’í and Siyyid Káẓim-i-Ras_htí.
-
-    *   [^52]:
-
-        Qur’án 55:29.
-
-    *   [^53]:
-
-        Qur’án 51:22.
-
-    *   [^54]:
-
-        Qur’án 2:282.
-
-    *   [^55]:
-
-        Qur’án 55:56.
-
-    *   [^56]:
-
-        Qur’án 2:87.
-
-    *   [^57]:
-
-        Qur’án 25:25.
-
-    *   [^58]:
-
-        Qur’án 25:7.
-
-    *   [^59]:
-
-        Qur’án 2:210.
-
-    *   [^60]:
-
-        Qur’án 44:10.
-
-    *   [^61]:
-
-        Qur’án 3:119.
-
-    *   [^62]:
-
-        The sixth Imám of the S_hí‘ahs.
-
-    *   [^63]:
-
-        Qur’án 25:7.
-
-    *   [^64]:
-
-        Qur’án 4:45.
-
-    *   [^65]:
-
-        Qur’án 2:75.
-
-    *   [^66]:
-
-        Qur’án 2:79.
-
-    *   [^67]:
-
-        Qur’án 24:35.
-
-    *   [^68]:
-
-        Qur’án 9:33.
-
-    *   [^69]:
-
-        Qur’án 29:51.
-
-    *   [^70]:
-
-        Qur’án 2:176.
+    [^70]:         Qur’án 2:176.
 
 *   ### Part Two
 
-    *   [^71]:
+    [^71]:         Qur’án 6:103.
 
-        Qur’án 6:103.
+    [^72]:         Qur’án 3:28.
 
-    *   [^72]:
+    [^73]:         Qur’án 41:53.
 
-        Qur’án 3:28.
+    [^74]:         Qur’án 51:21.
 
-    *   [^73]:
+    [^75]:         Qur’án 59:19.
 
-        Qur’án 41:53.
+    [^76]:         Qur’án 2:253.
 
-    *   [^74]:
+    [^77]:         Qur’án 7:145.
 
-        Qur’án 51:21.
+    [^78]:         Qur’án 6:35.
 
-    *   [^75]:
+    [^79]:         Isaiah 65:25.
 
-        Qur’án 59:19.
+    [^80]:         Qur’án 7:178.
 
-    *   [^76]:
+    [^81]:         Qur’án 11:7.
 
-        Qur’án 2:253.
+    [^82]:         Qur’án 13:5.
 
-    *   [^77]:
+    [^83]:         Qur’án 50:15.
 
-        Qur’án 7:145.
+    [^84]:         Qur’án 50:20.
 
-    *   [^78]:
+    [^85]:         Qur’án 17:51.
 
-        Qur’án 6:35.
+    [^86]:         John 3:7.
 
-    *   [^79]:
+    [^87]:         John 3:5–6.
 
-        Isaiah 65:25.
+    [^88]:         Qur’án 7:178.
 
-    *   [^80]:
+    [^89]:         Luke 9:60.
 
-        Qur’án 7:178.
+    [^90]:         Title of the uncle of Muḥammad.
 
-    *   [^81]:
+    [^91]:         Qur’án 6:122.
 
-        Qur’án 11:7.
+    [^92]:         Qur’án 37:173.
 
-    *   [^82]:
+    [^93]:         Qur’án 9:33.
 
-        Qur’án 13:5.
+    [^94]:         Qur’án 11:18.
 
-    *   [^83]:
+    [^95]:         Qur’án 35:15.
 
-        Qur’án 50:15.
+    [^96]:         Cf. Luke 5:18–26.
 
-    *   [^84]:
+    [^97]:         Qur’án 6:91.
 
-        Qur’án 50:20.
+    [^98]:         Qur’án 15:72.
 
-    *   [^85]:
+    [^99]:         Qur’án 5:64.
 
-        Qur’án 17:51.
+    [^100]:         Qur’án 48:10.
 
-    *   [^86]:
+    [^101]:         Qur’án 29:23.
 
-        John 3:7.
+    [^102]:         Qur’án 2:46.
 
-    *   [^87]:
+    [^103]:         Qur’án 2:249.
 
-        John 3:5–6.
+    [^104]:         Qur’án 18:110.
 
-    *   [^88]:
+    [^105]:         Qur’án 13:2.
 
-        Qur’án 7:178.
+    [^106]:         Qur’án 17:44.
 
-    *   [^89]:
+    [^107]:         Qur’án 78:29.
 
-        Luke 9:60.
+    [^108]:         Qur’án 57:3.
 
-    *   [^90]:
+    [^109]:         Qur’án 2:210.
 
-        Title of the uncle of Muḥammad.
+    [^110]:         Qur’án 28:5.
 
-    *   [^91]:
+    [^111]:         Qur’án 13:39.
 
-        Qur’án 6:122.
+    [^112]:         Qur’án 3:183.
 
-    *   [^92]:
+    [^113]:         Qur’án 3:182.
 
-        Qur’án 37:173.
+    [^114]:         Qur’án 2:89.
 
-    *   [^93]:
+    [^115]:         Qur’án 2:285.
 
-        Qur’án 9:33.
+    [^116]:         Qur’án 54:50.
 
-    *   [^94]:
+    [^117]:         Qur’án 43:22.
 
-        Qur’án 11:18.
+    [^118]:         The Báb.
 
-    *   [^95]:
+    [^119]:         Qur’án 2:19.
 
-        Qur’án 35:15.
+    [^120]:         Qur’án 36:20.
 
-    *   [^96]:
+    [^121]:         Imám ‘Alí.
 
-        Cf. Luke 5:18–26.
+    [^122]:         Qur’án 2:85.
 
-    *   [^97]:
+    [^123]:         Qur’án 33:40.
 
-        Qur’án 6:91.
+    [^124]:         Qur’án 6:103.
 
-    *   [^98]:
+    [^125]:         Qur’án 16:61.
 
-        Qur’án 15:72.
+    [^126]:         Qur’án 21:23.
 
-    *   [^99]:
+    [^127]:         Qur’án 55:39.
 
-        Qur’án 5:64.
+    [^128]:         Qur’án 55:41.
 
-    *   [^100]:
+    [^129]:         Bag_hdád.
 
-        Qur’án 48:10.
+    [^130]:         Qur’án 10:25.
 
-    *   [^101]:
+    [^131]:         Qur’án 6:127.
 
-        Qur’án 29:23.
+    [^132]:         Qur’án 2:136.
 
-    *   [^102]:
+    [^133]:         Qur’án 2:253.
 
-        Qur’án 2:46.
+    [^134]:         Qur’án 19:31.
 
-    *   [^103]:
+    [^135]:         Qur’án 18:110.
 
-        Qur’án 2:249.
+    [^136]:         Qur’án 8:17.
 
-    *   [^104]:
+    [^137]:         Qur’án 48:10.
 
-        Qur’án 18:110.
+    [^138]:         Qur’án 33:40.
 
-    *   [^105]:
+    [^139]:         Qur’án 2:189.
 
-        Qur’án 13:2.
+    [^140]:         Qur’án 17:85.
 
-    *   [^106]:
+    [^141]:         Ḥájí Mírzá Karím K_hán.
 
-        Qur’án 17:44.
+    [^142]:         “Guidance unto the ignorant.”
 
-    *   [^107]:
+    [^143]:         Ascent.
 
-        Qur’án 78:29.
+    [^144]:         Infernal tree.
 
-    *   [^108]:
+    [^145]:         Sinner or sinful. Qur’án 44:43–44.
 
-        Qur’án 57:3.
+    [^146]:         Honorable—Qur’án 44:49.
 
-    *   [^109]:
+    [^147]:         Qur’án 6:59.
 
-        Qur’án 2:210.
+    [^148]:         A magician contemporary with Moses.
 
-    *   [^110]:
+    [^149]:         Qur’án 7:57.
 
-        Qur’án 28:5.
+    [^150]:         Qur’án 16:43.
 
-    *   [^111]:
+    [^151]:         Qur’án 29:69.
 
-        Qur’án 13:39.
+    [^152]:         Qur’án 29:69.
 
-    *   [^112]:
+    [^153]:         The year 1260 A.H., the year of the Báb’s Declaration.
 
-        Qur’án 3:183.
+    [^154]:         Qur’án 2:1.
 
-    *   [^113]:
+    [^155]:         Qur’án 2:23.
 
-        Qur’án 3:182.
+    [^156]:         Qur’án 45:5.
 
-    *   [^114]:
+    [^157]:         Qur’án 45:6.
 
-        Qur’án 2:89.
+    [^158]:         Qur’án 45:8.
 
-    *   [^115]:
+    [^159]:         Qur’án 26:187.
 
-        Qur’án 2:285.
+    [^160]:         Qur’án 8:32.
 
-    *   [^116]:
+    [^161]:         Qur’án 45:24.
 
-        Qur’án 54:50.
+    [^162]:         Qur’án 29:23.
 
-    *   [^117]:
+    [^163]:         Qur’án 37:36.
 
-        Qur’án 43:22.
+    [^164]:         Qur’án 40:34.
 
-    *   [^118]:
+    [^165]:         Qur’án 3:7.
 
-        The Báb.
+    [^166]:         Qur’án 45:22.
 
-    *   [^119]:
+    [^167]:         Qur’án 38:67.
 
-        Qur’án 2:19.
+    [^168]:         Qur’án 34:43.
 
-    *   [^120]:
+    [^169]:         Qur’án 5:62.
 
-        Qur’án 36:20.
+    [^170]:         Qur’án 6:7.
 
-    *   [^121]:
+    [^171]:         Qur’án 2:148.
 
-        Imám ‘Alí.
+    [^172]:         Qur’án 11:27.
 
-    *   [^122]:
+    [^173]:         Imám Ḥusayn.
 
-        Qur’án 2:85.
+    [^174]:         Qur’án 26:227.
 
-    *   [^123]:
+    [^175]:         Qur’án 2:94, 62:6.
 
-        Qur’án 33:40.
+    [^176]:         Qur’án 34:13.
 
-    *   [^124]:
+    [^177]:         Qur’án 59:2.
 
-        Qur’án 6:103.
+    [^178]:         He Who is invoked.
 
-    *   [^125]:
+    [^179]:         Qur’án 11:113.
 
-        Qur’án 16:61.
+    [^180]:         Qur’án 54:6.
 
-    *   [^126]:
+    [^181]:         A S_hí‘ah supplication prayer in which salutations and greetings are sent to Muḥammad and His kindred.
 
-        Qur’án 21:23.
+    [^182]:         Qur’án 25:44.
 
-    *   [^127]:
+    [^183]:         Ancient city near which Ṭihrán is built.
 
-        Qur’án 55:39.
+    [^184]:         Qur’án 43:36.
 
-    *   [^128]:
+    [^185]:         Qur’án 20:124.
 
-        Qur’án 55:41.
-
-    *   [^129]:
-
-        Bag_hdád.
-
-    *   [^130]:
-
-        Qur’án 10:25.
-
-    *   [^131]:
-
-        Qur’án 6:127.
-
-    *   [^132]:
-
-        Qur’án 2:136.
-
-    *   [^133]:
-
-        Qur’án 2:253.
-
-    *   [^134]:
-
-        Qur’án 19:31.
-
-    *   [^135]:
-
-        Qur’án 18:110.
-
-    *   [^136]:
-
-        Qur’án 8:17.
-
-    *   [^137]:
-
-        Qur’án 48:10.
-
-    *   [^138]:
-
-        Qur’án 33:40.
-
-    *   [^139]:
-
-        Qur’án 2:189.
-
-    *   [^140]:
-
-        Qur’án 17:85.
-
-    *   [^141]:
-
-        Ḥájí Mírzá Karím K_hán.
-
-    *   [^142]:
-
-        “Guidance unto the ignorant.”
-
-    *   [^143]:
-
-        Ascent.
-
-    *   [^144]:
-
-        Infernal tree.
-
-    *   [^145]:
-
-        Sinner or sinful. Qur’án 44:43–44.
-
-    *   [^146]:
-
-        Honorable—Qur’án 44:49.
-
-    *   [^147]:
-
-        Qur’án 6:59.
-
-    *   [^148]:
-
-        A magician contemporary with Moses.
-
-    *   [^149]:
-
-        Qur’án 7:57.
-
-    *   [^150]:
-
-        Qur’án 16:43.
-
-    *   [^151]:
-
-        Qur’án 29:69.
-
-    *   [^152]:
-
-        Qur’án 29:69.
-
-    *   [^153]:
-
-        The year 1260 A.H., the year of the Báb’s Declaration.
-
-    *   [^154]:
-
-        Qur’án 2:1.
-
-    *   [^155]:
-
-        Qur’án 2:23.
-
-    *   [^156]:
-
-        Qur’án 45:5.
-
-    *   [^157]:
-
-        Qur’án 45:6.
-
-    *   [^158]:
-
-        Qur’án 45:8.
-
-    *   [^159]:
-
-        Qur’án 26:187.
-
-    *   [^160]:
-
-        Qur’án 8:32.
-
-    *   [^161]:
-
-        Qur’án 45:24.
-
-    *   [^162]:
-
-        Qur’án 29:23.
-
-    *   [^163]:
-
-        Qur’án 37:36.
-
-    *   [^164]:
-
-        Qur’án 40:34.
-
-    *   [^165]:
-
-        Qur’án 3:7.
-
-    *   [^166]:
-
-        Qur’án 45:22.
-
-    *   [^167]:
-
-        Qur’án 38:67.
-
-    *   [^168]:
-
-        Qur’án 34:43.
-
-    *   [^169]:
-
-        Qur’án 5:62.
-
-    *   [^170]:
-
-        Qur’án 6:7.
-
-    *   [^171]:
-
-        Qur’án 2:148.
-
-    *   [^172]:
-
-        Qur’án 11:27.
-
-    *   [^173]:
-
-        Imám Ḥusayn.
-
-    *   [^174]:
-
-        Qur’án 26:227.
-
-    *   [^175]:
-
-        Qur’án 2:94, 62:6.
-
-    *   [^176]:
-
-        Qur’án 34:13.
-
-    *   [^177]:
-
-        Qur’án 59:2.
-
-    *   [^178]:
-
-        He Who is invoked.
-
-    *   [^179]:
-
-        Qur’án 11:113.
-
-    *   [^180]:
-
-        Qur’án 54:6.
-
-    *   [^181]:
-
-        A S_hí‘ah supplication prayer in which salutations and greetings are sent to Muḥammad and His kindred.
-
-    *   [^182]:
-
-        Qur’án 25:44.
-
-    *   [^183]:
-
-        Ancient city near which Ṭihrán is built.
-
-    *   [^184]:
-
-        Qur’án 43:36.
-
-    *   [^185]:
-
-        Qur’án 20:124.
-
-    *   [^186]:
-
-        B and H meaning Bahá.
+    [^186]:         B and H meaning Bahá.

@@ -10,14 +10,16 @@ _conversionOpts:
   encoding: UTF-8
   reconvert: true
   postPatterns:
+    '/(\s*)\*\s+(\[\^\d+\]:)\s*\n/': '$1$2 '
     '/^(?:\*\s*)*(\[\^[\w\d]+\]:)\s*\n*/': '$1 '
     '/\n\n(.+\\\[\d+\\\])$/': '\n\n$1 {¶=none .cite}'
-  ignoreElements: div.of
+  ignoreElements: 'div.of,nav,a.sd:not(.ef)'
   fnRefEl: sup.ve
-  fnTextEl: a.sd
+  fnTextEl: a.sd.ef
   metaElements:
     author: various
     collection: Compilations
+  converter: html
 sourceUrl: >-
   https://www.bahai.org/library/authoritative-texts/compilations/give-me-thy-grace-serve-thy-loved-ones/give-me-thy-grace-serve-thy-loved-ones.xhtml?cb29c68a
 _convertedFrom: >-
@@ -26,6 +28,7 @@ _softHyphenWords: ''
 collectionTitle: Compilations
 ocnmd_version: 2
 collectionId: compilations
+collection: Compilations
 ---
 # Compilation for the 2018 Counsellors’ Conference
 We cherish the hope that through the loving-kindness of the All-Wise, the All-Knowing, obscuring dust may be dispelled and the power of perception enhanced, that the people may discover the purpose for which they have been called into being. In this Day whatsoever serveth to reduce blindness and to increase vision is worthy of consideration. This vision acteth as the agent and guide for true knowledge. Indeed in the estimation of men of wisdom keenness of understanding is due to keenness of vision.

@@ -5,16 +5,18 @@ author: ‘Abdu’l‑Bahá
 access: research
 language: en
 priority: 10
-wordsCount: 202289
+wordsCount: 201298
 _conversionOpts:
   encoding: UTF-8
   reconvert: true
   postPatterns:
+    '/(\s*)\*\s+(\[\^\d+\]:)\s*\n/': '$1$2 '
     '/^(?:\*\s*)*(\[\^[\w\d]+\]:)\s*\n*/': '$1 '
     '/\n\n(.+\\\[\d+\\\])$/': '\n\n$1 {¶=none .cite}'
-  ignoreElements: div.of
+  ignoreElements: 'div.of,nav,a.sd:not(.ef)'
   fnRefEl: sup.ve
-  fnTextEl: a.sd
+  fnTextEl: a.sd.ef
+  converter: html
 sourceUrl: >-
   https://www.bahai.org/library/authoritative-texts/abdul-baha/promulgation-universal-peace/promulgation-universal-peace.xhtml?9969ab67
 _convertedFrom: >-
@@ -26,199 +28,6 @@ ocnmd_version: 2
 Talks Delivered by ‘Abdu’l‑Bahá during His Visit to the United States and Canada in 1912
 
 Compiled by Howard MacNutt
-
-*   ### Talks in New York and Brooklyn, 11—19 April 1912
-
-    *   Home of Mr. and Mrs. Edward B. Kinney
-    *   Home of Mr. and Mrs. Howard MacNutt
-    *   Studio of Miss Phillips
-    *   Home of Mr. and Mrs. Alexander Morten
-    *   Church of the Ascension
-    *   Union Meeting of Advanced Thought Centers
-    *   Home of Mountfort Mills
-    *   Bahá’í Friends of New Jersey, Hotel Ansonia
-    *   Hotel Ansonia
-    *   Home of Mr. and Mrs. Edward B. Kinney
-    *   Home of Mr. and Mrs. Marshall L. Emery
-    *   Columbia University
-    *   Bowery Mission
-*   ### Talks in Washington, D.C., 20—25 April 1912
-
-    *   Orient-Occident-Unity Conference
-    *   Studio Hall
-    *   Universalist Church
-    *   Home of Mr. and Mrs. Arthur J. Parsons
-    *   Howard University
-    *   Home of Mr. and Mrs. Arthur J. Parsons
-    *   Bethel Literary Society
-    *   Children’s Reception
-    *   Home of Mr. and Mrs. Arthur J. Parsons
-    *   Home of Mrs. Andrew J. Dyer
-    *   Theosophical Society
-    *   Message to Esperantists
-    *   Home of Mr. and Mrs. Arthur J. Parsons
-*   ### Talks in Chicago, Wilmette, and Evanston, 30 April—5 May 1912
-
-    *   Public Meeting Concluding Convention of Bahá’í Temple Unity
-    *   Hull House
-    *   Fourth Annual Conference of the National Association for the Advancement of Colored People
-    *   Dedication of the Mas_hriqu’l-Ad_hkár Grounds
-    *   Hotel Plaza
-    *   Federation of Women’s Clubs
-    *   Bahá’í Women’s Reception
-    *   Hotel Plaza
-    *   Hotel Plaza
-    *   Hotel Plaza
-    *   Hotel Plaza
-    *   Theosophical Society
-    *   Children’s Meeting
-    *   Plymouth Congregational Church
-    *   All-Souls Church
-*   ### Talks in Cleveland, 6 May 1912
-
-    *   Euclid Hall
-    *   Sanatorium of Dr. C. M. Swingle
-*   ### Talk in Pittsburgh, 7 May 1912
-
-    *   Hotel Schenley
-*   ### Talks in New York, Montclair, and Jersey City, 11—20 May 1912
-
-    *   227 Riverside Drive
-    *   Unity Church
-    *   Meeting of International Peace Forum
-    *   Reception by New York Peace Society
-    *   Church of the Divine Paternity
-    *   Brotherhood Church
-    *   Woman’s Suffrage Meeting
-*   ### Talks in Cambridge and Boston, 22—25 May 1912
-
-    *   Unitarian Conference
-    *   Home of Mr. and Mrs. Francis W. Breed
-    *   Huntington Chambers
-*   ### Talks in New York and Fanwood, 26 May—8 June 1912
-
-    *   Mount Morris Baptist Church
-    *   Reception at Metropolitan Temple
-    *   Home of Mr. and Mrs. Edward B. Kinney
-    *   Theosophical Lodge
-    *   Town Hall
-    *   Church of the Ascension
-    *   309 West Seventy-eighth Street
-*   ### Talks in Philadelphia, 9 June 1912
-
-    *   Unitarian Church
-    *   Baptist Temple
-*   ### Talks in New York and Brooklyn, 11—20 June 1912
-
-    *   Open Committee Meeting
-    *   309 West Seventy-eighth Street
-    *   309 West Seventy-eighth Street
-    *   309 West Seventy-eighth Street
-    *   309 West Seventy-eighth Street
-    *   Fourth Unitarian Church
-    *   Home of Mr. and Mrs. Howard MacNutt
-    *   Central Congregational Church
-    *   309 West Seventy-eighth Street
-    *   309 West Seventy-eighth Street
-    *   309 West Seventy-eighth Street
-*   ### Talk in Montclair and West Englewood, 23—29 June 1912
-
-    *   Montclair
-    *   Unity Feast, Outdoors
-*   ### Talks in New York, 1—15 July 1912
-
-    *   309 West Seventy-eighth Street
-    *   309 West Seventy-eighth Street
-    *   309 West Seventy-eighth Street
-    *   309 West Seventy-eighth Street
-    *   309 West Seventy-eighth Street
-    *   All Souls Unitarian Church
-    *   Home of Dr. and Mrs. Florian Krug
-*   ### Talks in Boston, 23—25 July 1912
-
-    *   Hotel Victoria
-    *   Theosophical Society
-    *   Hotel Victoria
-*   ### Talks in Dublin, 5—6 August 1912
-
-    *   Dublin Inn
-    *   Home of Mr. and Mrs. Arthur J. Parsons
-*   ### Talks at Green Acre, 16—17 August 1912
-
-    *   Green Acre
-    *   Green Acre
-    *   Green Acre
-    *   Green Acre
-    *   Green Acre
-*   ### Talks in Boston and Malden, 25—29 August 1912
-
-    *   New Thought Forum, Metaphysical Club
-    *   Franklin Square House
-    *   Metaphysical Club
-    *   Home of Madame Morey
-*   ### Talks in Montreal, 1—5 September 1912
-
-    *   Church of the Messiah
-    *   Home of Mr. and Mrs. William Sutherland Maxwell
-    *   Home of Mr. and Mrs. William Sutherland Maxwell
-    *   Home of Mr. and Mrs. William Sutherland Maxwell
-    *   Coronation Hall
-    *   St. James Methodist Church
-*   ### Talk in Chicago, 16 September 1912
-
-    *   Home of Mrs. Corinne True
-*   ### Talk in Minneapolis, 20 September 1912
-
-    *   Home of Mr. Albert L. Hall
-*   ### Talk in St. Paul, 20 September 1912
-
-    *   Home of Dr. and Mrs. Clement Woolson
-*   ### Talks in Denver, 24—25 September 1912
-
-    *   Home of Mrs. Sidney E. Roberts
-    *   Second Divine Science Church
-*   ### Talks in Oakland, Palo Alto, San Francisco, and Sacramento, 7—26 October 1912
-
-    *   Japanese Young Men’s Christian Association
-    *   Leland Stanford Junior University
-    *   Open Forum
-    *   Temple Emmanu-El
-    *   Hotel Sacramento
-    *   Assembly Hall, Hotel Sacramento
-*   ### Talks in Chicago, 31 October—1 November 1912
-
-    *   Hotel Plaza
-    *   Home of Mrs. Corinne True
-*   ### Talk in Cincinnati, 5 November 1912
-
-    *   Grand Hotel
-*   ### Talks in Washington, D.C., 6—10 November 1912
-
-    *   Universalist Church
-    *   Home of Mr. and Mrs. Arthur J. Parsons
-    *   Home of Mr. and Mrs. Arthur J. Parsons
-    *   Eighth Street Temple, Synagogue
-    *   Home of Mr. and Mrs. Arthur J. Parsons
-    *   Home of Mr. and Mrs. Arthur J. Parsons
-    *   Bahá’í Banquet, Rauscher’s Hall
-    *   Home of Mr. and Mrs. Arthur J. Parsons
-    *   Home of Mr. and Mrs. Joseph H. Hannen
-    *   1901 Eighteenth Street, NW
-*   ### Talks in New York, 15 November—5 December 1912
-
-    *   Home of Miss Juliet Thompson
-    *   309 West Seventy-eighth Street
-    *   Genealogical Hall
-    *   Home of Mr. and Mrs. Frank K. Moxey
-    *   Banquet, Great Northern Hotel
-    *   Home of Mr. and Mrs. Edward B. Kinney
-    *   Home of Mr. and Mrs. Edward B. Kinney
-    *   Home of Mr. and Mrs. Edward B. Kinney
-    *   Home of Dr. and Mrs. Florian Krug
-    *   Mr. Kinney’s Bible Class
-    *   Home of Mr. and Mrs. Edward B. Kinney
-    *   Theosophical Society
-    *   On Board Steamship Celtic
 
 ## Talks ‘Abdu’l‑Bahá Delivered in New York and Brooklyn
 
@@ -4161,6 +3970,4 @@ Your duty is of another kind, for you are informed of the mysteries of God. Your
 
 *   ### Talks in Washington, D.C., 6—10 November 1912
 
-    *   [^1]:
-
-        Mírzá Abu’l-Faḍl Gulpáygán, The Brilliant Proof (Chicago: Press of Bahá’í News Service, 1912). The booklet was published under the direction of ‘Abdu’l‑Bahá while He was in America.
+    [^1]:         Mírzá Abu’l-Faḍl Gulpáygán, The Brilliant Proof (Chicago: Press of Bahá’í News Service, 1912). The booklet was published under the direction of ‘Abdu’l‑Bahá while He was in America.

@@ -5,16 +5,18 @@ author: Shoghi Effendi
 access: research
 language: en
 priority: 10
-wordsCount: 60574
+wordsCount: 59963
 _conversionOpts:
   encoding: UTF-8
   reconvert: true
   postPatterns:
+    '/(\s*)\*\s+(\[\^\d+\]:)\s*\n/': '$1$2 '
     '/^(?:\*\s*)*(\[\^[\w\d]+\]:)\s*\n*/': '$1 '
     '/\n\n(.+\\\[\d+\\\])$/': '\n\n$1 {¶=none .cite}'
-  ignoreElements: div.of
+  ignoreElements: 'div.of,nav,a.sd:not(.ef)'
   fnRefEl: sup.ve
-  fnTextEl: a.sd
+  fnTextEl: a.sd.ef
+  converter: html
 sourceUrl: >-
   https://www.bahai.org/library/authoritative-texts/shoghi-effendi/citadel-faith/citadel-faith.xhtml?d687fea7
 _convertedFrom: >-
@@ -26,131 +28,6 @@ ocnmd_version: 2
 Messages to America 1947–1957
 
 Shoghi Effendi
-
-*   ### List of topics
-
-    *   Believers’ Generous Response to Temple Fund
-    *   Call to Fuller Participation
-    *   Consolidation in Europe
-    *   Participation in Second Seven Year Plan
-    *   NSA Must Control Credentials of Foreigners
-    *   The Challenging Requirements of the Present Hour
-    *   European Pioneers and Temple Contract
-    *   Evidences of Notable Expansion
-    *   Effective Prosecution of Sacred Tasks
-    *   Recognition of Preeminent Services
-    *   Critical Stage of Task on Home Front
-    *   No Sacrifice Too Great
-    *   Prevailing Crisis
-    *   Emergency Teaching Campaign
-    *   Marvelous Acceleration
-    *   Brilliant Achievements
-    *   Support the National Fund
-    *   Temple Interior Ornamentation and Arcade of the Báb’s Sepulcher
-    *   My Appeal to This God-Chosen Community
-    *   Urge Special Attention to Goals
-    *   Praying for Added Fervor
-    *   Completed Tasks Release Outpouring of Grace
-    *   Appeal to Entire Community to Persevere
-    *   Scale Nobler Heights of Heroism
-    *   The Citadel of the Faith of Bahá’u’lláh
-    *   Budget Approved for 1949–1950
-    *   Preliminary Temple Contracts
-    *   Arcade for the Shrine of the Báb
-    *   Drastic Budget Reduction
-    *   Further Budget Reduction
-    *   Curtailment of Some Activities
-    *   Divert Contributions to Temple Fund
-    *   Suspend World Order Magazine
-    *   A Testing Period Recalling Ordeals of the Dawn-Breakers
-    *   Arcade of the Báb’s Shrine Begun
-    *   One Remaining Objective Hangs in the Balance
-    *   Process of Expansion Accelerates
-    *   Welcome Initial Victory
-    *   Supplicating Blessing for American Activities
-    *   Corners of Shrine Arcade Under Construction
-    *   This Hour, Crowded With Destiny
-    *   Praying For Increasing Success
-    *   Majesty of the Báb’s Shrine Unfolding
-    *   Faithless Brother Ḥusayn
-    *   Maintain Momentum in Triple Field
-    *   Shrine Parapet Completed
-    *   Sacred Task of Present Hour
-    *   Shrine Arcade Nearing Completion
-    *   Centenary of the Martyrdom of the Báb
-    *   A Worthy, Five-Fold Offering
-    *   Rúḥí and Family Show Open Defiance
-    *   Non-Bahá’í Gifts
-    *   Teaching in Africa
-    *   Comforted by Messages of Devotion
-    *   Relieved by Intensified Activity
-    *   Badí‘u’lláh Has Miserably Perished
-    *   Requirements for Temple Completion
-    *   Summer Schools to Reopen
-    *   Assistance to Epoch-Making Enterprise in Africa
-    *   Status of Bahá’ís Regarding Military Duty
-    *   Spiritual Conquest of the Planet
-    *   First American Pioneer to Africa
-    *   Message to 1951 State Conventions
-    *   The Last and Irretrievable Chance
-    *   Funds for International Center
-    *   Forty-Fifth Annual Convention: U.S. Tasks in World Crusade
-    *   Intending Pioneers Urged to Scatter
-    *   A Turning Point in American Bahá’í History
-    *   Safeguarding American Primacy
-    *   Temple Site Purchased in Panama
-    *   Assemblies Must Be Maintained
-    *   American Bahá’ís in the Time of World Peril
-    *   Nine-Pointed Star for Headstone
-    *   Send Appeals to President Eisenhower
-    *   A Mysterious Dispensation of Providence
-    *   Revitalize Entire Community
-    *   Greater Consecration to Pressing Tasks
-    *   Praying for Great Victories on Home Front
-    *   Inestimable Prizes Within Our Reach
-    *   Intensification of Efforts
-    *   Dual, Inescapable, Paramount Responsibilities
-    *   Heights Never Before Attained
-*   ### In Memoriam
-
-    *   Frank Ashton
-    *   Ella Bailey
-    *   Dorothy Baker
-    *   Mary Barton
-    *   Victoria Bedikian
-    *   Ella Cooper
-    *   Julia Culver
-    *   Dagmar Dole
-    *   Homer Dyer
-    *   L. W. Eggleston
-    *   Harry Ford
-    *   Nellie French
-    *   Louis C. Gregory
-    *   Louise M. Gregory
-    *   Bertha Herklotz
-    *   Marie Hopper
-    *   Maria Ioas
-    *   Beatrice Irwin
-    *   Marion Jack
-    *   Florence Breed K_hán
-    *   Edward B. Kinney
-    *   Fanny Knobloch
-    *   George Latimer
-    *   Rúḥániyyih Latimer
-    *   Fanny Lesch
-    *   Edwin W. Mattoon
-    *   William Sutherland Maxwell
-    *   Florence Morton
-    *   Ella Robarts
-    *   Annie Romer
-    *   Fred Schopflocher
-    *   Anthony Y. Seto
-    *   Philip G. Sprague
-    *   Gertrude Struven
-    *   Juliet Thompson
-    *   George Townshend
-    *   Roy C. Wilhelm
-    *   Albert Windust
 
 January 20, 1947
 
@@ -1666,14 +1543,8 @@ Deeply grieved by passing of much loved, greatly admired, staunch, ardent promot
 
 ## Notes
 
-    *   [^1]:
+    [^1]:         See God Passes By, Chapter XVIII, paragraph beginning “Finally, in the very year His royal adversary lost his throne…”.
 
-        See God Passes By, Chapter XVIII, paragraph beginning “Finally, in the very year His royal adversary lost his throne…”.
+    [^2]:         See God Passes By, Chapter XVII, paragraph begining “The arrival of fifteen pilgrims…”.
 
-    *   [^2]:
-
-        See God Passes By, Chapter XVII, paragraph begining “The arrival of fifteen pilgrims…”.
-
-    *   [^3]:
-
-        William Sutherland Maxwell of Montreal
+    [^3]:         William Sutherland Maxwell of Montreal

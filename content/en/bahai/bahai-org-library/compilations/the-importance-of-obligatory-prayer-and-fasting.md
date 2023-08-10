@@ -5,19 +5,21 @@ author: various
 access: research
 language: en
 priority: 10
-wordsCount: 7528
+wordsCount: 7509
 _conversionOpts:
   encoding: UTF-8
   reconvert: true
   postPatterns:
+    '/(\s*)\*\s+(\[\^\d+\]:)\s*\n/': '$1$2 '
     '/^(?:\*\s*)*(\[\^[\w\d]+\]:)\s*\n*/': '$1 '
     '/\n\n(.+\\\[\d+\\\])$/': '\n\n$1 {¶=none .cite}'
-  ignoreElements: div.of
+  ignoreElements: 'div.of,nav,a.sd:not(.ef)'
   fnRefEl: sup.ve
-  fnTextEl: a.sd
+  fnTextEl: a.sd.ef
   metaElements:
     author: various
     collection: Compilations
+  converter: html
 sourceUrl: >-
   https://www.bahai.org/library/authoritative-texts/compilations/importance-obligatory-prayer-fasting/importance-obligatory-prayer-fasting.xhtml?2ea4f68f
 _convertedFrom: >-
@@ -26,6 +28,7 @@ _softHyphenWords: ''
 collectionTitle: Compilations
 ocnmd_version: 2
 collectionId: compilations
+collection: Compilations
 ---
 # The Importance of Obligatory Prayer and Fasting
 A Compilation Prepared by the Research Department
@@ -37,10 +40,6 @@ The Universal House of Justice, in reviewing the further applicability of the la
 This present selection of newly authorized translations has been drawn from the vast ocean of the original Writings of Bahá’u’lláh and ‘Abdu’l-Bahá. It is intended to further enhance the believers’ insight into the far-reaching significance of these two great laws.
 
 May 2000
-
-*   From the Writings of Bahá’u’lláh
-*   From the Writings of ‘Abdu’l-Bahá
-*   Prayers by Bahá’u’lláh for the Fast
 
 1. From the Writings of Bahá’u’lláh
 

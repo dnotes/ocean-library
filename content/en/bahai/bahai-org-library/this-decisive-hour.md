@@ -5,16 +5,18 @@ author: Shoghi Effendi
 access: research
 language: en
 priority: 10
-wordsCount: 52824
+wordsCount: 51308
 _conversionOpts:
   encoding: UTF-8
   reconvert: true
   postPatterns:
+    '/(\s*)\*\s+(\[\^\d+\]:)\s*\n/': '$1$2 '
     '/^(?:\*\s*)*(\[\^[\w\d]+\]:)\s*\n*/': '$1 '
     '/\n\n(.+\\\[\d+\\\])$/': '\n\n$1 {¶=none .cite}'
-  ignoreElements: div.of
+  ignoreElements: 'div.of,nav,a.sd:not(.ef)'
   fnRefEl: sup.ve
-  fnTextEl: a.sd
+  fnTextEl: a.sd.ef
+  converter: html
 sourceUrl: >-
   https://www.bahai.org/library/authoritative-texts/shoghi-effendi/decisive-hour/decisive-hour.xhtml?1b9df7f1
 _convertedFrom: >-
@@ -26,176 +28,6 @@ ocnmd_version: 2
 Messages from Shoghi Effendi to the North American Bahá’ís 1932–1946
 
 Shoghi Effendi
-
-*   ### List of topics
-
-    *   The Passing of Abu’l-Qásim K_hurasání, 26 February 1932
-    *   Nabíl’s Narrative, 20 June 1932
-    *   Immortal Spirit, 15 July 1932
-    *   Evidences of Sympathy, 1 August 1932
-    *   United Will, Concerted Action, 27 October 1932
-    *   Champion-Builders of the World Order of Bahá’u’lláh, 16 February 1933
-    *   Non-Participation in Political Affairs, 16 March 1933
-    *   Personalities Subordinated, 11 April 1933
-    *   Momentous Convention/Message to 1933 Convention, 1 June 1933
-    *   An Eminent Rank, 28 October 1933
-    *   Hour of Victory at Hand, 17 November 1933
-    *   Potentialities of Majestic Edifice/Message to 1934 Convention, 2 June 1934
-    *   The Passing of Susan Moody, 28 October 1934
-    *   Unprecedented Impetus/Message to 1935 Convention, 27 April 1935
-    *   The Voting Right, 28 April 1935
-    *   Separation from Outworn Creeds, 15 June 1935
-    *   The National Fund, 29 July 1935
-    *   A New Hour Has Struck, 25 October 1935
-    *   This Is Truly Providential, 10 January 1936
-    *   ‘Abdu’l‑Bahá’s Historic Appeal/Message to 1936 Convention, 29 April 1936
-    *   Fresh Conquests and Unprecedented Triumphs, 30 May 1936
-    *   Intensify Teaching Work a Thousandfold, 28 July 1936
-    *   Call for Rededication to Fulfillment of Divine Plan, \[circa 30 July 1936\]
-    *   Spiritual Descendants of the Dawn-Breakers, \[circa 29 October 1936\]
-    *   The Significance of the Undertaking, 14 November 1936
-    *   A Complete Rededication, 22 March 1937
-    *   Institution of Guardianship Now Further Reinforced, 28 March 1937
-    *   The Passing of Dr. Zia Bag_hdádí, 11 April 1937
-    *   Dual Gift/Message to 1937 Convention, 30 April 1937
-    *   The Call Has Gone Forth … The Path Is Clear, 4 June 1937
-    *   Impassioned Plea, \[circa 4 August 1937\]
-    *   The Passing of Alfred Lunt, 16 August 1937
-    *   Convention Delegates Increased, 19 November 1937
-    *   All Should Arise, 25 November 1937
-    *   Archbreaker of Covenant, 18 December 1937
-    *   Certain Vital Requirements of Seven Year Plan, 30 January 1938
-    *   A Year Has Almost Elapsed, 14 April 1938
-    *   Draw Nigh unto Bahá’u’lláh/Message to 1938 Convention, 25 April 1938
-    *   The Passing of Munírih K_hánum, 28 April 1938
-    *   Progressive Unfoldment of Seven Year Plan, 3 June 1938
-    *   Marching toward Their Goal, 5 July 1938
-    *   Unbroken Solidarity, Unquenchable Enthusiasm, 10 September 1938
-    *   Loyalty to World Order of Bahá’u’lláh, 22 September 1938
-    *   American Community Summoned to New Level of Heroism, 27 November 1938
-    *   Nine Holy Souls, 24 January 1939
-    *   The Rarest Privilege Ever Conferred by Providence upon the American Bahá’í Community, 28 January 1939
-    *   God’s Creative Plan, 8 February \[1939\]
-    *   Approach of Final Eruption, 22 March 1939
-    *   Gratitude to Pioneers, 30 March 1939
-    *   My Plea, My Supreme Entreaty, 17 April 1939
-    *   Penetration of Latin America/Message to 1939 Convention, 26 April 1939
-    *   Message to Thirty-First Convention, 29 April 1939
-    *   Twofold Obligation, 3 May 1939
-    *   Inspiring, Significant Progress, 7 May 1939
-    *   That Priceless Heritage, 22 May 1939
-    *   Official Inauguration of World Mission, 26 May 1939
-    *   Fulfill the Requirements, 4 July 1939
-    *   The Most Fateful Hour, 28 July 1939
-    *   Imperiled Humanity, 28 August 1939
-    *   The Passing of Martha Root, 2 October 1939
-    *   Historic Act, 2 October 1939
-    *   Mandate Conferred by ‘Abdu’l‑Bahá, 23 October 1939
-    *   Blessed Remains Transferred to Mount Carmel, 5 December 1939
-    *   The Spiritual Potencies of That Consecrated Spot, 21 December 1939
-    *   Interment Beloved Remains, 26 December 1939
-    *   The Seal of Complete Triumph, 30 December 1939
-    *   Dual, Vitally Urgent Obligation, 18 January 1940
-    *   Dare Greatly, Toil Unremittingly, 26 February 1940
-    *   Beloved Handmaid, 3 March 1940
-    *   Their God-Given Task, 15 April 1940
-    *   Bahá’u’lláh’s Spiritual Sovereignty/Message to 1940 Convention, 24 April 1940
-    *   Section of Ornamentation, 27 April 1940
-    *   Continuous Consecration, 15 May 1940
-    *   Emergence of Spiritual World Order, 12 June 1940
-    *   Supremely Challenging Hour, 20 July 1940
-    *   Bear All, Dare All, 14 October 1940
-    *   Chaos and Redemption, 28 October 1940
-    *   Translation of Epistle to the Son of the Wolf, 26 November 1940
-    *   Torchbearer of World Civilization, 3 December 1940
-    *   Veteran Warrior, 20 February 1941
-    *   Fifth Year of Plan/Message to 1941 Convention, 22 April 1941
-    *   The Anger of God and His Correction, 25 May 1941
-    *   Fate-Laden World Ordeal, 30 June 1941
-    *   Elizabeth Greenleaf, 6 August 1941
-    *   Unconquerable Power, 12 August 1941
-    *   Completion of Ornamentation of Temple’s Main Story, 25 September 1941
-    *   The Process of Integration and Disintegration, 20 November 1941
-    *   The Crucible of World Conflagration, 8 December 1941
-    *   True Upholders of the Covenant, 6 January 1942
-    *   A Truly World-Embracing Crisis, 15 January 1942
-    *   Ordeal Tests Spirit, Challenges Audacity, 5 February 1942
-    *   The American Believers’ Supreme, Remaining Responsibility, 12 March 1942
-    *   Impelled to Deputize Five Members/Message to 1942 Convention, 25 April 1942
-    *   The Seven Year Plan, 26 May 1942
-    *   Imperative Need for Multiplication of Pioneers, 8 June 1942
-    *   Consecrated to Teaching Tasks, 17 June 1942
-    *   The Passing of ‘Abdu’l-Jalíl Bey Sa‘d, 25 June 1942
-    *   A Befitting Climax, 15 August 1942
-    *   Supremely Urgent Call, 21 September 1942
-    *   Acclaim with Grateful Heart, 25 November 1942
-    *   The Immortal Lua, 21 December 1942
-    *   Magnificent Response to Teaching Appeal, 23 December 1942
-    *   The Unfinished Tasks, 8 January 1943
-    *   Completion of Temple Exterior, 13 January 1943
-    *   His Services Unforgettable, 17 January 1943
-    *   Centenary of the Declaration of the Báb, 27 February 1943
-    *   Call for Immediate Increase in Pioneers, Settlers in Virgin Areas, 12 March 1943
-    *   So Meritorious an Undertaking, 28 March 1943
-    *   All-America Centennial Convention/Message to 1943 Convention, 14 April 1943
-    *   Eleventh Hour of Seven Year Plan, 22 April 1943
-    *   Completion and Dedication of Maxwell Memorial, 12 May 1943
-    *   Bahá’í Communities of East and West, 25 May 1943
-    *   The Passing of Mabel Ives, 20 June 1943
-    *   The Formation of Local Spiritual Assemblies, 22 June 1943
-    *   Centenary Celebration, 30 June 1943
-    *   The Crowning Crusade, 31 July 1943
-    *   Preparations for the Centenary, 8 August 1943
-    *   The Beloved Faith Is Surging Forward, 30 September 1943
-    *   A Still More Compelling Display, 16 November 1943
-    *   Progress of Teaching Campaign and Pioneer Activities, 11 December 1943
-    *   The Auspicious Year, 2 January 1944
-    *   Addition to Endowments, 13 January 1944
-    *   Participation of Latin American Believers, 27 January 1944
-    *   Befittingly Consummate the Enterprises, 31 March 1944
-    *   Turning-Point in Bahá’í History, 13 April 1944
-    *   International Achievement, 4 May 1944
-    *   Message to Centenary Convention, 14 May 1944
-    *   Decision to Complete the Structure of the Báb’s Sepulcher/Convention Greetings 1944, 23 May 1944
-    *   Consolidation of Nobly Won Victories, 25 May 1944
-    *   A Spiritual Assembly in Every Remaining Republic, 15 July 1944
-    *   The Seal of Spiritual Triumph, 18 August 1944
-    *   Covenant-Breaking Activities, 6 November 1944
-    *   Faithful Pioneer, 18 November 1944
-    *   Passages in God Passes By, 18 November 1944
-    *   The Succeeding Stage in the Evolution of Their World Mission, 24 December 1944
-    *   The Admission of Persians, 18 January 1945
-    *   Appeal to Preserve New Assemblies and Convert Large Groups into Assemblies, 22 January 1945
-    *   Service by Youth on Committees, 26 February 1945
-    *   Staunch Pioneer, 27 March 1945
-    *   The One Message That Can Extricate Humanity, 29 March 1945
-    *   Faithless Brother Ḥusayn, 15 April 1945
-    *   My Heavy-Laden Heart, 19 April 1945
-    *   Nationwide, Intercontinental Plans, 5 May 1945
-    *   A Single, Organically United World Commonwealth, 9 May 1945
-    *   National Teaching Committee’s Remarkable Exploits, 28 June 1945
-    *   A New Phase of Human Evolution, 10 August 1945
-    *   Hearts Uplifted in Thanksgiving, \[17 August 1945\]
-    *   The Work of Rehabilitation, 21 December 1945
-    *   Exemplary Pioneer, 26 December 1945
-    *   The German Bahá’í Community, 7 January 1946
-    *   Lidia Zamenhof, \[circa 23 January 1946\]
-    *   Historic Decisions, 24 February 1946
-    *   Momentous Responsibilities, 20 March 1946
-    *   Inauguration of Second Seven Year Plan/Message to 1946 Convention, 23 April 1946
-    *   Overwhelming Responsibility, 2 May 1946
-    *   Spiritual Conquest of the Old World, 5 June 1946
-    *   Thirty New Assemblies, 12 June 1946
-    *   A God-Given Mandate, 15 June 1946
-    *   Impending Departure of Transatlantic Pioneers, 11 July 1946
-    *   The Utmost Vigor, Vigilance and Consecration, 20 July 1946
-    *   Distinguished Servant, 27 July 1946
-    *   This National and International Crusade, 5 October 1946
-    *   The Forces Mysteriously Released, 6 October 1946
-    *   Magnificent Work, 18 October 1946
-    *   The Pivot on Which Hinges Success, 2 December 1946
-
-*   Notes
 
 – 1 –
 
@@ -1803,357 +1635,181 @@ RECALL WITH PROFOUND EMOTION ON MORROW TWENTY-FIFTH ANNIVERSARY ‘ABDU’L‑BA
 
 *   ### This Decisive Hour
 
-    *   [^1]:
+    [^1]:         The Bahá’í World: A Biennial International Record, Volume VI, 1930–1932, comp. National Spiritual Assembly of the Bahá’ís of the United States and Canada (New York: Bahá’í Publishing Committee, 1933).
 
-        The Bahá’í World: A Biennial International Record, Volume VI, 1930–1932, comp. National Spiritual Assembly of the Bahá’ís of the United States and Canada (New York: Bahá’í Publishing Committee, 1933).
+    [^2]:         See “Eulogy of Abu’l-Qásim K_hurasání by Shoghi Effendi,” in Bahá’í News, no. 61 (April 1932): 3–4.
 
-    *   [^2]:
+    [^3]:         Nabíl-i-A‘ẓam \[Muḥammad-i-Zarandí\], The Dawn-Breakers: Nabíl’s Narrative of the Early Days of the Bahá’í Revelation, trans. and ed. Shoghi Effendi (Wilmette, Ill.: Bahá’í Publishing Trust, 1932).
 
-        See “Eulogy of Abu’l-Qásim K_hurasání by Shoghi Effendi,” in Bahá’í News, no. 61 (April 1932): 3–4.
+    [^4]:         28 November 1921.
 
-    *   [^3]:
+    [^5]:         Literally “The Dawning-Place of the Praise of God”; the title designating a Bahá’í House of Worship. In this case it refers specifically to the Bahá’í House of Worship of Wilmette, Illinois.
 
-        Nabíl-i-A‘ẓam \[Muḥammad-i-Zarandí\], The Dawn-Breakers: Nabíl’s Narrative of the Early Days of the Bahá’í Revelation, trans. and ed. Shoghi Effendi (Wilmette, Ill.: Bahá’í Publishing Trust, 1932).
+    [^6]:         In its annual report to the National Spiritual Assembly, the National Archives Committee stated that numerous Tablets had been received for preservation, among them “a group of twenty-five originals with translations from the Master to Miss Sarah Farmer.” These apparently had been forwarded to Shoghi Effendi.
 
-    *   [^4]:
+    [^7]:         A Study Guide to “The Dawn-Breakers,” Nabíl’s Narrative of the Early Days of The Bahá’í Revelation (n.p. \[New York\]: National Teaching Committee, 1932).
 
-        28 November 1921.
+    [^8]:         National Spiritual Assembly of the Bahá’ís of the United States and Canada, Declaration of Trust. By-Laws of a Local Spiritual Assembly (New York: Bahá’í Publishing Committee, 1933).
 
-    *   [^5]:
+    [^9]:         Mrs. Keith Ransom-Kehler.
 
-        Literally “The Dawning-Place of the Praise of God”; the title designating a Bahá’í House of Worship. In this case it refers specifically to the Bahá’í House of Worship of Wilmette, Illinois.
+    [^10]:         This message is a response to the National Spiritual Assembly’s announcement that sufficient funds had been received to continue the construction of the House of Worship in Wilmette. The exterior ornamentation of the dome was expected to be completed by February 1934.
 
-    *   [^6]:
+    [^11]:         A memorial gathering was held at the Bahá’í House of Worship in Wilmette, Illinois, on Sunday, 25 November 1934.
 
-        In its annual report to the National Spiritual Assembly, the National Archives Committee stated that numerous Tablets had been received for preservation, among them “a group of twenty-five originals with translations from the Master to Miss Sarah Farmer.” These apparently had been forwarded to Shoghi Effendi.
-
-    *   [^7]:
-
-        A Study Guide to “The Dawn-Breakers,” Nabíl’s Narrative of the Early Days of The Bahá’í Revelation (n.p. \[New York\]: National Teaching Committee, 1932).
-
-    *   [^8]:
-
-        National Spiritual Assembly of the Bahá’ís of the United States and Canada, Declaration of Trust. By-Laws of a Local Spiritual Assembly (New York: Bahá’í Publishing Committee, 1933).
-
-    *   [^9]:
-
-        Mrs. Keith Ransom-Kehler.
-
-    *   [^10]:
-
-        This message is a response to the National Spiritual Assembly’s announcement that sufficient funds had been received to continue the construction of the House of Worship in Wilmette. The exterior ornamentation of the dome was expected to be completed by February 1934.
-
-    *   [^11]:
-
-        A memorial gathering was held at the Bahá’í House of Worship in Wilmette, Illinois, on Sunday, 25 November 1934.
-
-    *   [^12]:
-
-        The message referred to is the following cable from the National Convention to the Guardian:
+    [^12]:         The message referred to is the following cable from the National Convention to the Guardian:
 
         “DELEGATES REPRESENTING BAHÁ’ÍS UNITED STATES CANADA FERVENTLY DESIRE REDEDICATE LIVES WORLD ORDER BAHÁ’U’LLÁH. SUPPLICATE DIVINE CONFIRMATION THROUGH GUIDANCE BELOVED GUARDIAN. BOUNDLESS GRATITUDE FOR GLEANINGS WRITINGS BAHÁ’U’LLÁH JUST RECEIVED, AND OPPORTUNITY PARTICIPATE PROTECTION PROPERTY HOLY SHRINES AT WORLD CENTER. PRAYING ALLEVIATION PERSIAN BAHÁ’ÍS. RIḌVÁN GREETING. CONVENTION.”
 
-    *   [^13]:
+    [^13]:         For a full discussion of the historic events to which Shoghi Effendi alludes, see God Passes By, Chapter XXIV, “Emancipation and Recognition of the Faith and Its Institutions,”.
 
-        For a full discussion of the historic events to which Shoghi Effendi alludes, see God Passes By, Chapter XXIV, “Emancipation and Recognition of the Faith and Its Institutions,”.
+    [^14]:         The Bahá’í House of Worship, Wilmette, Illinois.
 
-    *   [^14]:
+    [^15]:         The first century of the Bahá’í Era, 22 May 1844–22 May 1944.
 
-        The Bahá’í House of Worship, Wilmette, Illinois.
+    [^16]:         Date of receipt in Wilmette, Illinois; date of transmission is unknown.
 
-    *   [^15]:
+    [^17]:         Date of receipt in Wilmette, Illinois; date of transmission is unknown.
 
-        The first century of the Bahá’í Era, 22 May 1844–22 May 1944.
+    [^18]:         The Tablets of the Divine Plan were revealed by ‘Abdu’l‑Bahá in 1916 and 1917, during World War I.
 
-    *   [^16]:
+    [^19]:         Refers to the compilation Prayers and Meditations, originally published in February 1938.
 
-        Date of receipt in Wilmette, Illinois; date of transmission is unknown.
+    [^20]:         This message is a response to a cable from the National Spiritual Assembly acknowledging the announcement of Shoghi Effendi’s recent marriage to Rúḥíyyih K_hánum, née Mary Maxwell, of Montreal. The text of that message, sent on 28 March 1937, was as follows: “JOYOUSLY ACCLAIM HISTORIC EVENT SO AUSPICIOUSLY UNITING IN ETERNAL BOND THE DESTINY OF EAST AND WEST.”
 
-    *   [^17]:
+    [^21]:         Siegfried Schopflocher gave the Convention a message from the Guardian stressing the importance of incorporation by Local Spiritual Assemblies when sufficiently evolved, a step that would lead to the gradual accumulation of endowments for the extension of Bahá’í activities, emphasizing that Local Assemblies must acquire experience and become very proficient.
 
-        Date of receipt in Wilmette, Illinois; date of transmission is unknown.
+    [^22]:         This cable appears to be a response to the following 29 April 1937 message from the National Convention to the Guardian: “AMERICAN CONVENTION GRATEFULLY CELEBRATES DUAL GIFT. MASTER’S HISTORIC VISIT AND CONSUMMATION UNIQUE UNION EAST WEST. PLEDGES UNDYING LOYALTY, RENEWED VIGOR EXTEND WORLD ORDER THROUGHOUT AMERICAS AND ALL LANDS. PROFOUND DEDICATED FELICITATIONS. BAHÁ’Í CONVENTION. TEMPLE FOUNDATION HALL, APRIL 29, 1937.”
 
-    *   [^18]:
+    [^23]:         For details of the “twofold task,” see message no. 29, “Dual Gift: Message to 1937 Convention.”
 
-        The Tablets of the Divine Plan were revealed by ‘Abdu’l‑Bahá in 1916 and 1917, during World War I.
+    [^24]:         The date of origin of this cable cannot be ascertained.
 
-    *   [^19]:
+    [^25]:         This appears to be an allusion to the first of five successive steps Shoghi Effendi had outlined for the successful completion of the Temple enterprise. The five steps, announced in Bahá’í News, no. 110 (Sept. 1937), were as follows: (1) Preliminary investigations were to be expedited. (2) A generous donation of $100,000 by Siegfried Schopflocher was to be used to facilitate the immediate signature of a contract for the next unit of exterior ornamentation. (3) The National Spiritual Assembly was to make a nationwide appeal to the entire community to ensure the uninterrupted completion of the first unit of exterior ornamentation and the accumulation of sufficient funds to place the final contract without delay. (4) The final contract was to be signed as soon as half of the required sum for its fulfillment was available in the national treasury. (5) The National Assembly was to reemphasize the supreme obligation of the triumphant conclusion of so vital a part of the American believers’ twofold task by May 1944.
 
-        Refers to the compilation Prayers and Meditations, originally published in February 1938.
+    [^26]:         The first Seven Year Plan, 1937–1944.
 
-    *   [^20]:
+    [^27]:         Mírzá Muḥammad-‘Alí.
 
-        This message is a response to a cable from the National Spiritual Assembly acknowledging the announcement of Shoghi Effendi’s recent marriage to Rúḥíyyih K_hánum, née Mary Maxwell, of Montreal. The text of that message, sent on 28 March 1937, was as follows: “JOYOUSLY ACCLAIM HISTORIC EVENT SO AUSPICIOUSLY UNITING IN ETERNAL BOND THE DESTINY OF EAST AND WEST.”
+    [^28]:         Mrs. Amelia Collins.
 
-    *   [^21]:
+    [^29]:         The consort of ‘Abdu’l‑Bahá.
 
-        Siegfried Schopflocher gave the Convention a message from the Guardian stressing the importance of incorporation by Local Spiritual Assemblies when sufficiently evolved, a step that would lead to the gradual accumulation of endowments for the extension of Bahá’í activities, emphasizing that Local Assemblies must acquire experience and become very proficient.
+    [^30]:         Shoghi Effendi appears to be referring to the third step of the plan for Temple construction that was intended to ensure completion of the external ornamentation by May 1944. The third step was to make a nationwide appeal to all believers to ensure the uninterrupted completion of the first unit of ornamentation and to accumulate sufficient funds to place the final contract without delay. For the other steps, see note 25.
 
-    *   [^22]:
+    [^31]:         Pedro Espinosa was a member of the Spiritual Assembly of Mexico City.
 
-        This cable appears to be a response to the following 29 April 1937 message from the National Convention to the Guardian: “AMERICAN CONVENTION GRATEFULLY CELEBRATES DUAL GIFT. MASTER’S HISTORIC VISIT AND CONSUMMATION UNIQUE UNION EAST WEST. PLEDGES UNDYING LOYALTY, RENEWED VIGOR EXTEND WORLD ORDER THROUGHOUT AMERICAS AND ALL LANDS. PROFOUND DEDICATED FELICITATIONS. BAHÁ’Í CONVENTION. TEMPLE FOUNDATION HALL, APRIL 29, 1937.”
+    [^32]:         Dominican Republic.
 
-    *   [^23]:
+    [^33]:         Miss Martha Root.
 
-        For details of the “twofold task,” see message no. 29, “Dual Gift: Message to 1937 Convention.”
-
-    *   [^24]:
-
-        The date of origin of this cable cannot be ascertained.
-
-    *   [^25]:
-
-        This appears to be an allusion to the first of five successive steps Shoghi Effendi had outlined for the successful completion of the Temple enterprise. The five steps, announced in Bahá’í News, no. 110 (Sept. 1937), were as follows: (1) Preliminary investigations were to be expedited. (2) A generous donation of $100,000 by Siegfried Schopflocher was to be used to facilitate the immediate signature of a contract for the next unit of exterior ornamentation. (3) The National Spiritual Assembly was to make a nationwide appeal to the entire community to ensure the uninterrupted completion of the first unit of exterior ornamentation and the accumulation of sufficient funds to place the final contract without delay. (4) The final contract was to be signed as soon as half of the required sum for its fulfillment was available in the national treasury. (5) The National Assembly was to reemphasize the supreme obligation of the triumphant conclusion of so vital a part of the American believers’ twofold task by May 1944.
-
-    *   [^26]:
-
-        The first Seven Year Plan, 1937–1944.
-
-    *   [^27]:
-
-        Mírzá Muḥammad-‘Alí.
-
-    *   [^28]:
-
-        Mrs. Amelia Collins.
-
-    *   [^29]:
-
-        The consort of ‘Abdu’l‑Bahá.
-
-    *   [^30]:
-
-        Shoghi Effendi appears to be referring to the third step of the plan for Temple construction that was intended to ensure completion of the external ornamentation by May 1944. The third step was to make a nationwide appeal to all believers to ensure the uninterrupted completion of the first unit of ornamentation and to accumulate sufficient funds to place the final contract without delay. For the other steps, see note 25.
-
-    *   [^31]:
-
-        Pedro Espinosa was a member of the Spiritual Assembly of Mexico City.
-
-    *   [^32]:
-
-        Dominican Republic.
-
-    *   [^33]:
-
-        Miss Martha Root.
-
-    *   [^34]:
-
-        The message to which Shoghi Effendi refers appears to be the following cable, sent 27 April 1939 from the Convention to the Guardian:
+    [^34]:         The message to which Shoghi Effendi refers appears to be the following cable, sent 27 April 1939 from the Convention to the Guardian:
         THIRTY-FIRST ANNUAL CONVENTION AMERICAN BAHÁ’ÍS, ONE HUNDRED SIXTEEN ASSEMBLED DELEGATES WITH HOST VISITING FRIENDS, REVERENTLY GREET BELOVED GUARDIAN, DEEPLY CONSCIOUS INCREASED RESPONSIBILITIES OPENING THIRD YEAR INAUGURATED SEVEN YEAR PLAN, SUPPLICATE RENEWED POWER FULFILL YOUR HIGHEST HOPES, CONSOLIDATE ESTABLISHED FOUNDATIONS AND MEET CHALLENGING ISSUES BAHÁ’U’LLÁH’S GLORIOUS FAITH IN WESTERN HEMISPHERE. REJOICED HISTORIC EVENT PRESENCE TWO BELIEVERS ṬIHRÁN AND FOUR MEMBERS MEXICO CITY ASSEMBLY. THRILLED REPORT EIGHTY-ONE VOLUNTEERS PIONEER SERVICE. ENTREAT PRAYERS YOUR UNERRING GUIDANCE EXTEND RAPIDLY REVIVIFYING INFLUENCE REVEALED WORD TO SORELY DISTRACTED HUMANITY THUS ACHIEVE AMERICA’S SPIRITUAL DESTINY. UNDYING LOVE, LOYALTY AND OBEDIENCE. BAHÁ’Í CONVENTION.
 
-    *   [^35]:
+    [^35]:         The National Spiritual Assembly had cabled the Guardian on 30 April 1939, “NEWLY ELECTED ASSEMBLY INFINITELY GRATEFUL YOUR EXPOSITION DIVINE PLAN, INVOKES GUIDANCE BAHÁ’U’LLÁH NEW ENTERPRISE INTER-AMERICAN ERA. REJOICED REPORT DEVELOPMENT PIONEER PLANS PANAMA, BRAZIL, HONDURAS, CUBA.…”
 
-        The National Spiritual Assembly had cabled the Guardian on 30 April 1939, “NEWLY ELECTED ASSEMBLY INFINITELY GRATEFUL YOUR EXPOSITION DIVINE PLAN, INVOKES GUIDANCE BAHÁ’U’LLÁH NEW ENTERPRISE INTER-AMERICAN ERA. REJOICED REPORT DEVELOPMENT PIONEER PLANS PANAMA, BRAZIL, HONDURAS, CUBA.…”
+    [^36]:         The Bahá’í World: A Biennial International Record, Volume VII, 1936–1938, comp. National Spiritual Assembly of the Bahá’ís of the United States and Canada (New York: Bahá’í Publishing Committee, 1939).
 
-    *   [^36]:
+    [^37]:         The Secretariat was located in New York before it was transferred to Wilmette, Illinois. The National Assembly’s meetings had been held in West Englewood, New Jersey, where the work of its Treasurer was conducted and its records were stored. Other facilities were maintained according to where the Assembly’s officers resided. For an account of the decision to move the Secretariat and establish a Ḥaẓíratu’l-Quds adjacent to the House of Worship, see “Important Developments in the Bahá’í Community of North America,” in The Bahá’í World 8:96–97.
 
-        The Bahá’í World: A Biennial International Record, Volume VII, 1936–1938, comp. National Spiritual Assembly of the Bahá’ís of the United States and Canada (New York: Bahá’í Publishing Committee, 1939).
+    [^38]:         Bahá’ís in many parts of the world were experiencing severe hardships and persecution at the time this message was written. In Írán, Bahá’í marriages were not recognized as legitimate, yet the Bahá’ís were given no acceptable means to legitimize their unions in the eyes of the law without compromising their faith. Those who were married according to Bahá’í law were often arrested and either fined or imprisoned. There were also restrictions against holding Bahá’í meetings, Bahá’í records were occasionally confiscated by government officials, and some believers were banished from their hometowns. In ‘Iráq, some Bahá’ís were accused of being communists and were arrested and tried, then acquitted. In ‘Is_hqábád Bahá’ís were arrested, their homes were searched, and Bahá’í records and literature were confiscated. Furthermore, the Mas_hriqu’l-Ad_hkár of that city was confiscated for government use. Many of the believers were exiled and sought refuge in Írán, only to be denied work. In the Caucasus, all Bahá’í administrative institutions had to be disbanded, and many Bahá’ís were exiled to Siberia. Bahá’ís in Egypt had recently experienced outbreaks of public violence in connection with their efforts to give proper Bahá’í burial to their dead. In Nazi Germany, the Faith was officially banned and its activities were forbidden.
 
-    *   [^37]:
+    [^39]:         ‘Abdu’l‑Bahá’s Tablets of the Divine Plan, also known as the charter for propagating the Bahá’í Faith.
 
-        The Secretariat was located in New York before it was transferred to Wilmette, Illinois. The National Assembly’s meetings had been held in West Englewood, New Jersey, where the work of its Treasurer was conducted and its records were stored. Other facilities were maintained according to where the Assembly’s officers resided. For an account of the decision to move the Secretariat and establish a Ḥaẓíratu’l-Quds adjacent to the House of Worship, see “Important Developments in the Bahá’í Community of North America,” in The Bahá’í World 8:96–97.
+    [^40]:         Honolulu; for a photograph of the monument, see The Bahá’í World 9:65. A memorial gathering was held at the House of Worship in Wilmette, Illinois, on 29 October 1939.
 
-    *   [^38]:
+    [^41]:         On 1 October 1939 the Office of the Secretary of the National Spiritual Assembly was transferred from New York to Wilmette, Illinois, adjacent to the Bahá’í House of Worship.
 
-        Bahá’ís in many parts of the world were experiencing severe hardships and persecution at the time this message was written. In Írán, Bahá’í marriages were not recognized as legitimate, yet the Bahá’ís were given no acceptable means to legitimize their unions in the eyes of the law without compromising their faith. Those who were married according to Bahá’í law were often arrested and either fined or imprisoned. There were also restrictions against holding Bahá’í meetings, Bahá’í records were occasionally confiscated by government officials, and some believers were banished from their hometowns. In ‘Iráq, some Bahá’ís were accused of being communists and were arrested and tried, then acquitted. In ‘Is_hqábád Bahá’ís were arrested, their homes were searched, and Bahá’í records and literature were confiscated. Furthermore, the Mas_hriqu’l-Ad_hkár of that city was confiscated for government use. Many of the believers were exiled and sought refuge in Írán, only to be denied work. In the Caucasus, all Bahá’í administrative institutions had to be disbanded, and many Bahá’ís were exiled to Siberia. Bahá’ís in Egypt had recently experienced outbreaks of public violence in connection with their efforts to give proper Bahá’í burial to their dead. In Nazi Germany, the Faith was officially banned and its activities were forbidden.
+    [^42]:         On 13–15 October 1939 the National Spiritual Assembly met with the Teaching Committee and the Inter-America Committee to consult about recent messages from the Guardian, plans for the third year of the Seven Year Plan, progress of the Temple construction, and current teaching activities in North and South America. A cable from the National Assembly to the Guardian reported, “ASSEMBLY ENCOURAGED SAN FRANCISCO MEETINGS. CONTRIBUTION BAHÍYYIH K_HÁNUM FUND ASSURES CONTINUANCE TEMPLE WORK. LATIN AMERICAN TEACHING EXPANDING. PIONEERS NOW SETTLED PANAMA, SALVADOR, GUATEMALA, HONDURAS, NICARAGUA, CUBA, JAMAICA. PLANS CONCLUDED DOMINICAN REPUBLIC, COSTA RICA. PUERTO RICO, COLOMBIA AND TRINIDAD. PREPARED SETTLE HAITI, DELAYED PENDING INVESTIGATION CONDITIONS THERE. VERY SUCCESSFUL PUBLIC MEETINGS.”
 
-    *   [^39]:
+    [^43]:         The mandate referred to is the mission to teach the Bahá’í Faith throughout the world, conferred upon the Bahá’ís of North America by ‘Abdu’l‑Bahá in the Tablets of the Divine Plan.
 
-        ‘Abdu’l‑Bahá’s Tablets of the Divine Plan, also known as the charter for propagating the Bahá’í Faith.
+    [^44]:         At Bahjí.
 
-    *   [^40]:
+    [^45]:         21 March 1909.
 
-        Honolulu; for a photograph of the monument, see The Bahá’í World 9:65. A memorial gathering was held at the House of Worship in Wilmette, Illinois, on 29 October 1939.
+    [^46]:         ‘Abdu’l‑Bahá laid the foundation-stone on 1 May 1912 during the historic ground-breaking ceremony for the Temple.
 
-    *   [^41]:
+    [^47]:         Martha Root left New York on 22 July 1919 on a teaching journey through South America that took her to Para (Belém), Brazil; Montevideo, Uruguay; Buenos Aires, Argentina; Valparaiso, Chile; and other places.
 
-        On 1 October 1939 the Office of the Secretary of the National Spiritual Assembly was transferred from New York to Wilmette, Illinois, adjacent to the Bahá’í House of Worship.
+    [^48]:         In September 1939 Mrs. Loulie Mathews donated the title to some property at Pine Valley, near Colorado Springs, Colorado, for the purpose of developing a school for training Bahá’ís for international teaching. The first session of the school, known as the Bahá’í International School, was held 12–24 June 1940.
 
-    *   [^42]:
+    [^49]:         A section of exterior ornamentation of the Bahá’í House of Worship in Wilmette was presented to Shoghi Effendi by the American Bahá’ís to be placed in the gardens surrounding the Shrine of the Báb on Mount Carmel. For a photograph of the section in the gardens, see The Bahá’í World 8:20.
 
-        On 13–15 October 1939 the National Spiritual Assembly met with the Teaching Committee and the Inter-America Committee to consult about recent messages from the Guardian, plans for the third year of the Seven Year Plan, progress of the Temple construction, and current teaching activities in North and South America. A cable from the National Assembly to the Guardian reported, “ASSEMBLY ENCOURAGED SAN FRANCISCO MEETINGS. CONTRIBUTION BAHÍYYIH K_HÁNUM FUND ASSURES CONTINUANCE TEMPLE WORK. LATIN AMERICAN TEACHING EXPANDING. PIONEERS NOW SETTLED PANAMA, SALVADOR, GUATEMALA, HONDURAS, NICARAGUA, CUBA, JAMAICA. PLANS CONCLUDED DOMINICAN REPUBLIC, COSTA RICA. PUERTO RICO, COLOMBIA AND TRINIDAD. PREPARED SETTLE HAITI, DELAYED PENDING INVESTIGATION CONDITIONS THERE. VERY SUCCESSFUL PUBLIC MEETINGS.”
+    [^50]:         The first part of the translation on which the Guardian was working had been received on 7 May 1940. The book was published in May 1941.
 
-    *   [^43]:
+    [^51]:         John Henry Hyde Dunn.
 
-        The mandate referred to is the mission to teach the Bahá’í Faith throughout the world, conferred upon the Bahá’ís of North America by ‘Abdu’l‑Bahá in the Tablets of the Divine Plan.
+    [^52]:         The thirty-year enterprise to which Shoghi Effendi refers is the construction of the House of Worship in Wilmette, Illinois, which began in 1912, when ‘Abdu’l‑Bahá laid its cornerstone.
 
-    *   [^44]:
+    [^53]:         Aḥmad Sohrab.
 
-        At Bahjí.
+    [^54]:         Riḍá S_háh Pahlavi.
 
-    *   [^45]:
+    [^55]:         The first Mas_hriqu’l-Ad_hkár was the Bahá’í House of Worship of ‘Is_hqábád.
 
-        21 March 1909.
+    [^56]:         The Bahá’ís of Egypt laid the cornerstone of the building in Cairo in 1940.
 
-    *   [^46]:
+    [^57]:         Lua Getsinger.
 
-        ‘Abdu’l‑Bahá laid the foundation-stone on 1 May 1912 during the historic ground-breaking ceremony for the Temple.
+    [^58]:         Japan’s air raid on Pearl Harbor, Hawaii, had occurred on 7 December 1941, the day before this cable was sent, bringing the United States into the war against Germany and Italy as well as Japan.
 
-    *   [^47]:
+    [^59]:         A memorial was held at the Temple in Wilmette, Illinois, on 16 August 1942.
 
-        Martha Root left New York on 22 July 1919 on a teaching journey through South America that took her to Para (Belém), Brazil; Montevideo, Uruguay; Buenos Aires, Argentina; Valparaiso, Chile; and other places.
+    [^60]:         New York City, designated as the City of the Covenant by ‘Abdu’l‑Bahá (God Passes By, paragraph beginning “The character of the acts He performed…”).
 
-    *   [^48]:
+    [^61]:         Lua Getsinger.
 
-        In September 1939 Mrs. Loulie Mathews donated the title to some property at Pine Valley, near Colorado Springs, Colorado, for the purpose of developing a school for training Bahá’ís for international teaching. The first session of the school, known as the Bahá’í International School, was held 12–24 June 1940.
+    [^62]:         The Bahá’í Centenary 1844–1944, a record of America’s response to Bahá’u’lláh’s call to the realization of the oneness of humanity, comp. National Spiritual Assembly of the Bahá’ís of the United States and Canada (Wilmette, Ill.: Bahá’í Publishing Trust, 1944).
 
-    *   [^49]:
+    [^63]:         The first Bahá’í group in America was formed in Chicago in 1894.
 
-        A section of exterior ornamentation of the Bahá’í House of Worship in Wilmette was presented to Shoghi Effendi by the American Bahá’ís to be placed in the gardens surrounding the Shrine of the Báb on Mount Carmel. For a photograph of the section in the gardens, see The Bahá’í World 8:20.
+    [^64]:         Some locks of Bahá’u’lláh’s hair arranged and preserved by the Greatest Holy Leaf had been sent by Shoghi Effendi as a gift to the American Bahá’í community on the occasion of the 1938 National Convention as a token of his gratitude.
 
-    *   [^50]:
+    [^65]:         Shortly after May Maxwell’s death in March 1940, plans were made for the construction of a befitting memorial at her gravesite. Designed by her husband, Sutherland Maxwell, and approved by Shoghi Effendi, the memorial was dedicated on 30 May 1943 by the Bahá’ís of Buenos Aires at Quilmes Cemetery on behalf of the Bahá’ís of North and South America. For a photo of the memorial, see Bahá’í World 9:62.
 
-        The first part of the translation on which the Guardian was working had been received on 7 May 1940. The book was published in May 1941.
+    [^66]:         The one remaining responsibility was to complete the “establishment of at least one center in every state of the American Republic and in every Republic of the American continent” not yet enlisted under the banner of the Faith. There remained seven virgin states and provinces: Alaska, Nebraska, North Dakota, Prince Edward Island, Saskatchewan, South Carolina, and South Dakota.
 
-    *   [^51]:
+    [^67]:         Ibrahim Kheiralla.
 
-        John Henry Hyde Dunn.
+    [^68]:         For a photo of the model, see Bahá’í World 10:3.
 
-    *   [^52]:
+    [^69]:         The National Spiritual Assembly invited those Latin American delegates who had been unable to attend the Centenary Convention in May to a special convention held 9–16 July 1944 in Wilmette, Illinois.
 
-        The thirty-year enterprise to which Shoghi Effendi refers is the construction of the House of Worship in Wilmette, Illinois, which began in 1912, when ‘Abdu’l‑Bahá laid its cornerstone.
+    [^70]:         John Stearns.
 
-    *   [^53]:
+    [^71]:         Lima, Peru.
 
-        Aḥmad Sohrab.
+    [^72]:         Miss Mary Lesch.
 
-    *   [^54]:
+    [^73]:         Ḥusayn Rabbání, Shoghi Effendi’s brother.
 
-        Riḍá S_háh Pahlavi.
+    [^74]:         Magallanes (also known as Punta Arenas), Chile.
 
-    *   [^55]:
+    [^75]:         On 8 May 1945.
 
-        The first Mas_hriqu’l-Ad_hkár was the Bahá’í House of Worship of ‘Is_hqábád.
+    [^76]:         The end of World War II came on 14 August 1945, when Japan agreed to surrender.
 
-    *   [^56]:
+    [^77]:         In Germany, the Faith and its administration had been banned by the Nazi regime since 1937. In Burma, the Bahá’ís of Mandalay and Rangoon, who had sought refuge in the Bahá’í village of Daidanaw during the Japanese invasion, were attacked by Burmese hoodlums taking advantage of the British retreat in 1942. Many Bahá’ís were killed, their properties were looted, and survivors were left destitute, their homes having been burned.
 
-        The Bahá’ís of Egypt laid the cornerstone of the building in Cairo in 1940.
+    [^78]:         Miss Zamenhof and her family, who were Jewish, had been arrested and taken to a Nazi concentration camp in 1942. Two years later, in August 1944, Lidia died in the death camp at Treblinka. Commemorative observances were held for her in Bahá’í communities throughout Canada and the United States in October 1946.
 
-    *   [^57]:
+    [^79]:         Shoghi Effendi had established an International Bahá’í Relief Fund with an international trustee in Ṭihrán. By March 1946 the National Spiritual Assembly had dispatched approximately $2,500 to the fund.
 
-        Lua Getsinger.
+    [^80]:         The two-year respite was Riḍván 1944–Riḍván 1946, between the end of the first Seven Year Plan and the beginning of the second Seven Year Plan.
 
-    *   [^58]:
+    [^81]:         The end of the first Seven Year Plan (1937–1944) coincided with the centenary anniversary of the Declaration of the Báb in 1844 and, therefore, with the end of the first Bahá’í century.
 
-        Japan’s air raid on Pearl Harbor, Hawaii, had occurred on 7 December 1941, the day before this cable was sent, bringing the United States into the war against Germany and Italy as well as Japan.
+    [^82]:         The second Seven Year Plan began at Riḍván 1946, following a two-year respite after the end of the first Seven Year Plan.
 
-    *   [^59]:
+    [^83]:         Ibrahim Kheiralla.
 
-        A memorial was held at the Temple in Wilmette, Illinois, on 16 August 1942.
+    [^84]:         Aḥmad Sohrab.
 
-    *   [^60]:
+    [^85]:         A memorial gathering was held at the Bahá’í House of Worship in Wilmette, Illinois, on 24 November 1946.
 
-        New York City, designated as the City of the Covenant by ‘Abdu’l‑Bahá (God Passes By, paragraph beginning “The character of the acts He performed…”).
+    [^86]:         This message was a reply to a cablegram sent to the Guardian by the National Spiritual Assembly during a meeting in October 1946, reporting, “… HELPFUL CONFERENCE TEMPLE TECHNICAL COMMITTEE EUROPEAN PIONEERS DEPARTED SOLVEIG CORBIT, ETTY GRAEFFE, JETTY STRAUB, RITA VAN SOMBECK AND COMMITTEE CHAIRMAN EDNA TRUE FOR SURVEYS CONFERENCES MR. MRS. NEILSEN SCHEDULED SAIL OCTOBER EIGHTEENTH. FIRST PUBLIC MEETING MINNEAPOLIS ATTRACTED OVERFLOW AUDIENCE. NATIONAL ADVERTISING CAMPAIGN AROUSING INTEREST.…”
 
-    *   [^61]:
+    [^87]:         28 November 1921.
 
-        Lua Getsinger.
-
-    *   [^62]:
-
-        The Bahá’í Centenary 1844–1944, a record of America’s response to Bahá’u’lláh’s call to the realization of the oneness of humanity, comp. National Spiritual Assembly of the Bahá’ís of the United States and Canada (Wilmette, Ill.: Bahá’í Publishing Trust, 1944).
-
-    *   [^63]:
-
-        The first Bahá’í group in America was formed in Chicago in 1894.
-
-    *   [^64]:
-
-        Some locks of Bahá’u’lláh’s hair arranged and preserved by the Greatest Holy Leaf had been sent by Shoghi Effendi as a gift to the American Bahá’í community on the occasion of the 1938 National Convention as a token of his gratitude.
-
-    *   [^65]:
-
-        Shortly after May Maxwell’s death in March 1940, plans were made for the construction of a befitting memorial at her gravesite. Designed by her husband, Sutherland Maxwell, and approved by Shoghi Effendi, the memorial was dedicated on 30 May 1943 by the Bahá’ís of Buenos Aires at Quilmes Cemetery on behalf of the Bahá’ís of North and South America. For a photo of the memorial, see Bahá’í World 9:62.
-
-    *   [^66]:
-
-        The one remaining responsibility was to complete the “establishment of at least one center in every state of the American Republic and in every Republic of the American continent” not yet enlisted under the banner of the Faith. There remained seven virgin states and provinces: Alaska, Nebraska, North Dakota, Prince Edward Island, Saskatchewan, South Carolina, and South Dakota.
-
-    *   [^67]:
-
-        Ibrahim Kheiralla.
-
-    *   [^68]:
-
-        For a photo of the model, see Bahá’í World 10:3.
-
-    *   [^69]:
-
-        The National Spiritual Assembly invited those Latin American delegates who had been unable to attend the Centenary Convention in May to a special convention held 9–16 July 1944 in Wilmette, Illinois.
-
-    *   [^70]:
-
-        John Stearns.
-
-    *   [^71]:
-
-        Lima, Peru.
-
-    *   [^72]:
-
-        Miss Mary Lesch.
-
-    *   [^73]:
-
-        Ḥusayn Rabbání, Shoghi Effendi’s brother.
-
-    *   [^74]:
-
-        Magallanes (also known as Punta Arenas), Chile.
-
-    *   [^75]:
-
-        On 8 May 1945.
-
-    *   [^76]:
-
-        The end of World War II came on 14 August 1945, when Japan agreed to surrender.
-
-    *   [^77]:
-
-        In Germany, the Faith and its administration had been banned by the Nazi regime since 1937. In Burma, the Bahá’ís of Mandalay and Rangoon, who had sought refuge in the Bahá’í village of Daidanaw during the Japanese invasion, were attacked by Burmese hoodlums taking advantage of the British retreat in 1942. Many Bahá’ís were killed, their properties were looted, and survivors were left destitute, their homes having been burned.
-
-    *   [^78]:
-
-        Miss Zamenhof and her family, who were Jewish, had been arrested and taken to a Nazi concentration camp in 1942. Two years later, in August 1944, Lidia died in the death camp at Treblinka. Commemorative observances were held for her in Bahá’í communities throughout Canada and the United States in October 1946.
-
-    *   [^79]:
-
-        Shoghi Effendi had established an International Bahá’í Relief Fund with an international trustee in Ṭihrán. By March 1946 the National Spiritual Assembly had dispatched approximately $2,500 to the fund.
-
-    *   [^80]:
-
-        The two-year respite was Riḍván 1944–Riḍván 1946, between the end of the first Seven Year Plan and the beginning of the second Seven Year Plan.
-
-    *   [^81]:
-
-        The end of the first Seven Year Plan (1937–1944) coincided with the centenary anniversary of the Declaration of the Báb in 1844 and, therefore, with the end of the first Bahá’í century.
-
-    *   [^82]:
-
-        The second Seven Year Plan began at Riḍván 1946, following a two-year respite after the end of the first Seven Year Plan.
-
-    *   [^83]:
-
-        Ibrahim Kheiralla.
-
-    *   [^84]:
-
-        Aḥmad Sohrab.
-
-    *   [^85]:
-
-        A memorial gathering was held at the Bahá’í House of Worship in Wilmette, Illinois, on 24 November 1946.
-
-    *   [^86]:
-
-        This message was a reply to a cablegram sent to the Guardian by the National Spiritual Assembly during a meeting in October 1946, reporting, “… HELPFUL CONFERENCE TEMPLE TECHNICAL COMMITTEE EUROPEAN PIONEERS DEPARTED SOLVEIG CORBIT, ETTY GRAEFFE, JETTY STRAUB, RITA VAN SOMBECK AND COMMITTEE CHAIRMAN EDNA TRUE FOR SURVEYS CONFERENCES MR. MRS. NEILSEN SCHEDULED SAIL OCTOBER EIGHTEENTH. FIRST PUBLIC MEETING MINNEAPOLIS ATTRACTED OVERFLOW AUDIENCE. NATIONAL ADVERTISING CAMPAIGN AROUSING INTEREST.…”
-
-    *   [^87]:
-
-        28 November 1921.
-
-    *   [^88]:
-
-        The goal towns of the ten countries were the capitals of Sweden, Norway, Denmark, Holland, Belgium, Luxembourg, Italy, Switzerland, Spain, and Portugal.
+    [^88]:         The goal towns of the ten countries were the capitals of Sweden, Norway, Denmark, Holland, Belgium, Luxembourg, Italy, Switzerland, Spain, and Portugal.

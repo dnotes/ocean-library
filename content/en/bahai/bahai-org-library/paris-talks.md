@@ -5,16 +5,18 @@ author: ‘Abdu’l‑Bahá
 access: research
 language: en
 priority: 10
-wordsCount: 43049
+wordsCount: 42565
 _conversionOpts:
   encoding: UTF-8
   reconvert: true
   postPatterns:
+    '/(\s*)\*\s+(\[\^\d+\]:)\s*\n/': '$1$2 '
     '/^(?:\*\s*)*(\[\^[\w\d]+\]:)\s*\n*/': '$1 '
     '/\n\n(.+\\\[\d+\\\])$/': '\n\n$1 {¶=none .cite}'
-  ignoreElements: div.of
+  ignoreElements: 'div.of,nav,a.sd:not(.ef)'
   fnRefEl: sup.ve
-  fnTextEl: a.sd
+  fnTextEl: a.sd.ef
+  converter: html
 sourceUrl: >-
   https://www.bahai.org/library/authoritative-texts/abdul-baha/paris-talks/paris-talks.xhtml?6ef0ac27
 _convertedFrom: >-
@@ -24,73 +26,6 @@ ocnmd_version: 2
 ---
 # Paris Talks
 Addresses Given by ‘Abdu’l‑Bahá in 1911
-
-*   ### Part One
-
-    1.  The Duty of Kindness and Sympathy towards Strangers and Foreigners
-    2.  The Power and Value of True Thought Depend upon Its Manifestation in Action
-    3.  God Is the Great Compassionate Physician Who Alone Gives True Healing
-    4.  The Need for Union between the Peoples of the East and West
-    5.  God Comprehends All; He Cannot Be Comprehended
-    6.  The Pitiful Causes of War, and the Duty of Everyone to Strive for Peace
-    7.  The Sun of Truth
-    8.  The Light of Truth Is Now Shining upon the East and the West
-    9.  The Universal Love
-    10.  The Imprisonment of ‘Abdu’l‑Bahá
-    11.  God’s Greatest Gift to Man
-    12.  The Clouds That Obscure the Sun of Truth
-    13.  Religious Prejudices
-    14.  The Benefits of God to Man
-    15.  Beauty and Harmony in Diversity
-    16.  The True Meaning of the Prophecies Concerning the Coming of Christ
-    17.  The Holy Spirit, the Intermediary Power between God and Man
-    18.  The Two Natures in Man
-    19.  Material and Spiritual Progress
-    20.  The Evolution of Matter and Development of the Soul
-    21.  The Spiritual Meetings in Paris
-    22.  The Two Kinds of Light
-    23.  Spiritual Aspiration in the West
-    24.  Lecture Given at a Studio in Paris
-    25.  Bahá’u’lláh
-    26.  Good Ideas Must Be Carried into Action
-    27.  The True Meaning of Baptism by Water and Fire
-    28.  Discourse at “l’Alliance Spiritualiste”
-    29.  The Evolution of the Spirit
-    30.  The Desires and Prayers of ‘Abdu’l‑Bahá
-    31.  Concerning Body, Soul and Spirit
-    32.  The Bahá’ís Must Work with Heart and Soul to Bring About a Better Condition in the World
-    33.  On Calumny
-    34.  There Can Be No True Happiness and Progress without Spirituality
-    35.  Pain and Sorrow
-    36.  The Perfect Human Sentiments and Virtues
-    37.  The Cruel Indifference of People towards the Suffering of Foreign Races
-    38.  We Must Not Be Discouraged by the Smallness of Our Numbers
-    39.  Words Spoken by ‘Abdu’l‑Bahá in Pastor Wagner’s Church (Foyer de l’Ame) in Paris
-*   ### Part Two
-
-    1.  Eleven Principles
-    2.  Theosophical Society, Paris
-    3.  The First Principle—Search after Truth
-    4.  The Second Principle—The Unity of Mankind
-    5.  The Third Principle—Love and Affection
-    6.  The Fourth Principle—The Acceptance of the Relation between Religion and Science
-    7.  The Fifth Principle—The Abolition of Prejudices
-    8.  The Sixth Principle—Means of Existence
-    9.  The Seventh Principle—Equality of Men
-    10.  The Eighth Principle—Universal Peace
-    11.  The Ninth Principle—The Noninterference of Religion with Politics
-    12.  The Tenth Principle—Equality of Sex
-    13.  The Eleventh Principle—The Power of the Holy Spirit
-    14.  This Great and Glorious Cause
-    15.  The Last Meeting
-*   ### Part Three
-
-    1.  Address by ‘Abdu’l‑Bahá at the Friends’ Meeting House, St. Martin’s Lane, London, W.C.
-    2.  Prayer
-    3.  Evil
-    4.  The Progress of the Soul
-    5.  The Four Kinds of Love
-    6.  Tablet Revealed by ‘Abdu’l‑Bahá
 
 ## Part One
 
@@ -2173,82 +2108,54 @@ But when its members are to be elected, the right which belongs to women, so far
 
     *   #### 5\. God Comprehends All; He Cannot Be Comprehended
 
-        *   [^1]:
-
-            John 14:11.
+        [^1]:             John 14:11.
 
     *   #### 12\. The Clouds That Obscure the Sun of Truth
 
-        *   [^1]:
+        [^1]:             Matthew 24:30, 16:27.
 
-            Matthew 24:30, 16:27.
-
-        *   [^2]:
-
-            John 3:13.
+        [^2]:             John 3:13.
 
     *   #### 13\. Religious Prejudices
 
-        *   [^1]:
-
-            John 18:11.
+        [^1]:             John 18:11.
 
     *   #### 17\. The Holy Spirit, the Intermediary Power between God and Man
 
-        *   [^1]:
-
-            Manifestations of God.
+        [^1]:             Manifestations of God.
 
     *   #### 22\. The Two Kinds of Light
 
-        *   [^1]:
-
-            Exodus 3:2.
+        [^1]:             Exodus 3:2.
 
     *   #### 25\. Bahá’u’lláh
 
-        *   [^1]:
-
-            A certain man who was present when Badí‘ was told he should carry the Epistle to the S͟háh saw him transfigured; he became radiant.
+        [^1]:             A certain man who was present when Badí‘ was told he should carry the Epistle to the S͟háh saw him transfigured; he became radiant.
 
     *   #### 27\. The True Meaning of Baptism by Water and Fire
 
-        *   [^1]:
+        [^1]:             John 3:5.
 
-            John 3:5.
-
-        *   [^2]:
-
-            Matthew 3:11.
+        [^2]:             Matthew 3:11.
 
     *   #### 29\. The Evolution of the Spirit
 
-        *   [^1]:
-
-            i.e.—All good actions bring their own reward.
+        [^1]:             i.e.—All good actions bring their own reward.
 
     *   #### 31\. Concerning Body, Soul and Spirit
 
-        *   [^1]:
-
-            A small orange-tree on the table nearby.
+        [^1]:             A small orange-tree on the table nearby.
 
     *   #### 33\. On Calumny
 
-        *   [^1]:
-
-            i.e.—Divine Manifestation.
+        [^1]:             i.e.—Divine Manifestation.
 
 *   ### Part Two
 
     *   #### 46\. The Sixth Principle—Means of Existence
 
-        *   [^1]:
-
-            “Give me neither poverty nor riches.”—Proverbs 30:8.
+        [^1]:             “Give me neither poverty nor riches.”—Proverbs 30:8.
 
     *   #### 52\. This Great and Glorious Cause
 
-        *   [^1]:
-
-            Matthew 18:18.
+        [^1]:             Matthew 18:18.

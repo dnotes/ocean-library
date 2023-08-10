@@ -5,16 +5,18 @@ author: Bahá’u’lláh
 access: research
 language: en
 priority: 10
-wordsCount: 67348
+wordsCount: 67163
 _conversionOpts:
   encoding: UTF-8
   reconvert: true
   postPatterns:
+    '/(\s*)\*\s+(\[\^\d+\]:)\s*\n/': '$1$2 '
     '/^(?:\*\s*)*(\[\^[\w\d]+\]:)\s*\n*/': '$1 '
     '/\n\n(.+\\\[\d+\\\])$/': '\n\n$1 {¶=none .cite}'
-  ignoreElements: div.of
+  ignoreElements: 'div.of,nav,a.sd:not(.ef)'
   fnRefEl: sup.ve
-  fnTextEl: a.sd
+  fnTextEl: a.sd.ef
+  converter: html
 sourceUrl: >-
   https://www.bahai.org/library/authoritative-texts/bahaullah/tablets-bahaullah/tablets-bahaullah.xhtml?40bf8561
 _convertedFrom: >-
@@ -26,26 +28,6 @@ ocnmd_version: 2
 revealed after the Kitáb-i-Aqdas
 
 Compiled by the Research Department of the Universal House of Justice and translated by Habib Taherzadeh with the assistance of a Committee at the Bahá’í World Centre
-
-*   Lawḥ-i-Karmil (Tablet of Carmel)
-*   Lawḥ-i-Aqdas (The Most Holy Tablet)
-*   Bis_hárát (Glad-Tidings)
-*   Ṭarázát (Ornaments)
-*   Tajallíyát (Effulgences)
-*   Kalimát-i-Firdawsíyyih (Words of Paradise)
-*   Lawḥ-i-Dunyá (Tablet of the World)
-*   Ishráqát (Splendors)
-*   Lawḥ-i-Ḥikmat (Tablet of Wisdom)
-*   Aṣl-i-Kullu’l-Khayr (Words of Wisdom)
-*   Lawḥ-i-Maqṣúd (Tablet of Maqṣúd)
-*   Súriy-i-Vafá (Tablet to Vafá)
-*   Lawḥ-i-Síyyid-i-Mihdíy-i-Dahají (Tablet to Siyyid Mihdíy-i-Dahají)
-*   Lawḥ-i-Burhán (Tablet of the Proof)
-*   Kitáb-i-‘Ahd (Book of the Covenant)
-*   Lawḥ-i-Arḍ-i-Bá (Tablet of the Land of Bá)
-*   Excerpts from Other Tablets
-
-*   Key to Passages Translated by Shoghi Effendi
 
 References to the Qur’án
 
@@ -1580,408 +1562,224 @@ Wherever possible, translations made by Shoghi Effendi have been used in prepari
 
 *   ### 2\. Lawḥ-i-Aqdas (The Most Holy Tablet)
 
-    *   [^1]:
+    [^1]:         Sometimes referred to as Tablet to the Christians.
 
-        Sometimes referred to as Tablet to the Christians.
+    [^2]:         Jesus.
 
-    *   [^2]:
-
-        Jesus.
-
-    *   [^3]:
-
-        Jesus.
+    [^3]:         Jesus.
 
 *   ### 3\. Bis_hárát (Glad-Tidings)
 
-    *   [^1]:
-
-        Jesus.
+    [^1]:         Jesus.
 
 *   ### 4\. Ṭarázát (Ornaments)
 
-    *   [^1]:
+    [^1]:         Qur’án 81:6 & 10.
 
-        Qur’án 81:6 & 10.
+    [^2]:         Mírzá Hádí Dawlat-Ábádí, one of the divines of Iṣfahán, who became a follower of the Báb, later supported Mírzá Yaḥyá, and was appointed his representative in Írán and his successor. During the persecutions against the Bábís he recanted his faith.
 
-    *   [^2]:
+    [^3]:         The insignia of a mullá.
 
-        Mírzá Hádí Dawlat-Ábádí, one of the divines of Iṣfahán, who became a follower of the Báb, later supported Mírzá Yaḥyá, and was appointed his representative in Írán and his successor. During the persecutions against the Bábís he recanted his faith.
-
-    *   [^3]:
-
-        The insignia of a mullá.
-
-    *   [^4]:
-
-        Qur’án 6:91.
+    [^4]:         Qur’án 6:91.
 
 *   ### 5\. Tajallíyát (Effulgences)
 
-    *   [^1]:
+    [^1]:         Ustád ‘Alí-Akbar, one of the staunch believers in Yazd. He designed the Mas_hriqu’l-Ad_hkár of ‘Is_hqábád and his design was approved by ‘Abdu’l‑Bahá. Ustád ‘Alí-Akbar offered up his life as a martyr in Yazd in 1903.
 
-        Ustád ‘Alí-Akbar, one of the staunch believers in Yazd. He designed the Mas_hriqu’l-Ad_hkár of ‘Is_hqábád and his design was approved by ‘Abdu’l‑Bahá. Ustád ‘Alí-Akbar offered up his life as a martyr in Yazd in 1903.
-
-    *   [^2]:
-
-        Arabic.
+    [^2]:         Arabic.
 
 *   ### 6\. Kalimát-i-Firdawsíyyih (Words of Paradise)
 
-    *   [^1]:
+    [^1]:         Ḥájí Mírzá Ḥaydar-‘Alí, outstanding Persian Bahá’í teacher and author. He spent nine years in prison and exile in Khártúm, traveled extensively in Írán, and passed away in 1920 in the Holy Land. Western pilgrims knew him as the Angel of Mount Carmel.
 
-        Ḥájí Mírzá Ḥaydar-‘Alí, outstanding Persian Bahá’í teacher and author. He spent nine years in prison and exile in Khártúm, traveled extensively in Írán, and passed away in 1920 in the Holy Land. Western pilgrims knew him as the Angel of Mount Carmel.
+    [^2]:         Qur’án 34:12.
 
-    *   [^2]:
+    [^3]:         Jesus.
 
-        Qur’án 34:12.
+    [^4]:         Ḥájí Mullá Hádí Sabzívarí, a renowned philosopher and poet of Írán contemporary with Bahá’u’lláh. He passed away in 1873.
 
-    *   [^3]:
+    [^5]:         Mírzá Abu’l-Qásim Faráhání, the Qá’im Maqám, a distinguished poet and scholar during the reign of Fatḥ ‘Alí S_háh. He was a friend of Mírzá Buzurg, father of Bahá’u’lláh. Qá’im Maqám became Prime Minister of Persia in 1821, but in 1835 he was put to death by order of Muḥammad S_háh, at the instigation of Ḥájí Mírzá Áqásí.
 
-        Jesus.
+    [^6]:         cf. Qur’án 4:129.
 
-    *   [^4]:
+    [^7]:         Qur’án 59:9.
 
-        Ḥájí Mullá Hádí Sabzívarí, a renowned philosopher and poet of Írán contemporary with Bahá’u’lláh. He passed away in 1873.
+    [^8]:         Muḥammad Javád-i-Qazvíní, upon whom Bahá’u’lláh bestowed the title Ismu’lláhí’l-Júd (The Name of God, Bounty). He transcribed numerous Tablets of Bahá’u’lláh during His Ministry, but subsequently broke the Covenant. (See God Passes By, Chapter XV, paragraph beginning “Far from being allayed by the provisions of a Will…” and Chapter XX, paragraph beginning “And finally, he who…”.)
 
-    *   [^5]:
+    [^9]:         A village near Iṣfahán.
 
-        Mírzá Abu’l-Qásim Faráhání, the Qá’im Maqám, a distinguished poet and scholar during the reign of Fatḥ ‘Alí S_háh. He was a friend of Mírzá Buzurg, father of Bahá’u’lláh. Qá’im Maqám became Prime Minister of Persia in 1821, but in 1835 he was put to death by order of Muḥammad S_háh, at the instigation of Ḥájí Mírzá Áqásí.
+    [^10]:         Mírzá Hádí Dawlat-Ábádí, one of the divines of Iṣfahán, who became a follower of the Báb, later supported Mírzá Yaḥyá, and was appointed his representative in Írán and his successor. During the persecutions against the Bábís he recanted his faith.
 
-    *   [^6]:
-
-        cf. Qur’án 4:129.
-
-    *   [^7]:
-
-        Qur’án 59:9.
-
-    *   [^8]:
-
-        Muḥammad Javád-i-Qazvíní, upon whom Bahá’u’lláh bestowed the title Ismu’lláhí’l-Júd (The Name of God, Bounty). He transcribed numerous Tablets of Bahá’u’lláh during His Ministry, but subsequently broke the Covenant. (See God Passes By, Chapter XV, paragraph beginning “Far from being allayed by the provisions of a Will…” and Chapter XX, paragraph beginning “And finally, he who…”.)
-
-    *   [^9]:
-
-        A village near Iṣfahán.
-
-    *   [^10]:
-
-        Mírzá Hádí Dawlat-Ábádí, one of the divines of Iṣfahán, who became a follower of the Báb, later supported Mírzá Yaḥyá, and was appointed his representative in Írán and his successor. During the persecutions against the Bábís he recanted his faith.
-
-    *   [^11]:
-
-        Mírzá Ashraf, who was martyred in the city of Iṣfahán. (See God Passes By, Chapter XII, paragraph beginning “Mullá ‘Alí Ján was conducted on foot from Mázindarán to Ṭihrán…”.)
+    [^11]:         Mírzá Ashraf, who was martyred in the city of Iṣfahán. (See God Passes By, Chapter XII, paragraph beginning “Mullá ‘Alí Ján was conducted on foot from Mázindarán to Ṭihrán…”.)
 
 *   ### 7\. Lawḥ-i-Dunyá (Tablet of the World)
 
-    *   [^1]:
+    [^1]:         The two Hands of the Cause of God, Ḥájí Mullá ‘Alí-Akbar S_háhmírzádí and Ḥájí Abu’l-Ḥasan Ardakání, Amín-i-Iláhí (Trustee of Ḥuqúqu’lláh), were originally arrested in Ṭihrán, imprisoned in Qazvín in the year 1891, and then transferred to prison in Ṭihrán.
 
-        The two Hands of the Cause of God, Ḥájí Mullá ‘Alí-Akbar S_háhmírzádí and Ḥájí Abu’l-Ḥasan Ardakání, Amín-i-Iláhí (Trustee of Ḥuqúqu’lláh), were originally arrested in Ṭihrán, imprisoned in Qazvín in the year 1891, and then transferred to prison in Ṭihrán.
+    [^2]:         Prince Maḥmúd Mírzá, the Jalálu’d’Dawlih, Governor of Yazd, Persia.
 
-    *   [^2]:
-
-        Prince Maḥmúd Mírzá, the Jalálu’d’Dawlih, Governor of Yazd, Persia.
-
-    *   [^3]:
-
-        Jamálu’d-Dín-i-Afghání. (See God Passes By Chapter XX, paragraph beginning “In Persia, the cradle of the Faith…” and Chapter XXI, paragraph beginning “To the assassination of the tyrannical Náṣiri’d-Dín S_háh…”.)
+    [^3]:         Jamálu’d-Dín-i-Afghání. (See God Passes By Chapter XX, paragraph beginning “In Persia, the cradle of the Faith…” and Chapter XXI, paragraph beginning “To the assassination of the tyrannical Náṣiri’d-Dín S_háh…”.)
 
 *   ### 8\. Ishráqát (Splendors)
 
-    *   [^1]:
+    [^1]:         i.e., the letter “B,” the second letter of the alphabet.
 
-        i.e., the letter “B,” the second letter of the alphabet.
+    [^2]:         The opening chapter of the Qur’án, which begins with the letter “B”: Bismi’lláhi’r-Raḥmáni’r-Raḥím (In the Name of God, the Compassionate, the Merciful). This chapter of the Qur’án was revealed twice, once in Mecca and once in Medina.
 
-    *   [^2]:
+    [^3]:         The opening chapter of the Qur’án, which begins with the letter “B”: Bismi’lláhi’r-Raḥmáni’r-Raḥím (In the Name of God, the Compassionate, the Merciful). This chapter of the Qur’án was revealed twice, once in Mecca and once in Medina.
 
-        The opening chapter of the Qur’án, which begins with the letter “B”: Bismi’lláhi’r-Raḥmáni’r-Raḥím (In the Name of God, the Compassionate, the Merciful). This chapter of the Qur’án was revealed twice, once in Mecca and once in Medina.
+    [^4]:         Jesus.
 
-    *   [^3]:
+    [^5]:         Moses.
 
-        The opening chapter of the Qur’án, which begins with the letter “B”: Bismi’lláhi’r-Raḥmáni’r-Raḥím (In the Name of God, the Compassionate, the Merciful). This chapter of the Qur’án was revealed twice, once in Mecca and once in Medina.
+    [^6]:         This Tablet was addressed to Jalíl-i-Khú’í, one of the early believers in Ádhirbayján, Persia. After the Ascension of Bahá’u’lláh he broke the Covenant.
 
-    *   [^4]:
+    [^7]:         cf. Qur’án 14:33.
 
-        Jesus.
+    [^8]:         cf. Qur’án 21:23.
 
-    *   [^5]:
+    [^9]:         Mecca.
 
-        Moses.
+    [^10]:         Qur’án 3:91.
 
-    *   [^6]:
+    [^11]:         Muḥammad.
 
-        This Tablet was addressed to Jalíl-i-Khú’í, one of the early believers in Ádhirbayján, Persia. After the Ascension of Bahá’u’lláh he broke the Covenant.
+    [^12]:         Mírzá Yaḥyá.
 
-    *   [^7]:
+    [^13]:         Muḥammad.
 
-        cf. Qur’án 14:33.
+    [^14]:         Qur’án 83:6.
 
-    *   [^8]:
+    [^15]:         Moses.
 
-        cf. Qur’án 21:23.
+    [^16]:         Qur’án 14:5.
 
-    *   [^9]:
+    [^17]:         Jesus.
 
-        Mecca.
+    [^18]:         Adrianople.
 
-    *   [^10]:
+    [^19]:         Arabic.
 
-        Qur’án 3:91.
+    [^20]:         Persian.
 
-    *   [^11]:
+    [^21]:         Muḥammad.
 
-        Muḥammad.
+    [^22]:         The Imáms.
 
-    *   [^12]:
+    [^23]:         The Báb.
 
-        Mírzá Yaḥyá.
+    [^24]:         Kitáb-i-Aqdas.
 
-    *   [^13]:
+    [^25]:         One of the early believers who is best known to the friends for his reliable transcriptions of the Tablets of Bahá’u’lláh. (See Memorials of the Faithful, Chapter 58: “Zaynu’l-Muqarrabín”.)
 
-        Muḥammad.
-
-    *   [^14]:
-
-        Qur’án 83:6.
-
-    *   [^15]:
-
-        Moses.
-
-    *   [^16]:
-
-        Qur’án 14:5.
-
-    *   [^17]:
-
-        Jesus.
-
-    *   [^18]:
-
-        Adrianople.
-
-    *   [^19]:
-
-        Arabic.
-
-    *   [^20]:
-
-        Persian.
-
-    *   [^21]:
-
-        Muḥammad.
-
-    *   [^22]:
-
-        The Imáms.
-
-    *   [^23]:
-
-        The Báb.
-
-    *   [^24]:
-
-        Kitáb-i-Aqdas.
-
-    *   [^25]:
-
-        One of the early believers who is best known to the friends for his reliable transcriptions of the Tablets of Bahá’u’lláh. (See Memorials of the Faithful, Chapter 58: “Zaynu’l-Muqarrabín”.)
-
-    *   [^26]:
-
-        Such loans as bear no interest and are repayable whenever the borrower pleases.
+    [^26]:         Such loans as bear no interest and are repayable whenever the borrower pleases.
 
 *   ### 9\. Lawḥ-i-Ḥikmat (Tablet of Wisdom)
 
-    *   [^1]:
+    [^1]:         In a Tablet Bahá’u’lláh states, “The Holy Tree \[Sadrat\] is, in a sense, the Manifestation of the One True God, exalted be He. The Blessed Tree in the land of Za‘farán referreth to the land which is flourishing, blessed, holy and all-perfumed, where that Tree hath been planted.”
 
-        In a Tablet Bahá’u’lláh states, “The Holy Tree \[Sadrat\] is, in a sense, the Manifestation of the One True God, exalted be He. The Blessed Tree in the land of Za‘farán referreth to the land which is flourishing, blessed, holy and all-perfumed, where that Tree hath been planted.”
+    [^2]:         In many of the passages that follow concerning the Greek philosophers, Bahá’u’lláh quotes verbatim from the works of such Muslim historians as Abu’l-Fatḥ-i-Sháhristání (1076–1153 A.D.) and Imádu’d-Dín Abu’l-Fidá (1273–1331 A.D.).
 
-    *   [^2]:
+    [^3]:         In one of His Tablets Bahá’u’lláh wrote: “The first person who devoted himself to philosophy was Idrís. Thus was he named. Some called him also Hermes. In every tongue he hath a special name. He it is who hath set forth in every branch of philosophy thorough and convincing statements. After him Balínús derived his knowledge and sciences from the Hermetic Tablets and most of the philosophers who followed him made their philosophical and scientific discoveries from his words and statements.…” In the Qur’án, Súra 19, verses 57 and 58, is written: “And commemorate Idrís in the Book; for he was a man of truth, a Prophet; And we uplifted him to a place on high.”
 
-        In many of the passages that follow concerning the Greek philosophers, Bahá’u’lláh quotes verbatim from the works of such Muslim historians as Abu’l-Fatḥ-i-Sháhristání (1076–1153 A.D.) and Imádu’d-Dín Abu’l-Fidá (1273–1331 A.D.).
-
-    *   [^3]:
-
-        In one of His Tablets Bahá’u’lláh wrote: “The first person who devoted himself to philosophy was Idrís. Thus was he named. Some called him also Hermes. In every tongue he hath a special name. He it is who hath set forth in every branch of philosophy thorough and convincing statements. After him Balínús derived his knowledge and sciences from the Hermetic Tablets and most of the philosophers who followed him made their philosophical and scientific discoveries from his words and statements.…” In the Qur’án, Súra 19, verses 57 and 58, is written: “And commemorate Idrís in the Book; for he was a man of truth, a Prophet; And we uplifted him to a place on high.”
-
-    *   [^4]:
-
-        In many of the passages that follow concerning the Greek philosophers, Bahá’u’lláh quotes verbatim from the works of such Muslim historians as Abu’l-Fatḥ-i-Sháhristání (1076–1153 A.D.) and Imádu’d-Dín Abu’l-Fidá (1273–1331 A.D.).
+    [^4]:         In many of the passages that follow concerning the Greek philosophers, Bahá’u’lláh quotes verbatim from the works of such Muslim historians as Abu’l-Fatḥ-i-Sháhristání (1076–1153 A.D.) and Imádu’d-Dín Abu’l-Fidá (1273–1331 A.D.).
 
 *   ### 10\. Aṣl-i-Kullu’l-Khayr (Words of Wisdom)
 
-    *   [^1]:
-
-        Although research has established that this Tablet was revealed prior to the Kitáb-i-Aqdas, it is being retained for the time being in this publication.
+    [^1]:         Although research has established that this Tablet was revealed prior to the Kitáb-i-Aqdas, it is being retained for the time being in this publication.
 
 *   ### 11\. Lawḥ-i-Maqṣúd (Tablet of Maqṣúd)
 
-    *   [^1]:
+    [^1]:         Qur’án 20:106.
 
-        Qur’án 20:106.
+    [^2]:         Muḥammad.
 
-    *   [^2]:
+    [^3]:         Mecca.
 
-        Muḥammad.
+    [^4]:         Arabic.
 
-    *   [^3]:
-
-        Mecca.
-
-    *   [^4]:
-
-        Arabic.
-
-    *   [^5]:
-
-        Moses.
+    [^5]:         Moses.
 
 *   ### 12\. Súriy-i-Vafá (Tablet to Vafá)
 
-    *   [^1]:
+    [^1]:         Muḥammad Ḥusayn, one of the early believers of S_híráz, surnamed “Vafá” (Fidelity) by Bahá’u’lláh.
 
-        Muḥammad Ḥusayn, one of the early believers of S_híráz, surnamed “Vafá” (Fidelity) by Bahá’u’lláh.
+    [^2]:         The Most Great Name.
 
-    *   [^2]:
+    [^3]:         Mullá Ḥusayn.
 
-        The Most Great Name.
-
-    *   [^3]:
-
-        Mullá Ḥusayn.
-
-    *   [^4]:
-
-        The maker of the Golden Calf. See Qur’án 20:87–98.
+    [^4]:         The maker of the Golden Calf. See Qur’án 20:87–98.
 
 *   ### 13\. Lawḥ-i-Síyyid-i-Mihdíy-i-Dahají (Tablet to Siyyid Mihdíy-i-Dahají)
 
-    *   [^1]:
+    [^1]:         Siyyid Mihdíy-i-Dahají, to whom this Tablet was addressed, had been given by Bahá’u’lláh the title Ismu’lláhí’l-Mihdí, “The Name of God, Mihdí.” He later broke the Covenant. (See God Passes By, Chapter XXI, paragraph beginning “And finally, he who, from the moment the Divine Covenant was born…”.)
 
-        Siyyid Mihdíy-i-Dahají, to whom this Tablet was addressed, had been given by Bahá’u’lláh the title Ismu’lláhí’l-Mihdí, “The Name of God, Mihdí.” He later broke the Covenant. (See God Passes By, Chapter XXI, paragraph beginning “And finally, he who, from the moment the Divine Covenant was born…”.)
-
-    *   [^2]:
-
-        Nabíl-i-Akbar. See Lawḥ-i-Ḥikmat, beginning note
+    [^2]:         Nabíl-i-Akbar. See Lawḥ-i-Ḥikmat, beginning note
 
 *   ### 14\. Lawḥ-i-Burhán (Tablet of the Proof)
 
-    *   [^1]:
+    [^1]:         Mecca.
 
-        Mecca.
+    [^2]:         Fáṭimih, daughter of Muḥammad.
 
-    *   [^2]:
+    [^3]:         Jesus.
 
-        Fáṭimih, daughter of Muḥammad.
+    [^4]:         Qur’án 4:96.
 
-    *   [^3]:
+    [^5]:         Jesus.
 
-        Jesus.
+    [^6]:         The Sacred Lote-Tree, the Tree beyond which there is no passing (See Qur’án 53:8–18). A symbol of the Manifestation of God. (See God Passes By, Chapter VI, paragraph beginning “In the name He bore…”.)
 
-    *   [^4]:
+    [^7]:         Qur’án 2:88.
 
-        Qur’án 4:96.
+    [^8]:         Moses.
 
-    *   [^5]:
+    [^9]:         Jesus.
 
-        Jesus.
+    [^10]:         Napoleon III.
 
-    *   [^6]:
+    [^11]:         Qur’án 40:29.
 
-        The Sacred Lote-Tree, the Tree beyond which there is no passing (See Qur’án 53:8–18). A symbol of the Manifestation of God. (See God Passes By, Chapter VI, paragraph beginning “In the name He bore…”.)
+    [^12]:         Muḥammad.
 
-    *   [^7]:
+    [^13]:         Fáṭimih, daughter of Muḥammad.
 
-        Qur’án 2:88.
+    [^14]:         Adrianople.
 
-    *   [^8]:
+    [^15]:         The Imám-Jum’ih of Iṣfahán, see Lawḥ-i-Burhán, beginning note
 
-        Moses.
+    [^16]:         Fáṭimih.
 
-    *   [^9]:
+    [^17]:         The King of Martyrs and the Beloved of Martyrs.
 
-        Jesus.
+    [^18]:         Jesus.
 
-    *   [^10]:
-
-        Napoleon III.
-
-    *   [^11]:
-
-        Qur’án 40:29.
-
-    *   [^12]:
-
-        Muḥammad.
-
-    *   [^13]:
-
-        Fáṭimih, daughter of Muḥammad.
-
-    *   [^14]:
-
-        Adrianople.
-
-    *   [^15]:
-
-        The Imám-Jum’ih of Iṣfahán, see Lawḥ-i-Burhán, beginning note
-
-    *   [^16]:
-
-        Fáṭimih.
-
-    *   [^17]:
-
-        The King of Martyrs and the Beloved of Martyrs.
-
-    *   [^18]:
-
-        Jesus.
-
-    *   [^19]:
-
-        Ishmael.
+    [^19]:         Ishmael.
 
 *   ### 15\. Kitáb-i-‘Ahd (Book of the Covenant)
 
-    *   [^1]:
-
-        Qur’án 104:1–2.
+    [^1]:         Qur’án 104:1–2.
 
 *   ### 16\. Lawḥ-i-Arḍ-i-Bá (Tablet of the Land of Bá)
 
-    *   [^1]:
-
-        Beirut. This Tablet is “a letter dictated by Bahá’u’lláh and addressed by Mírzá Áqá Ján, His amanuensis, to ‘Abdu’l‑Bahá while the latter was on a visit to Beirut.” (The World Order of Bahá’u’lláh, paragraph beginning “In a letter dictated by Bahá’u’lláh…”.)
+    [^1]:         Beirut. This Tablet is “a letter dictated by Bahá’u’lláh and addressed by Mírzá Áqá Ján, His amanuensis, to ‘Abdu’l‑Bahá while the latter was on a visit to Beirut.” (The World Order of Bahá’u’lláh, paragraph beginning “In a letter dictated by Bahá’u’lláh…”.)
 
 *   ### 17\. Excerpts from Other Tablets
 
     *   #### “We make mention of him who hath been attracted by Our…”
 
-        *   [^1]:
-
-            Qur’án 7:139.
+        [^1]:             Qur’án 7:139.
 
     *   #### “O Thou who bearest My Name, Júd \[Bounty\]! Upon…”
 
-        *   [^1]:
-
-            Muḥammad Javád-i-Qazvíní, upon whom Bahá’u’lláh bestowed the title Ismu’lláhí’l-Júd (The Name of God, Bounty). He transcribed numerous Tablets of Bahá’u’lláh during His Ministry, but subsequently broke the Covenant. (See God Passes By, Chapter XV, paragraph beginning “Far from being allayed by the provisions of a Will…” and Chapter XX, paragraph beginning “And finally, he who…”.)
+        [^1]:             Muḥammad Javád-i-Qazvíní, upon whom Bahá’u’lláh bestowed the title Ismu’lláhí’l-Júd (The Name of God, Bounty). He transcribed numerous Tablets of Bahá’u’lláh during His Ministry, but subsequently broke the Covenant. (See God Passes By, Chapter XV, paragraph beginning “Far from being allayed by the provisions of a Will…” and Chapter XX, paragraph beginning “And finally, he who…”.)
 
     *   #### “O Ḥaydar! This Wronged One hath heard thy voice…”
 
-        *   [^1]:
-
-            Ḥájí Mírzá Ḥaydar-‘Alí, outstanding Persian Bahá’í teacher and author. He spent nine years in prison and exile in Khártúm, traveled extensively in Írán, and passed away in 1920 in the Holy Land. Western pilgrims knew him as the Angel of Mount Carmel.
+        [^1]:             Ḥájí Mírzá Ḥaydar-‘Alí, outstanding Persian Bahá’í teacher and author. He spent nine years in prison and exile in Khártúm, traveled extensively in Írán, and passed away in 1920 in the Holy Land. Western pilgrims knew him as the Angel of Mount Carmel.
 
     *   #### “This Wronged One doth mention him who hath set his…”
 
-        *   [^1]:
+        [^1]:             Psalms 59:9; 108:10.
 
-            Psalms 59:9; 108:10.
-
-        *   [^2]:
-
-            Qur’án 14:5.
+        [^2]:             Qur’án 14:5.

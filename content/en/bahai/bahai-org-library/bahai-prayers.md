@@ -5,16 +5,18 @@ author: Prayers
 access: research
 language: en
 priority: 10
-wordsCount: 52841
+wordsCount: 52581
 _conversionOpts:
   encoding: UTF-8
   reconvert: true
   postPatterns:
+    '/(\s*)\*\s+(\[\^\d+\]:)\s*\n/': '$1$2 '
     '/^(?:\*\s*)*(\[\^[\w\d]+\]:)\s*\n*/': '$1 '
     '/\n\n(.+\\\[\d+\\\])$/': '\n\n$1 {¶=none .cite}'
-  ignoreElements: div.of
+  ignoreElements: 'div.of,nav,a.sd:not(.ef)'
   fnRefEl: sup.ve
-  fnTextEl: a.sd
+  fnTextEl: a.sd.ef
+  converter: html
 sourceUrl: >-
   https://www.bahai.org/library/authoritative-texts/prayers/bahai-prayers/bahai-prayers.xhtml?85b3bd12
 _convertedFrom: >-
@@ -32,89 +34,6 @@ Blessed is the spot, and the house, and the place, and the city, and the heart, 
 Intone, O My servant, the verses of God that have been received by thee, as intoned by them who have drawn nigh unto Him, that the sweetness of thy melody may kindle thine own soul, and attract the hearts of all men. Whoso reciteth, in the privacy of his chamber, the verses revealed by God, the scattering angels of the Almighty shall scatter abroad the fragrance of the words uttered by his mouth, and shall cause the heart of every righteous man to throb. Though he may, at first, remain unaware of its effect, yet the virtue of the grace vouchsafed unto him must needs sooner or later exercise its influence upon his soul. Thus have the mysteries of the Revelation of God been decreed by virtue of the Will of Him Who is the Source of power and wisdom.
 
 —Bahá’u’lláh
-
-*   ### Obligatory Prayers
-
-    *   Short Obligatory Prayer
-    *   Medium Obligatory Prayer
-    *   Long Obligatory Prayer
-*   ### General Prayers
-
-    *   Aid and Assistance
-    *   America
-    *   ### Children
-
-        *   Infants
-    *   ### The Departed
-
-        *   Prayer for the Dead
-        *   ### General Prayers for the Departed
-
-                *   For Women
-    *   Detachment
-    *   ### Evening
-
-        *   Midnight
-    *   ### Families
-
-        *   Parents
-        *   Husbands
-    *   Firmness in the Covenant
-    *   Forgiveness
-    *   The Fund
-    *   ### Gatherings
-
-        *   The Nineteen Day Feast
-    *   ### Healing
-
-        *   For Women
-        *   For Infants
-        *   The Long Healing Prayer
-    *   Humanity
-    *   Marriage
-    *   Morning
-    *   Nearness to God
-    *   Praise and Gratitude
-    *   Protection
-    *   Service
-    *   Spiritual Growth
-    *   Steadfastness
-    *   ### Teaching
-
-        *   General Prayers for Teaching
-        *   ### From the Tablets of the Divine Plan
-
-                *   For the United States and Canada
-                *   For the Northeastern States
-                *   For the Southern States
-                *   For the Central States
-                *   For the Western States
-                *   For Canada
-    *   Tests and Difficulties
-    *   Triumph of the Cause
-    *   Unity
-    *   ### Women
-
-        *   Expectant Mothers
-    *   Youth
-*   ### Occasional Prayers
-
-    *   The Fast
-    *   Ḥuqúqu’lláh: The Right of God
-    *   Intercalary Days
-    *   Martyrs and Their Families
-    *   Naw-Rúz
-    *   Spiritual Assembly
-*   ### Special Tablets
-
-    *   Tablet of Aḥmad
-    *   Fire Tablet
-    *   Tablet of the Holy Mariner
-    *   ### Tablets of Visitation
-
-        *   Bahá’u’lláh and the Báb
-        *   ‘Abdu’l‑Bahá
-*   Notes and References in this Publication
 
 ## Obligatory Prayers
 
@@ -2662,60 +2581,34 @@ Thou art the Bestower, the Pitiful, the Most Bountiful, the Gracious, the Mercif
 
 *   ### Obligatory Prayers
 
-    *   [^1]:
-
-        Alláh-u-Abhá.
+    [^1]:         Alláh-u-Abhá.
 
 *   ### General Prayers
 
-    *   [^2]:
+    [^2]:         Qur’án 3:67.
 
-        Qur’án 3:67.
+    [^3]:         Qur’án 56:62.
 
-    *   [^3]:
+    [^4]:         Qur’án 51:56.
 
-        Qur’án 56:62.
+    [^5]:         Qur’án 55:19–22.
 
-    *   [^4]:
+    [^6]:         Qur’án 6:103.
 
-        Qur’án 51:56.
+    [^7]:         The original of this prayer for protection is written in the Báb’s own hand, in the form of a pentacle.
 
-    *   [^5]:
+    [^8]:         O Thou the Exalted, the Most Exalted!
 
-        Qur’án 55:19–22.
+    [^9]:         Qur’án 24:35.
 
-    *   [^6]:
+    [^10]:         cf. Qur’án 28:29.
 
-        Qur’án 6:103.
-
-    *   [^7]:
-
-        The original of this prayer for protection is written in the Báb’s own hand, in the form of a pentacle.
-
-    *   [^8]:
-
-        O Thou the Exalted, the Most Exalted!
-
-    *   [^9]:
-
-        Qur’án 24:35.
-
-    *   [^10]:
-
-        cf. Qur’án 28:29.
-
-    *   [^11]:
-
-        Qur’án 76:5.
+    [^11]:         Qur’án 76:5.
 
 *   ### Occasional Prayers
 
-    *   [^12]:
-
-        The Days of Há, Intercalary Days.
+    [^12]:         The Days of Há, Intercalary Days.
 
 *   ### Special Tablets
 
-    *   [^13]:
-
-        The Báb.
+    [^13]:         The Báb.

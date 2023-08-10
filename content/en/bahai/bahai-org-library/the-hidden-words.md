@@ -13,6 +13,7 @@ _conversionOpts:
   chNumberFromText: true
   vPattern: /^\d+\.\n\n\d+\s+.+\n.+$/
   postPatterns:
+    '/(\s*)\*\s+(\[\^\d+\]:)\s*\n/': '$1$2 '
     '/^([a-zA-Z].+)\n\n/': '$1 {¶=none}\n\n'
     '/^\d+\.\n\n(\d+)\s+(.+)\n(.+) {¶=none}$/': $2 \\n$3
     /^The mystic and wondrous Bride.+/: '$& {¶=none}'

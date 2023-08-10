@@ -5,19 +5,21 @@ author: various
 access: research
 language: en
 priority: 10
-wordsCount: 20746
+wordsCount: 20673
 _conversionOpts:
   encoding: UTF-8
   reconvert: true
   postPatterns:
+    '/(\s*)\*\s+(\[\^\d+\]:)\s*\n/': '$1$2 '
     '/^(?:\*\s*)*(\[\^[\w\d]+\]:)\s*\n*/': '$1 '
     '/\n\n(.+\\\[\d+\\\])$/': '\n\n$1 {¶=none .cite}'
-  ignoreElements: div.of
+  ignoreElements: 'div.of,nav,a.sd:not(.ef)'
   fnRefEl: sup.ve
-  fnTextEl: a.sd
+  fnTextEl: a.sd.ef
   metaElements:
     author: various
     collection: Compilations
+  converter: html
 sourceUrl: >-
   https://www.bahai.org/library/authoritative-texts/compilations/crisis-victory/crisis-victory.xhtml?423e27a5
 _convertedFrom: >-
@@ -26,20 +28,12 @@ _softHyphenWords: ''
 collectionTitle: Compilations
 ocnmd_version: 2
 collectionId: compilations
+collection: Compilations
 ---
 # Crisis and Victory
 October 1987
 
 Compiled by the Research Department of the Universal House of Justice
-
-1.  “The hosts of the world … are from every side launching their assault”
-    ‘Abdu’l-Bahá, quoted in “The Advent of Divine Justice”, p. 6
-2.  “The resistless march of the Faith of Bahá’u’lláh”
-    Shoghi Effendi, “Messages to America: Selected Letters and Cablegrams Addressed to the Bahá’ís of North America 1932–1946”, p. 51
-3.  “The security of our precious Faith”
-    Shoghi Effendi, “Messages to the Bahá’í World, 1950–1957”, p. 123
-4.  Index
-5.  Notes
 
 “The hosts of the world … are from every side launching their assault”
 (‘Abdu’l-Bahá, cited in “The Advent of Divine Justice”, p. 6)

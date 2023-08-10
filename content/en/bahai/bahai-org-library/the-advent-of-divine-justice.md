@@ -5,16 +5,18 @@ author: Shoghi Effendi
 access: research
 language: en
 priority: 10
-wordsCount: 33364
+wordsCount: 32824
 _conversionOpts:
   encoding: UTF-8
   reconvert: true
   postPatterns:
+    '/(\s*)\*\s+(\[\^\d+\]:)\s*\n/': '$1$2 '
     '/^(?:\*\s*)*(\[\^[\w\d]+\]:)\s*\n*/': '$1 '
     '/\n\n(.+\\\[\d+\\\])$/': '\n\n$1 {¶=none .cite}'
-  ignoreElements: div.of
+  ignoreElements: 'div.of,nav,a.sd:not(.ef)'
   fnRefEl: sup.ve
-  fnTextEl: a.sd
+  fnTextEl: a.sd.ef
+  converter: html
 sourceUrl: >-
   https://www.bahai.org/library/authoritative-texts/shoghi-effendi/advent-divine-justice/advent-divine-justice.xhtml?87c35a8b
 _convertedFrom: >-
@@ -24,84 +26,6 @@ ocnmd_version: 2
 ---
 # The Advent of Divine Justice
 by Shoghi Effendi
-
-*   ### Overview of the North American Bahá’í Community—Its Successes, Responsibilities, and Glorious Future
-
-    *   Overview of the North American Bahá’í Community—Its Successes, Responsibilities, and Glorious Future
-    *   The Health of the Community
-    *   The Crises Affecting the Bahá’í and Non-Bahá’í Worlds
-    *   ### The Unique Station of the North American Bahá’í Communities
-
-        *   The Prime Mover and Pattern for Western Bahá’í Community
-        *   The Torchbearers of the Cause
-        *   The Spiritual Descendants of the Dawn-Breakers
-        *   The Cradle of the Administrative Order
-        *   The Achievements of the American Bahá’ís
-    *   ### The Tasks Lying Ahead of the American Believers
-
-        *   The Spread of the Faith in the Western Hemisphere
-        *   The Spread of the Faith around the World
-        *   The As Yet Unnamed Mission of the Future
-        *   The Opportunities of the Distant Future
-    *   Bahá’u’lláh’s Promised Aid
-    *   The Importance of Daily Exertions
-*   ### Call for the Acquisition of Virtues Needed to Equip the North American Bahá’ís to Fulfill Their Destiny
-
-    *   Call for the Acquisition of Virtues Needed to Equip the North American Bahá’ís to Fulfill Their Destiny
-    *   A Warning about the Shortcomings of North Americans
-    *   The Importance of Utilizing Inherited National Virtues and Qualities
-    *   The Importance of Purging Inherited National Flaws
-    *   ### The Cultivation of Spiritual Qualities Essential for All Teaching Plans, Temple Projects, and Financial Plans
-
-        *   Introduction
-        *   Rectitude of Conduct
-        *   Chastity and Holiness
-        *   Freedom from Prejudice
-        *   Summary—Weapons for Regenerating the Bahá’í and Non-Bahá’í Communities
-*   ### Call for the Fulfillment of the Material Aspect of America’s Task, upon Which Depends Futures Successes
-
-    *   Call for the Fulfillment of the Material Aspect of America’s Task, upon Which Depends Futures Successes
-    *   The Challenge of the Temple
-    *   ### The Challenge of Teaching
-
-        *   Universal Participation
-        *   Universal Participation
-        *   The Urgency of Teaching
-        *   Prerequisites for Successful Teaching
-        *   Prerequisites for Pioneers
-        *   Individual Initiative
-        *   Considering Opportunities and Planning Methods for Expansion and Consolidation
-        *   Working with Administrative Agencies
-        *   Making Teaching the First Priority
-        *   Teaching Minorities
-        *   Winning Homefront Goals
-        *   ### Winning Foreign Goals
-
-            *   Administrative Preparation for Teaching
-            *   Individual Preparation for Teaching
-            *   Assurances of Aid
-            *   Establishing Foundations for Local and National Institutions
-            *   Translating Literature
-            *   Finding Souls of Receptivity and Capacity
-            *   Appeal for Self-Supporting and Deputized Pioneers
-            *   The Importance of Collaborating with Bahá’í Institutions and Native Believers
-            *   The Importance of Self-Supporting Pioneers
-        *   Tribute to Women Pioneers
-        *   Appeal to Youth to Help Win Goals
-        *   The Special Importance of Panama
-*   ### Assurance of the North American Bahá’í Community’s Success in the Unfoldment of ‘Abdu’l‑Bahá’s Tablets of the Divine Plan
-
-    *   Assurance of the North American Bahá’í Community’s Success in the Unfoldment of ‘Abdu’l‑Bahá’s Tablets of the Divine Plan
-    *   ‘Abdu’l‑Bahá’s Assurance of North America’s Destiny
-    *   Shoghi Effendi’s Faith in the North American Bahá’ís
-    *   ### Passages from the Writings of Bahá’u’lláh to Aid in Discharging Multiple Tasks
-
-        *   The High Station of the People of Bahá
-        *   The Greatness of the Day of God
-        *   The Regeneration of Human Life
-        *   Warnings and Counsels about the End of an Age
-        *   The Paramount Importance of Teaching
-*   The Destiny of America
 
 To the beloved of God and the handmaids of the Merciful throughout the United States and Canada.
 

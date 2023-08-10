@@ -5,16 +5,18 @@ author: The Universal House of Justice
 access: research
 language: en
 priority: 10
-wordsCount: 14262
+wordsCount: 14117
 _conversionOpts:
   encoding: UTF-8
   reconvert: true
   postPatterns:
+    '/(\s*)\*\s+(\[\^\d+\]:)\s*\n/': '$1$2 '
     '/^(?:\*\s*)*(\[\^[\w\d]+\]:)\s*\n*/': '$1 '
     '/\n\n(.+\\\[\d+\\\])$/': '\n\n$1 {¶=none .cite}'
-  ignoreElements: div.of
+  ignoreElements: 'div.of,nav,a.sd:not(.ef)'
   fnRefEl: sup.ve
-  fnTextEl: a.sd
+  fnTextEl: a.sd.ef
+  converter: html
 sourceUrl: >-
   https://www.bahai.org/library/authoritative-texts/the-universal-house-of-justice/the-institution-of-the-counsellors/the-institution-of-the-counsellors.xhtml?44058cac
 _convertedFrom: >-
@@ -24,37 +26,6 @@ ocnmd_version: 2
 ---
 # THE INSTITUTION OF THE COUNSELLORS
 A Document Prepared by the Universal House of Justice
-
-*   INTRODUCTION
-
-*   ### INTERNATIONAL AND CONTINENTAL COUNSELLORS AND THE AUXILIARY BOARDS
-
-    *   Historical Perspective
-    *   The International Teaching Centre
-    *   The Continental Boards of Counsellors
-    *   The Auxiliary Boards
-    *   Assistants to Auxiliary Board Members
-    *   Service on National, Regional and Local Administrative Bodies
-    *   Duties of the Continental Counsellors and Their Auxiliaries
-    *   Collaboration with National Spiritual Assemblies
-    *   Mode of Interaction
-    *   Involvement with Institutes
-    *   The Individual and the Community
-    *   Formulation and Implementation of Plans
-    *   The Fund
-    *   Protection of the Cause
-    *   Coordination and the Provision of Resources
-*   ### SOME SPECIFIC ASPECTS OF THE FUNCTIONING OF THE INSTITUTION
-
-    *   The International Teaching Centre
-    *   Continental Counsellors
-    *   Auxiliary Board Members
-    *   Assistants
-    *   Interactions with National, Regional and Local Administrative Bodies
-    *   Elections and Conventions
-    *   Conferences
-    *   Budgets, Subvention Funds and Properties
-    *   The Continental Fund
 
 INTRODUCTION
 

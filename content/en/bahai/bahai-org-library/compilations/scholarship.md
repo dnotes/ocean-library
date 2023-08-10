@@ -5,19 +5,21 @@ author: various
 access: research
 language: en
 priority: 10
-wordsCount: 13424
+wordsCount: 13348
 _conversionOpts:
   encoding: UTF-8
   reconvert: true
   postPatterns:
+    '/(\s*)\*\s+(\[\^\d+\]:)\s*\n/': '$1$2 '
     '/^(?:\*\s*)*(\[\^[\w\d]+\]:)\s*\n*/': '$1 '
     '/\n\n(.+\\\[\d+\\\])$/': '\n\n$1 {¶=none .cite}'
-  ignoreElements: div.of
+  ignoreElements: 'div.of,nav,a.sd:not(.ef)'
   fnRefEl: sup.ve
-  fnTextEl: a.sd
+  fnTextEl: a.sd.ef
   metaElements:
     author: various
     collection: Compilations
+  converter: html
 sourceUrl: >-
   https://www.bahai.org/library/authoritative-texts/compilations/scholarship/scholarship.xhtml?ff7f7907
 _convertedFrom: >-
@@ -26,6 +28,7 @@ _softHyphenWords: ''
 collectionTitle: Compilations
 ocnmd_version: 2
 collectionId: compilations
+collection: Compilations
 ---
 # Extracts from the Writings of Bahá’u’lláh and ‘Abdu’l-Bahá and from the Letters of Shoghi Effendi and the Universal House of Justice on
 # Scholarship
@@ -33,26 +36,6 @@ collectionId: compilations
 Prepared by the Research Department of the Universal House of Justice
 
 February 1995
-
-1.  The Station of Scholarship
-
-    1.  Importance of Knowledge and Learning
-    2.  Characteristics of the “truly learned”
-    3.  Scope of “Bahá’í Scholarship”
-    4.  Appreciation of Scholarship
-2.  Functions of Bahá’í Scholarship
-
-    1.  Promotion of Human Welfare
-    2.  Defence of the Faith
-    3.  Expansion and Consolidation of the Bahá’í Community
-    4.  Contribution to Scholarly Development
-3.  General Principles and Guidelines
-
-    1.  Spiritual Foundation
-    2.  “Useful” Sciences
-    3.  Attitudes of the Scholar
-    4.  Methodological Issues
-    5.  The Covenant
 
 1. The Station of Scholarship
 

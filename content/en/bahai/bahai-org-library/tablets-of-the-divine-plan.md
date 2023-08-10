@@ -5,16 +5,18 @@ author: ‘Abdu’l‑Bahá
 access: research
 language: en
 priority: 10
-wordsCount: 16592
+wordsCount: 16436
 _conversionOpts:
   encoding: UTF-8
   reconvert: true
   postPatterns:
+    '/(\s*)\*\s+(\[\^\d+\]:)\s*\n/': '$1$2 '
     '/^(?:\*\s*)*(\[\^[\w\d]+\]:)\s*\n*/': '$1 '
     '/\n\n(.+\\\[\d+\\\])$/': '\n\n$1 {¶=none .cite}'
-  ignoreElements: div.of
+  ignoreElements: 'div.of,nav,a.sd:not(.ef)'
   fnRefEl: sup.ve
-  fnTextEl: a.sd
+  fnTextEl: a.sd.ef
+  converter: html
 sourceUrl: >-
   https://www.bahai.org/library/authoritative-texts/abdul-baha/tablets-divine-plan/tablets-divine-plan.xhtml?528f1025
 _convertedFrom: >-
@@ -24,21 +26,6 @@ ocnmd_version: 2
 ---
 # Tablets of the Divine Plan
 ‘Abdu’l‑Bahá
-
-*   Tablet to the Bahá’ís of the Northeastern States
-*   Tablet to the Bahá’ís of the Southern States
-*   Tablet to the Bahá’ís of the Central States
-*   Tablet to the Bahá’ís of the Western States
-*   Tablet to the Bahá’ís of Canada and Greenland
-*   Tablet to the Bahá’ís of the United States and Canada
-*   Tablet to the Bahá’ís of the United States and Canada
-*   Tablet to the Bahá’ís of the United States and Canada
-*   Tablet to the Bahá’ís of the Northeastern States
-*   Tablet to the Bahá’ís of the Southern States
-*   Tablet to the Bahá’ís of the Central States
-*   Tablet to the Bahá’ís of the Western States
-*   Tablet to the Bahá’ís of Canada and Greenland
-*   Tablet to the Bahá’ís of the United States and Canada
 
 1
 
@@ -574,112 +561,68 @@ Verily, Thou art the Clement, the Powerful, the Mighty, and the Most Merciful of
 
 *   ### 1: Tablet to the Bahá’ís of the Northeastern States
 
-    *   [^1]:
+    [^1]:         Qur’án 22:5.
 
-        Qur’án 22:5.
+    [^2]:         Cf. Mark 16:15.
 
-    *   [^2]:
-
-        Cf. Mark 16:15.
-
-    *   [^3]:
-
-        Cf. Qur’án 2:261.
+    [^3]:         Cf. Qur’án 2:261.
 
 *   ### 2: Tablet to the Bahá’ís of the Southern States
 
-    *   [^1]:
+    [^1]:         Qur’án 1:6.
 
-        Qur’án 1:6.
-
-    *   [^2]:
-
-        Cf. Mark 16:15.
+    [^2]:         Cf. Mark 16:15.
 
 *   ### 3: Tablet to the Bahá’ís of the Central States
 
-    *   [^1]:
-
-        Cf. Matthew 13:23.
+    [^1]:         Cf. Matthew 13:23.
 
 *   ### 4: Tablet to the Bahá’ís of the Western States
 
-    *   [^1]:
+    [^1]:         Qur’án 2:257.
 
-        Qur’án 2:257.
-
-    *   [^2]:
-
-        Cf. Mark 16:15.
+    [^2]:         Cf. Mark 16:15.
 
 *   ### 5: Tablet to the Bahá’ís of Canada and Greenland
 
-    *   [^1]:
-
-        Qur’án 39:69.
+    [^1]:         Qur’án 39:69.
 
 *   ### 6: Tablet to the Bahá’ís of the United States and Canada
 
-    *   [^1]:
+    [^1]:         Cf. Mark 16:15.
 
-        Cf. Mark 16:15.
+    [^2]:         Cf. Matthew 5:3.
 
-    *   [^2]:
-
-        Cf. Matthew 5:3.
-
-    *   [^3]:
-
-        Qur’án 28:5.
+    [^3]:         Qur’án 28:5.
 
 *   ### 8: Tablet to the Bahá’ís of the United States and Canada
 
-    *   [^1]:
-
-        Cf. Matthew 10:14.
+    [^1]:         Cf. Matthew 10:14.
 
 *   ### 9: Tablet to the Bahá’ís of the Northeastern States
 
-    *   [^1]:
+    [^1]:         Qur’án 24:35.
 
-        Qur’án 24:35.
-
-    *   [^2]:
-
-        Qur’án 1:6.
+    [^2]:         Qur’án 1:6.
 
 *   ### 11: Tablet to the Bahá’ís of the Central States
 
-    *   [^1]:
-
-        Qur’án 2:105, 3:74.
+    [^1]:         Qur’án 2:105, 3:74.
 
 *   ### 12: Tablet to the Bahá’ís of the Western States
 
-    *   [^1]:
+    [^1]:         Qur’án 34:15.
 
-        Qur’án 34:15.
+    [^2]:         Qur’án 30:9, 40:82, 47:10.
 
-    *   [^2]:
-
-        Qur’án 30:9, 40:82, 47:10.
-
-    *   [^3]:
-
-        Qur’án 30:50.
+    [^3]:         Qur’án 30:50.
 
 *   ### 13: Tablet to the Bahá’ís of Canada and Greenland
 
-    *   [^1]:
-
-        Qur’án 67:3.
+    [^1]:         Qur’án 67:3.
 
 *   ### 14: Tablet to the Bahá’ís of the United States and Canada
 
-    *   [^1]:
+    [^1]:         Qur’án 3:103.
 
-        Qur’án 3:103.
-
-    *   [^2]:
-
-        John 3:6.
+    [^2]:         John 3:6.
