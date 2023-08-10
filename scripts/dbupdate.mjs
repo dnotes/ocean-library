@@ -84,7 +84,7 @@ async function deleteAll(slug) {
       headers: {
         accept: 'application/json',
         'content-type': 'application/json',
-        'api-key': 'e8b02934-bcb2-46b7-9956-84dfa0916933',
+        'api-key': process.env.PINECONE_API_KEY,
       },
       body: JSON.stringify({
         filter: {slug},
@@ -117,7 +117,7 @@ async function deleteAll(slug) {
       headers: {
         accept: 'application/json',
         'content-type': 'application/json',
-        'api-key': 'e8b02934-bcb2-46b7-9956-84dfa0916933',
+        'api-key': process.env.PINECONE_API_KEY,
       },
       body: JSON.stringify({ ids })
     })
