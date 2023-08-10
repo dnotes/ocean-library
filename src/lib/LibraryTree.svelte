@@ -1,18 +1,18 @@
 <script lang="ts">
   import { type LibraryTree, type Doc, displayCategory } from ".";
+  import { settings, defaultSettings } from "./stores";
+
+  if (!$settings) $settings = defaultSettings
+  if (!$settings.categoriesHidden) $settings.categoriesHidden = []
+  if (!$settings.authorsHidden) $settings.authorsHidden = []
 
   export let tree:LibraryTree
-
-  export let categoriesHidden:string[] = []
-  export let authorsHidden:string[] = []
 
   Object.values(tree || {}).forEach(authors => {
     Object.entries(authors || {}).forEach(([author,documents])=> {
       let doc = (Object.values(documents) || [{}])[0]
-      if (author === (doc?.collection) && Object.values(documents).length > 5) authorsHidden.push(author)
     })
   })
-  authorsHidden = authorsHidden
 
 </script>
 
@@ -21,28 +21,30 @@
 </div>
 
 {#each Object.entries(tree) as [category, authors]}
-  <div class="category px-2 sticky h-10 top-10 z-30 flex items-center bg-stone-600" class:mb-1={categoriesHidden.includes(category)}>
+  <div class="category px-2 sticky h-10 top-10 z-30 flex items-center bg-stone-600" class:mb-1={$settings.categoriesHidden.includes(category)}>
     <label>
-      <input type="checkbox" name="category" value="{category}" bind:group={categoriesHidden}>
+      <input type="checkbox" name="category" value="{category}" bind:group={$settings.categoriesHidden}>
       {displayCategory(category)}
     </label>
   </div>
   {#each Object.entries(authors) as [author, documents]}
-    <div class="author pl-7 pr-5 sticky h-10 top-20 z-20 flex items-center bg-stone-600"
-      class:mb-1={authorsHidden.includes(author)}
-      class:hidden={categoriesHidden.includes(category)}
-    >
-      <label>
-        <input type="checkbox" name="author" value="{author}" bind:group={authorsHidden}>
-        {author || '(no author)'}
-        <span class="float-right">{Object.keys(documents ?? {}).length}</span>
-      </label>
-    </div>
+    {#if author}
+      <div class="author pl-5 pr-5 h-10 top-20 z-20 flex items-center bg-stone-200 dark:bg-stone-900 underline"
+        class:mb-1={$settings.authorsHidden.includes(author)}
+        class:hidden={$settings.categoriesHidden.includes(category)}
+      >
+        <label>
+          <input type="checkbox" name="author" value="{author}" bind:group={$settings.authorsHidden}>
+          {author}
+          <span class="float-right">{Object.keys(documents ?? {}).length}</span>
+        </label>
+      </div>
+    {/if}
     {#each Object.entries(documents) as [title, detail]}
       <div class="document pl-7 flex items-center top-28 z-10 h-8"
-        class:hidden={authorsHidden.includes(author) || categoriesHidden.includes(category)}
+        class:hidden={$settings.authorsHidden.includes(author) || $settings.categoriesHidden.includes(category)}
       >
-        <div class="title leading-tight flex-grow">
+        <div class="title leading-tight flex-grow line-clamp-1">
           <a href="/content/{detail.slug}">{title}</a>
         </div>
 
