@@ -88,7 +88,7 @@
 
   </div>
 
-  <div class:hidden={!$currentSearchHit} class="fixed left-0 right-0 top-0 bottom-0 md:static p-12 max-h-full flex flex-col overflow-hidden bg-stone-200 dark:bg-stone-900">
+  <div class:hidden={!$currentSearchHit} class="fixed left-0 right-0 top-0 bottom-0 md:static p-12 max-h-full flex flex-col overflow-hidden bg-stone-200 dark:bg-stone-900 z-50">
 
     <div class:hidden={!$currentSearchHit} class="h-20 flex-shrink-0 bg-stone-500 -ml-12 -mr-12 md:-ml-5 -mt-12 md:-mt-0 flex md:flex relative">
       <div class="absolute top-0 right-2 text-2xl">
