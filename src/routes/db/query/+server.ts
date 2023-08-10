@@ -1,3 +1,5 @@
+export const prerender=false
+
 import { error } from "@sveltejs/kit";
 import type { RequestHandler } from "./$types";
 import { PINECONE_API_KEY } from "$env/static/private";

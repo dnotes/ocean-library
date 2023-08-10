@@ -1,9 +1,8 @@
 import { sveltekit } from '@sveltejs/kit/vite';
 import { defineConfig } from 'vitest/config';
-import polyfill from 'rollup-plugin-polyfill-node'
 
 export default defineConfig({
-	plugins: [sveltekit(),polyfill()],
+	plugins: [sveltekit()],
 	server: {
 		fs: {
 			allow: [

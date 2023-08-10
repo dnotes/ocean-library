@@ -1,3 +1,5 @@
+export const prerender=true
+
 import { error, json, type RequestHandler } from "@sveltejs/kit";
 import { getDoc } from "$lib";
 import rawContent from "$lib/rawContent";

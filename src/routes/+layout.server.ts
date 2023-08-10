@@ -1,3 +1,6 @@
+export const prerender=true
+export const ssr=true
+
 import rawContent from '$lib/rawContent'
 import { getDoc } from "$lib"
 import { sortBy } from "lodash-es"
