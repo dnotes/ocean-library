@@ -20,13 +20,17 @@ body {
 .li9, .indent-8 { @apply pl-32; }
 .indent-9 { @apply pl-36; }
 
+p:has(+ .cite) {
+  margin-bottom: 0;
+}
 .cite {
   font-size: 80%;
-  position:relative;
-  top: -1em;
-  @apply pl-20 leading-none;
+  @apply pl-20 leading-none mb-8 mt-2;
 }
 
 a[¶] {
-  @apply absolute -left-12 w-10 inline-block text-right text-xs no-underline font-bold opacity-30;
+  @apply absolute -left-12 top-2 w-10 inline-block text-right text-xs no-underline font-bold opacity-30;
+}
+a[¶]:after {
+  content: attr(¶)
 }
