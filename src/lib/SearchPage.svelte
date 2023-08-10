@@ -109,17 +109,17 @@
           </div>
         {/if}
         <div>
-          score: {Math.round($currentSearchHit?.score * 100)}%
+          score: {Math.round(($currentSearchHit?.score || 0) * 100)}%
         </div>
       </div>
       <div class="h-20 w-20 pb-2 text-5xl flex items-end justify-center">
         <button type="button" on:click={nextHit}>&#8680;</button>
       </div>
     </div>
-    {#await docs[$currentSearchHit?.slug] then doc}
+    {#await docs[$currentSearchHit?.slug || ''] then doc}
       {#if doc}
         <div class="prose prose-xl prose-stone dark:prose-invert mx-auto overflow-auto flex-grow">
-          {#each doc.blocks.slice(Math.max($currentSearchHit?.blk - 50, 0), $currentSearchHit?.blk + 50) as block}
+          {#each doc.blocks.slice(Math.max(($currentSearchHit?.blk || 0) - 50, 0), ($currentSearchHit?.blk || 0) + 50) as block}
             <div class="relative">{@html block}</div>
           {/each}
         </div>
