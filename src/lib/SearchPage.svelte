@@ -39,8 +39,6 @@
   let currentItemIndex:number = 0
   $: if ($currentSearchHit) currentItemIndex = items.findIndex(item => item === $currentSearchHit)
 
-  $:console.log(currentItemIndex)
-
   function prevHit() {
     if (currentItemIndex <= 0) return
     $currentSearchHit = items[currentItemIndex-1]

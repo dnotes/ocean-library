@@ -1,5 +1,5 @@
 import rawContent from '$lib/rawContent'
-import { getDoc, type Doc, type LibraryTree } from "$lib"
+import { getDoc } from "$lib"
 import { sortBy } from "lodash-es"
 import type { LayoutServerLoad } from "./$types"
 

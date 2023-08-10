@@ -1,8 +1,7 @@
 import { persisted } from 'svelte-local-storage-store'
-import { derived, readable, writable, type Readable, type Writable } from 'svelte/store'
+import { derived, writable, type Writable } from 'svelte/store'
 import type { Search, SearchHit } from '$lib'
 import { Pipeline, pipeline } from '@xenova/transformers'
-import { sortBy } from 'lodash-es'
 
 export const defaultSettings = {
   embeddingsLLM: 'Xenova/all-MiniLM-L6-v2',
@@ -78,7 +77,6 @@ export const searchRunner = derived([embeddingsGenerator, searchHistory, setting
         if (!quote) search.results = [...search.results, { ...hit.metadata, ...hit, s: [hit.metadata.s], metadata:undefined }]
         else quote.s.push(hit.metadata.s)
       })
-      search.results = sortBy(search.results,'score').reverse()
       search.ready = true
       return search
 
