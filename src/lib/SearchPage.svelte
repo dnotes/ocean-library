@@ -5,6 +5,7 @@
   import { currentSearchHit, settings } from "./stores";
   import LibraryTree from "./LibraryTree.svelte";
   import ScoredResults from "./ScoredResults.svelte";
+  import { goto } from "$app/navigation";
 
   export let search:Search = { text:'', results:[] }
 
@@ -18,7 +19,15 @@
   let docs:{[slug:string]:Promise<Doc>} = {}
 
   $: if ($currentSearchHit && !docs[$currentSearchHit.slug]) {
-    docs[$currentSearchHit.slug] = fetch(`/content/${$currentSearchHit.slug}.json`).then(res => res.json())
+    docs[$currentSearchHit.slug] = fetch(`/content/${$currentSearchHit.slug}.json`).then(res => res.json());
+  }
+
+  // @ts-ignore yes, it will always return true; I still need it.
+  $: if ($currentSearchHit && docs[$currentSearchHit.slug]) {
+    (async() => {
+      await docs[$currentSearchHit.slug]
+      goto(`#blk-${$currentSearchHit.blk}`)
+    })()
   }
 
 </script>
@@ -64,13 +73,9 @@
     {#if $currentSearchHit}
       {#await docs[$currentSearchHit.slug] then doc}
         <div class="prose prose-xl prose-stone dark:prose-invert mx-auto">
-          {@html doc.blocks[$currentSearchHit.blk]}
-          <div class="cite">
-            {#if $currentSearchHit.author && $currentSearchHit.author !== 'various'}
-              {$currentSearchHit.author},
-            {/if}
-            <a class="italic no-underline text-blue-500" href="/content/{$currentSearchHit.slug}#blk-{$currentSearchHit.blk}">{$currentSearchHit.title}</a>
-          </div>
+          {#each doc.blocks as block}
+            <div class="relative">{@html block}</div>
+          {/each}
         </div>
       {/await}
     {/if}
