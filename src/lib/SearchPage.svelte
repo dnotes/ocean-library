@@ -2,7 +2,9 @@
   import type { Doc, Search, SearchHit } from "$lib";
   import SearchForm from "./SearchForm.svelte";
   import { createEventDispatcher } from "svelte";
-  import { currentSearchHit } from "./stores";
+  import { currentSearchHit, settings } from "./stores";
+  import LibraryTree from "./LibraryTree.svelte";
+  import ScoredResults from "./ScoredResults.svelte";
 
   export let search:Search = { text:'', results:[] }
 
@@ -25,24 +27,29 @@
 
   <div class="max-w-full w-96 flex-grow flex-shrink-0 max-h-full flex flex-col">
 
-    <div class="py-7">
+    <div class="pt-7">
       <SearchForm {search} on:search={updateSearch} />
+    </div>
+
+    <div class="py-3">
+      <label>
+        Sort:
+        <select name="searchSort" id="searchSort" bind:value={$settings.searchSort} class="text-stone-900 px-2 py-1">
+          <option value="ordered">by library order</option>
+          <option value="scored">by score</option>
+        </select>
+      </label>
     </div>
 
     <div class="search-results flex-grow overflow-auto">
       {#if search.results}
-        {#each search.results as item}
 
-          <!-- svelte-ignore a11y-click-events-have-key-events -->
-          <!-- svelte-ignore a11y-no-static-element-interactions -->
-          <div class="px-4 leading-loose border-b border-b-stone-500 overflow-hidden relative line-clamp-1 cursor-pointer"
-            on:click={()=>{$currentSearchHit = item}}
-            title="{JSON.stringify(item, null, 2)}"
-          >
-            {item.text}
-          </div>
+        {#if $settings?.searchSort === 'scored'}
+          <ScoredResults items={search.results} on:change={(e)=>{$currentSearchHit = e.detail}} />
+        {:else}
+          <LibraryTree items={search.results} on:change={(e)=>{$currentSearchHit = e.detail}} />
+        {/if}
 
-        {/each}
       {:else}
         <pre>
           {search?.message}

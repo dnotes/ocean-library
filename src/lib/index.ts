@@ -52,7 +52,7 @@ export type Doc = DocMeta & {
 export type LibraryTree = {
   [category:string]: {
     [author:string]: {
-      [title:string]: Doc
+      [title:string]: (Doc|SearchHit)[]
     }
   }
 }

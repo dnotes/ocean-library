@@ -1,7 +1,7 @@
 <script lang="ts">
   import type { PageData } from "./$types";
-  import IndexList from "$lib/IndexList.svelte";
+  import LibraryTree from "$lib/LibraryTree.svelte";
   export let data:PageData
 </script>
 
-<IndexList items={data.allContent} />
+<LibraryTree items={data.allContent} />

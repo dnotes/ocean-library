@@ -9,6 +9,7 @@ export const defaultSettings = {
   searchCount: 100,
   categoriesHidden: <string[]> [],
   authorsHidden: <string[]> [],
+  searchSort: <'ordered'|'scored'> 'ordered'
 }
 
 export const settings:Writable<typeof defaultSettings> = persisted('oceanSearchSettings', defaultSettings)
