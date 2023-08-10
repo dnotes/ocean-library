@@ -8,7 +8,9 @@
 <div id="page" class="flex flex-col w-screen h-screen relative">
 
   <div class="hidden md:flex sticky top-0 z-50 px-9 h-16 w-full bg-blue-400 flex-shrink-0 items-center gap-5">
-    <div class="text-3xl font-bold">Ocean AI Testing</div>
+    <div class="text-3xl font-bold">
+      <a href="/">Ocean AI Testing</a>
+    </div>
     <div class="flex-grow"></div>
     <nav class="flex gap-2">
       <a href="/content">Content</a>
