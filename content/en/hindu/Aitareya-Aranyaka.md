@@ -2364,7 +2364,7 @@ Then follow some more rules as to the reading of the Veda in general:
 
 [^560]: The Stobha syllables are syllables without any meaning, added when verses have to be sung, in order to have a support for the music. See Ch. Up. I, 13. In singing the five Sāmans, each five times, one thousand of such Stobha syllables are required.
 
-[^561]: There are in the Nishkevalya hymn, which the Hotṛ has to recite, three sets of eighty tṛcas each. The first, consisting of Gāyatrīs, begins with ![](http://www.sacred-texts.com/hin/sbe01/img/22600.jpg) indro ya ojasā. The second, consisting of Bṛhatīs, begins with ya cid anyad. The third, consisting of Ushṇihs, begins with ya indra somapātama. These three sets form the food of the bird, as the emblem of the śastra. The hymns [pg 227] which precede these, form the body, head, and wings of the bird. This is one order. Then follow the three sets of eighty tṛcas each; and lastly, the fifth order, consisting of the hymns which form the belly and the legs of the bird.
+[^561]: There are in the Nishkevalya hymn, which the Hotṛ has to recite, three sets of eighty tṛcas each. The first, consisting of Gāyatrīs, begins with mahân̆̇ indro ya ojasā. The second, consisting of Bṛhatīs, begins with ya cid anyad. The third, consisting of Ushṇihs, begins with ya indra somapātama. These three sets form the food of the bird, as the emblem of the śastra. The hymns [pg 227] which precede these, form the body, head, and wings of the bird. This is one order. Then follow the three sets of eighty tṛcas each; and lastly, the fifth order, consisting of the hymns which form the belly and the legs of the bird.
 
 * * *
 

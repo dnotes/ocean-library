@@ -19,21 +19,12 @@ translator: Muhammad Marmaduke Pickthall
 year: 1938
 ---
 
-# THE MEANING OF THE GLORIOUS QUR’ÁN
-# Muhammad Ibn 'Abdu'llah {.author}
-
-![bismullah](opening.svg) {.sm}
-
-# Translation by Muḥammad Marmaduke Pickthall {.translator}
-
+Translation by Muḥammad Marmaduke Pickthall {.translator ¶=none}
 
 
 ---
 
-
-![fatah](fatah.svg) {.sm}
-
-## 1\. Al-Fatiha: The Opening
+## 1\. Al-Fatiha: The Opening {¶=1}
 
 In the name of Allah, the Beneficent, the Merciful. {#1:1}
 

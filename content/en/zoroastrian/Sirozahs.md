@@ -199,7 +199,7 @@ To the eternal [^87] and sovereign luminous space [^88]; to the bright Garō-n
 
 [^10]: Taradhātem anyāiś dāmãn, interpreted: tarvīnītārtūm min zakī ān dāmān pun anāshtīh akár kartan (Phl. Comm.), 'more destroying than other creatures, to make Non-peace (Anākhśti) powerless.'
 
-[^11]: Āsnya khratu, the inborn intellect, intuition, contrasted with gaoshō-srūta khratu, the knowledge acquired by hearing and learning. There is between the two nearly the same relation as between the parāvidyā and aparāvidyā in Brahmanism, the former reaching Brahma in se (parabrahma), the latter śabdabrahma, the word-Brahma (Brahma as taught and revealed). The Mobeds of later times interpreted their name Magūś, ![](http://www.sacred-texts.com/zor/sbe23/img/00400.jpg), as meaning, 'men without ears,'  ![](http://www.sacred-texts.com/zor/sbe23/img/00401.jpg), 'pour insinuer que leur Docteur avait puisé toute sa science dans le ciel et qu’il ne l’avait pas apprise par l’ouïe comme les autres hommes' (Chardin, III, 130; ed. Amsterdam).
+[^11]: Āsnya khratu, the inborn intellect, intuition, contrasted with gaoshō-srūta khratu, the knowledge acquired by hearing and learning. There is between the two nearly the same relation as between the parāvidyā and aparāvidyā in Brahmanism, the former reaching Brahma in se (parabrahma), the latter śabdabrahma, the word-Brahma (Brahma as taught and revealed). The Mobeds of later times interpreted their name Magūś,  مجوس, as meaning, 'men without ears,'  ماگوش, 'pour insinuer que leur Docteur avait puisé toute sa science dans le ciel et qu’il ne l’avait pas apprise par l’ouïe comme les autres hommes' (Chardin, III, 130; ed. Amsterdam).
 
 [^12]: See Yt. III.
 
@@ -253,7 +253,7 @@ To the eternal [^87] and sovereign luminous space [^88]; to the bright Garō-n
 
 [^37]: Cf. Yasna I, 7 \[20-23\].
 
-[^38]: The day before Ādar (Dai is the Persian ( ![](http://www.sacred-texts.com/zor/sbe23/img/00600.jpg), 'yesterday,' which is the same word as the Sanskrit hyas, Latin heri). The eighth, fifteenth, and twenty-third days of the month are under the [pg 7] rule of Ahura and the Amesha-Speṇtas, like the first day; they have therefore no name of their own and are named from the day that follows. The month was divided into four weeks, the first two numbering seven days, the last two numbering eight.
+[^38]: The day before Ādar (Dai is the Persian (دی, 'yesterday,' which is the same word as the Sanskrit hyas, Latin heri). The eighth, fifteenth, and twenty-third days of the month are under the [pg 7] rule of Ahura and the Amesha-Speṇtas, like the first day; they have therefore no name of their own and are named from the day that follows. The month was divided into four weeks, the first two numbering seven days, the last two numbering eight.
 
 [^39]: Or better the Glories of the Aryas' (Eramdeśaśrīṇām): the Glory or Hvarenō (Vend. Introd. IV, II, p. lxiii, note 1) is threefold, according as it illuminates the priest, the warrior, or the husbandman. Yaśt XIX is devoted to the praise of the Hvarenō.
 

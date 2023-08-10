@@ -264,9 +264,9 @@ Then Zarathuśtra said: 'I threw you back into the earth [^168], and by the eye
 
 [^107]: See Vendīdād VIII, 19, text and notes.
 
-[^108]: Pun mīnishn īt barā matārtūm, mandūm frārūn (Phl. tr.); manasas asti prāpakatarā (Sansk. tr.); ![](http://www.sacred-texts.com/zor/sbe23/img/02300.jpg) (Pers. tr.).
+[^108]: Pun mīnishn īt barā matārtūm, mandūm frārūn (Phl. tr.); manasas asti prāpakatarā (Sansk. tr.);  (Pers. tr.).
 
-[^109]: Pun akhū it barā mūshītārtūm: pīm(ī) u mandūm ī apārūn [pg 24] (Phl. tr.); vitarkāṇām asti mūshakatarā (Sansk. tr.); ![](http://www.sacred-texts.com/zor/sbe23/img/02400.jpg) (Pers. tr.).
+[^109]: Pun akhū it barā mūshītārtūm: pīm(ī) u mandūm ī apārūn [pg 24] (Phl. tr.); vitarkāṇām asti mūshakatarā (Sansk. tr.);  (Pers. tr.).
 
 [^110]: See Vendīdād, Introd. IV, 20-21.
 
@@ -286,15 +286,15 @@ Then Zarathuśtra said: 'I threw you back into the earth [^168], and by the eye
 
 [^118]: 'That is, I make the account of good works and sins' (Phl. tr.); prakaṭam gaṇanākaras kila puṇyapāpayos saṅkhyām aham karomi (Sansk. tr.). Cf. Yasna XXXII, 6, b.
 
-[^119]: Yasō-bereta: prāptena dānena; ![](http://www.sacred-texts.com/zor/sbe23/img/02600.jpg)
+[^119]: Yasō-bereta: prāptena dānena;
 
 [^120]: The Kavis and the Karapans, the blind and the deaf, are those 'who cannot see nor hear anything of God.' Those terms were current in the theological language of the Sassanian times to designate the unbelievers. An edict, promulgated by king Yazdgard III (fifth century A.C.) to make Zoroastrism the state religion in Armenia, had the following words: 'You must know that any man who does not follow the religion of Mazda is deaf, blind, and deceived by Ahriman's devs' (Elisaeus, The War of Vartan).
 
-[^121]: Or murderers (mairya); according to the Parsis highwaymen ( ![](http://www.sacred-texts.com/zor/sbe23/img/02601.jpg)).
+[^121]: Or murderers (mairya); according to the Parsis highwaymen ( ).
 
 [^122]: The heretics. Casuists distinguish three kinds of Ashemaogha: the deceiver (frīftār), the self-willed (khōt dōshak), and the deceived (frīftak). The first and worst is one who knowingly leads people astray, making forbidden what is lawful, and lawful what is forbidden; the second is one who follows his own will and reason, instead of applying to a Dastūr (a spiritual guide) for direction; the third is one who has been led astray by another.
 
-[^123]: Drafśa means also banner: the Persian ![](http://www.sacred-texts.com/zor/sbe23/img/02602.jpg), derived from drafśa, has preserved the two meanings. The Sanskrit translation has śastra, the Persian has  ![](http://www.sacred-texts.com/zor/sbe23/img/02603.jpg).
+[^123]: Drafśa means also banner: the Persian , derived from drafśa, has preserved the two meanings. The Sanskrit translation has śastra, the Persian has  .
 
 [^124]: 'I keep the creation' (Phl. tr.).
 
@@ -753,7 +753,7 @@ _'\[Give\] unto that man [^248] brightness and glory, give him health of body; 
 
 [^238]: Cf. Vendīdād VIII, 21.
 
-[^239]: That is to say, worth being accepted: cf. Yt. X, 32; the Parsis translate, 'a sacrifice heard \[from the lips of the Dastūrs\]' ( ![](http://www.sacred-texts.com/zor/sbe23/img/04700.jpg); East India Office, XXV, 42).
+[^239]: That is to say, worth being accepted: cf. Yt. X, 32; the Parsis translate, 'a sacrifice heard \[from the lips of the Dastūrs\]' ( ; East India Office, XXV, 42).
 
 [^240]: The Haoma and Myazda.
 
@@ -1397,7 +1397,7 @@ _'\[Give\] unto that man brightness and glory, . . . . give him the bright, all-
 
 [^313]: The Piśīn valley, south of Cabool. It was in the land of Cabool that the Keresāspa legend had its rise, or at least it was localised there. It is in the plain near the Piśīn valley that Keresāspa lies asleep, till the end of the world comes (see Yt. XIII, 61, note).
 
-[^314]: A Parsi poem, of a very late date, gives further details about Gaṇdarewa. It was a monster who lived 'in the sea, on the mountain, and in the valley;' he was called Pāshnah zarah, because the sea did not go above his heel (a misinterpretation of his Avestean epithet zairi pāshna, golden-heeled, the Zend zairi being mistaken for the Persian zarah ![](http://www.sacred-texts.com/zor/sbe23/img/06300.jpg), sea); his head would rise to the sun and rub the sky; he could swallow up twelve men at once. Keresāspa fought him for nine days and nine nights together; he drew him at last from the bottom of the sea and smashed his head with his club: when he fell on the ground, many countries were spoiled by his fall (Spiegel, Die traditionnelle Literatur der Parsen, P. 339, and West, Pahlavi Texts, II, pp. 369 seq.).
+[^314]: A Parsi poem, of a very late date, gives further details about Gaṇdarewa. It was a monster who lived 'in the sea, on the mountain, and in the valley;' he was called Pāshnah zarah, because the sea did not go above his heel (a misinterpretation of his Avestean epithet zairi pāshna, golden-heeled, the Zend zairi being mistaken for the Persian zarah , sea); his head would rise to the sun and rub the sky; he could swallow up twelve men at once. Keresāspa fought him for nine days and nine nights together; he drew him at last from the bottom of the sea and smashed his head with his club: when he fell on the ground, many countries were spoiled by his fall (Spiegel, Die traditionnelle Literatur der Parsen, P. 339, and West, Pahlavi Texts, II, pp. 369 seq.).
 
     In the Vedic mythology the Gandharva is the keeper of Soma, and is described now as a god, now as a fiend, according as he is a heavenly Soma-priest or a jealous possessor who grudges it to man. What was the original form of the myth in Mazdeism is not clear. In the Shāh Nāmah he appears as the minister of Aži Dahāka. Cf. Yt. XV, 27 seq., and Ormazd et Ahriman, pp. 99, note 5; 215, note 1.
 
@@ -1415,7 +1415,7 @@ _'\[Give\] unto that man brightness and glory, . . . . give him the bright, all-
 
 [^321]: Doubtful.
 
-[^322]: A lake in Adarbaijān, with salt water: fish cannot live in it (Bundahiś XXII, 2). It is the same as Lake Urumiah. Its name is miswritten in Firdausi (Khanjast for Kējast, ![](http://www.sacred-texts.com/zor/sbe23/img/06600.jpg) for  ![](http://www.sacred-texts.com/zor/sbe23/img/06601.jpg)).
+[^322]: A lake in Adarbaijān, with salt water: fish cannot live in it (Bundahiś XXII, 2). It is the same as Lake Urumiah. Its name is miswritten in Firdausi (Khanjast for Kējast,  for  ).
 
 [^323]: Doubtful; see Études Iraniennes, II, uruyāpa, p. 179.
 
@@ -1475,7 +1475,7 @@ _'\[Give\] unto that man brightness and glory, . . . . give him the bright, all-
 
 [^351]: This section is the only fragment left of the legend of Ashavazdah, which must have been an important one, since Ashavazdah is one of the immortals (Yt. XIX, 95).
 
-[^352]: Cf. Yt. XIII, 102. Vistauru, being the son of Naotara, is the brother of Tusa, which identifies him with the Gustahm ( ![](http://www.sacred-texts.com/zor/sbe23/img/07100.jpg)) in the Shāh Nāmah: Nōdar had two sons, Tus and Gustahm.
+[^352]: Cf. Yt. XIII, 102. Vistauru, being the son of Naotara, is the brother of Tusa, which identifies him with the Gustahm ( ) in the Shāh Nāmah: Nōdar had two sons, Tus and Gustahm.
 
 [^353]: A river not mentioned elsewhere.
 
@@ -1569,7 +1569,7 @@ _'\[Give\] unto that man brightness and glory, . . . . give him the bright, all-
 
 [^398]: If we may trust the Shāh Nāmah, she did not grant her favour to the last, as Zarīr was killed by one of the generals of Arjāsp, Bīdirafsh.
 
-[^399]: A brother of Arjāsp's: his name is slightly altered in Firdausi (Andarīmān miswritten for Vandarīmān, ![](http://www.sacred-texts.com/zor/sbe23/img/08000.jpg) for  ![](http://www.sacred-texts.com/zor/sbe23/img/08001.jpg).); see Études Iraniennes, p. 228).
+[^399]: A brother of Arjāsp's: his name is slightly altered in Firdausi (Andarīmān miswritten for Vandarīmān,  for  .); see Études Iraniennes, p. 228).
 
 [^400]: The text has the singular here and in the rest of the sentence: the names of the two brothers form a sort of singular dvandva; cf. Franghrasyanem Keresavazdem (Yt. XIX, 77); Ashavazdanghō Thritahē (Yt. XIII, 113; and same Yaśt, 115), and in the present passage Vīśtāspō Zairivairiś (see Études Iraniennes, II, 229).
 
@@ -1587,7 +1587,7 @@ _'\[Give\] unto that man brightness and glory, . . . . give him the bright, all-
 
 [^407]: Zaośa; cf. § 7, note 2.
 
-[^408]: Doubtful (sispemna, from ![](http://www.sacred-texts.com/zor/sbe23/img/08300.jpg)).
+[^408]: Doubtful (sispemna, from ).
 
 [^409]: Doubtful.
 
@@ -1672,7 +1672,7 @@ _Give unto that man brightness and glory, give him health of body, . . . . give 
 
 [^426]: As he benefits them and himself thereby.
 
-[^427]: Hunivikhtem: suniyuktam (Sansk. tr.); ![](http://www.sacred-texts.com/zor/sbe23/img/08900.jpg) (Pers. tr.).
+[^427]: Hunivikhtem: suniyuktam (Sansk. tr.);  (Pers. tr.).
 
 [^428]: As they succeed one another in regular order.
 
@@ -1765,7 +1765,7 @@ _Give unto that man brightness and glory, give him health of body, . . . . give 
 
 [^445]: Cf. Yt. VI, 2.
 
-[^446]: Miśti, meaning sadā, ![](http://www.sacred-texts.com/zor/sbe23/img/09000.jpg) cf. mi-śāci.
+[^446]: Miśti, meaning sadā,  cf. mi-śāci.
 
 [^447]: Zaremaēm, meaning vasantamāse, 09001
 
@@ -1777,7 +1777,7 @@ _Give unto that man brightness and glory, give him health of body, . . . . give 
 
 [^451]: Khśtāvaṇtem: lakshmīvantam (Sansk.).
 
-[^452]: Yaokhśtivaṇtem, 'pondering on what good is to be done' (vicāryavantam kāryanyāyānām; ![](http://www.sacred-texts.com/zor/sbe23/img/09100.jpg)).
+[^452]: Yaokhśtivaṇtem, 'pondering on what good is to be done' (vicāryavantam kāryanyāyānām; ).
 
 [^453]: Zairimyāvaṇtem: haritavarṇavantam, kila pṛthivī(m) sārdratarām karoti (Sansk.).
 
@@ -3019,7 +3019,7 @@ _'\[Give\] unto that man [^730] brightness and glory, . . . . give him the brig
 
 [^569]: Mount Albōrz, whence the sun rises; see § 50.
 
-[^570]: Mithra is closely connected with the sun, but not yet identical with it, as he became in later times ( ![](http://www.sacred-texts.com/zor/sbe23/img/12200.jpg), the sun; Deo invicto Soli Mithrae).
+[^570]: Mithra is closely connected with the sun, but not yet identical with it, as he became in later times ( , the sun; Deo invicto Soli Mithrae).
 
 [^571]: In the flat countries.
 
@@ -3035,7 +3035,7 @@ _'\[Give\] unto that man [^730] brightness and glory, . . . . give him the brig
 
 [^577]: Mainyu, in the meaning of the Sanskrit manyu (?).
 
-[^578]: Doubtful; aspacaṭ: cf. ![](http://www.sacred-texts.com/zor/sbe23/img/12400.jpg) to be late.
+[^578]: Doubtful; aspacaṭ: cf.  to be late.
 
 [^579]: Apayēiṇti, frastanvaiṇti, framanyēiṇtē: these are three technical words for the movements of the three classes of soldiers, footmen, horsemen, and chariot-men; the last two words are probably synonymous with the first, but the exact shades of meaning are not known. Mr. West suggests, cannot outrun, outride, outdrive him.
 
@@ -3332,11 +3332,11 @@ _'\[Give\] unto that man [^730] brightness and glory, . . . . give him the brig
 
 [^723]: Ashi Vanguhi (?); cf. § 68.
 
-[^724]: Who watches around countries: aiwidahvyūm is translated ![](http://www.sacred-texts.com/zor/sbe23/img/15700.jpg) (Pers. tr. of Mihir Nyāyiś).
+[^724]: Who watches around countries: aiwidahvyūm is translated  (Pers. tr. of Mihir Nyāyiś).
 
-[^725]: Ādahvyūm: ![](http://www.sacred-texts.com/zor/sbe23/img/15800.jpg); cf. Yasna XXVI, 9 \[28\].
+[^725]: Ādahvyūm: ; cf. Yasna XXVI, 9 \[28\].
 
-[^726]: Pairidahvyūm: ![](http://www.sacred-texts.com/zor/sbe23/img/15801.jpg).
+[^726]: Pairidahvyūm: .
 
 [^727]: Cf. Vend. Introd. IV, 8.
 
@@ -3547,7 +3547,7 @@ _\[Give\] unto that man [^776] brightness and glory, . . . . give him the brigh
 
 [^745]: Arethyanãm: dādistān (from aretha, meaning dīnā, dādistān).
 
-[^746]: Gadha: nṛśaṃsa (Neriosengh); the Pahlavi has ![](http://www.sacred-texts.com/zor/sbe23/img/16100.jpg), a Saka, a Scythe.
+[^746]: Gadha: nṛśaṃsa (Neriosengh); the Pahlavi has , a Saka, a Scythe.
 
 [^747]: The praise of Sraosha.
 
@@ -5073,13 +5073,13 @@ _\[Give\] unto that man [^1034] brightness and glory, . . . . give him the brig
 
 [^930]: Gustahm, the son of Nodar; see Yt. V, 76. Strangely enough, Tusa is not mentioned here, unless he is the same with one of the preceding names: possibly the words 'the son of Naotara' (Naotairyāna) refer to all the four.
 
-[^931]: Possibly Frashīdvard ![](http://www.sacred-texts.com/zor/sbe23/img/20600.jpg) (misspelt from a Pahlavi form Fraśānvard  ![](http://www.sacred-texts.com/zor/sbe23/img/20601.jpg) (?); the Yāḍkār-ī Zarīrān, as Mr. West informs me, has  ![](http://www.sacred-texts.com/zor/sbe23/img/20602.jpg) and  ![](http://www.sacred-texts.com/zor/sbe23/img/20603.jpg)). Frashīdvard was a son of Guśtāsp: he was killed by one of Arjāsp's heroes and avenged by his brother Isfendyār (Speñtō-dāta). The following names would belong to his brothers: most of them contain the word Ātar, in honour of the newly-adopted worship of fire.
+[^931]: Possibly Frashīdvard  (misspelt from a Pahlavi form Fraśānvard   (?); the Yāḍkār-ī Zarīrān, as Mr. West informs me, has   and  ). Frashīdvard was a son of Guśtāsp: he was killed by one of Arjāsp's heroes and avenged by his brother Isfendyār (Speñtō-dāta). The following names would belong to his brothers: most of them contain the word Ātar, in honour of the newly-adopted worship of fire.
 
 [^932]: Isfendyār, the heroic son of Gūśtāsp, killed by Rustem.
 
-[^933]: In the Yāḍkār-ī Zarīrān, according to Mr. West, Bastvar, the son of Zairivairi, whose death he avenges on his murderer Vīdrafś. This makes Bastavairi identical with the Nastūr ![](http://www.sacred-texts.com/zor/sbe23/img/20700.jpg) of Firdausi (read Bastūr  ![](http://www.sacred-texts.com/zor/sbe23/img/20701.jpg)).
+[^933]: In the Yāḍkār-ī Zarīrān, according to Mr. West, Bastvar, the son of Zairivairi, whose death he avenges on his murderer Vīdrafś. This makes Bastavairi identical with the Nastūr  of Firdausi (read Bastūr  ).
 
-[^934]: Kavārazem is the Gurezm of later tradition ( ![](http://www.sacred-texts.com/zor/sbe23/img/20702.jpg)), 'the jealous brother of Isfendyār, whom he slandered to his father and caused to be thrown into prison' (Burhān qāti’h). Firdausi (IV, 432) has only that he was a relation to Gūśtāsp:  ![](http://www.sacred-texts.com/zor/sbe23/img/20703.jpg). See Études Iraniennes, II, 230.
+[^934]: Kavārazem is the Gurezm of later tradition ( ), 'the jealous brother of Isfendyār, whom he slandered to his father and caused to be thrown into prison' (Burhān qāti’h). Firdausi (IV, 432) has only that he was a relation to Gūśtāsp:  . See Études Iraniennes, II, 230.
 
 [^935]: Who gave his daughter, Hvōvi, in marriage to Zarathuśtra (Yasna L \[XLIX\], 4, 17).
 
@@ -5277,7 +5277,7 @@ _\[Give\] unto that man [^1034] brightness and glory, . . . . give him the brig
 
 [^1032]: For the triumph of the Zoroastrian law.
 
-[^1033]: Daitika, Persian ![](http://www.sacred-texts.com/zor/sbe23/img/22900.jpg); Neriosengh has 'that go by herds,' paṅkticārin. Aidyu; the Pahlavi translation has ayyār, 'that are of help' (domesticated?); Neriosengh has misread it as suvār and translated açvacārin. The expression daitika aidyu answers to the Persian  ![](http://www.sacred-texts.com/zor/sbe23/img/22901.jpg), meaning all sorts of animals (see Études Iraniennes, II, 150).
+[^1033]: Daitika, Persian ; Neriosengh has 'that go by herds,' paṅkticārin. Aidyu; the Pahlavi translation has ayyār, 'that are of help' (domesticated?); Neriosengh has misread it as suvār and translated açvacārin. The expression daitika aidyu answers to the Persian  , meaning all sorts of animals (see Études Iraniennes, II, 150).
 
 [^1034]: Who shall worship the Fravashis.
 
@@ -5706,7 +5706,7 @@ _\[Give\] unto that man [^1095] brightness and glory, . . . . give him the brig
 
 [^1075]: Ā-dhwaožen, vī-dhwaožen, fra-dhwaožen.
 
-[^1076]: Āmarezen, cf. ![](http://www.sacred-texts.com/zor/sbe23/img/24300.jpg); vīmarezen, cf. Yt. I, 2; fra marezen, cf.  ![](http://www.sacred-texts.com/zor/sbe23/img/24301.jpg).
+[^1076]: Āmarezen, cf. ; vīmarezen, cf. Yt. I, 2; fra marezen, cf.  .
 
 [^1077]: Cf. Yt. IV, 10.
 
@@ -6077,7 +6077,7 @@ _\[Give\] unto that man brightness and glory, . . . . give him the bright, all-h
 
 [^1098]: Cf. Yt. V, 17.
 
-[^1099]: Fraspāṭ, Persian ![](http://www.sacred-texts.com/zor/sbe23/img/25000.jpg).
+[^1099]: Fraspāṭ, Persian .
 
 [^1100]: Cf. [p. 169](http://www.sacred-texts.com/zor/sbe23/sbe2317.htm#page_169), note [5](http://www.sacred-texts.com/zor/sbe23/sbe2317.htm#fn_783).
 
@@ -6103,7 +6103,7 @@ _\[Give\] unto that man brightness and glory, . . . . give him the bright, all-h
 
 [^1111]: This passage is interpolated from Yasna IX, 5 (17-10.
 
-[^1112]: Or, 'his accursed palace of the Stork' (upa kviriṇtem duzitem). 'Aži Dahāka,' says Hamza (p. 32 in the text, p. 22 in the translation), 'used to live in Babylon (cf. Yt. V, 29), where he had built a palace in the form of a stork; he called it Kuleng Dīs ( ![](http://www.sacred-texts.com/zor/sbe23/img/25300.jpg)), the fortress of the Stork; the inhabitants called it Dis Het ( ![](http://www.sacred-texts.com/zor/sbe23/img/25301.jpg)).' Kuleng Dīs was in Zend Kviriṇta daēza and Dis Het is nothing else than Dužita. One may doubt [pg 254] whether Kviriṇta is the name of a place or the Zend form of Kuleng, a stork: in any case it was a palace in Bawri (Babylon). In the Shah Nāmah it is called Dižukht (duž-ukhta for duž-ita; see Études Iraniennes, II, 211).
+[^1112]: Or, 'his accursed palace of the Stork' (upa kviriṇtem duzitem). 'Aži Dahāka,' says Hamza (p. 32 in the text, p. 22 in the translation), 'used to live in Babylon (cf. Yt. V, 29), where he had built a palace in the form of a stork; he called it Kuleng Dīs ( ), the fortress of the Stork; the inhabitants called it Dis Het ( ).' Kuleng Dīs was in Zend Kviriṇta daēza and Dis Het is nothing else than Dužita. One may doubt [pg 254] whether Kviriṇta is the name of a place or the Zend form of Kuleng, a stork: in any case it was a palace in Bawri (Babylon). In the Shah Nāmah it is called Dižukht (duž-ukhta for duž-ita; see Études Iraniennes, II, 211).
 
 [^1113]: Cf. Yt. V, 30 seq.
 
@@ -6143,7 +6143,7 @@ _\[Give\] unto that man brightness and glory, . . . . give him the bright, all-h
 
 [^1131]: Keredhariśa (?).
 
-[^1132]: Doubtful; baoca, cf. ![](http://www.sacred-texts.com/zor/sbe23/img/26000.jpg).
+[^1132]: Doubtful; baoca, cf. .
 
 [^1133]: Reading sudhiś.
 
@@ -6732,7 +6732,7 @@ _\[Give\] unto that man [^1321] brightness and glory, . . . . give him the brig
 
 [^1214]: The Rōyiśn-ōmand mountain of Bundahiś XII, 27; its name [pg 288] means 'the mountain on which vegetation has grown' (ibid. tr. West).
 
-[^1215]: The Bādghēs mountain near Herāt, ![](http://www.sacred-texts.com/zor/sbe23/img/28800.jpg).
+[^1215]: The Bādghēs mountain near Herāt, .
 
 [^1216]: Or 'Mount Iśkata ("rugged"), belonging to the Upairi-saēna ridge.' The Upairi-saēna ridge or Aparsēn ridge is 'the mountain of Persia, and its beginning is in Seistān and its end in Susiana' (Bund. XII, 9).
 
@@ -7195,7 +7195,7 @@ Here the fiendish Būshyãsta, the long-handed, rushes from the region of the no
 
 [^1342]: The seat of the Garōthmān.
 
-[^1343]: Zaremaya is the spring: the word translated oil (raoghna, Persian ![](http://www.sacred-texts.com/zor/sbe23/img/31800.jpg)) might perhaps be better translated 'butter;' the milk made in the middle of spring was said to be the best (Vispērad I, 2; Pahl. Comm.; cf. Dādistān XXXI, 14).
+[^1343]: Zaremaya is the spring: the word translated oil (raoghna, Persian ) might perhaps be better translated 'butter;' the milk made in the middle of spring was said to be the best (Vispērad I, 2; Pahl. Comm.; cf. Dādistān XXXI, 14).
 
 [^1344]: The Gātha of lamenting, beginning with the word Kãm (Kãm nemē zãm: 'To what land shall I turn?'); Yasna XLVI (XLV).
 
