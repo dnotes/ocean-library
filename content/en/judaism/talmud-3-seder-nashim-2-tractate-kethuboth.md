@@ -1,7 +1,9 @@
 ---
 id: kethuboth__kethuboth0__1952617617__en
-title: ''
-author: ''
+title: 'Babylonian Talmud: Kethuboth'
+collection: Babylonian Talmud
+collectionIndex: 4
+author: null
 access: research
 language: en
 priority: 10

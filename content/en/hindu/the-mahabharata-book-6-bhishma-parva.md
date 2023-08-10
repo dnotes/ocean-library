@@ -2,6 +2,8 @@
 id: vyasa__mahabharata-book-6-bhishma-parva__2685161115__en
 title: 'The Mahabharata, Book 6: Bhishma Parva'
 author: Vyāsa
+collection: The Mahabharata
+collectionIndex: 6
 access: research
 language: en
 priority: 10

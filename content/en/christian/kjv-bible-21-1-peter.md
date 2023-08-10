@@ -1,17 +1,14 @@
 ---
 id: kjv-21-1peter_en
-title: The First Epistle of Paul the Apostle to Peter - πρώτα επιστολή να Πέτρου
-collection: New Testament, KJV, Bible, King James, The First Epistle of Paul the Apostle to Peter 
-author: Paul
+title: First Peter
+collection: The Bible (KJV) - New Testament
+collectionIndex: 21
+author: Peter
 language: en
 priority: 3.21
 ---
 
-# The First Epistle of Paul the Apostle to Peter - πρώτα επιστολή να Πέτρου
-
-=====================
-
-## The First Epistle of Paul the Apostle to Peter - Chapter 1
+## First Peter 1
 
 Peter, an apostle of Jesus Christ, to the strangers scattered throughout Pontus, Galatia, Cappadocia, Asia, and Bithynia, <sup>1:2</sup> Elect according to the foreknowledge of God the Father, through sanctification of the Spirit, unto obedience and sprinkling of the blood of Jesus Christ: Grace unto you, and peace, be multiplied.  {id="1:1"}
 

@@ -2,6 +2,8 @@
 id: vyasa__mahabharata-book-13-anusasana-parva__931162645__en
 title: 'The Mahabharata, Book 13: Anusasana Parva'
 author: Vyāsa
+collection: The Mahabharata
+collectionIndex: 13
 access: research
 language: en
 priority: 10

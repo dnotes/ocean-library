@@ -1,18 +1,12 @@
 ---
 id: kjv-11-kings-2_en
-title: The Second Books of Kings - Mlachim - מְלָכִים
-collection: Bible, Old Testament, Tanakh, Prophets, Nevi'im, KJV
-author: Anonymous
+title: Second Kings
+collection: The Bible (KJV) - Old Testament
+collectionIndex: 11
+author: null
 language: en
 priority: 3.11
 ---
-
-# The Fourth Book of Nevi'im, called Kings - Mlachim - מְלָכִים
-# Nevi'im - נביאים
-=====================
-
-
-
 
 ## The Second Books of Kings - Chapter 1
 

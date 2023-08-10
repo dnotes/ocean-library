@@ -1,7 +1,7 @@
 ---
 id: ''
 title: The Pearl of Great Price
-author: ''
+author: Joseph Smith
 access: research
 language: en
 priority: 10

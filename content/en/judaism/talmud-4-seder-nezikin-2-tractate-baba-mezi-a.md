@@ -1,6 +1,8 @@
 ---
 id: babamezia__babamezia0__4039744539__en
 title: 'Babylonian Talmud: Baba Mezi‘a'
+collection: Babylonian Talmud
+collectionIndex: 10
 author: null
 access: research
 language: en

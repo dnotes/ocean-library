@@ -1,7 +1,9 @@
 ---
 id: various__rig-veda-book-2__4265491694__en
 title: 'Rig Veda, Book 2'
-author: Various
+author: null
+collection: The Rig Veda
+collectionIndex: 2
 access: research
 language: en
 priority: 10

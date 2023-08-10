@@ -1,17 +1,12 @@
 ---
 id: kjv-20-micah_en
-title: The Book of Micah - Mikha - מִיכָה
-collection: Bible, Old Testament, Tanakh, Prophets, Nevi'im, KJV
-author: Micah
+title: Micah
+collection: The Bible (KJV) - Old Testament
+collectionIndex: 20
+author: null
 language: en
 priority: 3.20
 ---
-
-# The Twelfth Book of Nevi'im, called Micah - Mikha - מִיכָה
-# Nevi'im - נביאים
-=====================
-
-
 
 ## The Book of Micah - Chapter 1
 

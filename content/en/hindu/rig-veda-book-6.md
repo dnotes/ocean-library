@@ -1,7 +1,9 @@
 ---
 id: various__rig-veda-book-6__4265491694__en
 title: 'Rig Veda, Book 6'
-author: Various
+author: null
+collection: The Rig Veda
+collectionIndex: 6
 access: research
 language: en
 priority: 10

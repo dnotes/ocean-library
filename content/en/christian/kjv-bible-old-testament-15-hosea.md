@@ -1,17 +1,12 @@
 ---
 id: kjv-15-hosea_en
-title: The Book of Hosea - Hoshea - הוֹשֵׁעַ
-collection: Bible, Old Testament, Tanakh, Prophets, Nevi'im, KJV
-author: Hosea
+title: Hosea
+collection: The Bible (KJV) - Old Testament
+collectionIndex: 15
+author: null
 language: en
 priority: 3.15
 ---
-
-# The Eighth Book of Nevi'im, called Hosea - Hoshea - הוֹשֵׁעַ
-# Nevi'im - נביאים
-=====================
-
-
 
 ## The Book of Hosea - Chapter 1
 

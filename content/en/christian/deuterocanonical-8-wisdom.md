@@ -1,6 +1,8 @@
 ---
 id: apo__wis__1055108595__en
 title: Wisdom
+collection: Deuterocanonical Texts
+collectionIndex: 8
 author: null
 access: encumbered
 language: en

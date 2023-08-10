@@ -1,6 +1,8 @@
 ---
 id: apo__bel__244349040__en
 title: Bel and the Dragon
+collection: Deuterocanonical Texts
+collectionIndex: 15
 author: null
 access: encumbered
 language: en

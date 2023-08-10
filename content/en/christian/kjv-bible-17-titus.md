@@ -1,17 +1,14 @@
 ---
 id: kjv-17-titus_en
-title: The Epistle of Paul the Apostle to Titus - επιστολή στον Τίτος
-collection: New Testament, KJV, Bible, King James, The Epistle of Paul the Apostle to Titus 
+title: Titus
+collection: The Bible (KJV) - New Testament
+collectionIndex: 17
 author: Paul
 language: en
 priority: 3.17
 ---
 
-# The Epistle of Paul the Apostle to Titus - επιστολή στον Τίτος
-
-=====================
-
-## The Epistle of Paul the Apostle to Titus - Chapter 1
+## Titus 1
 
 Paul, a servant of God, and an apostle of Jesus Christ, according to the faith of God's elect, and the acknowledging of the truth which is after godliness; <sup>1:2</sup> In hope of eternal life, which God, that cannot lie, promised before the world began; <sup>1:3</sup> But hath in due times manifested his word through preaching, which is committed unto me according to the commandment of God our Saviour; <sup>1:4</sup> To Titus, mine own son after the common faith: Grace, mercy, and peace, from God the Father and the Lord Jesus Christ our Saviour.  {id="1:1"}
 

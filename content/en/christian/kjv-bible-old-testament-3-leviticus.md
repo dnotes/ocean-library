@@ -1,18 +1,12 @@
 ---
 id: kjv-03-leviticus_en
-title: The Third Book of Moses,  Called Leviticus - Vayikra - וַיִּקְרָא
-collection: Old Testament, Torah, KJV, Bible, King James, Pentatuch
-author: Moses
+title: Leviticus
+collection: The Bible (KJV) - Old Testament
+collectionIndex: 3
+author: null
 language: en
 priority: 3.03
 ---
-
-# The Third Book of Moses:  Called Leviticus - Vayikra - וַיִּקְרָא
-# Torah - תּוֹרָה
-
-=====================
-
-
 
 ## The Book of Leviticus - Chapter 1
 

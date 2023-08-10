@@ -1,17 +1,12 @@
 ---
 id: kjv-37-nehemiah_en
-title: The Book of Nehemiah - Nehemyah - נְחֶמְיָה
-collection: Bible, Old Testament, Tanakh, Writings, Ketuvim, KJV
-author: Nehemiah
+title: Nehemiah
+collection: The Bible (KJV) - Old Testament
+collectionIndex: 37
+author: null
 language: en
 priority: 3.37
 ---
-
-# The Tenth Book of Ketuvim (2/2), called Nehemiah - Nehemya - נְחֶמְיָה
-# Nevi'im - נביאים
-=====================
-
-
 
 ## The Book of Nehemiah - Chapter 1
 

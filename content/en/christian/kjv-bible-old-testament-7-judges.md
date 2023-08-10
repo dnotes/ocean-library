@@ -1,17 +1,12 @@
 ---
 id: kjv-07-judges_en
-title: The Book of Judges - Shoftim - שֹׁפְטִים
-collection: Bible, Old Testament, Tanakh, Prophets, Nevi'im, KJV
-author: Anonymous
+title: Judges
+collection: The Bible (KJV) - Old Testament
+collectionIndex: 7
+author: null
 language: en
 priority: 3.07
 ---
-
-# The Second Book of Nevi'im, called Judges - Shoftim - שֹׁפְטִים
-# Nevi'im - נביאים
-=====================
-
-
 
 ## The Book of Judges - Chapter 1
 

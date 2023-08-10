@@ -1,7 +1,7 @@
 ---
 id: anonymous__kena-upanishad__2540922691__en
 title: Kena Upanishad
-author: Anonymous
+author: null
 access: research
 language: en
 priority: 10

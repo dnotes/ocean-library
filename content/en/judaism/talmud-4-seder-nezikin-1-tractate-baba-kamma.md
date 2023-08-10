@@ -1,7 +1,9 @@
 ---
 id: babakamma__babakamma0__1332154417__en
 title: 'Babylonian Talmud: Baba Kamma'
-author: ''
+collection: Babylonian Talmud
+collectionIndex: 9
+author: null
 access: research
 language: en
 priority: 10

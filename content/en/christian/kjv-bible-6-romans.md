@@ -1,18 +1,14 @@
 ---
 id: kjv-06-romans_en
-title: The Epistle of Paul the Apostle to the Romans - επιστολή στους Ρωμαίους
-collection: New Testament, KJV, Bible, King James, The Epistle of Paul the Apostle to the Romans
+title: Romans
+collection: The Bible (KJV) - New Testament
+collectionIndex: 6
 author: Paul
 language: en
 priority: 3.06
 ---
 
-# The Epistle of Paul the Apostle to the Romans - επιστολή στους Ρωμαίους
-
-=====================
-
-
-## The Epistle of Paul the Apostle to the Romans - Chapter 1
+## Romans 1
 
 Paul, a servant of Jesus Christ, called to be an apostle, separated unto the gospel of God, <sup>1:2</sup> (Which he had promised afore by his prophets in the holy scriptures,) <sup>1:3</sup> Concerning his Son Jesus Christ our Lord, which was made of the seed of David according to the flesh; <sup>1:4</sup> And declared to be the Son of God with power, according to the spirit of holiness, by the resurrection from the dead: <sup>1:5</sup> By whom we have received grace and apostleship, for obedience to the faith among all nations, for his name: <sup>1:6</sup> Among whom are ye also the called of Jesus Christ: <sup>1:7</sup> To all that be in Rome, beloved of God, called to be saints: Grace to you and peace from God our Father, and the Lord Jesus Christ.  {id="1:1"}
 

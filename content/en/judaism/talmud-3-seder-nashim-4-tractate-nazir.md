@@ -1,7 +1,9 @@
 ---
 id: nazir__nazir0__886895841__en
-title: nazir_0
-author: nazir
+title: 'Babylonian Talmud: Nazir'
+collection: Babylonian Talmud
+collectionIndex: 6
+author: null
 access: research
 language: en
 priority: 10

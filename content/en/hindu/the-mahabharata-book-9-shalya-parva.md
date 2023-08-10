@@ -2,6 +2,8 @@
 id: vyasa__mahabharata-book-9-shalya-parva__2123817779__en
 title: 'The Mahabharata, Book 9: Shalya Parva'
 author: Vyāsa
+collection: The Mahabharata
+collectionIndex: 9
 access: research
 language: en
 priority: 10

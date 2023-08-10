@@ -1,7 +1,9 @@
 ---
-id: ''
+id: 'babylonian-talmud-niddah'
 title: 'Babylonian Talmud: Niddah'
-author: ''
+collection: Babylonian Talmud
+collectionIndex: 15
+author: null
 access: research
 language: en
 priority: 10

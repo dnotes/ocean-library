@@ -2,6 +2,8 @@
 id: vyasa__mahabharata-book-3-vana-parva__1282375790__en
 title: 'The Mahabharata, Book 3: Vana Parva'
 author: Vyāsa
+collection: The Mahabharata
+collectionIndex: 3
 access: research
 language: en
 priority: 10

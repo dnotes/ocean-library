@@ -2,6 +2,8 @@
 id: vyasa__mahabharata-book-15-asramavasika-parva__735284658__en
 title: 'The Mahabharata, Book 15: Asramavasika Parva'
 author: Vyāsa
+collection: The Mahabharata
+collectionIndex: 15
 access: research
 language: en
 priority: 10

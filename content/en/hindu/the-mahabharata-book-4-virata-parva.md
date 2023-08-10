@@ -2,6 +2,8 @@
 id: vyasa__mahabharata-book-4-virata-parva__1042892800__en
 title: 'The Mahabharata, Book 4: Virata Parva'
 author: Vyāsa
+collection: The Mahabharata
+collectionIndex: 4
 access: research
 language: en
 priority: 10

@@ -1,17 +1,14 @@
 ---
 id: kjv-28-2john_en
-title: The Second Epistle of Paul the Apostle to John - δεύτερη επιστολή στο Ιωάννη
-collection: New Testament, KJV, Bible, King James, The Second Epistle of Paul the Apostle to John 
-author: Paul
+title: Second John
+collection: The Bible (KJV) - New Testament
+collectionIndex: 24
+author: John
 language: en
 priority: 3.28
 ---
 
-# The Second Epistle of Paul the Apostle to John - δεύτερη επιστολή στο Ιωάννη
-
-=====================
-
-## The Second Epistle of Paul the Apostle to John - Chapter 1  
+## Second John 1
 
 The elder unto the elect lady and her children, whom I love in the truth; and not I only, but also all they that have known the truth; <sup>1:2</sup> For the truth's sake, which dwelleth in us, and shall be with us for ever.  {id="1:1"}
 

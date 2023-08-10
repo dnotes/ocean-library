@@ -1,17 +1,12 @@
 ---
 id: kjv-30-song-solomon_en
-title: The Song of Solomon - Shir Hashirim - שִׁיר הַשִׁירִים
-collection: Bible, Old Testament, Tanakh, Writings, Ketuvim, KJV
-author: Solomon
+title: Song of Solomon
+collection: The Bible (KJV) - Old Testament
+collectionIndex: 30
+author: null
 language: en
 priority: 3.30
 ---
-
-# The Fourth Book of Ketuvim, called Song of Solomon - Shir Hashirim - שִׁיר הַשִׁירִים
-# Nevi'im - נביאים
-=====================
-
-
 
 ## The Song of Solomon - Chapter 1
 

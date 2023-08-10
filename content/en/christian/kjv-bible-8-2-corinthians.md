@@ -1,18 +1,14 @@
 ---
 id: kjv-08-2corinthians_en
-title: The Second Epistle of Paul the Apostle to the Corinthians - δεύτερη επιστολή προς τους Κορινθίους
-collection: New Testament, KJV, Bible, King James, The Second Epistle of Paul the Apostle to the Corinthians 
+title: Second Corinthians
+collection: The Bible (KJV) - New Testament
+collectionIndex: 8
 author: Paul
 language: en
 priority: 3.08
 ---
 
-# The Second Epistle of Paul the Apostle to the Corinthians - δεύτερη επιστολή προς τους Κορινθίους
-
-=====================
-
-
-## The Second Epistle of Paul the Apostle to the Corinthians - Chapter 1 
+## Second Corinthians 1
 
 Paul, an apostle of Jesus Christ by the will of God, and Timothy our brother, unto the church of God which is at Corinth, with all the saints which are in all Achaia: <sup>1:2</sup> Grace be to you and peace from God our Father, and from the Lord Jesus Christ.  {id="1:1"}
 

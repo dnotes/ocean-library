@@ -1,7 +1,7 @@
 ---
 id: anonymous__amitabha-sutra__3675260490__en
 title: The Smaller Sukhâvatî-vyûha
-author: Anonymous
+author: null
 access: research
 language: en
 priority: 10

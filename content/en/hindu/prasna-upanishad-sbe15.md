@@ -1,7 +1,7 @@
 ---
 id: anonymous__svetasvatara-upanishad__1316459482__en
 title: Svetāsvatara Upanishad
-author: anonymous
+author: null
 access: research
 language: en
 priority: 10

@@ -1,7 +1,9 @@
 ---
-id: ''
+id: 'babylonian-talmud-baba-bathra'
 title: 'Babylonian Talmud: Baba Bathra'
-author: ''
+collection: Babylonian Talmud
+collectionIndex: 11
+author: null
 access: research
 language: en
 priority: 10

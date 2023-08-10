@@ -1,7 +1,7 @@
 ---
 id: anonymous__aitareya-aranyaka__2540922691__en
 title: 'Aitareya-Āraṇyaka'
-author: Anonymous
+author: null
 access: research
 language: en
 priority: 10

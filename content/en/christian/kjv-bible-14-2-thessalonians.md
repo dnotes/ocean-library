@@ -1,17 +1,14 @@
 ---
 id: kjv-14-2thessalonians_en
-title: The Second Epistle of Paul the Apostle to the Thessalonians - δεύτερη επιστολή προς τους θεσσαλονίκους
-collection: New Testament, KJV, Bible, King James, The Second Epistle of Paul the Apostle to the Thessalonians 
+title: Second Thessalonians
+collection: The Bible (KJV) - New Testament
+collectionIndex: 14
 author: Paul
 language: en
 priority: 3.14
 ---
 
-# The Second Epistle of Paul the Apostle to the Thessalonians - δεύτερη επιστολή προς τους θεσσαλονίκους
-
-=====================
-
-## The Second Epistle of Paul the Apostle to the Thessalonians - Chapter 1
+## Second Thessalonians 1
 
 Paul, and Silvanus, and Timotheus, unto the church of the Thessalonians in God our Father and the Lord Jesus Christ: <sup>1:2</sup> Grace unto you, and peace, from God our Father and the Lord Jesus Christ.  {id="1:1"}
 

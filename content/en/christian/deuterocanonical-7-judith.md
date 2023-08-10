@@ -1,6 +1,8 @@
 ---
 id: apo__jdt__2614514412__en
 title: Judith
+collection: Deuterocanonical Texts
+collectionIndex: 7
 author: null
 access: encumbered
 language: en

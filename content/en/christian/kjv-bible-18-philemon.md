@@ -1,17 +1,14 @@
 ---
 id: kjv-18-philemon_en
-title: The Epistle of Paul the Apostle to Philemon - επιστολή στον Φιλήμονα
-collection: New Testament, KJV, Bible, King James, The Epistle of Paul the Apostle to Philemon 
+title: Philemon
+collection: The Bible (KJV) - New Testament
+collectionIndex: 18
 author: Paul
 language: en
 priority: 3.18
 ---
 
-# The Epistle of Paul the Apostle to Philemon - επιστολή στον Φιλήμονα
-
-=====================
-
-## The Epistle of Paul the Apostle to Philemon - Chapter 1
+## Philemon 1
 
 Paul, a prisoner of Jesus Christ, and Timothy our brother, unto Philemon our dearly beloved, and fellowlabourer, <sup>1:2</sup> And to our beloved Apphia, and Archippus our fellowsoldier, and to the church in thy house: <sup>1:3</sup> Grace to you, and peace, from God our Father and the Lord Jesus Christ.  {id="1:1"}
 

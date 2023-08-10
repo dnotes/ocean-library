@@ -2,7 +2,7 @@
 id: anonymous__diamond-sutra__4181359298__en
 title: The Vajracchedikā Prajñāpāramitā Sūtra
 subtitle: Diamond Sutra
-author: traditional
+author: null
 access: research
 language: en
 priority: 10
@@ -59,7 +59,7 @@ After this, the venerable Subhūti spoke thus to the Bhagavat: 'Forsooth, O Bhag
 
 And again Bhagavat spoke thus to the venerable Subhūti: 'What do you think, O Subhūti, is there anything (dharma) that was known by the Tathāgata under the name of the highest perfect knowledge, or anything that was taught by the Tathāgata?'
 
-After these words, the venerable Subhūti spoke thus to Bhagavat: 'As I, O Bhagavat, understand the meaning of the preaching of the Bhagavat, there is nothing that was known by the Tathāgata under the name of the highest perfect knowledge, nor is there anything that is taught by the Tathāgata. And why? Because that thing which was known or taught by the Tathāgata is incomprehensible and inexpressible. It is neither a thing nor no-thing. And why? Because the holy persons are of imperfect power.' [pg 119] 
+After these words, the venerable Subhūti spoke thus to Bhagavat: 'As I, O Bhagavat, understand the meaning of the preaching of the Bhagavat, there is nothing that was known by the Tathāgata under the name of the highest perfect knowledge, nor is there anything that is taught by the Tathāgata. And why? Because that thing which was known or taught by the Tathāgata is incomprehensible and inexpressible. It is neither a thing nor no-thing. And why? Because the holy persons are of imperfect power.' [pg 119]
 
 ## VIII. {#8}
 
@@ -226,7 +226,7 @@ After this, the venerable Subhūti spoke thus to the Bhagavat: 'Forsooth, O Bhag
 
 'And if, O Subhūti, a son or a daughter of a good family were to fill worlds equal to the number of grains of sand of the river Gangā with the seven treasures, and give them as a gift to holy and fully enlightened Tathāgatas; and if a Bodhisattva acquired endurance in selfless and uncreated things, then the latter will on the strength of this produce a larger stock of merit, immeasurable and innumerable.
 
-'But, O Subhūti, a stock of merit should not be appropriated by a noble-minded Bodhisattva.' The venerable Subhūti said: 'Should a stock of merit, O Bhagavat, not be appropriated by a Bodhisattva?' Bhagavat said: 'It should be appropriated, O Subhūti; it should not be appropriated; and therefore it is said: It should be appropriated.' [pg 142] 
+'But, O Subhūti, a stock of merit should not be appropriated by a noble-minded Bodhisattva.' The venerable Subhūti said: 'Should a stock of merit, O Bhagavat, not be appropriated by a Bodhisattva?' Bhagavat said: 'It should be appropriated, O Subhūti; it should not be appropriated; and therefore it is said: It should be appropriated.' [pg 142]
 
 ## XXIX. {#29}
 

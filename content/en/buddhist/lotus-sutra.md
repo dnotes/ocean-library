@@ -1,7 +1,7 @@
 ---
 id: anonymous__lotus-true-law-lotus-sutra__252658909__en
 title: Saddharma Puṇḍarīka
-author: Anonymous
+author: null
 access: research
 language: en
 priority: 10

@@ -2,6 +2,8 @@
 id: vyasa__mahabharata-book-16-mausala-parva__3182062514__en
 title: 'The Mahabharata, Book 16: Mausala Parva'
 author: Vyāsa
+collection: The Mahabharata
+collectionIndex: 16
 access: research
 language: en
 priority: 10

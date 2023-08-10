@@ -1,7 +1,9 @@
 ---
 id: various__rig-veda-book-9__4265491694__en
 title: 'Rig Veda, Book 9'
-author: Various
+author: null
+collection: The Rig Veda
+collectionIndex: 9
 access: research
 language: en
 priority: 10

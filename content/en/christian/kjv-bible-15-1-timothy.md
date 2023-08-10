@@ -1,17 +1,14 @@
 ---
 id: kjv-15-1timothy_en
-title: The First Epistle of Paul the Apostle to Timothy - πρώτα επιστολή στον Τιμόθεο
-collection: New Testament, KJV, Bible, King James, The First Epistle of Paul the Apostle to Timothy 
+title: First Timothy
+collection: The Bible (KJV) - New Testament
+collectionIndex: 15
 author: Paul
 language: en
 priority: 3.15
 ---
 
-# The First Epistle of Paul the Apostle to Timothy - πρώτη επιστολή στον Τιμόθεο
-
-=====================
-
-## The First Epistle of Paul the Apostle to Timothy - Chapter 1 
+## First Timothy 1
 
 Paul, an apostle of Jesus Christ by the commandment of God our Saviour, and Lord Jesus Christ, which is our hope; <sup>1:2</sup> Unto Timothy, my own son in the faith: Grace, mercy, and peace, from God our Father and Jesus Christ our Lord.  {id="1:1"}
 

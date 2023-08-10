@@ -1,17 +1,12 @@
 ---
 id: kjv-23-zephaniah_en
-title: The Book of Zephaniah - Tsefanyah - צְפַנְיָה
-collection: Bible, Old Testament, Tanakh, Prophets, Nevi'im, KJV
-author: Zephaniah
+title: Zephaniah
+collection: The Bible (KJV) - Old Testament
+collectionIndex: 23
+author: null
 language: en
 priority: 3.23
 ---
-
-# The Fifteenth Book of Nevi'im, called Zephaniah - Tsefanyah - צְפַנְיָה
-# Nevi'im - נביאים
-=====================
-
-
 
 ## The Book of Zephaniah - Chapter 1
 

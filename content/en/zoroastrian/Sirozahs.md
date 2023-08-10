@@ -1,7 +1,7 @@
 ---
 id: anonymous__sirozahs__3642159620__en
 title: Sīrōzahs
-author: Anonymous
+author: null
 access: research
 language: en
 priority: 10

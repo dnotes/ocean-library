@@ -1,17 +1,12 @@
 ---
 id: kjv-26-Malachi_en
-title: The Book of Malachi - Malakhi - מַלְאָכִי
-collection: Bible, Old Testament, Tanakh, Prophets, Nevi'im, KJV
-author: Malachi
+title: Malachi
+collection: The Bible (KJV) - Old Testament
+collectionIndex: 26
+author: null
 language: en
 priority: 3.26
 ---
-
-# The Eighteenth Book of Nevi'im, called Malachi - Malakhi - מַלְאָכִי
-# Nevi'im - נביאים
-=====================
-
-
 
 ## The Book of Malachi - Chapter 1
 

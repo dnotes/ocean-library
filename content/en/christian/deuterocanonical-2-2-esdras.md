@@ -1,6 +1,8 @@
 ---
 id: apo__es2__831088436__en
 title: 2 Esdras
+collection: Deuterocanonical Texts
+collectionIndex: 2
 author: null
 access: encumbered
 language: en

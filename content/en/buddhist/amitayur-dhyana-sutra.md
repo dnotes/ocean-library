@@ -1,7 +1,7 @@
 ---
 id: anonymous__sutra-contemplation-buddha-amitayus__1991052244__en
 title: The Amitâyur-dhyâna-sûtra
-author: Anonymous
+author: null
 access: research
 language: en
 priority: 10

@@ -1,6 +1,8 @@
 ---
 id: apo__ma1__3296987086__en
 title: 1 Macabees
+collection: Deuterocanonical Texts
+collectionIndex: 4
 author: null
 access: encumbered
 language: en

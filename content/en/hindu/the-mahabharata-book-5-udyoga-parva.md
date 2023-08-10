@@ -2,6 +2,8 @@
 id: vyasa__mahabharata-book-5-udyoga-parva__147520686__en
 title: 'The Mahabharata, Book 5: Udyoga Parva'
 author: Vyāsa
+collection: The Mahabharata
+collectionIndex: 5
 access: research
 language: en
 priority: 10

@@ -1,17 +1,14 @@
 ---
 id: kjv-22-2peter_en
-title: The Second Epistle of Paul the Apostle to Peter - δεύτερη επιστολή να Πέτρου
-collection: New Testament, KJV, Bible, King James, The Second Epistle of Paul the Apostle to Peter 
-author: Paul
+title: Second Peter
+collection: The Bible (KJV) - New Testament
+collectionIndex: 22
+author: Peter
 language: en
 priority: 3.22
 ---
 
-# The Second Epistle of Paul the Apostle to Peter - δεύτερη επιστολή να Πέτρου
-
-=====================
-
-## The Second Epistle of Paul the Apostle to Peter - Chapter 1
+## Second Peter 1
 
 Simon Peter, a servant and an apostle of Jesus Christ, to them that have obtained like precious faith with us through the righteousness of God and our Saviour Jesus Christ: <sup>1:2</sup> Grace and peace be multiplied unto you through the knowledge of God, and of Jesus our Lord, <sup>1:3</sup> According as his divine power hath given unto us all things that pertain unto life and godliness, through the knowledge of him that hath called us to glory and virtue: <sup>1:4</sup> Whereby are given unto us exceeding great and precious promises: that by these ye might be partakers of the divine nature, having escaped the corruption that is in the world through lust.  {id="1:1"}
 

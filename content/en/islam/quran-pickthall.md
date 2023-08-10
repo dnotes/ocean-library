@@ -1,7 +1,8 @@
 ---
 id: quran-pickthall_en
-title: 'The Meaning of the Glorious Qur’án'
-author: Muḥammad ibn ‘Abdu’lláh
+title: The Qur’án (Pickthall)
+subtitle: 'The Meaning of the Glorious Qur’án'
+author: null
 access: research
 language: en
 priority: 10

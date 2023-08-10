@@ -1,7 +1,7 @@
 ---
 id: ''
 title: The Doctrine and Covenants of The Church of Jesus Christ of Latter-day Saints
-author: ''
+author: Joseph Smith
 access: research
 language: en
 priority: 10

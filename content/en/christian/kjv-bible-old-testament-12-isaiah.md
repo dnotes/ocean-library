@@ -1,19 +1,14 @@
 ---
 id: kjv-12-Isaiah_en
-title: The Book of Isaiah - Yesha'ayahu - יְשַׁעְיָהוּ
-collection: Bible, Old Testament, Tanakh, Prophets, Nevi'im, KJV
-author: Isaiah
+title: Isaiah
+collection: The Bible (KJV) - Old Testament
+collectionIndex: 12
+author: null
 language: en
 priority: 3.12
 ---
 
-# The Fifth Book of Nevi'im, called Isaiah - Yesha'ayahu - יְשַׁעְיָהוּ
-# Nevi'im - נביאים
-=====================
-
-
-
-## The Book of the Prophet Isaiah - Chapter 1
+## The Book of Isaiah - Chapter 1
 
 The vision of Isaiah the son of Amoz, which he saw concerning Judah and Jerusalem in the days of Uzziah, Jotham, Ahaz, and Hezekiah, kings of Judah.  {id="1:1"}
 

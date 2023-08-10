@@ -1,7 +1,7 @@
 ---
 id: anonymous__infinite-life-sutra__85645445__en
 title: The Larger Sukhâvatî-vyûha
-author: Anonymous
+author: null
 access: research
 language: en
 priority: 10

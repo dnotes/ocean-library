@@ -1,17 +1,12 @@
 ---
 id: kjv-33-ecclesiastes_en
-title: The Book of Ecclesiastes - Kohelet - קֹהֶלֶת
-collection: Bible, Old Testament, Tanakh, Writings, Ketuvim, KJV
-author:
+title: Ecclesiastes
+collection: The Bible (KJV) - Old Testament
+collectionIndex: 33
+author: null
 language: en
 priority: 3.33
 ---
-
-# The Seventh Book of Ketuvim, called Ecclesiastes - Kohelet - קֹהֶלֶת
-# Nevi'im - נביאים
-=====================
-
-
 
 ## The Book of Ecclesiastes - Chapter 1
 

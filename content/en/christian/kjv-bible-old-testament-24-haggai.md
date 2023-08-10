@@ -1,17 +1,12 @@
 ---
 id: kjv-24-haggai_en
-title: The Book of Haggai - Khaggai - חַגַּי
-collection: Bible, Old Testament, Tanakh, Prophets, Nevi'im, KJV
-author: Haggai
+title: Haggai
+collection: The Bible (KJV) - Old Testament
+collectionIndex: 24
+author: null
 language: en
 priority: 3.24
 ---
-
-# The Sixteenth Book of Nevi'im, called Haggai - Khaggai - חַגַּי
-# Nevi'im - נביאים
-=====================
-
-
 
 ## The Book of Haggai - Chapter 1
 

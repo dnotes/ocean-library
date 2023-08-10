@@ -1,6 +1,6 @@
 ---
 id: mahavira-ganadharas__jaina-sutras-part-i-sbe22-index__1488818639__en
-title: ĀCĀRĀṄGA SŪTRA
+title: Ācārāṅga Sūtra
 author: Mahavira and the Ganadharas
 access: research
 language: en

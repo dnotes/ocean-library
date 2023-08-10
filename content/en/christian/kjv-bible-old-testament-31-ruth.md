@@ -1,17 +1,12 @@
 ---
 id: kjv-31-ruth_en
-title: The Book of Ruth - Rut - רוּת
-collection: Bible, Old Testament, Tanakh, Writings, Ketuvim, KJV
-author:
+title: Ruth
+collection: The Bible (KJV) - Old Testament
+collectionIndex: 31
+author: null
 language: en
 priority: 3.31
 ---
-
-# The Fifth Book of Ketuvim, called Ruth - Rut - רוּת
-# Nevi'im - נביאים
-=====================
-
-
 
 ## The Book of Ruth - Chapter 1
 

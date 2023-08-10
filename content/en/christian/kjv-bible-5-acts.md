@@ -1,18 +1,14 @@
 ---
 id: kjv-05-acts_en
-title: The Acts of the Apostles - πράξεις των αποστόλων
-collection: New Testament, KJV, Bible, King James, Acts of the Apostles
+title: The Acts of the Apostles
+collection: The Bible (KJV) - New Testament
+collectionIndex: 5
 author: Luke
 language: en
 priority: 3.05
 ---
 
-# The Acts of the Apostles - πράξεις των αποστόλων
-
-=====================
-
-
-## The Acts of the Apostles - Chapter 1
+## Acts 1
 
 The former treatise have I made, O Theophilus, of all that Jesus began both to do and teach, <sup>1:2</sup> Until the day in which he was taken up, after that he through the Holy Ghost had given commandments unto the apostles whom he had chosen: <sup>1:3</sup> To whom also he shewed himself alive after his passion by many infallible proofs, being seen of them forty days, and speaking of the things pertaining to the kingdom of God: <sup>1:4</sup> And, being assembled together with them, commanded them that they should not depart from Jerusalem, but wait for the promise of the Father, which, saith he, ye have heard of me.  {id="1:1"}
 
@@ -1476,7 +1472,7 @@ For it seemeth to me unreasonable to send a prisoner, and not withal to signify 
 
 Then Agrippa said unto Paul, Thou art permitted to speak for thyself.  {id="26:1"}
 
-Then Paul stretched forth the hand, and answered for himself: <sup>26:2</sup> I think myself happy, king Agrippa, because I shall answer for myself this day before thee touching all the things whereof I am accused of the Jews: <sup>26:3</sup> Especially because I know thee to be expert in all customs and questions which are among the Jews: wherefore I beseech thee to hear me patiently. 
+Then Paul stretched forth the hand, and answered for himself: <sup>26:2</sup> I think myself happy, king Agrippa, because I shall answer for myself this day before thee touching all the things whereof I am accused of the Jews: <sup>26:3</sup> Especially because I know thee to be expert in all customs and questions which are among the Jews: wherefore I beseech thee to hear me patiently.
 
 My manner of life from my youth, which was at the first among mine own nation at Jerusalem, know all the Jews; <sup>26:5</sup> Which knew me from the beginning, if they would testify, that after the most straitest sect of our religion I lived a Pharisee.  {id="26:4"}
 

@@ -1,17 +1,14 @@
 ---
 id: kjv-16-2timothy_en
-title: The Second Epistle of Paul the Apostle to Timothy - δεύτερη επιστολή στον Τιμόθεο
-collection: New Testament, KJV, Bible, King James, The Second Epistle of Paul the Apostle to Timothy 
+title: Second Timothy
+collection: The Bible (KJV) - New Testament
+collectionIndex: 16
 author: Paul
 language: en
 priority: 3.16
 ---
 
-# The Second Epistle of Paul the Apostle to Timothy - δεύτερη επιστολή στον Τιμόθεο
-
-=====================
-
-## The Second Epistle of Paul the Apostle to Timothy - Chapter 1
+## Second Timothy 1
 
 Paul, an apostle of Jesus Christ by the will of God, according to the promise of life which is in Christ Jesus, <sup>1:2</sup> To Timothy, my dearly beloved son: Grace, mercy, and peace, from God the Father and Christ Jesus our Lord.  {id="1:1"}
 

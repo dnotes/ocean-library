@@ -1,6 +1,8 @@
 ---
 id: apo__epj__621006622__en
 title: Epistle of Jeremiah
+collection: Deuterocanonical Texts
+collectionIndex: 11
 author: null
 access: encumbered
 language: en

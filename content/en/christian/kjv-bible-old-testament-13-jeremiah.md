@@ -1,19 +1,14 @@
 ---
 id: kjv-13-jeremiah_en
-title: The Book of Jeremiah - Yirmeyahu - יִרְמְיָהוּ
-collection: Bible, Old Testament, Tanakh, Prophets, Nevi'im, KJV
-author: Jeremiah
+title: Jeremiah
+collection: The Bible (KJV) - Old Testament
+collectionIndex: 13
+author: null
 language: en
 priority: 3.13
 ---
 
-# The Sixth Book of Nevi'im, called Jeremiah - Yirmeyahu - יִרְמְיָהוּ
-# Nevi'im - נביאים
-=====================
-
-
-
-## The Book of the Prophet Jeremiah - Chapter 1
+## The Book of Jeremiah - Chapter 1
 
 The words of Jeremiah the son of Hilkiah, of the priests that were in Anathoth in the land of Benjamin: <sup>1:2</sup> To whom the word of the LORD came in the days of Josiah the son of Amon king of Judah, in the thirteenth year of his reign.  {id="1:1"}
 

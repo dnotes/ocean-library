@@ -1,19 +1,14 @@
 ---
 id: kjv-03-luke_en
-title: The Gospel of Luke - ευαγγέλιο του λουκά
-collection: New Testament, KJV, Bible, King James, Gospels
+title: Luke
+collection: The Bible (KJV) - New Testament
+collectionIndex: 3
 author: Luke
 language: en
 priority: 3.03
 ---
 
-# The Gospel of Luke - ευαγγέλιο του λουκά
-# Gospels - ευαγγέλια
-
-=====================
-
-
-## The Gospel of Luke - Chapter 1   
+## Luke 1
 
 Forasmuch as many have taken in hand to set forth in order a declaration of those things which are most surely believed among us, <sup>1:2</sup> Even as they delivered them unto us, which from the beginning were eyewitnesses, and ministers of the word; <sup>1:3</sup> It seemed good to me also, having had perfect understanding of all things from the very first, to write unto thee in order, most excellent Theophilus, <sup>1:4</sup> That thou mightest know the certainty of those things, wherein thou hast been instructed.  {id="1:1"}
 
@@ -239,7 +234,7 @@ Now when all the people were baptized, it came to pass, that Jesus also being ba
 
 And Jesus himself began to be about thirty years of age, being (as was supposed) the son of Joseph, which was the son of Heli, <sup>3:24</sup> Which was the son of Matthat, which was the son of Levi, which was the son of Melchi, which was the son of Janna, which was the son of Joseph, <sup>3:25</sup> Which was the son of Mattathias, which was the son of Amos, which was the son of Naum, which was the son of Esli, which was the son of Nagge, <sup>3:26</sup> Which was the son of Maath, which was the son of Mattathias, which was the son of Semei, which was the son of Joseph, which was the son of Juda, <sup>3:27</sup> Which was the son of Joanna, which was the son of Rhesa, which was the son of Zorobabel, which was the son of Salathiel, which was the son of Neri, <sup>3:28</sup> Which was the son of Melchi, which was the son of Addi, which was the son of Cosam, which was the son of Elmodam, which was the son of Er, <sup>3:29</sup> Which was the son of Jose, which was the son of Eliezer, which was the son of Jorim, which was the son of Matthat, which was the son of Levi, <sup>3:30</sup> Which was the son of Simeon, which was the son of Juda, which was the son of Joseph, which was the son of Jonan, which was the son of Eliakim, <sup>3:31</sup> Which was the son of Melea, which was the son of Menan, which was the son of Mattatha, which was the son of Nathan, which was the son of David, <sup>3:32</sup> Which was the son of Jesse, which was the son of Obed, which was the son of Booz, which was the son of Salmon, which was the son of Naasson, <sup>3:33</sup> Which was the son of Aminadab, which was the son of Aram, which was the son of Esrom, which was the son of Phares, which was the son of Juda, <sup>3:34</sup> Which was the son of Jacob, which was the son of Isaac, which was the son of Abraham, which was the son of Thara, which was the son of Nachor, <sup>3:35</sup> Which was the son of Saruch, which was the son of Ragau, which was the son of Phalec, which was the son of Heber, which was the son of Sala, <sup>3:36</sup> Which was the son of Cainan, which was the son of Arphaxad, which was the son of Sem, which was the son of Noe, which was the son of Lamec {id="3:23"}
 
-h, <sup>3:37</sup> Which was the son of Mathusala, which was the son of Enoch, which was the son of Jared, which was the son of Maleleel, which was the son of Cainan, <sup>3:38</sup> Which was the son of Enos, which was the son of Seth, which was the son of Adam, which was the son of God. 
+h, <sup>3:37</sup> Which was the son of Mathusala, which was the son of Enoch, which was the son of Jared, which was the son of Maleleel, which was the son of Cainan, <sup>3:38</sup> Which was the son of Enos, which was the son of Seth, which was the son of Adam, which was the son of God.
 
 ---
 

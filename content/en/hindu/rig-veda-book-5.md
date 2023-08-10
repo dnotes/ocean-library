@@ -1,7 +1,9 @@
 ---
 id: various__rig-veda-book-5__4265491694__en
 title: 'Rig Veda, Book 5'
-author: Various
+author: null
+collection: The Rig Veda
+collectionIndex: 5
 access: research
 language: en
 priority: 10

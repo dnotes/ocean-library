@@ -2,6 +2,8 @@
 id: vyasa__mahabharata-book-14-aswamedha-parva__2780181978__en
 title: 'The Mahabharata, Book 14: Aswamedha Parva'
 author: Vyāsa
+collection: The Mahabharata
+collectionIndex: 14
 access: research
 language: en
 priority: 10

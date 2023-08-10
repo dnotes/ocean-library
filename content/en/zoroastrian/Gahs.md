@@ -1,7 +1,7 @@
 ---
 id: anonymous__gahs__2669918573__en
 title: Gahs
-author: Anonymous
+author: null
 access: research
 language: en
 priority: 10

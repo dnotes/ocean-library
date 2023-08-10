@@ -1,7 +1,7 @@
 ---
 id: anonymous__visparad__1675550025__en
 title: Visparad
-author: Anonymous
+author: null
 access: research
 language: en
 priority: 10

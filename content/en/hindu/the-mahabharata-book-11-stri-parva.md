@@ -2,6 +2,8 @@
 id: vyasa__mahabharata-book-11-stri-parva-index__372979353__en
 title: 'The Mahabharata, Book 11: Stri Parva'
 author: Vyāsa
+collection: The Mahabharata
+collectionIndex: 11
 access: research
 language: en
 priority: 10

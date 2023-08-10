@@ -2,9 +2,7 @@
 id: anonymous__heart-sutra-heart-perfection-wisdom-short__413033792__en
 title: Pragñāpāramitā Hṛdaya Sūtra (short)
 subtitle: The Heart of the Perfection of Wisdom (short version)
-author:
-  - Unknown
-  - Thich Nhat Hanh
+author: null
 access: research
 language: en
 priority: 10
@@ -33,7 +31,7 @@ description: >-
   version and a short version, with the long version containing additional
   introductory and closing paragraphs, which are common features in Buddhist
   sutras. The short version is used in most East Asian Buddhist traditions,
-  while the long version is still used in Tibetan Buddhism. 
+  while the long version is still used in Tibetan Buddhism.
 
   This translation is a modern interpretive translation by Thich Nhat Hanh.
   "Prajñā Pāramitā" from the Sanskrit, often translated as "Perfection of

@@ -1,7 +1,7 @@
 ---
 id: anonymous__afrinagan__2048826766__en
 title: Āfrīnagān
-author: Anonymous
+author: null
 access: research
 language: en
 priority: 10

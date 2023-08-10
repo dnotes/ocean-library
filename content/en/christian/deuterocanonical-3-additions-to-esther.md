@@ -1,6 +1,8 @@
 ---
 id: apo__aes__2013261250__en
 title: Additions to Esther
+collection: Deuterocanonical Texts
+collectionIndex: 3
 author: null
 access: encumbered
 language: en

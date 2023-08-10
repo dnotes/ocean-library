@@ -1,19 +1,14 @@
 ---
 id: kjv-02-mark_en
-title: The Gospel of Mark - ευαγγέλιο του μάρκου
-collection: New Testament, KJV, Bible, King James, Gospels
+title: Mark
+collection: The Bible (KJV) - New Testament
+collectionIndex: 2
 author: Mark
 language: en
 priority: 3.02
 ---
 
-# The Gospel of Mark - ευαγγέλιο του μάρκου
-# Gospels - ευαγγέλια
-
-=====================
-
-
-## The Gospel of Mark - Chapter 1  
+## Mark 1
 
 The beginning of the gospel of Jesus Christ, the Son of God; <sup>1:2</sup> As it is written in the prophets, Behold, I send my messenger before thy face, which shall prepare thy way before thee.  {id="1:1"}
 

@@ -1,17 +1,12 @@
 ---
 id: kjv-25-zechariah_en
-title: The Book of Zechariah - Zekharyah - זְכַרְיָה
-collection: Bible, Old Testament, Tanakh, Prophets, Nevi'im, KJV
-author: Zechariah
+title: Zechariah
+collection: The Bible (KJV) - Old Testament
+collectionIndex: 25
+author: null
 language: en
 priority: 3.25
 ---
-
-# The Seventeenth Book of Nevi'im, called Zechariah - Zekharyah - זְכַרְיָה
-# Nevi'im - נביאים
-=====================
-
-
 
 ## The Book of Zechariah - Chapter 1
 

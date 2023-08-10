@@ -1,18 +1,12 @@
 ---
 id: kjv-02-exodous_en
-title: The Second Book of Moses,  Called Exodus - Shemot - שִׁמוֹת
-collection: Old Testament, Torah, KJV, Bible, King James, Pentatuch
-author: Moses
+title: Exodus
+collection: The Bible (KJV) - Old Testament
+collectionIndex: 2
+author: null
 language: en
 priority: 3.02
 ---
-
-# The Second Book of Moses:  Called Exodus - Shemot - שִׁמוֹת
-# Torah - תּוֹרָה
-
-=====================
-
-
 
 ## The Book of Exodus - Chapter 1
 

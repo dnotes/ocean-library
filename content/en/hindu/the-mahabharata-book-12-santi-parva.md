@@ -1,6 +1,8 @@
 ---
 id: vyasa__mahabharata-book-12-santi-parva__3298796927__en
 title: 'The Mahabharata, Book 12: Santi Parva'
+collection: The Mahabharata
+collectionIndex: 12
 author: Vyāsa
 access: research
 language: en

@@ -1,17 +1,12 @@
 ---
 id: kjv-17-amos_en
-title: The Book of Amos - עָמוֹס
-collection: Bible, Old Testament, Tanakh, Prophets, Nevi'im, KJV
-author: Amos
+title: Amos
+collection: The Bible (KJV) - Old Testament
+collectionIndex: 17
+author: null
 language: en
 priority: 3.17
 ---
-
-# The Tenth Book of Nevi'im, called Amos - עָמוֹס
-# Nevi'im - נביאים
-=====================
-
-
 
 ## The Book of Amos - Chapter 1
 

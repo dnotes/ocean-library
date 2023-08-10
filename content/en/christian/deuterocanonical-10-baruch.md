@@ -1,6 +1,8 @@
 ---
 id: apo__bar__3388736169__en
 title: Baruch
+collection: Deuterocanonical Texts
+collectionIndex: 10
 author: null
 access: encumbered
 language: en

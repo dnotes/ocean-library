@@ -1,17 +1,14 @@
---
+---
 id: kjv-26-jude_en
-title: The Epistle of Paul the Apostle to Jude - επιστολή να Ιούδα 
-collection: New Testament, KJV, Bible, King James, The Epistle of Paul the Apostle to Jude 
-author: Paul
+title: Jude
+collection: The Bible (KJV) - New Testament
+collectionIndex: 26
+author: Jude
 language: en
 priority: 3.26
 ---
 
-# The Epistle of Paul the Apostle to Jude - επιστολή να Ιούδα 
-
-=====================
-
-## The Epistle of Paul the Apostle to Jude - Chapter 1  
+## Jude 1
 
 Jude, the servant of Jesus Christ, and brother of James, to them that are sanctified by God the Father, and preserved in Jesus Christ, and called: <sup>1:2</sup> Mercy unto you, and peace, and love, be multiplied.  {id="1:1"}
 

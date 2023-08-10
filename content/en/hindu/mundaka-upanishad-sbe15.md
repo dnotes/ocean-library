@@ -1,7 +1,7 @@
 ---
 id: sbe15__index__19982346__en
 title: Muṇḍaka-Upanishad
-author: sbe15
+author: null
 access: research
 language: en
 priority: 10

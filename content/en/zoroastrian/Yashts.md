@@ -1,7 +1,7 @@
 ---
 id: anonymous__yashts__3913115922__en
 title: Yashts
-author: Anonymous
+author: null
 access: research
 language: en
 priority: 10

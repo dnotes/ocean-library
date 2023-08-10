@@ -1,7 +1,9 @@
 ---
 id: nedarim__nedarim0__3152492157__en
-title: nedarim_0
-author: nedarim
+title: 'Babylonian Talmud: Nedarim'
+collection: Babylonian Talmud
+collectionIndex: 5
+author: null
 access: research
 language: en
 priority: 10

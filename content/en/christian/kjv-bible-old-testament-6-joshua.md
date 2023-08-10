@@ -1,17 +1,12 @@
 ---
 id: kjv-06-joshua_en
-title: The Book of Joshua - Yehoshua - יְהוֹשֻעַ
-collection: Bible, Old Testament, Tanakh, Prophets, Nevi'im, KJV
-author: Anonymous
+title: Joshua
+collection: The Bible (KJV) - Old Testament
+collectionIndex: 6
+author: null
 language: en
 priority: 3.06
 ---
-
-# The First Book of Nevi'im, called Joshua - Yehoshua - יְהוֹשֻעַ
-# Nevi'im - נביאים
-=====================
-
-
 
 ## The Book of Joshua - Chapter 1
 

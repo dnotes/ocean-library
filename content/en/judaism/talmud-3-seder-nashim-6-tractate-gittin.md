@@ -1,7 +1,9 @@
 ---
 id: gittin__gittin0__2899596168__en
-title: gittin_0
-author: gittin
+title: 'Babylonian Talmud: Gittin'
+collection: Babylonian Talmud
+collectionIndex: 8
+author: null
 access: research
 language: en
 priority: 10

@@ -2,6 +2,8 @@
 id: vyasa__mahabharata-book-2-sabha-parva__1156168212__en
 title: 'The Mahabharata, Book 2: Sabha Parva'
 author: Vyāsa
+collection: The Mahabharata
+collectionIndex: 2
 access: research
 language: en
 priority: 10

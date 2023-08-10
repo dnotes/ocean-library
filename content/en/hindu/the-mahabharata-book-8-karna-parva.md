@@ -2,6 +2,8 @@
 id: vyasa__mahabharata-book-8-karna-parva__2937740165__en
 title: 'The Mahabharata, Book 8: Karna Parva'
 author: Vyāsa
+collection: The Mahabharata
+collectionIndex: 8
 access: research
 language: en
 priority: 10

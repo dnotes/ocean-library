@@ -1,6 +1,8 @@
 ---
 id: apo__sus__2484975961__en
 title: Susanna
+collection: Deuterocanonical Texts
+collectionIndex: 12
 author: null
 access: encumbered
 language: en

@@ -1,17 +1,12 @@
 ---
 id: kjv-35-daniel_en
-title: The Book of Daniel - Daniel - דָּנִיֵּאל
-collection: Bible, Old Testament, Tanakh, Writings, Ketuvim, KJV
-author: Daniel
+title: Daniel
+collection: The Bible (KJV) - Old Testament
+collectionIndex: 35
+author: null
 language: en
 priority: 3.35
 ---
-
-# The Ninth Book of Ketuvim, called Daniel - Daniel - דָּנִיֵּאל
-# Nevi'im - נביאים
-=====================
-
-
 
 ## The Book of Daniel - Chapter 1
 

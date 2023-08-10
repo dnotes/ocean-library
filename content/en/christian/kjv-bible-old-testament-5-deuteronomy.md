@@ -1,18 +1,12 @@
 ---
 id: kjv-05-deuteronomy_en
-title: The Fifth Book of Moses,  Called Deuteronomy - Devarim - דְּבָרִים
-collection: Old Testament, Torah, KJV, Bible, King James, Pentatuch
-author: Moses
+title: Deuteronomy
+collection: The Bible (KJV) - Old Testament
+collectionIndex: 5
+author: null
 language: en
 priority: 3.05
 ---
-
-# The Fifth Book of Moses:  Called Deuteronomy  - Devarim - דְּבָרִים
-# Torah - תּוֹרָה
-
-=====================
-
-
 
 ## The Book of Deuteronomy - Chapter 1
 

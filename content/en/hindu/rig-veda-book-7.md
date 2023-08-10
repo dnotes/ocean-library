@@ -1,7 +1,9 @@
 ---
 id: various__rig-veda-book-7__4265491694__en
 title: 'Rig Veda, Book 7'
-author: Various
+author: null
+collection: The Rig Veda
+collectionIndex: 7
 access: research
 language: en
 priority: 10

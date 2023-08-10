@@ -1,17 +1,12 @@
 ---
 id: kjv-36-ezra_en
-title: The Book of Ezra - Ezra - עֶזְרָא
-collection: Bible, Old Testament, Tanakh, Writings, Ketuvim, KJV
-author: Ezra
+title: Ezra
+collection: The Bible (KJV) - Old Testament
+collectionIndex: 36
+author: null
 language: en
 priority: 3.36
 ---
-
-# The Tenth Book of Ketuvim (1/2), called Ezra - Ezra - עֶזְרָא
-# Nevi'im - נביאים
-=====================
-
-
 
 ## The Book of Ezra - Chapter 1
 

@@ -1,7 +1,9 @@
 ---
-id: ''
+id: 'babylonian-talmud-horayoth'
 title: 'Babylonian Talmud: Horayoth'
-author: ''
+collection: Babylonian Talmud
+collectionIndex: 14
+author: null
 access: research
 language: en
 priority: 10

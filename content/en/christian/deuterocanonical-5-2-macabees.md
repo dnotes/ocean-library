@@ -1,6 +1,8 @@
 ---
 id: apo__ma2__262994119__en
 title: 2 Macabees
+collection: Deuterocanonical Texts
+collectionIndex: 5
 author: null
 access: encumbered
 language: en

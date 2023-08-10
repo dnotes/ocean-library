@@ -1,6 +1,8 @@
 ---
 id: apo__aza__1975193116__en
 title: Prayer of Azariah
+collection: Deuterocanonical Texts
+collectionIndex: 13
 author: null
 access: encumbered
 language: en

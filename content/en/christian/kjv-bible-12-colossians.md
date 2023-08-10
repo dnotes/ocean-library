@@ -1,17 +1,14 @@
 ---
 id: kjv-12-colossians_en
-title: The Epistle of Paul the Apostle to the Colossians - επιστολή προς τους κολοσσαείς
-collection: New Testament, KJV, Bible, King James, The Epistle of Paul the Apostle to the Colossians 
+title: Colossians
+collection: The Bible (KJV) - New Testament
+collectionIndex: 12
 author: Paul
 language: en
 priority: 3.12
 ---
 
-# The Epistle of Paul the Apostle to the Colossians - επιστολή προς τους κολοσσαείς
-
-=====================
-
-## The Epistle of Paul the Apostle to the Colossians - Chapter 1
+## Colossians 1
 
 Paul, an apostle of Jesus Christ by the will of God, and Timotheus our brother, <sup>1:2</sup>  To the saints and faithful brethren in Christ which are at Colosse: Grace be unto you, and peace, from God our Father and the Lord Jesus Christ.  {id="1:1"}
 

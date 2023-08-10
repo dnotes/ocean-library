@@ -2,6 +2,8 @@
 id: vyasa__mahabharata-book-7-drona-parva__511823721__en
 title: 'The Mahabharata, Book 7: Drona Parva'
 author: Vyāsa
+collection: The Mahabharata
+collectionIndex: 7
 access: research
 language: en
 priority: 10

@@ -2,6 +2,8 @@
 id: vyasa__mahabharata-book-1-adi-parva-index__1783142475__en
 title: 'The Mahabharata, Book 1: Adi Parva'
 author: Vyāsa
+collection: The Mahabharata
+collectionIndex: 1
 access: research
 language: en
 priority: 10

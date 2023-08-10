@@ -1,17 +1,14 @@
---
+---
 id: kjv-19-hebrews_en
-title: The Epistle of Paul the Apostle to Hebrews - επιστολή στους Εβραίους
-collection: New Testament, KJV, Bible, King James, The Epistle of Paul the Apostle to Hebrews 
+title: Hebrews
+collection: The Bible (KJV) - New Testament
+collectionIndex: 19
 author: Paul
 language: en
 priority: 3.19
 ---
 
-# The Epistle of Paul the Apostle to Hebrews - επιστολή στους Εβραίους
-
-=====================
-
-## The Epistle of Paul the Apostle to Hebrewa - Chapter 1 
+## Hebrewa 1
 
 God, who at sundry times and in divers manners spake in time past unto the fathers by the prophets, <sup>1:2</sup> Hath in these last days spoken unto us by his Son, whom he hath appointed heir of all things, by whom also he made the worlds; <sup>1:3</sup> Who being the brightness of his glory, and the express image of his person, and upholding all things by the word of his power, when he had by himself purged our sins, sat down on the right hand of the Majesty on high: <sup>1:4</sup> Being made so much better than the angels, as he hath by inheritance obtained a more excellent name than they.  {id="1:1"}
 

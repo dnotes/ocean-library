@@ -1,7 +1,7 @@
 ---
 id: anonymous__vendidad__83643228__en
 title: The Vendīdād
-author: Anonymous
+author: null
 access: research
 language: en
 priority: 10
@@ -175,7 +175,7 @@ There are still other lands and countries, beautiful and deep, desirable and bri
 
 [^371]: 'The corn-carrying ants' (Asp.; cf. Farg. XIV, 5).
 
-[^372]: There were several towns of this name, but none between Mōuru and Bākhdhi. But the sentence may be translated also: 'Nisāya between which and Bākhdhi Mōuru lies,' which would point to Νισαία, the capital of Parthia (Παρθαύνισα Isid. of Charax 12); cf. Pliny 6, 25 
+[^372]: There were several towns of this name, but none between Mōuru and Bākhdhi. But the sentence may be translated also: 'Nisāya between which and Bākhdhi Mōuru lies,' which would point to Νισαία, the capital of Parthia (Παρθαύνισα Isid. of Charax 12); cf. Pliny 6, 25
 
 [^373]: 'One must believe in the law, and have no doubt whatever about it in the heart, and firmly believe that the good and right law that Ormazd sent to the world is the same law that was brought to us by Zarduśt' (Saddar 1).
 

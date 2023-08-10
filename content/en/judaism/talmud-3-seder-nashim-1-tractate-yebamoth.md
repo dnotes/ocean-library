@@ -1,7 +1,9 @@
 ---
 id: yebamoth__yebamoth0__279083445__en
 title: 'Babylonian Talmud: Yebamoth'
-author: ''
+collection: Babylonian Talmud
+collectionIndex: 3
+author: null
 access: research
 language: en
 priority: 10

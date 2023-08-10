@@ -1,17 +1,12 @@
 ---
 id: kjv-27-psalms_en
-title: The Book of Psalms - Tehilim - תְהִלִּים
-collection: Bible, Old Testament, Tanakh, Writings, Ketuvim, KJV
-author: David
+title: Psalms
+collection: The Bible (KJV) - Old Testament
+collectionIndex: 27
+author: null
 language: en
 priority: 3.27
 ---
-
-# The First Book of Ketuvim, called Psalms - Tehilim - תְהִלִּים
-# Nevi'im - נביאים
-=====================
-
-
 
 ## The Book of Psalms - Psalm 1
 

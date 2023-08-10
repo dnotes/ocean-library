@@ -1,17 +1,14 @@
 ---
 id: kjv-9-galatians_en
-title: The Epistle of Paul the Apostle to the Galatians - επιστολή προς τους Γαλάτες
-collection: New Testament, KJV, Bible, King James, The Epistle of Paul the Apostle to the Galatians 
+title: Galatians
+collection: The Bible (KJV) - New Testament
+collectionIndex: 9
 author: Paul
 language: en
 priority: 3.09
 ---
 
-# The Epistle of Paul the Apostle to the Galatians - επιστολή προς τους Γαλάτες
-
-=====================
-
-## The Epistle of Paul the Apostle to the Galatians - Chapter 1
+## Galatians 1
 
 Paul, an apostle, (not of men, neither by man, but by Jesus Christ, and God the Father, who raised him from the dead;) <sup>1:2</sup> And all the brethren which are with me, unto the churches of Galatia: <sup>1:3</sup> Grace be to you and peace from God the Father, and from our Lord Jesus Christ, <sup>1:4</sup> Who gave himself for our sins, that he might deliver us from this present evil world, according to the will of God and our Father: <sup>1:5</sup> To whom be glory for ever and ever. Amen.  {id="1:1"}
 

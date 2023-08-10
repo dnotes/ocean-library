@@ -1,7 +1,9 @@
 ---
 id: 'talmud-sanhedrin-22072019'
 title: 'Babylonian Talmud: Sanhedrin'
-author: ''
+collection: Babylonian Talmud
+collectionIndex: 12
+author: null
 access: research
 language: en
 priority: 10

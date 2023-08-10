@@ -1,7 +1,9 @@
 ---
 id: shabbath__index__1321278200__en
 title: 'Babylonian Talmud: Shabbath'
-author: ''
+collection: Babylonian Talmud
+collectionIndex: 2
+author: null
 access: research
 language: en
 priority: 10

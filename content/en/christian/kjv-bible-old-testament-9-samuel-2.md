@@ -1,18 +1,12 @@
 ---
 id: kjv-09-samuel-2_en
-title: The Second Book of Samuel - Shmuel - שְׁמוּאֵל
-collection: Bible, Old Testament, Tanakh, Prophets, Nevi'im, KJV
-author: Anonymous
+title: Second Samuel
+collection: The Bible (KJV) - Old Testament
+collectionIndex: 9
+author: null
 language: en
 priority: 3.09
 ---
-
-# The Third Book of Nevi'im, called Samuel - Shmuel - שְׁמוּאֵל
-# Nevi'im - נביאים
-=====================
-
-
-
 
 ## The Second Book of Samuel - Chapter 1
 

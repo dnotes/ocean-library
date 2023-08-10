@@ -1,17 +1,12 @@
 ---
 id: kjv-28-proverbs_en
-title: The Book of Proverbs - Mishlei - מִשְׁלֵי
-collection: Bible, Old Testament, Tanakh, Writings, Ketuvim, KJV
-author: Solomon
+title: Proverbs
+collection: The Bible (KJV) - Old Testament
+collectionIndex: 28
+author: null
 language: en
 priority: 3.28
 ---
-
-# The Second Book of Ketuvim, called Proverbs - Mishlei - מִשְׁלֵי
-# Nevi'im - נביאים
-=====================
-
-
 
 ## The Book of Proverbs - Chapter 1
 

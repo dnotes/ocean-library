@@ -1,6 +1,8 @@
 ---
 id: apo__man__499201030__en
 title: Prayer of Manasseh
+collection: Deuterocanonical Texts
+collectionIndex: 14
 author: null
 access: encumbered
 language: en

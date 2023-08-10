@@ -1,17 +1,12 @@
 ---
 id: kjv-19-jonah_en
-title: The Book of Jonah - Yonah - יוֹנָה
-collection: Bible, Old Testament, Tanakh, Prophets, Nevi'im, KJV
-author: Jonah
+title: Jonah
+collection: The Bible (KJV) - Old Testament
+collectionIndex: 19
+author: null
 language: en
 priority: 3.19
 ---
-
-# The Eleventh Book of Nevi'im, called Jonah - Yonah - יוֹנָה
-# Nevi'im - נביאים
-=====================
-
-
 
 ## The Book of Jonah - Chapter 1
 

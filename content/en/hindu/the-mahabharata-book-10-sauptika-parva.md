@@ -2,6 +2,8 @@
 id: vyasa__mahabharata-book-10-sauptika-parva-index__3922471617__en
 title: 'The Mahabharata, Book 10: Sauptika Parva'
 author: Vyāsa
+collection: The Mahabharata
+collectionIndex: 10
 access: research
 language: en
 priority: 10

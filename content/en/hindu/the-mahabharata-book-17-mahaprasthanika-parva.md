@@ -2,6 +2,8 @@
 id: vyasa__mahabharata-book-17-mahaprasthanika-parva__3824986769__en
 title: 'The Mahabharata, Book 17: Mahaprasthanika Parva'
 author: Vyāsa
+collection: The Mahabharata
+collectionIndex: 17
 access: research
 language: en
 priority: 10

@@ -1,17 +1,12 @@
 ---
 id: kjv-21-nahum_en
-title: The Book of Nahum - Nakhum - נַחוּם
-collection: Bible, Old Testament, Tanakh, Prophets, Nevi'im, KJV
-author: Nahum
+title: Nahum
+collection: The Bible (KJV) - Old Testament
+collectionIndex: 21
+author: null
 language: en
 priority: 3.21
 ---
-
-# The Thirteenth Book of Nevi'im, called Nahum - Nakhum - נַחוּם
-# Nevi'im - נביאים
-=====================
-
-
 
 ## The Book of Nahum - Chapter 1
 

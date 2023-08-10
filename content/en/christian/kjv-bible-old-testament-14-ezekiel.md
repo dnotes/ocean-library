@@ -1,19 +1,14 @@
 ---
 id: kjv-14-ezekiel_en
-title: The Book of Ezekiel - Yekhezkel - יְחֶזְקֵאל
-collection: Bible, Old Testament, Tanakh, Prophets, Nevi'im, KJV
-author: Ezekiel
+title: Ezekiel
+collection: The Bible (KJV) - Old Testament
+collectionIndex: 14
+author: null
 language: en
 priority: 3.14
 ---
 
-# The Seventh Book of Nevi'im, called Ezekiel - Yekhezkel - יְחֶזְקֵאל
-# Nevi'im - נביאים
-=====================
-
-
-
-## The Book of the Prophet Ezekiel - Chapter 1
+## The Book of Ezekiel - Chapter 1
 
 Now it came to pass in the thirtieth year, in the fourth month, in the fifth day of the month, as I was among the captives by the river of Chebar, that the heavens were opened, and I saw visions of God.  {id="1:1"}
 

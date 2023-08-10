@@ -1,7 +1,7 @@
 ---
 id: anonymous__chandogya-upanishad__2540922691__en
 title: 'Chandogya Upanishad'
-author: Anonymous
+author: null
 access: research
 language: en
 priority: 10

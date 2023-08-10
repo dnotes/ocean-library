@@ -1,17 +1,14 @@
 ---
 id: kjv-10-ephesians_en
-title: The Epistle of Paul the Apostle to the Ephesians - επιστολή προς τους εφεσίους
-collection: New Testament, KJV, Bible, King James, The Epistle of Paul the Apostle to the Ephesians 
+title: Ephesians
+collection: The Bible (KJV) - New Testament
+collectionIndex: 10
 author: Paul
 language: en
 priority: 3.10
 ---
 
-# The Epistle of Paul the Apostle to the Ephesians - επιστολή προς τους εφεσίους
-
-=====================
-
-## The Epistle of Paul the Apostle to the Ephesians - Chapter 1 
+## Ephesians 1
 
 Paul, an apostle of Jesus Christ by the will of God, to the saints which are at Ephesus, and to the faithful in Christ Jesus: <sup>1:2</sup> Grace be to you, and peace, from God our Father, and from the Lord Jesus Christ.  {id="1:1"}
 

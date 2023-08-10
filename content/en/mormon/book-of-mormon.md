@@ -1,6 +1,6 @@
 ---
 id: joseph-smith__book-mormon-lds-org__1083898256__en
-title: Book of Mormon | LDS.org
+title: Book of Mormon
 author: Joseph Smith
 access: research
 language: en

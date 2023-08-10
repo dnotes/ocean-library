@@ -1,18 +1,12 @@
 ---
 id: kjv-04-numbers_en
-title: The Fourth Book of Moses,  Called Numbers - Bemidbar - בְּמִדְבַּר
-collection: Old Testament, Torah, KJV, Bible, King James, Pentatuch
-author: Moses
+title: Numbers
+collection: The Bible (KJV) - Old Testament
+collectionIndex: 4
+author: null
 language: en
 priority: 3.04
 ---
-
-# The Fourth Book of Moses:  Called Numbers - Bemidbar - בְּמִדְבַּר
-# Torah - תּוֹרָה
-
-=====================
-
-
 
 ## The Book of Numbers - Chapter 1
 

@@ -1,7 +1,9 @@
 ---
 id: sotah__index__3296592167__en
 title: 'Babylonian Talmud: Sotah'
-author: ''
+collection: Babylonian Talmud
+collectionIndex: 7
+author: null
 access: research
 language: en
 priority: 10

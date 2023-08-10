@@ -1,17 +1,12 @@
 ---
 id: kjv-22-habakkuk_en
-title: The Book of Habakkuk - Khavakuk - חֲבַקּוּק
-collection: Bible, Old Testament, Tanakh, Prophets, Nevi'im, KJV
-author: Habakkuk
+title: Habakkuk
+collection: The Bible (KJV) - Old Testament
+collectionIndex: 22
+author: null
 language: en
 priority: 3.22
 ---
-
-# The Fourteenth Book of Nevi'im, called Habakkuk - Khavakuk - חֲבַקּוּק
-# Nevi'im - נביאים
-=====================
-
-
 
 ## The Book of Habakkuk - Chapter 1
 

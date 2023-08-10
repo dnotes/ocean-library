@@ -1,17 +1,14 @@
 ---
 id: kjv-13-1thessalonians_en
-title: The First Epistle of Paul the Apostle to the Thessalonians - πρώτα επιστολή προς τους θεσσαλονίκους
-collection: New Testament, KJV, Bible, King James, The First Epistle of Paul the Apostle to the Thessalonians 
+title: First Thessalonians
+collection: The Bible (KJV) - New Testament
+collectionIndex: 13
 author: Paul
 language: en
 priority: 3.13
 ---
 
-# The First Epistle of Paul the Apostle to the Thessalonians - πρώτα επιστολή προς τους θεσσαλονίκους
-
-=====================
-
-## The First Epistle of Paul the Apostle to the Thessalonians - Chapter 1
+## First Thessalonians 1
 
 Paul, and Silvanus, and Timotheus, unto the church of the Thessalonians which is in God the Father and in the Lord Jesus Christ: Grace be unto you, and peace, from God our Father, and the Lord Jesus Christ.  {id="1:1"}
 

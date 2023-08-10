@@ -1,17 +1,12 @@
 ---
 id: kjv-39-chronicles-2_en
-title: The Second Book of Chronicles - Divrei ha-Yamim - דִּבְרֵי הַיָּמִים
-collection: Bible, Old Testament, Tanakh, Writings, Ketuvim, KJV
-author:
+title: Second Chronicles
+collection: The Bible (KJV) - Old Testament
+collectionIndex: 39
+author: null
 language: en
 priority: 3.39
 ---
-
-# The Eleventh Book of Ketuvim (2/2), called Chronicles 2 - Divrei ha-Yamim - דִּבְרֵי הַיָּמִים
-# Nevi'im - נביאים
-=====================
-
-
 
 ## The Second Book of the Chronicles - Chapter 1
 

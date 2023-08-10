@@ -1,17 +1,12 @@
 ---
 id: kjv-08-samuel-1_en
-title: The Books of Samuel - Shmuel - שְׁמוּאֵל
-collection: Bible, Old Testament, Tanakh, Prophets, Nevi'im, KJV
-author: Anonymous
+title: First Samuel
+collection: The Bible (KJV) - Old Testament
+collectionIndex: 8
+author: null
 language: en
 priority: 3.08
 ---
-
-# The Third Book of Nevi'im, called Samuel - Shmuel - שְׁמוּאֵל
-# Nevi'im - נביאים
-=====================
-
-
 
 ## The First Book of Samuel - Chapter 1
 

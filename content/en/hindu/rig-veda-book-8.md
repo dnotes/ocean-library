@@ -1,7 +1,9 @@
 ---
 id: various__rig-veda-book-8__4265491694__en
 title: 'Rig Veda, Book 8'
-author: Various
+author: null
+collection: The Rig Veda
+collectionIndex: 8
 access: research
 language: en
 priority: 10

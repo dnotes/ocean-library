@@ -1,6 +1,8 @@
 ---
 id: apo__tob__369393880__en
 title: Tobias
+collection: Deuterocanonical Texts
+collectionIndex: 6
 author: null
 access: encumbered
 language: en

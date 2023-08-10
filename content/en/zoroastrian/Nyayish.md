@@ -1,7 +1,7 @@
 ---
 id: anonymous__nyayish__409245262__en
 title: Nyayish
-author: Anonymous
+author: null
 access: research
 language: en
 priority: 10

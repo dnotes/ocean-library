@@ -1,17 +1,14 @@
 ---
 id: kjv-11-philippians_en
-title: The Epistle of Paul the Apostle to the Philippians - επιστολή προς τους φιλιπιανούς
-collection: New Testament, KJV, Bible, King James, The Epistle of Paul the Apostle to the Philippians 
+title: Philippians
+collection: The Bible (KJV) - New Testament
+collectionIndex: 11
 author: Paul
 language: en
 priority: 3.11
 ---
 
-# The Epistle of Paul the Apostle to the Philippians - επιστολή προς τους φιλιπιανούς
-
-=====================
-
-## The Epistle of Paul the Apostle to the Philippians - Chapter 1
+## Philippians 1
 
 Paul and Timotheus, the servants of Jesus Christ, to all the saints in Christ Jesus which are at Philippi, with the bishops and deacons: <sup>1:2</sup> Grace be unto you, and peace, from God our Father, and from the Lord Jesus Christ.  {id="1:1"}
 

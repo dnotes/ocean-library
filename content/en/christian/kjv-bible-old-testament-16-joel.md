@@ -1,17 +1,12 @@
 ---
 id: kjv-16-joel_en
-title: The Book of Joel - Yoel - יוֹאֵל
-collection: Bible, Old Testament, Tanakh, Prophets, Nevi'im, KJV
-author: Joel
+title: Joel
+collection: The Bible (KJV) - Old Testament
+collectionIndex: 16
+author: null
 language: en
 priority: 3.16
 ---
-
-# The Ninth Book of Nevi'im, called Joel - Yoel - יוֹאֵל
-# Nevi'im - נביאים
-=====================
-
-
 
 ## The Book of Joel - Chapter 1
 

@@ -1,17 +1,12 @@
 ---
 id: kjv-38-chronicles-1_en
-title: The First Book of Chronicles - Divrei ha-Yamim - דִּבְרֵי הַיָּמִים
-collection: Bible, Old Testament, Tanakh, Writings, Ketuvim, KJV
-author:
+title: First Chronicles
+collection: The Bible (KJV) - Old Testament
+collectionIndex: 38
+author: null
 language: en
 priority: 3.38
 ---
-
-# The Eleventh Book of Ketuvim (1/2), called Chronicles 1 - Divrei ha-Yamim - דִּבְרֵי הַיָּמִים
-# Nevi'im - נביאים
-=====================
-
-
 
 ## The First Book of the Chronicles - Chapter 1
 

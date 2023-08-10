@@ -1,17 +1,14 @@
 ---
 id: kjv-30-apocalypse_en
-title: The Apocalypse St. John of Patmos - Αποκάλυψη του Ιωάννη
-collection: New Testament, KJV, Bible, King James, The Apocalypse St. John of Patmos
-author: Paul
+title: Revelation
+collection: The Bible (KJV) - New Testament
+collectionIndex: 27
+author: John
 language: en
 priority: 3.30
 ---
 
-# The Apocalypse St. John of Patmos - Αποκάλυψη του Ιωάννη
-
-=====================
-
-## The Apocalypse St. John of Patmos - Chapter 1 
+## Revelation 1
 
 The Revelation of Jesus Christ, which God gave unto him, to shew unto his servants things which must shortly come to pass; and he sent and signified it by his angel unto his servant John: <sup>1:2</sup> Who bare record of the word of God, and of the testimony of Jesus Christ, and of all things that he saw.  {id="1:1"}
 
@@ -39,7 +36,7 @@ Write the things which thou hast seen, and the things which are, and the things 
 
 ---
 
-## Apocalypse 2
+## Revelation 2
 
 Unto the angel of the church of Ephesus write; These things saith he that holdeth the seven stars in his right hand, who walketh in the midst of the seven golden candlesticks; <sup>2:2</sup> I know thy works, and thy labour, and thy patience, and how thou canst not bear them which are evil: and thou hast tried them which say they are apostles, and are not, and hast found them liars: <sup>2:3</sup> And hast borne, and hast patience, and for my name's sake hast laboured, and hast not fainted.  {id="2:1"}
 
@@ -89,7 +86,7 @@ He that hath an ear, let him hear what the Spirit saith unto the churches.  {id=
 
 ---
 
-## Apocalypse 3
+## Revelation 3
 
 And unto the angel of the church in Sardis write; These things saith he that hath the seven Spirits of God, and the seven stars; I know thy works, that thou hast a name that thou livest, and art dead.  {id="3:1"}
 
@@ -131,7 +128,7 @@ He that hath an ear, let him hear what the Spirit saith unto the churches.  {id=
 
 ---
 
-## Apocalypse 4
+## Revelation 4
 
 After this I looked, and, behold, a door was opened in heaven: and the first voice which I heard was as it were of a trumpet talking with me; which said, Come up hither, and I will shew thee things which must be hereafter.  {id="4:1"}
 
@@ -153,7 +150,7 @@ And when those beasts give glory and honour and thanks to him that sat on the th
 
 ---
 
-## Apocalypse 5
+## Revelation 5
 
 And I saw in the right hand of him that sat on the throne a book written within and on the backside, sealed with seven seals.  {id="5:1"}
 
@@ -179,7 +176,7 @@ And the four beasts said, Amen. And the four and twenty elders fell down and wor
 
 ---
 
-## Apocalypse 6
+## Revelation 6
 
 And I saw when the Lamb opened one of the seals, and I heard, as it were the noise of thunder, one of the four beasts saying, Come and see.  {id="6:1"}
 
@@ -235,7 +232,7 @@ For the Lamb which is in the midst of the throne shall feed them, and shall lead
 
 ---
 
-## Apocalypse 8
+## Revelation 8
 
 And when he had opened the seventh seal, there was silence in heaven about the space of half an hour.  {id="8:1"}
 
@@ -261,7 +258,7 @@ And I beheld, and heard an angel flying through the midst of heaven, saying with
 
 ---
 
-## Apocalypse 9
+## Revelation 9
 
 And the fifth angel sounded, and I saw a star fall from heaven unto the earth: and to him was given the key of the bottomless pit. {id="9.1"}
 
@@ -303,7 +300,7 @@ And the rest of the men which were not killed by these plagues yet repented not 
 
 ---
 
-## Apocalypse 10
+## Revelation 10
 
 And I saw another mighty angel come down from heaven, clothed with a cloud: and a rainbow was upon his head, and his face was as it were the sun, and his feet as pillars of fire: <sup>10:2</sup> And he had in his hand a little book open: and he set his right foot upon the sea, and his left foot on the earth, <sup>10:3</sup> And cried with a loud voice, as when a lion roareth: and when he had cried, seven thunders uttered their voices.  {id="10:1"}
 
@@ -321,7 +318,7 @@ And he said unto me, Thou must prophesy again before many peoples, and nations, 
 
 ---
 
-## Apocalypse 11
+## Revelation 11
 
 And there was given me a reed like unto a rod: and the angel stood, saying, Rise, and measure the temple of God, and the altar, and them that worship therein.  {id="11:1"}
 
@@ -361,7 +358,7 @@ And the temple of God was opened in heaven, and there was seen in his temple the
 
 ---
 
-## Apocalypse 12
+## Revelation 12
 
 And there appeared a great wonder in heaven; a woman clothed with the sun, and the moon under her feet, and upon her head a crown of twelve stars: <sup>12:2</sup> And she being with child cried, travailing in birth, and pained to be delivered.  {id="12:1"}
 
@@ -395,7 +392,7 @@ And the dragon was wroth with the woman, and went to make war with the remnant o
 
 ---
 
-## Apocalypse 13
+## Revelation 13
 
 And I stood upon the sand of the sea, and saw a beast rise up out of the sea, having seven heads and ten horns, and upon his horns ten crowns, and upon his heads the name of blasphemy.  {id="13:1"}
 
@@ -429,7 +426,7 @@ Here is wisdom. Let him that hath understanding count the number of the beast: f
 
 ---
 
-## Apocalypse 14
+## Revelation 14
 
 And I looked, and, lo, a Lamb stood on the mount Sion, and with him an hundred forty and four thousand, having his Father's name written in their foreheads.  {id="14:1"}
 
@@ -465,7 +462,7 @@ And the winepress was trodden without the city, and blood came out of the winepr
 
 ---
 
-## Apocalypse 15
+## Revelation 15
 
 And I saw another sign in heaven, great and marvellous, seven angels having the seven last plagues; for in them is filled up the wrath of God.  {id="15:1"}
 
@@ -483,7 +480,7 @@ And the temple was filled with smoke from the glory of God, and from his power; 
 
 ---
 
-## Apocalypse 16
+## Revelation 16
 
 And I heard a great voice out of the temple saying to the seven angels, Go your ways, and pour out the vials of the wrath of God upon the earth.  {id="16:1"}
 
@@ -527,7 +524,7 @@ And there fell upon men a great hail out of heaven, every stone about the weight
 
 ---
 
-## Apocalypse 17
+## Revelation 17
 
 And there came one of the seven angels which had the seven vials, and talked with me, saying unto me, Come hither; I will shew unto thee the judgment of the great whore that sitteth upon many waters: <sup>17:2</sup> With whom the kings of the earth have committed fornication, and the inhabitants of the earth have been made drunk with the wine of her fornication.  {id="17:1"}
 
@@ -563,7 +560,7 @@ And the woman which thou sawest is that great city, which reigneth over the king
 
 ---
 
-## Apocalypse 18
+## Revelation 18
 
 And after these things I saw another angel come down from heaven, having great power; and the earth was lightened with his glory.  {id="18:1"}
 
@@ -599,7 +596,7 @@ And in her was found the blood of prophets, and of saints, and of all that were 
 
 ---
 
-## Apocalypse 19
+## Revelation 19
 
 And after these things I heard a great voice of much people in heaven, saying, Alleluia; Salvation, and glory, and honour, and power, unto the Lord our God: <sup>19:2</sup> For true and righteous are his judgments: for he hath judged the great whore, which did corrupt the earth with her fornication, and hath avenged the blood of his servants at her hand.  {id="19:1"}
 
@@ -641,7 +638,7 @@ And the remnant were slain with the sword of him that sat upon the horse, which 
 
 ---
 
-## Apocalypse 20
+## Revelation 20
 
 And I saw an angel come down from heaven, having the key of the bottomless pit and a great chain in his hand.  {id="20:1"}
 
@@ -671,7 +668,7 @@ And whosoever was not found written in the book of life was cast into the lake o
 
 ---
 
-## Apocalypse 21
+## Revelation 21
 
 And I saw a new heaven and a new earth: for the first heaven and the first earth were passed away; and there was no more sea.  {id="21:1"}
 
@@ -721,7 +718,7 @@ And there shall in no wise enter into it any thing that defileth, neither whatso
 
 ---
 
-## Apocalypse 22
+## Revelation 22
 
 And he shewed me a pure river of water of life, clear as crystal, proceeding out of the throne of God and of the Lamb.  {id="22:1"}
 

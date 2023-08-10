@@ -1,17 +1,14 @@
 ---
 id: kjv-27-1john_en
-title: The First Epistle of Paul the Apostle to John - πρώτα επιστολή στο Ιωάννη
-collection: New Testament, KJV, Bible, King James, The First Epistle of Paul the Apostle to John 
-author: Paul
+title: First John
+collection: The Bible (KJV) - New Testament
+collectionIndex: 23
+author: John
 language: en
 priority: 3.27
 ---
 
-# The First Epistle of Paul the Apostle to John - πρώτη επιστολή στο Ιωάννη
-
-=====================
-
-## The First Epistle of Paul the Apostle to John - Chapter 1 
+## First John 1
 
 That which was from the beginning, which we have heard, which we have seen with our eyes, which we have looked upon, and our hands have handled,of the Word of life; <sup>1:2</sup> (For the life was manifested, and we have seen it, and bear witness, and shew unto you that eternal life, which was with the Father, and was manifested unto us;) <sup>1:3</sup> That which we have seen and heard declare we unto you, that ye also may have fellowship with us: and truly our fellowship is with the Father, and with his Son Jesus Christ.  {id="1:1"}
 

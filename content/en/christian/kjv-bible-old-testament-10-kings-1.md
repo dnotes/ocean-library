@@ -1,17 +1,12 @@
 ---
 id: kjv-10-kings-1_en
-title: The First Books of Kings - Mlachim - מְלָכִים
-collection: Bible, Old Testament, Tanakh, Prophets, Nevi'im, KJV
-author: Anonymous
+title: First Kings
+collection: The Bible (KJV) - Old Testament
+collectionIndex: 10
+author: null
 language: en
 priority: 3.10
 ---
-
-# The Fourth Book of Nevi'im, called Kings - Mlachim - מְלָכִים
-# Nevi'im - נביאים
-=====================
-
-
 
 ## The First Books of Kings - Chapter 1
 

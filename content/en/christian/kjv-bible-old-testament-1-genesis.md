@@ -1,19 +1,12 @@
 ---
 id: kjv-01-genesis_en
 title: Genesis
-collection: KJV Bible
-author: Moses
+collection: The Bible (KJV) - Old Testament
+collectionIndex: 1
+author: null
 language: en
 priority: 3.01
 ---
-
-# The First Book of Moses, Called Genesis - Bereshit - בְּרֵאשִׁית
-# Torah - תּוֹרָה
-
-=====================
-
-
-
 
 ## The Book of Genesis - Chapter 1
 

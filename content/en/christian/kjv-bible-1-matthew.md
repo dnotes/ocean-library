@@ -1,19 +1,14 @@
 ---
 id: kjv-01-matthew_en
-title: The Gospel of Matthew - ευαγγέλιο του Ματθαίου
-collection: New Testament, KJV, Bible, King James, Gospels
+title: Matthew
+collection: The Bible (KJV) - New Testament
+collectionIndex: 1
 author: Matthew
 language: en
 priority: 3.01
 ---
 
-# The Gospel of Matthew - ευαγγέλιο του Ματθαίου
-# Gospels - ευαγγέλια
-
-=====================
-
-
-## The Gospel of Matthew - Chapter 1 
+## Matthew 1
 
 The book of the generation of Jesus Christ, the son of David, the son of Abraham.  {id="1:1"}
 

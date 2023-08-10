@@ -1,17 +1,12 @@
 ---
 id: kjv-29-job_en
-title: The Book of Job - Iyov - אִיּוֹב
-collection: Bible, Old Testament, Tanakh, Writings, Ketuvim, KJV
-author:
+title: Job
+collection: The Bible (KJV) - Old Testament
+collectionIndex: 29
+author: null
 language: en
 priority: 3.29
 ---
-
-# The Third Book of Ketuvim, called Job - Iyov - אִיּוֹב
-# Nevi'im - נביאים
-=====================
-
-
 
 ## The Book of Job - Chapter 1
 

@@ -1,6 +1,8 @@
 ---
 id: apo__sir__1087892849__en
 title: Sirach
+collection: Deuterocanonical Texts
+collectionIndex: 9
 author: null
 access: research
 language: en

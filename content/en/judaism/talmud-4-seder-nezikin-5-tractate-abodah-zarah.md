@@ -1,7 +1,9 @@
 ---
 id: 'talmud-abodah-zarah-22072019'
 title: 'Babylonian Talmud: ‘Abodah Zarah'
-author: ''
+collection: Babylonian Talmud
+collectionIndex: 13
+author: null
 access: research
 language: en
 priority: 10
@@ -10,7 +12,7 @@ _conversionOpts:
   converter: comeAndHearCom
   encoding: ISO-8859-1
 _convertedFrom: 'http://www.come-and-hear.com/zarah/zarah_0.html'
-translator: 
+translator:
   - A. MISHCON
   - A. COHEN, M.A., Ph.D.
 _softHyphenWords: ''

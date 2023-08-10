@@ -1,7 +1,7 @@
 ---
 id: sacred-books-east-vol-31__yasnas__912754200__en
 title: Yasnas
-author: traditional
+author: null
 access: research
 language: en
 priority: 10

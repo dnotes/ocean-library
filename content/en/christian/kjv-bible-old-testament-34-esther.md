@@ -1,17 +1,12 @@
 ---
 id: kjv-34-esther_en
-title: The Book of Esther - Ester - אֶסְתֵר
-collection: Bible, Old Testament, Tanakh, Writings, Ketuvim, KJV
-author:
+title: Esther
+collection: The Bible (KJV) - Old Testament
+collectionIndex: 34
+author: null
 language: en
 priority: 3.34
 ---
-
-# The Eighth Book of Ketuvim, called Esther - Ester - אֶסְתֵר
-# Nevi'im - נביאים
-=====================
-
-
 
 ## The Book of Esther - Chapter 1
 

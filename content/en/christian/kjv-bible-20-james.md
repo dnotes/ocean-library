@@ -1,17 +1,14 @@
---
+---
 id: kjv-20-james_en
-title: The Epistle of Paul the Apostle to James - επιστολή στο Ιακώβου
-collection: New Testament, KJV, Bible, King James, The Epistle of Paul the Apostle to James 
-author: Paul
+title: James
+collection: The Bible (KJV) - New Testament
+collectionIndex: 20
+author: James
 language: en
 priority: 3.20
 ---
 
-# The Epistle of Paul the Apostle to James - επιστολή στο Ιακώβου
-
-=====================
-
-## The Epistle of Paul the Apostle to James - Chapter 1 
+## James 1
 
 James, a servant of God and of the Lord Jesus Christ, to the twelve tribes which are scattered abroad, greeting.  {id="1:1"}
 

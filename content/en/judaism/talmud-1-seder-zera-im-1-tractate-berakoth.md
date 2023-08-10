@@ -1,7 +1,9 @@
 ---
 id: berakoth__index__1881168740__en
 title: 'Babylonian Talmud: Berakoth'
-author: ''
+collection: Babylonian Talmud
+collectionIndex: 1
+author: null
 access: research
 language: en
 priority: 10

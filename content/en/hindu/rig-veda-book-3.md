@@ -1,7 +1,9 @@
 ---
 id: various__rig-veda-book-3__4265491694__en
 title: 'Rig Veda, Book 3'
-author: Various
+author: null
+collection: The Rig Veda
+collectionIndex: 3
 access: research
 language: en
 priority: 10

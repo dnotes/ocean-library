@@ -2,6 +2,8 @@
 id: vyasa__mahabharata-book-18-svargarohanika-parva__1297110952__en
 title: 'The Mahabharata, Book 18: Svargarohanika Parva'
 author: Vyāsa
+collection: The Mahabharata
+collectionIndex: 18
 access: research
 language: en
 priority: 10

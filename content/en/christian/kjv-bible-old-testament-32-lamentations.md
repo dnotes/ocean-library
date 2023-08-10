@@ -1,17 +1,12 @@
 ---
 id: kjv-32-lamentations_en
-title: The Book of Lamentations - Eikhah - אֵיכָה
-collection: Bible, Old Testament, Tanakh, Writings, Ketuvim, KJV
-author: Jeremiah
+title: Lamentations
+collection: The Bible (KJV) - Old Testament
+collectionIndex: 32
+author: null
 language: en
 priority: 3.32
 ---
-
-# The Sixth Book of Ketuvim, called Lamentations - Eikhah - אֵיכָה
-# Nevi'im - נביאים
-=====================
-
-
 
 ## The Lamentations of Jeremiah - Chapter 1
 

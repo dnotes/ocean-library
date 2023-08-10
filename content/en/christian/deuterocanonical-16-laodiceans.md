@@ -1,6 +1,8 @@
 ---
 id: apo__lao__4124800199__en
 title: Laodiceans
+collection: Deuterocanonical Texts
+collectionIndex: 16
 author: null
 access: encumbered
 language: en

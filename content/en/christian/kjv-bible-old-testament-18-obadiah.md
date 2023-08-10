@@ -1,17 +1,12 @@
 ---
 id: kjv-18-obadiah_en
-title: The Book of Obadiah - Ovadyah - עֹבַדְיָה
-collection: Bible, Old Testament, Tanakh, Prophets, Nevi'im, KJV
-author: Obadiah
+title: Obadiah
+collection: The Bible (KJV) - Old Testament
+collectionIndex: 18
+author: null
 language: en
 priority: 3.18
 ---
-
-# The Eleventh Book of Nevi'im, called Obadiah - Ovadyah - עֹבַדְיָה
-# Nevi'im - נביאים
-=====================
-
-
 
 ## The Book of Obadiah
 

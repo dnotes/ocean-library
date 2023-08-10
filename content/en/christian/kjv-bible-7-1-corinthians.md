@@ -1,18 +1,14 @@
 ---
 id: kjv-07-1corinthians_en
-title: The First Epistle of Paul the Apostle to the Corinthians - πρώτη επιστολή προς τους Κορινθίους
-collection: New Testament, KJV, Bible, King James, The First Epistle of Paul the Apostle to the Corinthians 
+title: First Corinthians
+collection: The Bible (KJV) - New Testament
+collectionIndex: 7
 author: Paul
 language: en
 priority: 3.07
 ---
 
-# The First Epistle of Paul the Apostle to the Corinthians - πρώτη επιστολή προς τους Κορινθίους
-
-=====================
-
-
-## The First Epistle of Paul the Apostle to the Corinthians - Chapter 1
+## First Corinthians 1
 
 Paul called to be an apostle of Jesus Christ through the will of God, and Sosthenes our brother, <sup>1:2</sup> Unto the church of God which is at Corinth, to them that are sanctified in Christ Jesus, called to be saints, with all that in every place call upon the name of Jesus Christ our Lord, both their's and our's: <sup>1:3</sup> Grace be unto you, and peace, from God our Father, and from the Lord Jesus Christ.  {id="1:1"}
 

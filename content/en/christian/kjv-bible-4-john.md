@@ -1,19 +1,14 @@
 ---
 id: kjv-04-john_en
-title: The Gospel of John - ευαγγέλιο του ιωάννη
-collection: New Testament, KJV, Bible, King James, Gospels
+title: John
+collection: The Bible (KJV) - New Testament
+collectionIndex: 4
 author: John
 language: en
 priority: 3.04
 ---
 
-# The Gospel of John - ευαγγέλιο του ιωάννη
-# Gospels - ευαγγέλια
-
-=====================
-
-
-## The Gospel of John - Chapter 1   
+## John 1
 
 In the beginning was the Word, and the Word was with God, and the Word was God.  {id="1:1"}
 

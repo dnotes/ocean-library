@@ -1,17 +1,14 @@
 ---
 id: kjv-29-3john_en
-title: The Third Epistle of Paul the Apostle to John - τρίτη επιστολή προς τον Ιωάννη
-collection: New Testament, KJV, Bible, King James, The Third Epistle of Paul the Apostle to John 
-author: Paul
+title: Third John
+collection: The Bible (KJV) - New Testament
+collectionIndex: 25
+author: John
 language: en
 priority: 3.29
 ---
 
-# The Third Epistle of Paul the Apostle to John - τρίτη επιστολή προς τον Ιωάννη
-
-=====================
-
-## The Third Epistle of Paul the Apostle to John - Chapter 1   
+## Third John 1
 
 The elder unto the wellbeloved Gaius, whom I love in the truth.  {id="1:1"}
 

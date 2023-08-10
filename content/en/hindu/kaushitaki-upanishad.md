@@ -1,7 +1,7 @@
 ---
 id: anonymous__kaushitaki-upanishad__2540922691__en
 title: Kaushitaki Upanishad
-author: Anonymous
+author: null
 access: research
 language: en
 priority: 10
