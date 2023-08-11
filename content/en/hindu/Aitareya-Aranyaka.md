@@ -1646,7 +1646,7 @@ If another man should chide him who says the Ubhayamantareṇa, let him say to h
 
 4\. What we call the person of the metres is this collection of letters (the Veda). Its essence is the vowel a.
 
-5\. What we call the person of the Veda is (the mind) by which we know the Vedas, the Ṛg-veda, Yajur-veda, and Sāma-veda. Its essence is Brahman [^660](m.)
+5\. What we call the person of the Veda is (the mind) by which we know the Vedas, the Ṛg-veda, Yajur-veda, and Sāma-veda. Its essence is Brahman [^660] (m.)
 
 6\. Therefore let one chose a Brahman-priest who is full of Brahman (the Veda), and is able to see any flaw in the sacrifice.
 

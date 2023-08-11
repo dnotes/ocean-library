@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 import sade from 'sade'
-import fs from 'fs/promises'
+import fs from 'node:fs/promises'
 import { glob } from 'glob'
 import { pipeline } from '@xenova/transformers'
 import { pick } from 'lodash-es'
 import fetch from 'node-fetch'
-import url from 'url'
-import { dirname, resolve } from 'path'
+import url from 'node:url'
+import { dirname, resolve } from 'node:path'
 import { getDoc, sentenceSplitter, clauseSplitter } from '../src/lib/Doc.mjs'
 
 import { PineconeClient } from '@pinecone-database/pinecone'

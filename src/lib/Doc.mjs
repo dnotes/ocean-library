@@ -21,7 +21,7 @@ catch(e) {
 /** @type {(raw:string, path:string, getContent?:boolean, includeMarkdown?:boolean) => import('.').Doc} */
 export function getDoc(raw, path, getContent = true, includeMarkdown = false) {
 
-  let [ language, category ] = path.replace(/.+\/content\//, '').split('/')
+  let [ language, category ] = path.replace(/(?:^|.+\/)content\//, '').split('/')
   let slug = path.replace(/.+\//, '').replace(/\.md$/, '');
   let dir = path.replace(/\/[^\/]+$/, '')
   let [, yfm, ...markdownArray] = raw.split(/^---$/gm)
@@ -59,7 +59,7 @@ export function getDoc(raw, path, getContent = true, includeMarkdown = false) {
     // Import all images
     $('img').toArray().map((el) => {
       let src = $(el).attr('src')
-      $(el).attr('src', images[`${dir}/${src?.replace(/^\.\//,'')}`])
+      $(el).attr('src', images[`../../${dir.replace(/^.*\/content\//,'content/')}/${src?.replace(/^\.\//,'')}`])
     })
 
     // Remove text from all paragraph numbers
@@ -88,11 +88,11 @@ export function getDoc(raw, path, getContent = true, includeMarkdown = false) {
     description: cleanText(data?.description),
     date: cleanText(data?.date),
     sort: '',
-    url: (data._sourceUrl ?? data._convertedFrom),
+    url: (data?._sourceUrl ?? data?._convertedFrom),
 
     slug,
     blocks,
-    markdown: includeMarkdown ? cleanText(markdown.trim()) : undefined
+    markdown: includeMarkdown ? cleanText(markdown?.trim()) : undefined
   }
 
   item.sort = item.collection

@@ -63,7 +63,7 @@ export const langcodes:{[key:string]:string} = {
   en: 'English'
 }
 export function displayLanguage(lang:string) {
-  return langcodes[lang] ?? lang
+  return langcodes?.[lang] ?? lang
 }
 
 // TODO: do this right, with modules and i18n
@@ -72,5 +72,5 @@ export const categories:{[key:string]:string} = {
   jainism: 'Jain',
 }
 export function displayCategory(cat:string) {
-  return categories[cat] ?? cat[0].toUpperCase() + cat.slice(1)
+  return categories?.[cat] ?? (cat?.[0]?.toUpperCase() + cat?.slice(1)) ?? 'error'
 }

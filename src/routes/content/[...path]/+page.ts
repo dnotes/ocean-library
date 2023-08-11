@@ -7,7 +7,12 @@ export const load:PageLoad = async (event) => {
   // let [ lang, cat ] = event.params.path.split('/')
 
   let content = await event.fetch(`/content/${event.params.path}.json`)
-    .then(res => res.json())
+    .then(res => {
+      if (res.status !== 200) {
+        throw error(res.status, res.statusText)
+      }
+      return res.json()
+    })
     .catch(err => {
       throw error(err.status || 500, err.message)
     })

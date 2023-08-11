@@ -26,10 +26,10 @@
   $: compact = w<980
 
   function hasUrl(doc:Doc|SearchHit): doc is Doc {
-    return (doc as Doc).url !== undefined
+    return (doc as Doc)?.url ? true : false
   }
   function hasDescription(doc:Doc|SearchHit): doc is Doc {
-    return (doc as Doc).description !== undefined
+    return (doc as Doc)?.description ? true : false
   }
 
 </script>
