@@ -30,12 +30,12 @@
 
 </script>
 
-<div class="flex items-center content-center h-10 sticky top-0 z-40 py-1 px-2 bg-stone-900">
+<div class="flex items-center content-center h-10 sticky top-0 z-40 py-1 px-2 bg-stone-50 dark:bg-stone-900">
   <div class="flex-grow">Category / Author / Title</div>
 </div>
 
 {#each Object.entries(tree) as [category, authors]}
-  <div class="category px-2 sticky h-10 top-10 z-30 flex items-center bg-stone-600" class:mb-1={categoriesHidden.includes(category)}>
+  <div class="category px-2 sticky h-10 top-10 z-30 flex items-center bg-stone-400 dark:bg-stone-600" class:mb-1={categoriesHidden.includes(category)}>
     <label>
       <input type="checkbox" name="category" value="{category}" bind:group={categoriesHidden}>
       {displayCategory(category)}
@@ -50,7 +50,7 @@
         <label>
           <input type="checkbox" name="author" value="{author}" bind:group={authorsHidden}>
           <span class="float-right">{Object.keys(documents ?? {}).length}</span>
-          <span class="text-sm float-left mr-2">{#if authorsHidden.includes(author)}&plusb;{:else}&minusb;{/if}</span>
+          <span class="text-sm float-left mr-1 ml-2 pt-1">{#if authorsHidden.includes(author)}&plusb;{:else}&minusb;{/if}</span>
           <span class="underline">{author}</span>
         </label>
       </div>
