@@ -2,11 +2,12 @@
   import type { Doc, Search, SearchHit } from "$lib";
   import SearchForm from "./SearchForm.svelte";
   import { createEventDispatcher } from "svelte";
-  import { currentSearchHit, settings } from "./stores";
+  import { currentSearch, currentSearchHit, settings } from "./stores";
   import LibraryTree from "./LibraryTree.svelte";
   import ScoredResults from "./ScoredResults.svelte";
   import { goto } from "$app/navigation";
   import { sortBy } from "lodash-es";
+  import DocSvelte from "./Doc.svelte";
 
   export let search:Search = { text:'', results:[] }
 
@@ -94,41 +95,34 @@
 
   <div class:hidden={!$currentSearchHit} class="fixed left-0 right-0 top-0 bottom-0 lg:static w-full p-12 max-h-full flex flex-col overflow-hidden bg-stone-200 dark:bg-stone-900 z-50">
 
-    <div class:hidden={!$currentSearchHit} class="min-h-20 flex-shrink-0 bg-stone-500 -ml-12 -mr-12 lg:-ml-5 -mt-12 lg:-mt-0 flex lg:flex relative">
-      <div class="absolute top-0 right-2 text-2xl lg:hidden">
-        <button type="button" on:click={()=>{$currentSearchHit=undefined}}>
-          &CircleTimes;
-        </button>
-      </div>
-      <div class="flex h-18 w-20 pb-2 text-5xl items-end justify-center">
-        <button type="button" on:click={prevHit}>&#8678;</button>
-      </div>
-      <div class="flex flex-grow flex-col text-center">
-        <div class="font-bold text-lg leading-tight">
-          {$currentSearchHit?.title}
-        </div>
-        {#if $currentSearchHit?.author}
-          <div class="italic text-sm">
-            {$currentSearchHit?.author}
+    {#if $currentSearchHit}
+      {#await docs[$currentSearchHit?.slug || '']}
+        <DocSvelte doc={$currentSearchHit} />
+      {:then doc}
+        <DocSvelte {doc} bind:blk={$currentSearchHit.blk}>
+
+          <div class="absolute top-0 right-2 text-2xl lg:hidden">
+            <button type="button" on:click={()=>{$currentSearchHit=undefined}}>
+              &CircleTimes;
+            </button>
           </div>
-        {/if}
-        <div class="text-sm">
-          score: {Math.round(($currentSearchHit?.score || 0) * 100)}%
-        </div>
-      </div>
-      <div class="h-20 w-20 pb-2 text-5xl flex items-end justify-center">
-        <button type="button" on:click={nextHit}>&#8680;</button>
-      </div>
-    </div>
-    {#await docs[$currentSearchHit?.slug || ''] then doc}
-      {#if doc}
-        <div class="prose prose-xl prose-stone dark:prose-invert mx-auto overflow-auto flex-grow xl:max-w-screen-lg">
-          {#each doc.blocks.slice(Math.max(($currentSearchHit?.blk || 0) - 50, 0), ($currentSearchHit?.blk || 0) + 50) as block}
-            <div class="relative">{@html block}</div>
-          {/each}
-        </div>
-      {/if}
-    {/await}
+
+          <div class="text-sm">
+            score: {Math.round(($currentSearchHit?.score || 0) * 100)}%
+          </div>
+
+          <div slot="compact">
+            <div class="text-5xl absolute top-10 left-4">
+              <button type="button" on:click={prevHit}>&#8678;</button>
+            </div>
+
+            <div class="text-5xl absolute top-10 right-4">
+              <button type="button" on:click={nextHit}>&#8680;</button>
+            </div>
+          </div>
+        </DocSvelte>
+      {/await}
+    {/if}
 
   </div>
 

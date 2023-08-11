@@ -5,7 +5,7 @@ author: The Báb
 access: research
 language: en
 priority: 10
-wordsCount: 56134
+wordsCount: 55414
 _conversionOpts:
   encoding: UTF-8
   reconvert: true
@@ -13,6 +13,8 @@ _conversionOpts:
     '/(\s*)\*\s+(\[\^\d+\]:)\s*\n/': '$1$2 '
     '/^(?:\*\s*)*(\[\^[\w\d]+\]:)\s*\n*/': '$1 '
     '/\n\n(.+\\\[\d+\\\])$/': '\n\n$1 {¶=none .cite}'
+    '/^(## .+)(?:\n(\w.+))+/': $1 $2
+    /\s*\*\s+#+\s.+/: ''
   ignoreElements: 'div.of,nav,a.sd:not(.ef)'
   fnRefEl: sup.ve
   fnTextEl: a.sd.ef
@@ -729,8 +731,7 @@ In the time of the First Manifestation the Primal Will appeared in Adam; in the 
 
 5
 
-## Excerpts from the
-Kitáb-i-Asmá’
+## Excerpts from the Kitáb-i-Asmá’
 
 (The Book of Names)
 
@@ -1405,13 +1406,7 @@ In Epistle to the Son of the Wolf, paragraphs beginning
 
 “In another connection He likewise saith: 'Were He to appear at this very moment…'” to “In like manner, Siyyid Ibráhím…”
 
-*   ### 1\. Tablets and Addresses
-
-    *   #### A Tablet Addressed to “Him Who Will Be Made Manifest”
-
         [^1]:             This is the first letter of Thamarih which means “fruit.” Shoghi Effendi, in his writings, refers to the Báb as the Thamarih (fruit) of the Tree of God’s successive Revelations. (See Shoghi Effendi’s letter to the Bahá’ís of the East dated Naw-Rúz 110, page 5.)
-
-    *   #### A Second Tablet Addressed to “Him Who Will Be Made Manifest”
 
         [^1]:             In one of His Tablets ‘Abdu’l‑Bahá explains that some were misled by this statement and thought that the school referred to was a physical school for the training of unlettered children, whereas it referred to a spiritual school sanctified from the limits of the contingent world. Bahá’u’lláh in the Kitáb-i-Aqdas also refers to this Epistle of the Báb in the following words:
 
@@ -1423,63 +1418,37 @@ In Epistle to the Son of the Wolf, paragraphs beginning
             >
             > These utterances are revealed according to your measure, not to God’s, and unto this beareth witness that which is enshrined in the knowledge of God, did ye but know. Unto this testifieth He Who is the Mouthpiece of God, could ye but understand. By the righteousness of God! Were We to lift the veil ye would swoon away. Take heed lest ye dispute with Him and His Cause. He hath indeed appeared in such wise as to encompass all things, whether of the past or of the future. Were We to speak forth at this time in the language of the dwellers of the Kingdom, We would say that God raised up this School ere the earth and the heavens were brought into being, and We entered it before the letters “B” and “E” were joined and knit together.
 
-    *   #### Extracts from an Epistle to Muḥammad S_háh
-
         [^1]:             1260 A.H. (1844 A.D.).
 
         [^2]:             Qur’án 8:44.
 
-    *   #### Extracts from Another Epistle to Muḥammad S_háh
-
         [^1]:             The numerical value of the letters of the word Ḥín is 68. The year 1268 A.H. (1851–1852 A.D.) is the year preceding the birth of the Bahá’í Revelation.
-
-    *   #### Extracts from a Further Epistle to Muḥammad S_háh
 
         [^1]:             The Ka‘bih in Mecca.
 
         [^2]:             cf. Qur’án 4:119.
 
-    *   #### Address to a Muslim Divine
-
         [^1]:             Qur’án 13.
-
-*   ### 2\. Excerpts from the Qayyúmu’l-Asmá’
-
-    *   #### “All praise be to God Who hath, through the …”
 
         [^1]:             Qur’án 3:182.
 
-    *   #### “Be thou content with the commandment of God, the …”
-
         [^1]:             cf. Qur’án 19:41.
-
-    *   #### “Verily We made the revelation of verses to be a testimony …”
 
         [^1]:             cf. Qur’án 17:90.
 
         [^2]:             cf. Qur’án 2:285.
 
-    *   #### “As to those who deny Him Who is the Sublime Gate of …”
-
         [^1]:             cf. Qur’án 3:50.
 
-    *   #### “Unto every people We have sent down the Book in …”
-
         [^1]:             cf. Qur’án 14:4.
-
-    *   #### “Do men imagine that We are far distant from the people …”
 
         [^1]:             cf. Qur’án 68:42.
 
         [^2]:             cf. Qur’án 7:63, 69.
 
-    *   #### “Glorified is He besides Whom there is none other God. …”
-
         [^1]:             cf. Qur’án 36:68.
 
         [^2]:             cf. Qur’án 65:7; 94:5.
-
-    *   #### “O ye servants of God! Verily, be not grieved if a thing ye …”
 
         [^1]:             cf. Qur’án 8:45.
 
@@ -1487,15 +1456,9 @@ In Epistle to the Son of the Wolf, paragraphs beginning
 
         [^3]:             cf. Qur’án 4:51.
 
-    *   #### “O peoples of the East and the West! Be ye fearful of God …”
-
         [^1]:             cf. Qur’án 12:20.
 
-    *   #### “O Qurratu’l-‘Ayn! We have, verily, dilated Thine …”
-
         [^1]:             In these passages of the Qayyúmu’l-Asmá’ the name Qurratu’l-‘Ayn (Solace of the Eyes) refers to the Báb Himself.
-
-    *   #### “The angels and the spirits, arrayed rank upon rank, …”
 
         [^1]:             cf. Qur’án 78:38.
 
@@ -1507,29 +1470,17 @@ In Epistle to the Son of the Wolf, paragraphs beginning
 
         [^5]:             Qur’án 52:6.
 
-    *   #### “Are ye wickedly scheming, according to your selfish …”
-
         [^1]:             cf. Qur’án 29:40.
-
-    *   #### “Issue forth from your cities, O peoples of the West and …”
 
         [^1]:             cf. Qur’án 2:206.
 
-    *   #### “O ye peoples of the earth! Hearken unto My call, ringing …”
-
         [^1]:             cf. Qur’án 2:163–164.
-
-    *   #### “The Lord hath, in truth, inspired Me: Verily, verily, I am …”
 
         [^1]:             cf. Qur’án 17:88.
 
         [^2]:             cf. Qur’án 74:35–37.
 
-    *   #### “O peoples of the earth! By the righteousness of God, this …”
-
         [^1]:             cf. Qur’án 21:40.
-
-    *   #### “Verily such as ridicule the wondrous, divine Verses …”
 
         [^1]:             cf. Qur’án 2:14.
 
@@ -1541,23 +1492,15 @@ In Epistle to the Son of the Wolf, paragraphs beginning
 
         [^5]:             Qur’án 5:77.
 
-    *   #### “O peoples of the earth! Verily the resplendent Light of …”
-
         [^1]:             cf. Qur’án 5:15–18.
 
         [^2]:             cf. Qur’án 5:22.
 
         [^3]:             cf. Qur’án 5:71.
 
-    *   #### “O people of the earth! To attain the ultimate retreat in …”
-
         [^1]:             cf. Qur’án 2:32; 38:74–78.
 
-    *   #### “God, besides Whom there is none other true God, saith: …”
-
         [^1]:             cf. Qur’án 7:69; 12:40.
-
-    *   #### “The people, during the absence of the Báb, re-enacted …”
 
         [^1]:             cf. Qur’án 7:146; 20:90.
 
@@ -1567,124 +1510,64 @@ In Epistle to the Son of the Wolf, paragraphs beginning
 
         [^4]:             cf. Qur’án 10:50.
 
-    *   #### “Doth it seem strange to the people that We should have …”
-
         [^1]:             cf. Qur’án 10:16.
-
-    *   #### “O peoples of the earth! Verily the true God calleth …”
 
         [^1]:             cf. Qur’án 10:33.
 
         [^2]:             cf. Qur’án 18:42.
 
-    *   #### “O Thou cherished Fruit of the heart! Give ear to the …”
-
         [^1]:             cf. Qur’án 11:120.
-
-    *   #### “Should it be Our wish, it is in Our power to compel, …”
 
         [^1]:             cf. Qur’án 6:10.
 
         [^2]:             cf. Qur’án 3:172.
 
-    *   #### “God had, in truth, proposed Our Mission unto the …”
-
         [^1]:             cf. Qur’án 33:72.
-
-    *   #### “This Book which We have sent down is indeed abounding …”
 
         [^1]:             cf. Qur’án 6:93.
 
-    *   #### “This Remembrance is indeed the glorious Remnant of …”
-
         [^1]:             cf. Qur’án 11:87.
-
-*   ### 3\. Excerpts from the Persian Bayán
-
-    *   #### “It is better to guide one soul than to possess all …”
 
         [^1]:             The Bayán is divided into váḥids and chapters, to which these numbers refer.
 
-    *   #### “Likewise consider the manifestation of the Point of the …”
-
         [^1]:             Qur’án 8:47; 33:41; 62:10.
-
-    *   #### “There is no doubt that the Almighty hath sent down …”
 
         [^1]:             Qur’án 29:50.
 
-    *   #### “At the time of the manifestation of Him Whom God …”
-
         [^1]:             Qur’án 57:21.
-
-    *   #### “How veiled are ye, O My creatures, … who, without …”
 
         [^1]:             In The Promised Day Is Come in the paragraph beginning “How veiled are ye, O My creatures…” Shoghi Effendi affirms that this passage was revealed by the Báb speaking with the voice of God.
 
-    *   #### “Twelve hundred and seventy years have elapsed since …”
-
         [^1]:             This is a reference to Quddús, “whom the Persian Bayán extolled as that fellow-pilgrim round whom mirrors to the number of eight Váḥids revolve.” (God Passes By, Chapter IV, paragraph beginning “The pillars of His infant Faith had…”).
-
-    *   #### “Know thou that in the Bayán purification is regarded as …”
 
         [^1]:             Qur’án 8:2.
 
-    *   #### “The Bayán shall constitute God’s unerring balance till the …”
-
         [^1]:             Qur’án 19:92.
 
-    *   #### “The substance of this chapter is this, that what is intended …”
-
         [^1]:             22 May 1844.
-
-*   ### 4\. Excerpts from the Dalá’il-i-Sab‘ih (The Seven Proofs)
-
-    *   #### “Ponder likewise the Dispensation of the Apostle of God …”
 
         [^1]:             From the Declaration of Muḥammad; this occurred ten years before the Hijrah which marks the starting point of the Muslim calendar.
 
         [^2]:             Qur’án 3:5.
 
-    *   #### “The recognition of Him Who is the Bearer of divine …”
-
         [^1]:             Qur’án 68:51.
-
-*   ### 5\. Excerpts from the Kitáb-i-Asmá’ (The Book of Names)
-
-    *   #### “O ye that are invested with the Bayán! Denounce …”
 
         [^1]:             By “night” is meant the period between two divine Revelations when the Sun of Truth is not manifest among men. In the Persian Bayán, II, 7, the Báb says, “O people of the Bayán! Act not as the people of the Qur’án have acted, for if you do so the fruits of your night will come to naught.”
 
         [^2]:             The Kitáb-i-Asmá’ is divided into váḥids and chapters, to which these numbers refer.
 
-    *   #### “On the Day of Resurrection when He Whom God will …”
-
         [^1]:             By “night” is meant the period between two divine Revelations when the Sun of Truth is not manifest among men. In the Persian Bayán, II, 7, the Báb says, “O people of the Bayán! Act not as the people of the Qur’án have acted, for if you do so the fruits of your night will come to naught.”
 
-    *   #### “Verily God hath caused the people of the Bayán to be …”
-
         [^1]:             By “night” is meant the period between two divine Revelations when the Sun of Truth is not manifest among men. In the Persian Bayán, II, 7, the Báb says, “O people of the Bayán! Act not as the people of the Qur’án have acted, for if you do so the fruits of your night will come to naught.”
-
-    *   #### “Since thou hast faithfully obeyed the true religion of God …”
 
         [^1]:             He Who ariseth (God Passes By, Chapter IV, paragraph beginning “The Báb, acclaimed by Bahá’u’lláh as the ‘Essence of Essences’…”.
 
         [^2]:             One Who is guided (God Passes By, Chapter IV, paragraph beginning “The Báb, acclaimed by Bahá’u’lláh as the ‘Essence of Essences’…”).
 
-*   ### 7\. Prayers and Meditations
-
-    *   #### “Hallowed be the Lord in Whose hand is the …”
-
         [^1]:             The original of this prayer for protection is written in the Báb’s own hand, in the form of a pentacle.
-
-    *   #### “Immeasurably glorified and exalted art Thou. How …”
 
         [^1]:             Refers to the Báb’s birthday on the first day of the month of Muḥarram, 1235 A.H. (October 20, 1819).
 
-    *   #### “How can I praise Thee, O Lord, for the evidences of Thy …”
-
         [^1]:             Qur’án 37:180–82.
-
-    *   #### “All majesty and glory, O my God, and all dominion and …”
 
         [^1]:             Qur’án 6:103.
