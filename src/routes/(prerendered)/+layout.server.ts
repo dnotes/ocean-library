@@ -1,6 +1,3 @@
-export const prerender=true
-export const ssr=true
-
 import { allMdFiles } from '$lib/rawContent.server'
 import { getDoc } from "$lib"
 import { sortBy } from "lodash-es"
