@@ -2,16 +2,24 @@
 
   import type { Search } from "$lib";
   import { createEventDispatcher } from "svelte";
-  import { searchHistory, searchRunner } from "./stores";
+  import { searchSettings, searchHistory, searchRunner, currentSearch } from "./stores";
+  import type { Writable } from "svelte/store";
 
   let dispatch = createEventDispatcher()
 
-  export let search:Search = { text:'', results:[] }
+  export let search:Search = { text:'', results:[], settings:{...$searchSettings} }
   export let searchText:string = search?.text ?? ''
+  export let searchStore:Writable<Search>|undefined = undefined
 
-  async function doSearch(text:string) {
-    search = await $searchRunner(text)
+  export let disabled=false
+
+  async function doSearch(text:string|Search) {
+
+    // TODO: add method to get search history with arrow keys
+
+    search = await $searchRunner(text, searchStore)
     dispatch('search', search)
+
   }
 
   let w:number
@@ -22,6 +30,12 @@
 
   <form action="dialog" method="post" class="flex gap-2" on:submit|preventDefault={()=>{doSearch(searchText)}}>
     <div class="search-input w-full" bind:clientWidth={w}>
+      <div class="ai-settings absolute right-1 top-0 text-xs text-blue-500 flex gap-px items-center overflow-hidden">
+        <a href="/settings"><span class="small-caps">ai</span> settings</a>
+        <!-- <label class:opacity-40={!$searchSettings.searchTextPreprocessing}>🔍<input type="checkbox" name="searchTextPreprocessing" bind:checked={$searchSettings.searchTextPreprocessing}></label>
+        <label class:opacity-40={!$searchSettings.searchResultsPreprocessing}>📖<input type="checkbox" name="searchResultsPreprocessing" bind:checked={$searchSettings.searchResultsPreprocessing}></label>
+        <label class:opacity-40={!$searchSettings.searchResultsProcessing}>🤓<input type="checkbox" name="searchResultsProcessing" bind:checked={$searchSettings.searchResultsProcessing}></label> -->
+      </div>
       <input
         name="search"
         type="text"
@@ -33,14 +47,15 @@
         autocomplete="off"
       >
       <div class="search-history absolute top-full bg-stone-300 overflow-y-auto hidden flex-col max-h-60 z-50" style="width:{w}px;">
+        <!-- TODO: add filtering of search history based on text -->
         {#each ($searchHistory ?? []) as item}
-          <button on:click={()=>{ doSearch(item.text) }} type="button" class="w-full block h-5 p-1 text-sm leading-none bg-stone-300 text-stone-900 border-0 text-left">
+          <button on:click={()=>{ $currentSearch = item }} type="button" class="w-full block h-5 p-1 text-sm leading-none bg-stone-300 text-stone-900 border-0 text-left">
             {item?.text}
           </button>
         {/each}
       </div>
     </div>
-    <button type="submit" class="px-4 py-2 h-12 text-white bg-blue-500 rounded">Search</button>
+    <button type="submit" {disabled} class="px-4 py-2 h-12 text-white bg-blue-500 rounded">Search</button>
   </form>
 
 </div>
@@ -48,5 +63,15 @@
 <style lang="postcss">
   input:focus ~ div.search-history, div.search-history:hover {
     display:flex;
+  }
+  .ai-settings input {
+    position: absolute;
+    left:-400px;
+  }
+  .ai-settings > label {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    display: inline-block;
   }
 </style>

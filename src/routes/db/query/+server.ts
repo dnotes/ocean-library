@@ -6,10 +6,10 @@ import { PINECONE_API_KEY } from "$env/static/private";
 
 export const POST:RequestHandler = async ({request}) => {
 
-  const data:{ embeddings:number[], count:number } = await request.json()
+  const data:{ embeddings:number[], limit:number } = await request.json()
   let body = {
     vector: data.embeddings,
-    topK: data.count,
+    topK: data.limit,
     includeMetadata: true,
     includeValues: false,
   }
