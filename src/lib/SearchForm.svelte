@@ -30,12 +30,6 @@
 
   <form action="dialog" method="post" class="flex gap-2" on:submit|preventDefault={()=>{doSearch(searchText)}}>
     <div class="search-input w-full" bind:clientWidth={w}>
-      <div class="ai-settings absolute right-1 top-0 text-xs text-blue-500 flex gap-px items-center overflow-hidden">
-        <a href="/settings"><span class="small-caps">ai</span> settings</a>
-        <!-- <label class:opacity-40={!$searchSettings.searchTextPreprocessing}>🔍<input type="checkbox" name="searchTextPreprocessing" bind:checked={$searchSettings.searchTextPreprocessing}></label>
-        <label class:opacity-40={!$searchSettings.searchResultsPreprocessing}>📖<input type="checkbox" name="searchResultsPreprocessing" bind:checked={$searchSettings.searchResultsPreprocessing}></label>
-        <label class:opacity-40={!$searchSettings.searchResultsProcessing}>🤓<input type="checkbox" name="searchResultsProcessing" bind:checked={$searchSettings.searchResultsProcessing}></label> -->
-      </div>
       <input
         name="search"
         type="text"
@@ -63,15 +57,5 @@
 <style lang="postcss">
   input:focus ~ div.search-history, div.search-history:hover {
     display:flex;
-  }
-  .ai-settings input {
-    position: absolute;
-    left:-400px;
-  }
-  .ai-settings > label {
-    position: relative;
-    cursor: pointer;
-    overflow: hidden;
-    display: inline-block;
   }
 </style>
