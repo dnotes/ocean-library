@@ -1,6 +1,7 @@
 <script lang="ts">
   import { sortBy } from "lodash-es";
-  import { type LibraryTree, type Doc, displayCategory, type SearchHit } from ".";
+  import { type LibraryTree, type Doc, displayCategory } from ".";
+  import type { SearchHit } from "./search";
   import { createEventDispatcher } from "svelte";
 
   const dispatch = createEventDispatcher()

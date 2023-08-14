@@ -3,4 +3,4 @@
   import { currentSearch } from "$lib/stores";
 </script>
 
-<SearchPage bind:search={$currentSearch}></SearchPage>
+<SearchPage></SearchPage>

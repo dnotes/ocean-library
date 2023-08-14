@@ -1,43 +1,7 @@
-import type { AgentResponse, SearchSettings } from './stores'
-import yaml from 'js-yaml'
+import type { SearchHit } from './search'
 
 export { getDoc, cleanText, sentenceSplitter, clauseSplitter } from './Doc.mjs'
 
-export type SearchMeta = {
-  slug:string
-  blk:number
-  s:number
-  c:number
-  title:string
-  author:string
-  collection:string
-  language:string
-  category:string
-  date?:string
-}
-
-export type SearchHit = Omit<SearchMeta, 's'> & {
-  score:number
-  s:number[]
-  text:string
-  texts:string[]
-}
-
-export type Search = {
-
-  text:string
-  results:SearchHit[]
-  filteredResults?:SearchHit[]
-
-  message?:string
-  ready?:boolean
-  errors?:AgentResponse[]
-
-  settings: SearchSettings
-
-  textPreprocessed?:string
-
-}
 
 export type DocMeta = {
   id?:string
@@ -84,14 +48,4 @@ export const categories:{[key:string]:string} = {
 }
 export function displayCategory(cat:string) {
   return categories?.[cat] ?? (cat?.[0]?.toUpperCase() + cat?.slice(1)) ?? 'error'
-}
-
-export function yamlSearchHits(hits:SearchHit[]) {
-  return yaml.dump((hits || []).map(hit => {
-    return {
-      id: hit.slug,
-      blk: hit.blk,
-      text: [hit.text, ...(hit.texts || [])].join('...')
-    }
-  }))
 }
