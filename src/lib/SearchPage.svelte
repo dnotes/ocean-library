@@ -121,7 +121,7 @@
       {#if $search.filteredResults}
         <div class="px-4 flex gap-2 border-b-2 border-stone-500 box-content">
           <button type="button" class="filter-button" class:selected={section==='results'} on:click={()=>{section="results"}}>Raw ({$search.results?.length || 0})</button>
-          <button type="button" class="filter-button" class:selected={section==='filteredResults'} on:click={()=>{section="filteredResults"}}>Filtered ({$search.filteredResults?.length || 0})</button>
+          <button type="button" class="filter-button" class:selected={section==='filteredResults'} on:click={()=>{section="filteredResults"}}>Excerpts ({$search.filteredResults?.length || 0})</button>
         </div>
       {/if}
       <div class:pr-2={$search?.settings?.searchSort!=='scored'} class="search-results flex-grow overflow-auto">
@@ -161,6 +161,22 @@
             score: {Math.round(($searchHit?.score || 0) * 100)}%
           </div>
 
+          {#if $searchHit && $search?.filteredResults?.find(item => item.slug === $searchHit?.slug && item.blk === $searchHit.blk)}
+            <button type="button" class="link" on:click={()=>{
+              $search.filteredResults = $search.filteredResults?.filter(item => item.slug !== $searchHit?.slug || item.blk !== $searchHit.blk)
+              $search.compilation = $search.compilation?.filter(item => item.slug !== $searchHit?.slug || item.blk !== $searchHit.blk)
+            }}>Remove from Excerpts</button>
+          {:else}
+            <button type="button" class="link" on:click={()=>{
+              if ($searchHit) {
+                let blk = $searchHit.blk
+                let text = (document.createRange().createContextualFragment(doc.blocks[blk])?.textContent || '').trim()
+                $search.filteredResults = [...($search.filteredResults || []), {...$searchHit, blocks:[text], blocksStart:blk, blocksEnd:blk }]
+                $search.compilation = [...($search.compilation || []), { slug:$searchHit.slug, blk }]
+              }
+            }}>Add to Excerpts</button>
+          {/if}
+
           <div slot="compact">
             <div class="text-5xl absolute top-10 left-4">
               <button type="button" on:click={prevHit}>&#8678;</button>
@@ -181,4 +197,5 @@
 <style lang="postcss">
   .filter-button { @apply relative top-1 rounded-t pb-1 px-2; }
   button.selected { @apply bg-stone-50 dark:bg-stone-900 border-2 border-b-0 border-stone-500; }
+  button.link { @apply text-blue-500; }
 </style>
