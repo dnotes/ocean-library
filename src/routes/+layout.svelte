@@ -15,6 +15,7 @@
     <nav class="flex gap-2">
       <a href="/content">Content</a>
       <a href="/search">Search</a>
+      <a href="/settings">Settings</a>
     </nav>
     <div class="w-800">
       <SearchForm on:search={(e)=>{
@@ -31,6 +32,7 @@
   <nav class="flex md:hidden px-5 h-12 w-full flex-shrink-0 items-center gap-1">
     <a href="/content">Content</a>
     <a href="/search">Search</a>
+    <a href="/settings">Settings</a>
   </nav>
 
 </div>
