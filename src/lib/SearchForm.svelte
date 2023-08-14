@@ -23,11 +23,9 @@
       if (idx > -1) { // existing search
         let searchItem = $searchHistory.splice(idx,1)[0]
         $search = searchItem
-        $searchHistory = [$search, ...$searchHistory]
       }
       else { // new search
         $search = { text:searchText, errors:[], settings:{...$searchSettings}}
-        $searchHistory = [$search, ...$searchHistory]
       }
     }
     touched = false
@@ -53,6 +51,7 @@
     $search = await dbQuery($search)
     if (!$search.results?.length) {
       $searchStatus = { working:false, message:'Error: No search results.'}
+      $searchHistory = [$search, ...$searchHistory]
       return
     }
 
@@ -66,6 +65,7 @@
       $search = await processResults($search)
     }
 
+    $searchHistory = [$search, ...$searchHistory]
     $searchStatus = { working:false, message:`` }
 
   }
@@ -73,7 +73,6 @@
   async function setSearch(i:number) {
 
     let searchItem = $searchHistory.splice(i,1)[0];
-    $searchHistory = $searchHistory
     $search = searchItem
     searchText = $search.text
     touched = false
@@ -103,7 +102,7 @@
       >
       <div class="search-history absolute top-full bg-stone-300 overflow-y-auto hidden flex-col max-h-60 z-50" style="width:{w}px;">
         <!-- TODO: add filtering of search history based on text -->
-        {#each ($searchHistory ?? []).filter(item => item.text.includes(searchText)) as search,i}
+        {#each ($searchHistory ?? []).filter(item => !touched || item.text.includes(searchText)) as search,i}
           <button on:click={()=>{ setSearch(i) }} type="button" class="w-full block h-5 p-1 text-sm leading-none bg-stone-300 text-stone-900 border-0 text-left">
             {search?.text}
           </button>
