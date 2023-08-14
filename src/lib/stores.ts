@@ -44,7 +44,7 @@ export const defaultSearchSettings = {
   searchResultsProcessingPrompt: `You are a research assistant summarizing a selection of quotations for a researcher. `+
     `The researcher will have access to the same quotations. Given the quotations in the following context, and only considering `+
     `that context, complete the short essay beginning with the words "Here are some passages from the world's religious texts `+
-    `related to your question about "{question}". From them, one might infer the following about "{question}":`,
+    `related to your question about '{question}'. From them, one might infer the following about '{question}':"`,
 
 }
 
