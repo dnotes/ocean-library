@@ -60,13 +60,16 @@ export function getSearchHitStubs(hits:SearchHit[]|undefined) {
 }
 
 export async function getExcerpts(hits:SearchHit[]):Promise<Excerpt[]> {
-  let docs:{[slug:string]:Doc} = {}
+  let docs:{[slug:string]:Doc|'error'} = {}
   let excerpts:Excerpt[] = []
   for (let i=1; i<hits.length; i++) {
     let hit = hits[i]
     if (excerpts.find(ex => ex.slug === hit.slug && ex.blk === hit.blk)) continue
-    if (!docs[hit.slug]) docs[hit.slug] = await fetch(`/content/${hit.slug}.json`).then(res => res.json())
-    excerpts.push({ ...hit, blocksStart:hit.blk, blocksEnd:hit.blk, blocks: [(document?.createRange().createContextualFragment(docs[hit.slug].blocks[hit.blk]).textContent?.trim() || '')] })
+    if (!docs[hit.slug]) docs[hit.slug] = await fetch(`/content/${hit.slug}.json`).then(res => res.json()).catch(e => {
+      docs[hit.slug] = 'error'
+    })
+    // @ts-ignore I just checked if it was "error"
+    if (docs[hit.slug] !== 'error') excerpts.push({ ...hit, blocksStart:hit.blk, blocksEnd:hit.blk, blocks: [(document?.createRange().createContextualFragment(docs[hit.slug].blocks[hit.blk]).textContent?.trim() || '')] })
   }
   return excerpts
 }
