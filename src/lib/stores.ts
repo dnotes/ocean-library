@@ -31,14 +31,14 @@ export const defaultSearchSettings = {
   'Question:\n{question}',
   // searchTextPreprocessingHistory: <{[key:string]:string}> {},
 
-  searchResultsPreprocessing: 'Given the context below, and only considering that context, '+
+  searchResultsFiltering: '',
+  searchResultsFilteringTemp: .6,
+  searchResultsFilteringPrompt: 'Given the context below, and only considering that context, '+
   'list the paragraphs that would be most helpful in answering the question below. '+
   'The context contains portions of paragraphs that may or may not be related to the question. '+
   'Choose the paragraphs that are most likely to answer the question if viewed in full. '+
   'Avoid paragraphs that are only citations or headings.',
-  searchResultsPreprocessingTemp: .6,
-  searchResultsPreprocessingPrompt: '',
-  // searchResultsPreprocessingHistory: <{[key:string]:string}> {},
+  // searchResultsFilteringHistory: <{[key:string]:string}> {},
 
   searchResultsProcessing: '',
   searchResultsProcessingTemp: .6,

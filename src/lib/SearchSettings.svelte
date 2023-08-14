@@ -34,11 +34,11 @@
     </label>
     <label>
       Temp
-      <input type="number" min=0 max=2 step=.01 name="searchTextPreprocessingTemperature" id="searchTextPreprocessingTemperature" bind:value={settings.searchTextPreprocessingTemp}>
+      <input type="number" min=0 max=2 step=.01 bind:value={settings.searchTextPreprocessingTemp}>
     </label>
   </div>
   <div class:hidden={!settings.searchTextPreprocessing}>
-    <textarea name="searchTextPreprocessingPrompt" id="searchTextPreprocessingPrompt" rows="4" bind:value={settings.searchTextPreprocessingPrompt}></textarea>
+    <textarea rows="4" bind:value={settings.searchTextPreprocessingPrompt}></textarea>
     <div class="helptext">
       <p>This prompt asks your AI agent to create a database query from your original question. You can use the following variables:</p>
       <ul>
@@ -53,15 +53,15 @@
   <div class="flex gap-5">
     <label class="flex-grow">
       📖 Preprocess results
-      <AgentList bind:setting={settings.searchResultsPreprocessing} />
+      <AgentList bind:setting={settings.searchResultsFiltering} />
     </label>
     <label>
       Temp
-      <input type="number" min=0 max=2 step=.01 name="searchResultsPreprocessingTemperature" id="searchResultsPreprocessingTemperature" bind:value={settings.searchResultsPreprocessingTemp}>
+      <input type="number" min=0 max=2 step=.01 bind:value={settings.searchResultsFilteringTemp}>
     </label>
   </div>
-  <div class:hidden={!settings.searchResultsPreprocessing}>
-    <textarea name="searchResultsPreprocessingPrompt" id="searchResultsPreprocessingPrompt" rows="4" bind:value={settings.searchResultsPreprocessingPrompt}></textarea>
+  <div class:hidden={!settings.searchResultsFiltering}>
+    <textarea rows="4" bind:value={settings.searchResultsFilteringPrompt}></textarea>
     <div class="helptext">
       <p>This prompt asks your AI agent to narrow down the search results to obtain a better context. You can use the following variables:</p>
       <ul>
@@ -82,11 +82,11 @@
     </label>
     <label>
       Temp
-      <input type="number" min=0 max=2 step=.01 name="searchResultsProcessingTemperature" id="searchResultsProcessingTemperature" bind:value={settings.searchResultsProcessingTemp}>
+      <input type="number" min=0 max=2 step=.01 bind:value={settings.searchResultsProcessingTemp}>
     </label>
   </div>
   <div class:hidden={!settings.searchResultsProcessing}>
-    <textarea name="searchResultsProcessingPrompt" id="searchResultsProcessingPrompt" rows="4" bind:value={settings.searchResultsProcessingPrompt}></textarea>
+    <textarea rows="4" bind:value={settings.searchResultsProcessingPrompt}></textarea>
     <div class="helptext">
       <p>This prompt asks your AI agent to do something with the full search results. You can use the following variables:</p>
       <ul>

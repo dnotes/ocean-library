@@ -97,7 +97,7 @@
             <label>
               <button type="button" class='text-blue-500 text-xs' on:click={()=>{$search = $search; showDetail = !showDetail;}}>
                 <span class="rounded-full {$search.settings.searchTextPreprocessing ? 'bg-blue-200' : 'opacity-30'}">🔍</span>
-                <span class="rounded-full {$search.settings.searchResultsPreprocessing ? 'bg-blue-200' : 'opacity-30'}">📖</span>
+                <span class="rounded-full {$search.settings.searchResultsFiltering ? 'bg-blue-200' : 'opacity-30'}">📖</span>
                 <span class="rounded-full {$search.settings.searchResultsProcessing ? 'bg-blue-200' : 'opacity-30'}">🤓</span>
                 {showDetail ? 'hide' : 'show'} detail</button>
             </label>

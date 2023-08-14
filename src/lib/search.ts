@@ -160,19 +160,19 @@ export async function dbQuery(search:Search):Promise<Search> {
 
 }
 
-export async function preprocessResults(search:Search):Promise<Search> {
+export async function filterResults(search:Search):Promise<Search> {
 
   const systemPrompt = 'You are an AI assistant functioning through an API endpoint. '+
   'Your response should consist ONLY of an array of objects of the shape '+
   '{ id:string, blk:number } in JSON format.'
 
   let allAgents = get(agents)
-  let agentName = search.settings?.searchResultsPreprocessing
-  let agent = allAgents.find(a => a.name === search.settings?.searchResultsPreprocessing)
-  if (!agent) return searchError(search, `preprocessResults agent not found: "${agentName}"`)
+  let agentName = search.settings?.searchResultsFiltering
+  let agent = allAgents.find(a => a.name === search.settings?.searchResultsFiltering)
+  if (!agent) return searchError(search, `filterResults agent not found: "${agentName}"`)
 
-  let prompt = search.settings?.searchResultsPreprocessingPrompt
-  if (!prompt) return searchError(search, `preprocessResults no prompt found`)
+  let prompt = search.settings?.searchResultsFilteringPrompt
+  if (!prompt) return searchError(search, `filterResults no prompt found`)
 
   prompt = prompt?.includes('{question}') ? prompt.replace(/\{question\}/g, search.text) : `${prompt}\n\nQuestion:\n${search.text}`
   if (prompt?.includes('{query}')) prompt = prompt.replace(/\{query\}/g, search.textPreprocessed ?? search.text)
@@ -181,11 +181,11 @@ export async function preprocessResults(search:Search):Promise<Search> {
   prompt = prompt?.includes('{context}') ? prompt.replace(/\{context\}/g, context) : `${prompt}\n\nContext:\n${context}`
 
   try {
-    let res = await agentRequest(agent, prompt, systemPrompt, search.settings?.searchResultsPreprocessingTemp)
+    let res = await agentRequest(agent, prompt, systemPrompt, search.settings?.searchResultsFilteringTemp)
 
     if (res.status !== 200) {
       let message = await res.text()
-      return searchError(search, `preprocessResults api error: ${res.status} ${res.statusText} (${message})`, res)
+      return searchError(search, `filterResults api error: ${res.status} ${res.statusText} (${message})`, res)
     }
 
     let result = await res.json()
@@ -196,7 +196,7 @@ export async function preprocessResults(search:Search):Promise<Search> {
       blocks = JSON.parse(resultText)
     }
     catch(e) {
-      return searchError(search, 'preprocessResults could not parse data from AI agent.', result)
+      return searchError(search, 'filterResults could not parse data from AI agent.', result)
     }
 
     let results:SearchHit[] = []
@@ -209,7 +209,7 @@ export async function preprocessResults(search:Search):Promise<Search> {
 
   }
   catch(e:any) {
-    return searchError(search, `preprocessResults error: "${e?.message}"`)
+    return searchError(search, `filterResults error: "${e?.message}"`)
   }
 
   return search
@@ -242,7 +242,7 @@ export async function runSearch(search:Search, messageStore:Writable<SearchStatu
   }
 
   messageStore.set({ working:true, message:'Filtering results...' })
-  if (search.settings?.searchResultsPreprocessing) await preprocessResults(search)
+  if (search.settings?.searchResultsFiltering) await filterResults(search)
 
   messageStore.set({ working:true, message:'Processing results...' })
   if (search.settings?.searchResultsProcessing) await processResults(search)

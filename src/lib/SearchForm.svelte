@@ -1,6 +1,6 @@
 <script lang="ts">
 
-  import { dbQuery, generateEmbeddings, preprocessResults, preprocessSearchText, type Search, type SearchHit, type SearchStatus } from "$lib/search";
+  import { dbQuery, generateEmbeddings, filterResults, preprocessSearchText, type Search, type SearchHit, type SearchStatus } from "$lib/search";
   import { createEventDispatcher } from "svelte";
   import { searchSettings, searchHistory, currentSearch, currentSearchStatus, currentSearchHit } from "./stores";
   import type { Writable } from "svelte/store";
@@ -56,9 +56,9 @@
       return
     }
 
-    if ($search.settings.searchResultsPreprocessing) {
+    if ($search.settings.searchResultsFiltering) {
       $searchStatus = { working:true, message:'Filtering results...'}
-      $search = await preprocessResults($search)
+      $search = await filterResults($search)
     }
 
     $searchStatus = { working:false, message:`` }
