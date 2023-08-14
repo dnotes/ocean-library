@@ -1,17 +1,18 @@
 <script lang="ts">
 
   import type { Writable } from "svelte/store";
-  import { yamlSearchHits, type Search, type SearchHit, type SearchStatus, generateEmbeddings, dbQuery, filterResults, preprocessSearchText } from "./search";
+  import { type Search, type SearchHit, type SearchStatus, generateEmbeddings, dbQuery, filterResults, preprocessSearchText, processResults, getSearchHitStubs } from "./search";
   import { currentSearch, currentSearchStatus } from "./stores";
   import { pick } from "lodash-es";
   import SearchSettings from "./SearchSettings.svelte";
+  import yaml from 'js-yaml'
 
   export let search:Writable<Search> = currentSearch
   export let searchStatus:Writable<SearchStatus> = currentSearchStatus
 
   function getYaml(results:SearchHit[]|undefined) {
-    if (!results) return ''
-    let text = yamlSearchHits(results)
+    if (!results || !results.length) return ''
+    let text = yaml.dump(getSearchHitStubs(results))
     navigator.clipboard.writeText(text)
     return text
   }
@@ -50,11 +51,24 @@
 
     {#if $search.settings.searchResultsFiltering}
       <tr title="{JSON.stringify(($search?.filteredResults || []).map(r => pick(r,['title','text'])),null,2)}">
-        <td>Filtered:</td><td>{$search.filteredResults?.length ?? 'N/A'} results
+        <td>Filtered:</td><td>{$search.filteredResults?.length ?? '(N/A)'} results
         <button type="button" class="text-xs rounded px-2 text-white bg-blue-500" on:click={()=>{getYaml($search.filteredResults)}}>copy</button>
         <button type="button" disabled={$searchStatus.working} on:click={async ()=>{
           $searchStatus = { working:true, message:'Filtering results...'}
           $search = await filterResults($search)
+          $searchStatus = { working:false, message:'' }
+        }}>retry
+        </button>
+      </td></tr>
+    {/if}
+
+    {#if $search.settings.searchResultsProcessing}
+      <tr title="{$search?.summary}">
+        <td>Summary:</td><td>{($search.summary?.match(/\b/g)?.length || 0) / 2} words
+        <button type="button" class="text-xs rounded px-2 text-white bg-blue-500" on:click={()=>{navigator.clipboard.writeText($search?.summary ?? '')}}>copy</button>
+        <button type="button" disabled={$searchStatus.working} on:click={async ()=>{
+          $searchStatus = { working:true, message:'Processing results...'}
+          $search = await processResults($search)
           $searchStatus = { working:false, message:'' }
         }}>retry
         </button>

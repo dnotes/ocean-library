@@ -27,9 +27,7 @@ export const defaultSearchSettings = {
   searchTextPreprocessing: '',
   searchTextPreprocessingTemp: .6,
   searchTextPreprocessingPrompt: 'Given the following question as context, '+
-  'provide a query for the database. Consider only the question below.\n\n'+
-  'Question:\n{question}',
-  // searchTextPreprocessingHistory: <{[key:string]:string}> {},
+  'provide a query for the database. Consider only the question below.',
 
   searchResultsFiltering: '',
   searchResultsFilteringTemp: .6,
@@ -38,12 +36,13 @@ export const defaultSearchSettings = {
   'The context contains portions of paragraphs that may or may not be related to the question. '+
   'Choose the paragraphs that are most likely to answer the question if viewed in full. '+
   'Avoid paragraphs that are only citations or headings.',
-  // searchResultsFilteringHistory: <{[key:string]:string}> {},
 
   searchResultsProcessing: '',
   searchResultsProcessingTemp: .6,
-  searchResultsProcessingPrompt: '',
-  // searchResultsProcessingHistory: <{[key:string]:string}> {},
+  searchResultsProcessingPrompt: `You are a research assistant summarizing a selection of quotations for a researcher. `+
+    `The researcher will have access to the same quotations. Given the quotations in the following context, and only considering `+
+    `that context, complete the short essay beginning with the words "Here are some passages from the world's religious texts `+
+    `related to your question about "{question}". From them, one might infer the following about "{question}":`,
 
 }
 

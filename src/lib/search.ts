@@ -1,8 +1,9 @@
-import { get, writable, type Writable } from "svelte/store"
-import { agents, defaultSearchSettings, ephemeralApiKey, searchSettings, type AIAgent, type SearchSettings, appSettings } from "./stores"
+import { get, type Writable } from "svelte/store"
+import { agents, ephemeralApiKey, searchSettings, type AIAgent, type SearchSettings, appSettings } from "./stores"
 import yaml from 'js-yaml'
 import { pipeline } from "@xenova/transformers"
-import { persisted } from "svelte-local-storage-store"
+import type { Doc } from "$lib"
+import { sortBy } from "lodash-es"
 
 export type SearchMeta = {
   slug:string
@@ -24,6 +25,12 @@ export type SearchHit = Omit<SearchMeta, 's'> & {
   texts:string[]
 }
 
+export type Excerpt = SearchHit & {
+  blocks: string[]
+  blocksStart:number
+  blocksEnd:number
+}
+
 export type Search = {
 
   text:string
@@ -33,7 +40,9 @@ export type Search = {
   textPreprocessed?:string
   vector?:number[]
   results?:SearchHit[]
-  filteredResults?:SearchHit[]
+  filteredResults?:Excerpt[]
+  compilation?:{slug:string,blk:number}[]
+  summary?:string
 
 }
 
@@ -42,14 +51,48 @@ export type SearchStatus = {
   message:string
 }
 
-export function yamlSearchHits(hits:SearchHit[]) {
-  return yaml.dump((hits || []).map(hit => {
-    return {
-      id: hit.slug,
-      blk: hit.blk,
-      text: [hit.text, ...(hit.texts || [])].join('...')
-    }
+export function getSearchHitStubs(hits:SearchHit[]|undefined) {
+  return (hits || []).map(hit => ({
+    id: hit.slug,
+    blk: hit.blk,
+    text: hit.texts.join('...')
   }))
+}
+
+export async function getExcerpts(hits:SearchHit[]):Promise<Excerpt[]> {
+  let docs:{[slug:string]:Doc} = {}
+  for (let i=1; i<hits.length; i++) {
+    let hit = hits[i] as Excerpt
+    if (!docs[hit.slug]) docs[hit.slug] = await fetch(`/content/${hit.slug}.json`).then(res => res.json())
+    hit.blocks = [(document?.createRange().createContextualFragment(docs[hit.slug].blocks[hit.blk]).textContent?.trim() || '')]
+  }
+  return hits as Excerpt[]
+}
+
+export function getExcerptStubs(excerpts:Excerpt[]|undefined) {
+  return (excerpts || []).map(ex => ({
+    id: ex.slug,
+    blk: ex.blk,
+    author: ex.author,
+    title: ex.title,
+    category: ex.category,
+    text: ex.blocks.join('\n\n')
+  }))
+}
+
+export function getContext(items:any[], maxLength:number):string {
+  let strs = items.map(item => JSON.stringify(item))
+  let chars=0
+  let i=0
+  for (i;i<items.length;i++) {
+    chars+=strs[i].length
+    if (chars > maxLength) break
+  }
+  return '[' + strs.slice(0,i).join(',') + ']'
+}
+
+export function charEstimate(KT:number):number {
+  return (KT * 1000) * Math.E
 }
 
 export type AgentError = { message:string, detail?:any }
@@ -61,7 +104,7 @@ export function agentRequest(agent:AIAgent, userPrompt:string, systemPrompt:stri
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      'Authorization': agent.apiKey || get(ephemeralApiKey),
+      'Authorization': 'Bearer ' + agent.apiKey || get(ephemeralApiKey),
     },
     body: JSON.stringify({
       model: agent.model,
@@ -149,7 +192,7 @@ export async function dbQuery(search:Search):Promise<Search> {
   search.results = []
   body.matches.forEach((hit:any) => {
     let quote = (search.results || []).find(q => q.blk === hit.metadata.blk)
-    if (!quote) search.results = [...(search.results || []), { ...hit.metadata, ...hit, s: [hit.metadata.s], texts:[], metadata:undefined }]
+    if (!quote) search.results = [...(search.results || []), { ...hit.metadata, ...hit, s: [hit.metadata.s], texts:[hit.metadata.text], metadata:undefined }]
     else {
       quote.s.push(hit.metadata.s)
       quote.texts.push(hit.metadata.text)
@@ -164,7 +207,7 @@ export async function filterResults(search:Search):Promise<Search> {
 
   const systemPrompt = 'You are an AI assistant functioning through an API endpoint. '+
   'Your response should consist ONLY of an array of objects of the shape '+
-  '{ id:string, blk:number } in JSON format.'
+  '{ id:string, blk:number } in JSON format. Always answer in JSON format.'
 
   let allAgents = get(agents)
   let agentName = search.settings?.searchResultsFiltering
@@ -177,7 +220,9 @@ export async function filterResults(search:Search):Promise<Search> {
   prompt = prompt?.includes('{question}') ? prompt.replace(/\{question\}/g, search.text) : `${prompt}\n\nQuestion:\n${search.text}`
   if (prompt?.includes('{query}')) prompt = prompt.replace(/\{query\}/g, search.textPreprocessed ?? search.text)
 
-  let context = yamlSearchHits(search.results || [])
+  let stubs = getSearchHitStubs(sortBy(search.results, 'score'))
+  let chars = charEstimate(agent.contextSize - 2)
+  let context = getContext(stubs, chars)
   prompt = prompt?.includes('{context}') ? prompt.replace(/\{context\}/g, context) : `${prompt}\n\nContext:\n${context}`
 
   try {
@@ -205,7 +250,8 @@ export async function filterResults(search:Search):Promise<Search> {
       if (item) results.push(item)
     })
 
-    search.filteredResults = results
+    search.filteredResults = await getExcerpts(results)
+    search.compilation = search.filteredResults.map(hit => ({ slug: hit.slug, blk:hit.blk }))
 
   }
   catch(e:any) {
@@ -216,7 +262,47 @@ export async function filterResults(search:Search):Promise<Search> {
 
 }
 
-export async function processResults(search:Search):Promise<void> {
+export async function processResults(search:Search):Promise<Search> {
+
+  let allAgents = get(agents)
+  let agentName = search.settings?.searchResultsProcessing
+  let agent = allAgents.find(a => a.name === search.settings?.searchResultsProcessing)
+  if (!agent) return searchError(search, `processResults agent not found: "${agentName}"`)
+
+  let prompt = search.settings?.searchResultsProcessingPrompt
+  if (!prompt) return searchError(search, `processResults no prompt found`)
+
+  prompt = prompt?.includes('{question}') ? prompt.replace(/\{question\}/g, search.text) : `${prompt}\n\nQuestion:\n${search.text}`
+  if (prompt?.includes('{query}')) prompt = prompt.replace(/\{query\}/g, search.textPreprocessed ?? search.text)
+
+  console.log(prompt)
+
+  let excerpts = search.filteredResults?.length ? search.filteredResults : await getExcerpts(sortBy(search.results || [], 'score'))
+  let stubs = getExcerptStubs(excerpts)
+  let context = getContext(stubs, charEstimate(agent.contextSize - 2))
+  prompt = prompt?.includes('{context}') ? prompt.replace(/\{context\}/g, context) : `${prompt}\n\nContext:\n${context}`
+
+  console.log(prompt)
+
+  try {
+    let res = await agentRequest(agent, prompt, '', search.settings.searchResultsProcessingTemp)
+
+    if (res.status !== 200) {
+      let message = await res.text()
+      return searchError(search, `processResults api error: ${res.status} ${res.statusText} (${message})`, res)
+    }
+
+    let result = await res.json()
+    let resultText = result?.choices?.[0]?.message?.content
+
+    search.summary = resultText
+
+  }
+  catch(e:any) {
+    return searchError(search, `processResults error: "${e?.message}"`)
+  }
+
+  return search
 
 }
 
