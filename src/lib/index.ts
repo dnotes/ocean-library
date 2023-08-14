@@ -4,6 +4,7 @@ export { getDoc, cleanText, sentenceSplitter, clauseSplitter } from './Doc.mjs'
 
 
 export type DocMeta = {
+  isDoc:true
   id?:string
   sort:string
   title:string
