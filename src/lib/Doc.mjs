@@ -78,6 +78,7 @@ export function getDoc(raw, path, getContent = true, includeMarkdown = false) {
 
   /** @type {import('.').Doc} */
   let item = {
+    isDoc: true,
     id: cleanText(data?.id),
     title: cleanText(data?.title) || '',
     author: cleanText(data?.author) || '',

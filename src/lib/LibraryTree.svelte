@@ -27,7 +27,7 @@
     dispatch('change', item)
   }
 
-  const areSearchHits = (x:any[]):x is SearchHit[] => !x[0].blocks
+  const areSearchHits = (x:any[]):x is SearchHit[] => !x[0].isDoc
 
 </script>
 
