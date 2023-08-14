@@ -14,9 +14,8 @@
     let block = doc.blocks[blk]
     let postBlocks = doc.blocks.slice(blk+1, blk+50)
     if (hit) {
-      block = block.replace(hit.text, `<u>${hit.text}</u>`)
       hit.texts.forEach(t => {
-        block = block.replace(t, `<u>${t}</u>`)
+        block = block.replace(t, `<b>${t}</b>`)
       })
     }
     return [...preBlocks, block, ...postBlocks]

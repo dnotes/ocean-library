@@ -84,6 +84,7 @@
             class:hidden={authorsHidden.includes(author) || categoriesHidden.includes(category) || documentsHidden.includes(item.slug)}
             class="search-hit pl-12 py-1 leading-tight cursor-pointer border-b border-stone-500 line-clamp-{$appSettings.linesPerHit}"
             class:border-t={!i}
+            class:highlight={item === currentItem}
             on:click={()=>{ setItem(item) }}
           >
             {item?.text}

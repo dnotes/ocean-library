@@ -24,6 +24,7 @@
   <!-- svelte-ignore a11y-click-events-have-key-events -->
   <!-- svelte-ignore a11y-no-static-element-interactions -->
   <div class="px-4 py-1 leading-snug border-b border-b-stone-500 overflow-hidden relative line-clamp-{$appSettings.linesPerHit} cursor-pointer"
+    class:highlight={item === currentItem}
     on:click={()=>{setItem(item)}}
   >
     {item.text}
