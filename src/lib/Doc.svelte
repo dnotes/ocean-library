@@ -10,9 +10,9 @@
 
   function blkBlocks() {
     if (!doc.blocks || typeof blk === 'undefined') return doc?.blocks || []
-    let preBlocks = doc.blocks.slice(Math.max(blk - 50,0), 50)
+    let preBlocks = doc.blocks.slice(Math.max(blk-50,0), blk)
     let block = doc.blocks[blk]
-    let postBlocks = doc.blocks.slice(blk + 1, blk + 50)
+    let postBlocks = doc.blocks.slice(blk+1, blk+50)
     if (hit) {
       block = block.replace(hit.text, `<u>${hit.text}</u>`)
       hit.texts.forEach(t => {
@@ -113,7 +113,7 @@
     {/if}
 
   </div>
-  <div class="prose prose-lg prose-stone dark:prose-invert pl-12 pr-5 max-h-full max-w-screen-md 2xl:max-w-screen-lg 3xl:max-w-screen-2xl w-full overflow-auto">
+  <div class="prose prose-lg prose-stone dark:prose-invert pl-12 pr-5 max-h-full max-w-screen-md 2xl:max-w-screen-lg 3xl:max-w-screen-2xl w-full overflow-auto mx-auto">
 
     {#each blocks as item}
       <div class="relative">{@html item}</div>
