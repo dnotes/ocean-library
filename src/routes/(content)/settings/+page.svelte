@@ -1,7 +1,7 @@
 <script lang="ts">
 
   import SearchSettings from "$lib/SearchSettings.svelte";
-  import { appSettings, searchSettings, agents, defaultAgent, ephemeralApiKey, defaultAgents } from "$lib/stores";
+  import { appSettings, searchSettings, agents, defaultAgent, ephemeralApiKey, defaultAgents, defaultSearchSettings, searchHistory } from "$lib/stores";
 
 
 </script>
@@ -35,11 +35,13 @@
 
   </div>
 
-  <h2>Default Search Settings</h2>
+  <h2>Default Search Settings
+    <button type="button" class="blue" on:click={()=>{$searchSettings = {...defaultSearchSettings}}}>Reset</button>
+  </h2>
   <SearchSettings bind:settings={$searchSettings} />
 
   <h2>AI Agents
-    <button type="button" class="float-right text-sm font-normal px-4 py-2 text-white bg-blue-500 rounded" on:click={()=>{$agents = [...defaultAgents]}}>Reset</button>
+    <button type="button" class="blue" on:click={()=>{$agents = [...defaultAgents]}}>Reset</button>
   </h2>
   <div class="settings-wrapper">
     {#each $agents as agent,i}
@@ -57,6 +59,17 @@
     <button type="button" class="text-sm px-4 py-2 text-white bg-blue-500 rounded" on:click={() => {$agents = [...$agents, {...defaultAgent}]}}>+ add</button>
   </div>
 
+  <h2>Search History
+    <button type="button" class="blue" on:click={()=>{$searchHistory = []}}>Reset</button>
+  </h2>
+  <div class="settings-wrapper">
+    <ul>
+      {#each $searchHistory as item}
+        <li class="relative">{item.text}</li>
+      {/each}
+    </ul>
+  </div>
+
 </div>
 
 <style lang="postcss">
@@ -67,7 +80,8 @@
   .field { @apply mt-8; }
   .field:first-child { @apply mt-0}
   .helptext { @apply text-sm text-stone-500 leading-tight px-4 my-2; }
-  :global(.settings-wrapper) {
+  button.blue { @apply float-right text-sm font-normal px-4 py-2 text-white bg-blue-500 rounded; }
+  :global(div.settings-wrapper) {
     @apply bg-stone-300 dark:bg-stone-900 p-2 prose prose-stone dark:prose-invert max-w-full;
   }
 </style>
