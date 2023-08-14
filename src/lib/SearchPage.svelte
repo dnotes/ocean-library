@@ -143,7 +143,7 @@
     </div>
   {/if}
 
-  <div class:hidden={!$searchHit} class="fixed left-0 right-0 top-0 bottom-0 lg:static w-full max-h-full flex flex-col overflow-hidden z-50">
+  <div class:hidden={!$searchHit} class="fixed left-0 right-0 top-0 bottom-0 lg:static w-full max-h-full flex flex-col overflow-hidden z-50 bg-stone-50 dark:bg-stone-900">
 
     {#if $searchHit}
       {#await docs[$searchHit?.slug || '']}
