@@ -251,6 +251,7 @@ export async function filterResults(search:Search):Promise<Search> {
     })
 
     search.filteredResults = await getExcerpts(results)
+    // TODO: remove duplicates
     search.compilation = search.filteredResults.map(hit => ({ slug: hit.slug, blk:hit.blk }))
 
   }

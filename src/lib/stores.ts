@@ -4,6 +4,8 @@ import type { Search, SearchHit, SearchStatus } from '$lib/search'
 
 export const defaultAppSettings = {
   embeddingsLLM: 'Xenova/all-MiniLM-L6-v2',
+  showSearchDetail: false,
+  linesPerHit: 1,
   categoriesHidden: <string[]> [],
   authorsHidden: <string[]> [],
 }

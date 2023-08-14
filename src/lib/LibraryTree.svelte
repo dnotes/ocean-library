@@ -3,6 +3,7 @@
   import { type LibraryTree, type Doc, displayCategory } from ".";
   import type { SearchHit } from "./search";
   import { createEventDispatcher } from "svelte";
+  import { appSettings } from "./stores";
 
   const dispatch = createEventDispatcher()
 
@@ -70,18 +71,19 @@
             <input type="checkbox" name="document" value="{items[0].slug}" bind:group={documentsHidden}>
             <span class="float-right">{items.length}</span>
             <span class="text-sm float-left mr-2">{#if documentsHidden.includes(items[0].slug)}&plusb;{:else}&minusb;{/if}</span>
-            <span class="line-clamp-1">{items[0].title}</span>
+            <span class="line-clamp-1 font-bold text-normal">{items[0].title}</span>
           </label>
         {/if}
 
       </div>
       {#if areSearchHits(items)}
-        {#each items as item}
+        {#each items as item, i}
           <!-- svelte-ignore a11y-click-events-have-key-events -->
           <!-- svelte-ignore a11y-no-static-element-interactions -->
           <div
             class:hidden={authorsHidden.includes(author) || categoriesHidden.includes(category) || documentsHidden.includes(item.slug)}
-            class="search-hit pl-12 leading-normal cursor-pointer line-clamp-1"
+            class="search-hit pl-12 py-1 leading-tight cursor-pointer border-b border-stone-500 line-clamp-{$appSettings.linesPerHit}"
+            class:border-t={!i}
             on:click={()=>{ setItem(item) }}
           >
             {item?.text}

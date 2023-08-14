@@ -2,7 +2,7 @@
   import type { Doc } from "$lib";
   import type { Search, SearchHit, SearchStatus } from "./search";
   import SearchForm from "./SearchForm.svelte";
-  import { currentSearch, currentSearchHit, currentSearchStatus } from "./stores";
+  import { appSettings, currentSearch, currentSearchHit, currentSearchStatus } from "./stores";
   import LibraryTree from "./LibraryTree.svelte";
   import ScoredResults from "./ScoredResults.svelte";
   import { goto } from "$app/navigation";
@@ -47,11 +47,9 @@
     $searchHit = items[currentItemIndex+1]
   }
 
-  let showDetail=false
-
   let w:number = 0
   $: compact = w < 1350
-  $: twoCols = !compact && showDetail
+  $: twoCols = !compact && $appSettings.showSearchDetail
 
 </script>
 
@@ -65,46 +63,56 @@
       </div>
       {#if $search.settings}
         <div class="py-1 flex gap-1">
-          {#if !showDetail}
-            <div>
-              <label class="relative">
-                Limit:
-                {#if ![100,200,500,1000,2000,5000].includes($search.settings.searchLimit)}
-                  <div class="absolute text-blue-500 select-none right-4 top-0">{$search.settings.searchLimit}</div>
-                {/if}
-                <select bind:value={$search.settings.searchLimit} class="bg-transparent text-blue-500">
-                  <option value={100}>100</option>
-                  <option value={200}>200</option>
-                  <option value={500}>500</option>
-                  <option value={1000}>1000</option>
-                  <option value={2000}>2000</option>
-                  <option value={5000}>5000</option>
-                </select>
-              </label>
-            </div>
-            <div>
-              <label>
-                Sort:
-                <select name="searchSort" id="searchSort" bind:value={$search.settings.searchSort} class="bg-transparent text-blue-500">
-                  <option value="ordered">by order</option>
-                  <option value="scored">by score</option>
-                </select>
-              </label>
-            </div>
-          {/if}
+          <div>
+            <label class="relative">
+              Limit:
+              {#if ![100,200,500,1000,2000,5000].includes($search.settings.searchLimit)}
+                <div class="absolute text-blue-500 select-none right-4 top-0">{$search.settings.searchLimit}</div>
+              {/if}
+              <select bind:value={$search.settings.searchLimit} class="bg-transparent text-blue-500">
+                <option value={100}>100</option>
+                <option value={200}>200</option>
+                <option value={500}>500</option>
+                <option value={1000}>1000</option>
+                <option value={2000}>2000</option>
+                <option value={5000}>5000</option>
+              </select>
+            </label>
+          </div>
+          <div>
+            <label>
+              Sort:
+              <select name="searchSort" id="searchSort" bind:value={$search.settings.searchSort} class="bg-transparent text-blue-500">
+                <option value="ordered">by order</option>
+                <option value="scored">by score</option>
+              </select>
+            </label>
+          </div>
+          <div>
+            <label>
+              MaxLines:
+              <select name="hitLines" id="hitLines" bind:value={$appSettings.linesPerHit} class="bg-transparent text-blue-500">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </label>
+          </div>
           <div class="flex-grow"></div>
           <div>
             <label>
-              <button type="button" class='text-blue-500 text-xs' on:click={()=>{$search = $search; showDetail = !showDetail;}}>
+              <button type="button" class='text-blue-500 text-xs' on:click={()=>{$search = $search; $appSettings.showSearchDetail = !$appSettings.showSearchDetail;}}>
                 <span class="rounded-full {$search.settings.searchTextPreprocessing ? 'bg-blue-200' : 'opacity-30'}">🔍</span>
                 <span class="rounded-full {$search.settings.searchResultsFiltering ? 'bg-blue-200' : 'opacity-30'}">📖</span>
                 <span class="rounded-full {$search.settings.searchResultsProcessing ? 'bg-blue-200' : 'opacity-30'}">🤓</span>
-                {showDetail ? 'hide' : 'show'} detail</button>
+                {$appSettings.showSearchDetail ? 'hide' : 'show'} detail</button>
             </label>
           </div>
         </div>
       {/if}
-      {#if showDetail}
+      {#if $appSettings.showSearchDetail}
         <SearchDetail {search} {searchStatus}></SearchDetail>
       {/if}
     </div>
