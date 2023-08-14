@@ -1,10 +1,26 @@
 <script lang="ts">
-  import { cleanText, displayCategory, type Doc, type SearchHit } from "$lib";
+  import { cleanText, displayCategory, type Doc } from "$lib";
+  import type { SearchHit } from "./search";
 
-  export let doc:Doc|SearchHit
+  export let doc:Doc|SearchHit & { blocks?:string[] }
   export let blk:number|undefined = undefined
+  export let hit:SearchHit|undefined = undefined
 
-  $: blocks = typeof blk === 'undefined' ? (doc?.blocks || []) : (doc?.blocks || []).slice(Math.max(blk - 50, 0), blk + 50)
+  $: blocks = (typeof blk === 'undefined' || !doc.blocks) ? (doc?.blocks || []) : blkBlocks()
+
+  function blkBlocks() {
+    if (!doc.blocks || typeof blk === 'undefined') return doc?.blocks || []
+    let preBlocks = doc.blocks.slice(Math.max(blk - 50,0), 50)
+    let block = doc.blocks[blk]
+    let postBlocks = doc.blocks.slice(blk + 1, blk + 50)
+    if (hit) {
+      block = block.replace(hit.text, `<u>${hit.text}</u>`)
+      hit.texts.forEach(t => {
+        block = block.replace(t, `<u>${t}</u>`)
+      })
+    }
+    return [...preBlocks, block, ...postBlocks]
+  }
 
   $: headings = (doc?.blocks || []).map((html,blk) => {
     let isHeading = html.match(/<\/h([1-6])>/)
