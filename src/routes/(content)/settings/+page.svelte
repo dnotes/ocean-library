@@ -52,7 +52,6 @@
         <label><span>API Key:</span><input type="text" bind:value={agent.apiKey}></label>
         <label><span>URL:</span><input type="text" bind:value={agent.url}></label>
         <label><span>Context Size:</span><input type="number" bind:value={agent.contextSize}></label>
-        <label><span>Temperature:</span><input type="number" min=0 max=2 step=.01 bind:value={agent.temperature}></label>
       </div>
     {/each}
     <button type="button" class="text-sm px-4 py-2 text-white bg-blue-500 rounded" on:click={() => {$agents = [...$agents, {...defaultAgent}]}}>+ add</button>
