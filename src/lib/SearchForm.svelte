@@ -100,7 +100,7 @@
         autocomplete="off"
         on:input={()=>{touched=true}}
       >
-      <div class="search-history absolute top-full bg-stone-300 overflow-y-auto hidden flex-col max-h-60 z-50" style="width:{w}px;">
+      <div class="search-history absolute top-full bg-stone-300 overflow-y-auto hidden flex-col max-h-60" style="z-index:100; width:{w}px;">
         <!-- TODO: add filtering of search history based on text -->
         {#each ($searchHistory ?? []).filter(item => !touched || item.text.includes(searchText)) as search,i}
           <button on:click={()=>{ setSearch(i) }} type="button" class="w-full block h-5 p-1 text-sm leading-none bg-stone-300 text-stone-900 border-0 text-left">

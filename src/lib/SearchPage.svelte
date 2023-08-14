@@ -60,10 +60,19 @@
 
   <div class="max-w-full flex-grow flex-shrink-0 max-h-full flex flex-{twoCols  ? 'row' : 'col'} gap-4" style="width:{twoCols ? '900px' : '500px'};">
 
-    <div class="flex flex-col max-w-full max-h-full overflow-auto flex-shrink-0 {twoCols && 'w-[450px]'}">
+    {#if !twoCols}
       <div class="pt-7">
         <SearchForm {search} {searchStatus} />
       </div>
+    {/if}
+
+    <div class="flex flex-col max-w-full max-h-full overflow-auto flex-shrink-0 {twoCols && 'w-[450px]'}">
+      {#if twoCols}
+        <div class="pt-7">
+          <SearchForm {search} {searchStatus} />
+        </div>
+      {/if}
+
       {#if $search.settings}
         <div class="py-1 flex gap-1">
           <div>
