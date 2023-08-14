@@ -1,0 +1,298 @@
+import { get, writable, type Writable } from "svelte/store"
+import { agents, defaultSearchSettings, ephemeralApiKey, searchSettings, type AIAgent, type SearchSettings, appSettings } from "./stores"
+import yaml from 'js-yaml'
+import { pipeline } from "@xenova/transformers"
+import { persisted } from "svelte-local-storage-store"
+
+export type SearchMeta = {
+  slug:string
+  blk:number
+  s:number
+  c:number
+  title:string
+  author:string
+  collection:string
+  language:string
+  category:string
+  date?:string
+}
+
+export type SearchHit = Omit<SearchMeta, 's'> & {
+  score:number
+  s:number[]
+  text:string
+  texts:string[]
+}
+
+export type Search = {
+
+  text:string
+  settings: SearchSettings
+  errors:AgentError[]
+
+  working?:boolean
+  status?:string
+  message?:string
+  ready?:boolean
+
+  textPreprocessed?:string
+  vector?:number[]
+  results?:SearchHit[]
+  filteredResults?:SearchHit[]
+
+}
+
+export function yamlSearchHits(hits:SearchHit[]) {
+  return yaml.dump((hits || []).map(hit => {
+    return {
+      id: hit.slug,
+      blk: hit.blk,
+      text: [hit.text, ...(hit.texts || [])].join('...')
+    }
+  }))
+}
+
+export type AgentError = { message:string, detail?:any }
+
+export type AgentRequestMessage = { role:string, content:string }
+export function agentRequest(agent:AIAgent, userPrompt:string, systemPrompt:string, temperature:number=0.6) {
+  temperature = temperature ?? 0.6
+  return fetch(agent.url, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'Authorization': agent.apiKey || get(ephemeralApiKey),
+    },
+    body: JSON.stringify({
+      model: agent.model,
+      temperature,
+      messages: [
+        { role:'system', content:systemPrompt },
+        { role:'user', content:userPrompt },
+      ],
+    })
+  })
+}
+
+export class SearchStore implements Writable<Search> {
+  set:Writable<Search>['set']
+  update:Writable<Search>['update']
+  subscribe:Writable<Search>['subscribe']
+
+  private _data:Search
+
+  constructor(input:string|Search, saveKey:string='defaultSearch') {
+
+    if (typeof input === 'string') {
+      this._data = {
+        text:input,
+        errors:[],
+        settings: get(searchSettings)
+      }
+    }
+    else { // When we're creating a new SearchStore from a Search object
+      this._data = input
+      if (!this._data.errors) this._data.errors = []
+    }
+
+    const { set, update, subscribe } = persisted(saveKey, this._data)
+
+    this.set = set
+    this.update = update
+    this.subscribe = subscribe
+
+    this.set(this._data)
+
+  }
+
+  private up() { this.set(this._data) }
+
+  private status(text:string) {
+    this._data.status = text
+    this.up()
+  }
+
+  private working(text:string) {
+    this._data.working = true
+    this.status(text)
+  }
+
+  private done(text:string) {
+    this._data.working = false
+    this.status(text)
+  }
+
+  private error(message:string, detail?:any) {
+    this._data.errors.push({ message, detail })
+    this._data.working = false
+    this.status(message)
+  }
+
+  async run() {
+    if (this._data.settings.searchTextPreprocessing) this.preprocessSearchText()
+    this.generateEmbeddings()
+    this.dbQuery()
+    if (this._data.settings.searchResultsPreprocessing) this.preprocessResults()
+    if (this._data.settings.searchResultsProcessing) this.processResults()
+  }
+
+  async preprocessSearchText():Promise<void> {
+
+    this.working('preprocessing search text...')
+
+    const systemPrompt = 'You are an AI assistant functioning through an API endpoint. '+
+    'Your response should be a string of search terms '+
+    'suitable for generating vectors for searching in a vector database.'
+
+    let allAgents = get(agents)
+    let agentName = this._data.settings?.searchTextPreprocessing
+    let agent = allAgents.find(a => a.name === this._data.settings?.searchTextPreprocessing)
+    if (!agent) {
+      this.error(`preprocessSearchText agent not found: "${agentName}"`)
+      return
+    }
+
+    let prompt = this._data.settings?.searchTextPreprocessingPrompt
+    prompt = prompt?.includes('{question}') ? prompt.replace(/\{question\}/g, this._data.text) : `${prompt || ''}\n\nQuestion:\n${this._data.text}`
+
+    try {
+      let res = await agentRequest(agent, prompt, systemPrompt, this._data.settings.searchTextPreprocessingTemp)
+
+      if (res.status !== 200) {
+        this.error(`preprocessSearchText api error: ${res.status} ${res.statusText}`, res)
+        return
+      }
+
+      let item = await res.json()
+      this._data.textPreprocessed = item?.choices?.[0]?.message?.content
+      this.done('preprocessing search text... done!')
+
+    }
+    catch(e:any) {
+      this.error(`error: "preprocessSearchText ${e?.message}"`, e)
+    }
+  }
+
+  async generateEmbeddings():Promise<void> {
+    this.working('generating embeddings...')
+
+    try {
+      const generator = await pipeline('feature-extraction', get(appSettings).embeddingsLLM)
+      let result = await generator(this._data.textPreprocessed ?? this._data.text, {
+        pooling:'mean',
+        normalize: true,
+      })
+
+      this._data.vector = Object.values(result.data)
+    }
+    catch (e:any) {
+      this.error('generateEmbeddings ' + e.message, e)
+      return
+    }
+
+    this.done('generating embeddings... done!')
+  }
+
+  async dbQuery():Promise<void> {
+    this.working('querying database...')
+
+    let res = await fetch('/db/query', {
+      method: 'POST',
+      body: JSON.stringify({
+        vector: this._data.vector,
+        limit: this._data.settings?.searchLimit ?? get(searchSettings).searchLimit
+      }),
+      headers: {
+        'Content-Type': 'application/json',
+      }
+    })
+
+    if (res.status !== 200) {
+      let message = await res.text()
+      this.error(`dbQuery api error: ${message}`, res)
+      return
+    }
+
+    let body = await res.json()
+    this._data.results = []
+    body.matches.forEach((hit:any) => {
+      let quote = (this._data.results || []).find(q => q.blk === hit.metadata.blk)
+      if (!quote) this._data.results = [...(this._data.results || []), { ...hit.metadata, ...hit, s: [hit.metadata.s], texts:[], metadata:undefined }]
+      else {
+        quote.s.push(hit.metadata.s)
+        quote.texts.push(hit.metadata.text)
+      }
+    })
+
+    this._data.ready = true
+    this.done('querying database... done!')
+  }
+
+  async preprocessResults():Promise<void> {
+
+    this.working('filtering initial results...')
+
+    const systemPrompt = 'You are an AI assistant functioning through an API endpoint. '+
+    'Your response should consist ONLY of an array of objects of the shape '+
+    '{ id:string, blk:number } in JSON format.'
+
+    let allAgents = get(agents)
+    let agentName = this._data.settings?.searchResultsPreprocessing
+    let agent = allAgents.find(a => a.name === this._data.settings?.searchResultsPreprocessing)
+    if (!agent) {
+      this.error(`preprocessResults agent not found: "${agentName}"`)
+      return
+    }
+
+    let prompt = this._data.settings?.searchResultsPreprocessingPrompt
+    if (!prompt) {
+      this.error(`preprocessResults no prompt found`)
+      return
+    }
+    prompt = prompt?.includes('{question}') ? prompt.replace(/\{question\}/g, this._data.text) : `${prompt}\n\nQuestion:\n${this._data.text}`
+    if (prompt?.includes('{query}')) prompt = prompt.replace(/\{query\}/g, this._data.textPreprocessed ?? this._data.text)
+
+    let context = yamlSearchHits(this._data.results || [])
+    prompt = prompt?.includes('{context}') ? prompt.replace(/\{context\}/g, context) : `${prompt}\n\nContext:\n${context}`
+
+    try {
+      let res = await agentRequest(agent, prompt, systemPrompt, this._data.settings?.searchResultsPreprocessingTemp)
+
+      if (res.status !== 200) {
+        this.error(`preprocessResults api error: ${res.status} ${res.statusText}`, res)
+        return
+      }
+
+      let result = await res.json()
+      let resultText = result?.choices?.[0]?.message?.content
+
+      let blocks:{ id:string, blk:number }[]
+      try {
+        blocks = JSON.parse(resultText)
+      }
+      catch(e) {
+        this.error('preprocessResults could not parse data from AI agent.', result)
+        return
+      }
+
+      let results:SearchHit[] = []
+      blocks.forEach(r => {
+        let item = (this._data.results || []).find(hit => r.id === hit.slug && r.blk === hit.blk)
+        if (item) results.push(item)
+      })
+
+      this._data.filteredResults = results
+      this.done('filtering initial results... done!')
+
+    }
+    catch(e:any) {
+      this.error(`preprocessResults error: "${e?.message}"`)
+    }
+
+  }
+
+  async processResults() {
+
+  }
+
+}
