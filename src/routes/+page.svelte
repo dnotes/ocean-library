@@ -1,5 +1,4 @@
 <script lang="ts">
-  import type { PageServerData } from "./$types";
   import SearchForm from "$lib/SearchForm.svelte";
   import { goto } from "$app/navigation";
   import { currentSearch } from "$lib/stores";
@@ -23,8 +22,15 @@
     <li>
       <h4 class="text-red-400">Some content may be textually inaccurate</h4>
       <p>This site uses markdown versions of these texts which have not been vetted extensively, and
-        the paragraph numbers or even the texts themselves may contain errors.
-        Again, this is only for testing; the real Ocean Library will have far more accurate texts.</p>
+        you will commonly find the following errors:</p>
+        <ul>
+          <li>mis-numbered paragraphs</li>
+          <li>headings improperly rendered as paragraphs</li>
+          <li>missing or incorrect footnotes</li>
+          <li>completely garbled tables</li>
+        </ul>
+        <p>Less commonly you may also find some errors in the texts themselves.
+          Again, this is only for testing; the real Ocean Library will have far more accurate texts.</p>
     </li>
   </ul>
 
