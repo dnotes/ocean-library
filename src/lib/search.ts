@@ -281,14 +281,10 @@ export async function processResults(search:Search):Promise<Search> {
   prompt = prompt?.includes('{question}') ? prompt.replace(/\{question\}/g, search.text) : `${prompt}\n\nQuestion:\n${search.text}`
   if (prompt?.includes('{query}')) prompt = prompt.replace(/\{query\}/g, search.textPreprocessed ?? search.text)
 
-  console.log(prompt)
-
   let excerpts = search.filteredResults?.length ? search.filteredResults : await getExcerpts(sortBy(search.results || [], 'score'))
   let stubs = getExcerptStubs(excerpts)
   let context = getContext(stubs, charEstimate(agent.contextSize - 2))
   prompt = prompt?.includes('{context}') ? prompt.replace(/\{context\}/g, context) : `${prompt}\n\nContext:\n${context}`
-
-  console.log(prompt)
 
   try {
     let res = await agentRequest(agent, prompt, '', search.settings.searchResultsProcessingTemp)
