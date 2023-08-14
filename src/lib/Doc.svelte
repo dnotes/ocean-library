@@ -114,9 +114,11 @@
   </div>
   <div class="prose prose-lg prose-stone dark:prose-invert pl-12 pr-5 max-h-full max-w-screen-md 2xl:max-w-screen-lg 3xl:max-w-screen-2xl w-full overflow-auto mx-auto">
 
-    {#each blocks as item}
-      <div class="relative">{@html item}</div>
-    {/each}
+    <slot name="blocks">
+      {#each blocks as item}
+        <div class="relative">{@html item}</div>
+      {/each}
+    </slot>
 
   </div>
 </div>

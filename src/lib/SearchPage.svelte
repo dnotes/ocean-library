@@ -10,6 +10,7 @@
   import DocSvelte from "./Doc.svelte";
   import type { Writable } from "svelte/store";
   import SearchDetail from '$lib/SearchDetail.svelte'
+  import Compilation from "./Compilation.svelte";
 
   export let search:Writable<Search> = currentSearch
   export let searchStatus:Writable<SearchStatus> = currentSearchStatus
@@ -29,10 +30,12 @@
     })()
   }
 
-  let section:"results"|"filteredResults" = 'results'
+  let section:"results"|"filteredResults"|"compilation" = 'results'
   let items:SearchHit[] = []
   $: if ($search?.[section]?.length) {
-    items = $search?.settings?.searchSort === 'scored' ? sortBy($search[section],'score').reverse() : sortBy($search[section], 'sort')
+    // @ts-ignore I'm filtering out the undefined
+    if (section === 'compilation') items = $search.compilation?.map(item => $search.filteredResults?.find(ex => item.slug === ex.slug && item.blk === ex.blk)).filter(Boolean)
+    else items = $search?.settings?.searchSort === 'scored' ? sortBy($search[section],'score').reverse() : sortBy($search[section], 'sort')
   }
 
   let currentItemIndex:number = 0
@@ -118,15 +121,16 @@
     </div>
 
     <div class="flex flex-col max-w-full max-h-full overflow-auto {twoCols && 'w-[450px]'}">
-      {#if $search.filteredResults}
+      {#if $search.filteredResults?.length}
         <div class="px-4 flex gap-2 border-b-2 border-stone-500 box-content">
           <button type="button" class="filter-button" class:selected={section==='results'} on:click={()=>{section="results"}}>Raw ({$search.results?.length || 0})</button>
           <button type="button" class="filter-button" class:selected={section==='filteredResults'} on:click={()=>{section="filteredResults"}}>Excerpts ({$search.filteredResults?.length || 0})</button>
+          <button type="button" class="filter-button" class:selected={section==='compilation'} on:click={()=>{section="compilation"}}>Compilation</button>
         </div>
       {/if}
       <div class:pr-2={$search?.settings?.searchSort!=='scored'} class="search-results flex-grow overflow-auto">
         {#if items && items.length}
-          {#if $search?.settings?.searchSort === 'scored'}
+          {#if section === 'compilation' || $search?.settings?.searchSort === 'scored'}
             <ScoredResults {items} bind:currentItem={$searchHit} />
           {:else}
             <LibraryTree {items} bind:currentItem={$searchHit} />
@@ -145,7 +149,11 @@
 
   <div class:hidden={!$searchHit} class="fixed left-0 right-0 top-0 bottom-0 lg:static w-full max-h-full flex flex-col overflow-hidden z-50 bg-stone-50 dark:bg-stone-900">
 
-    {#if $searchHit}
+    {#if section === "compilation"}
+
+      <Compilation {search}></Compilation>
+
+    {:else if $searchHit}
       {#await docs[$searchHit?.slug || '']}
         <DocSvelte doc={$searchHit} />
       {:then doc}

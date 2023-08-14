@@ -61,12 +61,14 @@ export function getSearchHitStubs(hits:SearchHit[]|undefined) {
 
 export async function getExcerpts(hits:SearchHit[]):Promise<Excerpt[]> {
   let docs:{[slug:string]:Doc} = {}
+  let excerpts:Excerpt[] = []
   for (let i=1; i<hits.length; i++) {
-    let hit = hits[i] as Excerpt
+    let hit = hits[i]
+    if (excerpts.find(ex => ex.slug === hit.slug && ex.blk === hit.blk)) continue
     if (!docs[hit.slug]) docs[hit.slug] = await fetch(`/content/${hit.slug}.json`).then(res => res.json())
-    hit.blocks = [(document?.createRange().createContextualFragment(docs[hit.slug].blocks[hit.blk]).textContent?.trim() || '')]
+    excerpts.push({ ...hit, blocksStart:hit.blk, blocksEnd:hit.blk, blocks: [(document?.createRange().createContextualFragment(docs[hit.slug].blocks[hit.blk]).textContent?.trim() || '')] })
   }
-  return hits as Excerpt[]
+  return excerpts
 }
 
 export function getExcerptStubs(excerpts:Excerpt[]|undefined) {
