@@ -43,7 +43,7 @@
           {#each ex?.blocks as text, i}
             <p>{text}</p>
           {/each}
-          <p class="cite"><a href="/content/{ex.slug}#{ex.blocksStart}">{ex.author}, <em>{ex.title}</em></a></p>
+          <p class="cite"><a href="/content/{ex.slug}#blk-{ex.blocksStart}">{ex.author}, <em>{ex.title}</em></a></p>
         {/if}
       {/each}
     </div>
