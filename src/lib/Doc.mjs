@@ -42,6 +42,7 @@ export function getDoc(raw, path, getContent = true, includeMarkdown = false) {
   }
   catch(e) {
     // the data did not load, just return the full text
+    console.error('Error parsing YAML frontmatter', e);
     return { ...data, markdown: `***Error: metadata not loaded!***\n\n${raw}` }
   }
 
