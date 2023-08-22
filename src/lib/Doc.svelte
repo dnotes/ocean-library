@@ -27,7 +27,7 @@
       isHeading,
       blk,
       level: isHeading ? isHeading[1] : '',
-      text: isHeading ? cleanText( html.replace(/<[^>]*?>/g, ' ').replace(/\s+/g, ' ') ) : ''
+      text: isHeading ? cleanText( html.replace(/<u>(.)(h|H)<\/u>/g, '$1_$2').replace(/<[^>]*?>/g, ' ').replace(/(.)_(h|H)/g, '<u>$1$2</u>').replace(/\s+/g, ' ') ) : ''
     }
   }).filter(b => b.isHeading)
 
@@ -106,7 +106,7 @@
       <div class="text-left {compact ? 'max-h-[600px]' : ''}">
         <h2 class="font-thin text-lg">Contents</h2>
         {#each headings as item}
-          <div class="leading-tight mt-3 indent-{item.level}"><a href="#blk-{item.blk}" on:click={()=>{showToc=false}}>{item.text}</a></div>
+          <div class="leading-tight mt-3 indent-{item.level}"><a href="#blk-{item.blk}" class="no-underline" on:click={()=>{showToc=false}}>{@html item.text}</a></div>
         {/each}
       </div>
     {/if}
