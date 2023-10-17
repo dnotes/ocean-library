@@ -79,7 +79,7 @@ async function deleteAll(slug) {
   let vector = [...Array(384)].map(k=>0)
 
   try {
-    const res = await fetch('https://ocean-af77af9.svc.us-west1-gcp-free.pinecone.io/query', {
+    const res = await fetch('https://ocean-index-af77af9.svc.us-west1-gcp-free.pinecone.io/query', {
       method: 'POST',
       headers: {
         accept: 'application/json',
@@ -112,7 +112,7 @@ async function deleteAll(slug) {
   if (!ids) return { more:false, ids:[] }
 
   try {
-    const res = await fetch('https://ocean-af77af9.svc.us-west1-gcp-free.pinecone.io/vectors/delete', {
+    const res = await fetch('https://ocean-index-af77af9.svc.us-west1-gcp-free.pinecone.io/vectors/delete', {
       method: 'DELETE',
       headers: {
         accept: 'application/json',

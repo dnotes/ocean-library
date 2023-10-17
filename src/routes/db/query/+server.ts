@@ -17,7 +17,7 @@ export const POST:RequestHandler = async ({request}) => {
   let res
   try {
 
-    res = await fetch('https://ocean-af77af9.svc.us-west1-gcp-free.pinecone.io/query', {
+    res = await fetch('https://ocean-index-af77af9.svc.us-west1-gcp-free.pinecone.io/query', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
